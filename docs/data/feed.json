@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1980382764227870928",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@falanfantana @matanSF @FactoryAI So great to finally meet irl! 🔥",
+    "url": "https://x.com/KalGrinberg/status/1980382764227870928",
+    "timestamp": "2025-10-20T21:16:59.000Z",
+    "metadata": {
+      "conversation_id": "1980382764227870928",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980381260389454153",
+    "source": "twitter",
+    "author": "falanfantana",
+    "content": "Awesome finally meeting you in person today @matanSF @KalGrinberg. Thanks for the warm welcome at the stunning @FactoryAI HQ! https://t.co/v1Q6kNmmfo",
+    "url": "https://x.com/falanfantana/status/1980381260389454153",
+    "timestamp": "2025-10-20T21:11:00.000Z",
+    "metadata": {
+      "conversation_id": "1980381260389454153",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980380239176802703",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@JoelDeTeves @FactoryAI hell yeah!",
+    "url": "https://x.com/bentossell/status/1980380239176802703",
+    "timestamp": "2025-10-20T21:06:57.000Z",
+    "metadata": {
+      "conversation_id": "1980380239176802703",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980378621673107772",
+    "source": "twitter",
+    "author": "noahmits",
+    "content": "@CloudTrader4 @FactoryAI I don't have enough credits",
+    "url": "https://x.com/noahmits/status/1980378621673107772",
+    "timestamp": "2025-10-20T21:00:31.000Z",
+    "metadata": {
+      "conversation_id": "1980378621673107772",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980378221750440100",
+    "source": "twitter",
+    "author": "francesca_lab",
+    "content": "@damien_r_h @WisprFlow @FactoryAI 🧠",
+    "url": "https://x.com/francesca_lab/status/1980378221750440100",
+    "timestamp": "2025-10-20T20:58:56.000Z",
+    "metadata": {
+      "conversation_id": "1980378221750440100",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980376668125745192",
     "source": "twitter",
     "author": "flatoy_",
@@ -23,9 +98,9 @@
     "timestamp": "2025-10-20T20:36:20.000Z",
     "metadata": {
       "conversation_id": "1980372536694321325",
-      "likes": 2,
+      "likes": 6,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -53,7 +128,7 @@
     "timestamp": "2025-10-20T20:06:08.000Z",
     "metadata": {
       "conversation_id": "1980364935386525897",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -68,7 +143,7 @@
     "timestamp": "2025-10-20T20:00:03.000Z",
     "metadata": {
       "conversation_id": "1980363405728051515",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -83,7 +158,7 @@
     "timestamp": "2025-10-20T19:41:33.000Z",
     "metadata": {
       "conversation_id": "1980358748435783753",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -218,84 +293,9 @@
     "timestamp": "2025-10-20T18:34:19.000Z",
     "metadata": {
       "conversation_id": "1980341828961673623",
-      "likes": 7,
+      "likes": 8,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980340325022650489",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "andrej obviously never used @FactoryAI",
-    "url": "https://x.com/nest_elf/status/1980340325022650489",
-    "timestamp": "2025-10-20T18:28:21.000Z",
-    "metadata": {
-      "conversation_id": "1980340325022650489",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980338269511643328",
-    "source": "twitter",
-    "author": "mariusheier",
-    "content": "@kcosr @FactoryAI What is this sourcery? Termstation?",
-    "url": "https://x.com/mariusheier/status/1980338269511643328",
-    "timestamp": "2025-10-20T18:20:11.000Z",
-    "metadata": {
-      "conversation_id": "1980338269511643328",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980338122518151608",
-    "source": "twitter",
-    "author": "singular_prism",
-    "content": "@ingoa_dev @kcosr @FactoryAI it’s really good, token efficient and less prompting also great UX",
-    "url": "https://x.com/singular_prism/status/1980338122518151608",
-    "timestamp": "2025-10-20T18:19:35.000Z",
-    "metadata": {
-      "conversation_id": "1980338122518151608",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980335636046573892",
-    "source": "twitter",
-    "author": "jnyryl",
-    "content": "Vercel @vercel_support @vercel_status @vercel @rauchg \n\nDid someone vibecode too hard at vercel?\n\nMy deployment failed and thought it was my vibecoded slop, but @FactoryAI made me a perfect pr, happy to see it’s a server issue.\n\nPlease fix 😭",
-    "url": "https://x.com/jnyryl/status/1980335636046573892",
-    "timestamp": "2025-10-20T18:09:43.000Z",
-    "metadata": {
-      "conversation_id": "1980335636046573892",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980334746308878408",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "@adEvvn @FactoryAI yes. im showing why i only use droid for prod code",
-    "url": "https://x.com/nest_elf/status/1980334746308878408",
-    "timestamp": "2025-10-20T18:06:11.000Z",
-    "metadata": {
-      "conversation_id": "1980334746308878408",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -313,19 +313,6 @@
     }
   },
   {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_215",
     "source": "github",
     "author": "iota9star",
@@ -339,45 +326,6 @@
     }
   },
   {
-    "id": "reddit_1ob2dsx",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
-    "timestamp": "2025-10-19T21:56:23.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob0d6z",
-    "source": "reddit",
-    "author": "Daed0802",
-    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
-    "timestamp": "2025-10-19T20:35:03.000Z",
-    "metadata": {
-      "score": 8,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oazqru",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
-    "timestamp": "2025-10-19T20:10:35.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -388,32 +336,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1oayeuk",
-    "source": "reddit",
-    "author": "Malek262",
-    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
-    "timestamp": "2025-10-19T19:18:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -482,19 +404,6 @@
     }
   },
   {
-    "id": "reddit_1o98xc1",
-    "source": "reddit",
-    "author": "Unlucky_Draft_3468",
-    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
-    "timestamp": "2025-10-17T18:18:56.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_203",
     "source": "github",
     "author": "a112121788",
@@ -505,45 +414,6 @@
       "type": "issue",
       "labels": [],
       "number": 203
-    }
-  },
-  {
-    "id": "reddit_1o8tf0s",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
-    "timestamp": "2025-10-17T05:56:27.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o8t9pq",
-    "source": "reddit",
-    "author": "raghav0610",
-    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
-    "timestamp": "2025-10-17T05:47:17.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o89mzk",
-    "source": "reddit",
-    "author": "x86rip",
-    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
-    "timestamp": "2025-10-16T15:43:59.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
