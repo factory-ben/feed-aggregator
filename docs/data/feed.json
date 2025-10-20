@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1980420466696417639",
+    "source": "twitter",
+    "author": "thisismichael13",
+    "content": "Not being able to log into @FactoryAI to see my usage is scary. Good thing it’s so efficient. Hoping I dont run out of tokens today lol",
+    "url": "https://x.com/thisismichael13/status/1980420466696417639",
+    "timestamp": "2025-10-20T23:46:48.000Z",
+    "metadata": {
+      "conversation_id": "1980420466696417639",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980414301535125830",
     "source": "twitter",
     "author": "leoisadev",
@@ -311,21 +326,6 @@
     }
   },
   {
-    "id": "twitter_1980364935386525897",
-    "source": "twitter",
-    "author": "alvinsng",
-    "content": "@theharshjadhav @FactoryAI Hey, could you DM me your email and I'll take a look?",
-    "url": "https://x.com/alvinsng/status/1980364935386525897",
-    "timestamp": "2025-10-20T20:06:08.000Z",
-    "metadata": {
-      "conversation_id": "1980364935386525897",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_217",
     "source": "github",
     "author": "dvcrn",
@@ -547,32 +547,6 @@
     }
   },
   {
-    "id": "reddit_1o8t9pq",
-    "source": "reddit",
-    "author": "raghav0610",
-    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
-    "timestamp": "2025-10-17T05:47:17.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o89mzk",
-    "source": "reddit",
-    "author": "x86rip",
-    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
-    "timestamp": "2025-10-16T15:43:59.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_200",
     "source": "github",
     "author": "JohnDotOwl",
@@ -648,6 +622,32 @@
       "type": "issue",
       "labels": [],
       "number": 191
+    }
+  },
+  {
+    "id": "reddit_1o6tivb",
+    "source": "reddit",
+    "author": "stevilg",
+    "content": "byok / custom_models\n\nIs Bring your own keys / custom\\_models working for anybody? I've tried a few combinations and no luck; droid never shows it on the list. Below is in my projects directory e.g. /project/.factory/config.json and I can confirm POST to [http://localhost:8317/v1/chat/completions](http://localhost:8317/v1/chat/completions) does work and so does GET to [http://localhost:8317/v1/models](http://localhost:8317/v1/models)\n\n    {\n      \"custom_models\": [\n        {\n          \"model_display_name\": \"qwen3-cod",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6tivb/byok_custom_models/",
+    "timestamp": "2025-10-14T22:13:49.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o6jgc5",
+    "source": "reddit",
+    "author": "Kindly_District",
+    "content": "attach a image to the droid cli?\n\nIs there a way to attach a design image to the droid cli?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6jgc5/attach_a_image_to_the_droid_cli/",
+    "timestamp": "2025-10-14T15:58:56.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
