@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1980741846922936498",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@CloudTrader4 @github @FactoryAI would love to see the first bit",
+    "url": "https://x.com/bentossell/status/1980741846922936498",
+    "timestamp": "2025-10-21T21:03:51.000Z",
+    "metadata": {
+      "conversation_id": "1980741846922936498",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980740067342561307",
+    "source": "twitter",
+    "author": "CloudTrader4",
+    "content": "1- @Github agentic workflow logic to setup the context and agent primitives\n2- Let @FactoryAI droid do the rest\n\nPlan with Haiku 4.5 (fast, cheap)\nExecute with GPT-5-high or Sonnet-4.5",
+    "url": "https://x.com/CloudTrader4/status/1980740067342561307",
+    "timestamp": "2025-10-21T20:56:47.000Z",
+    "metadata": {
+      "conversation_id": "1980740067342561307",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980736475231842326",
     "source": "twitter",
     "author": "CyberBoyAyush",
@@ -8,7 +38,7 @@
     "timestamp": "2025-10-21T20:42:30.000Z",
     "metadata": {
       "conversation_id": "1980736475231842326",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -23,7 +53,7 @@
     "timestamp": "2025-10-21T20:13:14.000Z",
     "metadata": {
       "conversation_id": "1980729110155653279",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -83,7 +113,7 @@
     "timestamp": "2025-10-21T20:04:02.000Z",
     "metadata": {
       "conversation_id": "1980726794907963578",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -266,36 +296,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980712972013170698",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "@dannothingnew @FactoryAI At some point terminal looks like a graffiti wall",
-    "url": "https://x.com/CloudTrader4/status/1980712972013170698",
-    "timestamp": "2025-10-21T19:09:07.000Z",
-    "metadata": {
-      "conversation_id": "1980712972013170698",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980712116853043251",
-    "source": "twitter",
-    "author": "dawid_jordaan",
-    "content": "@bentossell @pascallammers_ @FactoryAI I like how the Droid stuck to the task, not going on tangents, despite seeing existing warnings, and alerted me to it - keeping the control in the developer's hands. https://t.co/3aqIIvgnjN",
-    "url": "https://x.com/dawid_jordaan/status/1980712116853043251",
-    "timestamp": "2025-10-21T19:05:43.000Z",
-    "metadata": {
-      "conversation_id": "1980712116853043251",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 2,
       "quotes": 0
     }
   },
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
     "timestamp": "2025-10-19T20:10:35.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
@@ -638,19 +638,6 @@
     }
   },
   {
-    "id": "reddit_1o8tf0s",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
-    "timestamp": "2025-10-17T05:56:27.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "reddit_1o8t9pq",
     "source": "reddit",
     "author": "raghav0610",
@@ -660,19 +647,6 @@
     "metadata": {
       "score": 1,
       "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o89mzk",
-    "source": "reddit",
-    "author": "x86rip",
-    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
-    "timestamp": "2025-10-16T15:43:59.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 12,
       "subreddit": "FactoryAi"
     }
   },
