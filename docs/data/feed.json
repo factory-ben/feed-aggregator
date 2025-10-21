@@ -1,5 +1,76 @@
 [
   {
+    "id": "github_issue_227",
+    "source": "github",
+    "author": "britannio",
+    "content": "[Issue] `droid exec --output-format stream-json` is erroneously emitting an error\n\n# Steps to reproduce\n\n1. Run droid exec with the default autonomy level, instructing it to take an action it doesn't have permission to carry out.\n\nCommand: \n`droid exec --output-format stream-json \"create a text file with the contents 'hello world'\"`\nOutput:\n```jsonl\n{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/private/tmp/droid-testing\",\"session_id\":\"8ade99b9-2c6f-4de2-b727-b527b0cdfbd0\",\"tools\":[\"Read\",\"LS\",\"Execute\",\"Edit\",\"MultiEdit\",\"ApplyPatch\",\"Grep\",\"Glob\",\"Create\",\"ExitSpecMode\",\"WebSearc",
+    "url": "https://github.com/Factory-AI/factory/issues/227",
+    "timestamp": "2025-10-21T10:39:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 227
+    }
+  },
+  {
+    "id": "github_issue_226",
+    "source": "github",
+    "author": "britannio",
+    "content": "[Issue] MCP tools are not available when using `droid exec`\n\n<img width=\"4064\" height=\"2334\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/39cb7733-4906-445c-9877-6cff44ab29a3\" />\n\n\n\n~/.factory/mcp.json\n```json\n{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n```",
+    "url": "https://github.com/Factory-AI/factory/issues/226",
+    "timestamp": "2025-10-21T10:39:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 226
+    }
+  },
+  {
+    "id": "twitter_1980581798183858634",
+    "source": "twitter",
+    "author": "Tgerighty",
+    "content": "@GiusMarci @FactoryAI There a workaround. https://t.co/Qhm8t3wjq3",
+    "url": "https://x.com/Tgerighty/status/1980581798183858634",
+    "timestamp": "2025-10-21T10:27:52.000Z",
+    "metadata": {
+      "conversation_id": "1980581798183858634",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980581452048920870",
+    "source": "twitter",
+    "author": "ak_8085",
+    "content": "Claude Code on the web shadows @FactoryAI ?",
+    "url": "https://x.com/ak_8085/status/1980581452048920870",
+    "timestamp": "2025-10-21T10:26:30.000Z",
+    "metadata": {
+      "conversation_id": "1980581452048920870",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980580963374743900",
+    "source": "twitter",
+    "author": "GiusMarci",
+    "content": "@FactoryAI pls allow to connect Claude Code sub as custom model &lt;3",
+    "url": "https://x.com/GiusMarci/status/1980580963374743900",
+    "timestamp": "2025-10-21T10:24:33.000Z",
+    "metadata": {
+      "conversation_id": "1980580963374743900",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980580046252437548",
     "source": "twitter",
     "author": "uratmangun2",
@@ -268,64 +339,6 @@
     }
   },
   {
-    "id": "twitter_1980548506160169246",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@MrJeberulz @FactoryAI 🔥",
-    "url": "https://x.com/bentossell/status/1980548506160169246",
-    "timestamp": "2025-10-21T08:15:35.000Z",
-    "metadata": {
-      "conversation_id": "1980548506160169246",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980548421812670476",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@damien_r_h @FactoryAI i actually just have it all local now but have done it that way yes",
-    "url": "https://x.com/bentossell/status/1980548421812670476",
-    "timestamp": "2025-10-21T08:15:15.000Z",
-    "metadata": {
-      "conversation_id": "1980548421812670476",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980548096711950634",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@zhangjintao9020 @matanSF @FactoryAI dm me what issue you’re having - i’ll look into it",
-    "url": "https://x.com/bentossell/status/1980548096711950634",
-    "timestamp": "2025-10-21T08:13:57.000Z",
-    "metadata": {
-      "conversation_id": "1980548096711950634",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "reddit_1oc3yt9",
-    "source": "reddit",
-    "author": "Big-Recognition7298",
-    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
-    "timestamp": "2025-10-21T04:52:45.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -352,19 +365,6 @@
     }
   },
   {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 10,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_217",
     "source": "github",
     "author": "dvcrn",
@@ -375,19 +375,6 @@
       "type": "issue",
       "labels": [],
       "number": 217
-    }
-  },
-  {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -404,45 +391,6 @@
     }
   },
   {
-    "id": "reddit_1ob2dsx",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
-    "timestamp": "2025-10-19T21:56:23.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob0d6z",
-    "source": "reddit",
-    "author": "Daed0802",
-    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
-    "timestamp": "2025-10-19T20:35:03.000Z",
-    "metadata": {
-      "score": 7,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oazqru",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
-    "timestamp": "2025-10-19T20:10:35.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -453,32 +401,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1oayeuk",
-    "source": "reddit",
-    "author": "Malek262",
-    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
-    "timestamp": "2025-10-19T19:18:47.000Z",
-    "metadata": {
-      "score": 0,
-      "num_comments": 9,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -547,19 +469,6 @@
     }
   },
   {
-    "id": "reddit_1o98xc1",
-    "source": "reddit",
-    "author": "Unlucky_Draft_3468",
-    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
-    "timestamp": "2025-10-17T18:18:56.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_203",
     "source": "github",
     "author": "a112121788",
@@ -570,19 +479,6 @@
       "type": "issue",
       "labels": [],
       "number": 203
-    }
-  },
-  {
-    "id": "reddit_1o8tf0s",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
-    "timestamp": "2025-10-17T05:56:27.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -700,32 +596,6 @@
       "type": "issue",
       "labels": [],
       "number": 184
-    }
-  },
-  {
-    "id": "github_issue_183",
-    "source": "github",
-    "author": "IIRoan",
-    "content": "[Issue] Devcontainer login not working\n\nHey, when trying to login inside a devcontainer the CLI immeadiatly exits after this message\n\n<img width=\"1116\" height=\"582\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/26f62e89-8c2b-425e-8b44-f3eac9a275fb\" />\n\nThis is inside VSCode default bash terminal but also happens in zsh.\n",
-    "url": "https://github.com/Factory-AI/factory/issues/183",
-    "timestamp": "2025-10-13T11:15:11Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 183
-    }
-  },
-  {
-    "id": "github_issue_181",
-    "source": "github",
-    "author": "QDaed",
-    "content": "[Issue] Droid Glitching While Runnning\n\n\nhttps://github.com/user-attachments/assets/992f997b-2a79-4555-b423-ca8e72a57e50",
-    "url": "https://github.com/Factory-AI/factory/issues/181",
-    "timestamp": "2025-10-13T08:45:54Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 181
     }
   },
   {
