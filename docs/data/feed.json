@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1980692760605913591",
+    "source": "twitter",
+    "author": "ImranDeveloper",
+    "content": "@erd0xbc @contxtkng @FactoryAI @claudeai @augmentcode Please tell me the issues you have while using augment code?",
+    "url": "https://x.com/ImranDeveloper/status/1980692760605913591",
+    "timestamp": "2025-10-21T17:48:48.000Z",
+    "metadata": {
+      "conversation_id": "1980692760605913591",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980688613869297713",
     "source": "twitter",
     "author": "dawid_jordaan",
@@ -68,7 +83,7 @@
     "timestamp": "2025-10-21T16:50:19.000Z",
     "metadata": {
       "conversation_id": "1980678042914812011",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -85,7 +100,7 @@
       "conversation_id": "1980677864526946415",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -281,21 +296,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980664641819938894",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@dawid_jordaan @pascallammers_ @FactoryAI nice! i wanna see :)",
-    "url": "https://x.com/bentossell/status/1980664641819938894",
-    "timestamp": "2025-10-21T15:57:04.000Z",
-    "metadata": {
-      "conversation_id": "1980664641819938894",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
