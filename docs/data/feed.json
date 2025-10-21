@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1980537515066159558",
+    "source": "twitter",
+    "author": "MrJeberulz",
+    "content": "@ByteOWildeSandH @FactoryAI Never one shot for a start 😅",
+    "url": "https://x.com/MrJeberulz/status/1980537515066159558",
+    "timestamp": "2025-10-21T07:31:54.000Z",
+    "metadata": {
+      "conversation_id": "1980537515066159558",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980537116800237582",
+    "source": "twitter",
+    "author": "MrJeberulz",
+    "content": "@ByteOWildeSandH @FactoryAI So I mostly start with the design - I gather as many inspirations and then prompt to establish a base, once I'm clear and happy with the direction. \n\nThe models are now smart enough to stay consistent with the visual direction I started off with.",
+    "url": "https://x.com/MrJeberulz/status/1980537116800237582",
+    "timestamp": "2025-10-21T07:30:19.000Z",
+    "metadata": {
+      "conversation_id": "1980537116800237582",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980534332105322776",
     "source": "twitter",
     "author": "zhangjintao9020",
@@ -8,7 +38,7 @@
     "timestamp": "2025-10-21T07:19:15.000Z",
     "metadata": {
       "conversation_id": "1980534332105322776",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -40,7 +70,7 @@
       "conversation_id": "1980532009333342531",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -142,7 +172,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
     "timestamp": "2025-10-21T04:52:45.000Z",
     "metadata": {
-      "score": 1,
+      "score": 2,
       "num_comments": 0,
       "subreddit": "FactoryAi"
     }
@@ -171,7 +201,7 @@
     "timestamp": "2025-10-21T04:15:30.000Z",
     "metadata": {
       "conversation_id": "1980488089026834488",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -289,39 +319,9 @@
     "timestamp": "2025-10-21T01:53:55.000Z",
     "metadata": {
       "conversation_id": "1980452458687250854",
-      "likes": 5,
+      "likes": 6,
       "retweets": 0,
       "replies": 3,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980452267477344532",
-    "source": "twitter",
-    "author": "zhangjintao9020",
-    "content": "Hi @matanSF @bentossell I don't know what the current situation is with @FactoryAI, but I've seen a lot of similar discussions and I've encountered the same problem.\n\nDeveloper trust and experience are hard to build, but easy to destroy. 😅\n\nhttps://t.co/J8VSI8FJ7c",
-    "url": "https://x.com/zhangjintao9020/status/1980452267477344532",
-    "timestamp": "2025-10-21T01:53:10.000Z",
-    "metadata": {
-      "conversation_id": "1980452267477344532",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980445067648332155",
-    "source": "twitter",
-    "author": "alphatozeta8148",
-    "content": "@FactoryAI I'm not gonna be able to get anything done 😭 https://t.co/06GLpXPdqu",
-    "url": "https://x.com/alphatozeta8148/status/1980445067648332155",
-    "timestamp": "2025-10-21T01:24:33.000Z",
-    "metadata": {
-      "conversation_id": "1980445067648332155",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -360,7 +360,7 @@
     "timestamp": "2025-10-20T21:59:41.000Z",
     "metadata": {
       "score": 2,
-      "num_comments": 9,
+      "num_comments": 10,
       "subreddit": "FactoryAi"
     }
   },
@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -573,15 +573,15 @@
     }
   },
   {
-    "id": "reddit_1o8t9pq",
+    "id": "reddit_1o8tf0s",
     "source": "reddit",
-    "author": "raghav0610",
-    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
-    "timestamp": "2025-10-17T05:47:17.000Z",
+    "author": "HanSkin-reynard",
+    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
+    "timestamp": "2025-10-17T05:56:27.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 3,
+      "score": 2,
+      "num_comments": 4,
       "subreddit": "FactoryAi"
     }
   },
