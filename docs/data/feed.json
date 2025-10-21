@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1980479076809994284",
+    "source": "twitter",
+    "author": "aerowindwalker",
+    "content": "@FactoryAI the open-source application is broken https://t.co/0IULOzQY9K",
+    "url": "https://x.com/aerowindwalker/status/1980479076809994284",
+    "timestamp": "2025-10-21T03:39:42.000Z",
+    "metadata": {
+      "conversation_id": "1980479076809994284",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980475461630304485",
+    "source": "twitter",
+    "author": "contxtkng",
+    "content": "@ben_vargas @AmpCode @FactoryAI You’re the goat bro",
+    "url": "https://x.com/contxtkng/status/1980475461630304485",
+    "timestamp": "2025-10-21T03:25:20.000Z",
+    "metadata": {
+      "conversation_id": "1980475461630304485",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980471037776318874",
     "source": "twitter",
     "author": "jeff_behnke_",
@@ -8,7 +38,7 @@
     "timestamp": "2025-10-21T03:07:45.000Z",
     "metadata": {
       "conversation_id": "1980471037776318874",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -317,38 +347,8 @@
     "timestamp": "2025-10-20T21:59:41.000Z",
     "metadata": {
       "score": 2,
-      "num_comments": 5,
+      "num_comments": 8,
       "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "twitter_1980390300888756318",
-    "source": "twitter",
-    "author": "hqmank",
-    "content": "@damien_r_h @WisprFlow @FactoryAI I’m also using both of these.",
-    "url": "https://x.com/hqmank/status/1980390300888756318",
-    "timestamp": "2025-10-20T21:46:56.000Z",
-    "metadata": {
-      "conversation_id": "1980390300888756318",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980386946586140875",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "I have just setup a @GoogleCloudTech ADK project less than 15 mins.\nModels used: \n-Haiku 4.5 for planning (in spec mode)\n- GPT-5 (High) for execution\n1- Setup @Context7AI mcp server in @FactoryAI .\n2- \"Read everything on ADK docs, learn and create a structured plan, add this into AGENTS[.]md \"\n3- Implement.\n\nHaiku 4.5 for planning is lightning fast.",
-    "url": "https://x.com/CloudTrader4/status/1980386946586140875",
-    "timestamp": "2025-10-20T21:33:36.000Z",
-    "metadata": {
-      "conversation_id": "1980386946586140875",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -612,6 +612,19 @@
     }
   },
   {
+    "id": "reddit_1o7ywba",
+    "source": "reddit",
+    "author": "Erebea01",
+    "content": "How to delete my account and how to delete droid?\n\nHow do I delete my account? I send an email to support but they told me how to cancel my subscription? I'm also unable to find the docs for deleting droid from my system",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7ywba/how_to_delete_my_account_and_how_to_delete_droid/",
+    "timestamp": "2025-10-16T06:30:21.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_195",
     "source": "github",
     "author": "iota9star",
@@ -638,6 +651,32 @@
     }
   },
   {
+    "id": "reddit_1o7h903",
+    "source": "reddit",
+    "author": "itsmemac43",
+    "content": "Referral gone ??\n\nSo first they give referral option and make everyone refer their buddies\n\nOnce everyone is onboarded, they completely remove the referral on the whole \n\nThe website currently doesn't have a single word as referral and all the referral bonuses and posts are gone",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7h903/referral_gone/",
+    "timestamp": "2025-10-15T17:22:36.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 14,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o748h7",
+    "source": "reddit",
+    "author": "Gullible_Rip_2750",
+    "content": "Jetbrains plugin for Droid\n\nHey. Documentation suggests there is jetbrains plugin. Anyone managed to integrate it or is it just \"promise\"? I sent e-mail but i got no response. ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o748h7/jetbrains_plugin_for_droid/",
+    "timestamp": "2025-10-15T07:08:27.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_191",
     "source": "github",
     "author": "spirefyio",
@@ -651,15 +690,15 @@
     }
   },
   {
-    "id": "reddit_1o6jgc5",
+    "id": "reddit_1o6tivb",
     "source": "reddit",
-    "author": "Kindly_District",
-    "content": "attach a image to the droid cli?\n\nIs there a way to attach a design image to the droid cli?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6jgc5/attach_a_image_to_the_droid_cli/",
-    "timestamp": "2025-10-14T15:58:56.000Z",
+    "author": "stevilg",
+    "content": "byok / custom_models\n\nIs Bring your own keys / custom\\_models working for anybody? I've tried a few combinations and no luck; droid never shows it on the list. Below is in my projects directory e.g. /project/.factory/config.json and I can confirm POST to [http://localhost:8317/v1/chat/completions](http://localhost:8317/v1/chat/completions) does work and so does GET to [http://localhost:8317/v1/models](http://localhost:8317/v1/models)\n\n    {\n      \"custom_models\": [\n        {\n          \"model_display_name\": \"qwen3-cod",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6tivb/byok_custom_models/",
+    "timestamp": "2025-10-14T22:13:49.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 3,
+      "score": 3,
+      "num_comments": 5,
       "subreddit": "FactoryAi"
     }
   },
