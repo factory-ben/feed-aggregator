@@ -1,5 +1,125 @@
 [
   {
+    "id": "twitter_1981037298834637262",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI Here is the sample code review:\n\nhttps://t.co/0RdGw4ggtm\n\nAlso I think I found a bug.. I didnt add any api key and ran the agent... and it still passed... creating a false positive.. when it fact it should have thrown error https://t.co/4qtFPjY6iQ",
+    "url": "https://x.com/mandarinoapp/status/1981037298834637262",
+    "timestamp": "2025-10-22T16:37:52.000Z",
+    "metadata": {
+      "conversation_id": "1981037298834637262",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981036281254523088",
+    "source": "twitter",
+    "author": "immoinulmoin",
+    "content": "@erd0xbc @FactoryAI https://t.co/rjO8DC7oca",
+    "url": "https://x.com/immoinulmoin/status/1981036281254523088",
+    "timestamp": "2025-10-22T16:33:49.000Z",
+    "metadata": {
+      "conversation_id": "1981036281254523088",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981035820053078416",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI Update just tested it and it works\n\nHere is my github workflows.yml https://t.co/I71UXCyUT2",
+    "url": "https://x.com/mandarinoapp/status/1981035820053078416",
+    "timestamp": "2025-10-22T16:32:00.000Z",
+    "metadata": {
+      "conversation_id": "1981035820053078416",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981035289419075761",
+    "source": "twitter",
+    "author": "The_Anant_Raj",
+    "content": "@bentossell @FactoryAI Parallel agents when???",
+    "url": "https://x.com/The_Anant_Raj/status/1981035289419075761",
+    "timestamp": "2025-10-22T16:29:53.000Z",
+    "metadata": {
+      "conversation_id": "1981035289419075761",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981033444860678408",
+    "source": "twitter",
+    "author": "Tekhenra",
+    "content": "@bentossell @matanSF @FactoryAI I did! Thank you :)",
+    "url": "https://x.com/Tekhenra/status/1981033444860678408",
+    "timestamp": "2025-10-22T16:22:33.000Z",
+    "metadata": {
+      "conversation_id": "1981033444860678408",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981028878261911743",
+    "source": "twitter",
+    "author": "oliverbowman_",
+    "content": "Having nothing but issues with the new seperate model for spec mode in droid today, wasting a lot of tokens in my plan because of this! @FactoryAI https://t.co/Wg2YelmMDm",
+    "url": "https://x.com/oliverbowman_/status/1981028878261911743",
+    "timestamp": "2025-10-22T16:04:24.000Z",
+    "metadata": {
+      "conversation_id": "1981028878261911743",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981028843222687969",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@mandarinoapp @FactoryAI 不客气",
+    "url": "https://x.com/bentossell/status/1981028843222687969",
+    "timestamp": "2025-10-22T16:04:16.000Z",
+    "metadata": {
+      "conversation_id": "1981028843222687969",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981027974951387362",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI 谢谢您",
+    "url": "https://x.com/mandarinoapp/status/1981027974951387362",
+    "timestamp": "2025-10-22T16:00:49.000Z",
+    "metadata": {
+      "conversation_id": "1981027974951387362",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981027940449050974",
     "source": "twitter",
     "author": "bentossell",
@@ -25,7 +145,7 @@
       "conversation_id": "1981027730159263850",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -202,126 +322,6 @@
       "likes": 3,
       "retweets": 0,
       "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981002454239252712",
-    "source": "twitter",
-    "author": "IzirienAkhigbe",
-    "content": "@aeitroc @immoinulmoin @FactoryAI ...claude code for html &amp; css. https://t.co/FP7c1ffVCb",
-    "url": "https://x.com/IzirienAkhigbe/status/1981002454239252712",
-    "timestamp": "2025-10-22T14:19:24.000Z",
-    "metadata": {
-      "conversation_id": "1981002454239252712",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981002298169205138",
-    "source": "twitter",
-    "author": "colesmcintosh",
-    "content": "@bentossell @FactoryAI The small details",
-    "url": "https://x.com/colesmcintosh/status/1981002298169205138",
-    "timestamp": "2025-10-22T14:18:47.000Z",
-    "metadata": {
-      "conversation_id": "1981002298169205138",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980998586684096947",
-    "source": "twitter",
-    "author": "marcgregory_",
-    "content": "Claude code is the ADHD junior dev \n@FactoryAI Droid GPT-Codex is Gilfoyle",
-    "url": "https://x.com/marcgregory_/status/1980998586684096947",
-    "timestamp": "2025-10-22T14:04:02.000Z",
-    "metadata": {
-      "conversation_id": "1980998586684096947",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980998323856413095",
-    "source": "twitter",
-    "author": "mandarinoapp",
-    "content": "@bentossell @FactoryAI yo Ben, I love factory ai. I have one request - allow customers to select their own model for review droid!",
-    "url": "https://x.com/mandarinoapp/status/1980998323856413095",
-    "timestamp": "2025-10-22T14:03:00.000Z",
-    "metadata": {
-      "conversation_id": "1980998323856413095",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980998095480803421",
-    "source": "twitter",
-    "author": "JehlaniLuciano",
-    "content": "@bentossell @FactoryAI Needed this 🔥",
-    "url": "https://x.com/JehlaniLuciano/status/1980998095480803421",
-    "timestamp": "2025-10-22T14:02:05.000Z",
-    "metadata": {
-      "conversation_id": "1980998095480803421",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980997525021831219",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "mini-changelog for @FactoryAI https://t.co/TUOH3WgUuv",
-    "url": "https://x.com/bentossell/status/1980997525021831219",
-    "timestamp": "2025-10-22T13:59:49.000Z",
-    "metadata": {
-      "conversation_id": "1980997525021831219",
-      "likes": 23,
-      "retweets": 2,
-      "replies": 6,
-      "quotes": 3
-    }
-  },
-  {
-    "id": "twitter_1980994629614055693",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@kcosr @TCGsealed @FactoryAI no one is sponsored :)",
-    "url": "https://x.com/bentossell/status/1980994629614055693",
-    "timestamp": "2025-10-22T13:48:19.000Z",
-    "metadata": {
-      "conversation_id": "1980994629614055693",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980990944045564103",
-    "source": "twitter",
-    "author": "kcosr",
-    "content": "@bentossell @TCGsealed @FactoryAI Kudos, Ben! Thanks for engaging with us small/unsponsored guys.",
-    "url": "https://x.com/kcosr/status/1980990944045564103",
-    "timestamp": "2025-10-22T13:33:40.000Z",
-    "metadata": {
-      "conversation_id": "1980990944045564103",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 1,
       "quotes": 0
     }
   },
@@ -541,7 +541,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
@@ -573,15 +573,15 @@
     }
   },
   {
-    "id": "reddit_1oayeuk",
+    "id": "reddit_1oapxet",
     "source": "reddit",
-    "author": "Malek262",
-    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
-    "timestamp": "2025-10-19T19:18:47.000Z",
+    "author": "Chemical_Bid_2195",
+    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
+    "timestamp": "2025-10-19T13:40:51.000Z",
     "metadata": {
       "score": 1,
-      "num_comments": 9,
+      "num_comments": 2,
       "subreddit": "FactoryAi"
     }
   },
@@ -635,6 +635,19 @@
       "type": "issue",
       "labels": [],
       "number": 208
+    }
+  },
+  {
+    "id": "reddit_1o98xc1",
+    "source": "reddit",
+    "author": "Unlucky_Draft_3468",
+    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
+    "timestamp": "2025-10-17T18:18:56.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
     }
   },
   {
