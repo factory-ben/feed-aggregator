@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1980925769103573048",
+    "source": "twitter",
+    "author": "CloudTrader4",
+    "content": "It is pretty easy to start:\n1- Install droid\n$ curl -fsSL https://app . factory . ai/cli | sh\n2- Navigate to your project \n$ cd /path/to/your/project\n3- Start interactive session droid\n$ droid\n\n/model command helps you navigate through the available models. My recommend would be to select a light and fast model to test around(either Haiku 4.5 or GLM-4.6)",
+    "url": "https://x.com/CloudTrader4/status/1980925769103573048",
+    "timestamp": "2025-10-22T09:14:41.000Z",
+    "metadata": {
+      "conversation_id": "1980925769103573048",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1980922122248786060",
+    "source": "twitter",
+    "author": "ByteOWildeSandH",
+    "content": "@MrJeberulz @FactoryAI Fair point, no one-shot. I’ve been doing one-shot runs with Codex as review; I’ll switch to fast loops. How many passes do you do before you ship? Do you try 3–5 tiny versions then pick one? Tune for fidelity checks and catch your stream.",
+    "url": "https://x.com/ByteOWildeSandH/status/1980922122248786060",
+    "timestamp": "2025-10-22T09:00:12.000Z",
+    "metadata": {
+      "conversation_id": "1980922122248786060",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1980912782985105467",
     "source": "twitter",
     "author": "cupcake_trader",
@@ -10,7 +40,7 @@
       "conversation_id": "1980912782985105467",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -23,7 +53,7 @@
     "timestamp": "2025-10-22T08:00:16.000Z",
     "metadata": {
       "conversation_id": "1980907040651505773",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -270,33 +300,29 @@
     }
   },
   {
-    "id": "twitter_1980813095225422107",
-    "source": "twitter",
-    "author": "AVGVSTVS96",
-    "content": "@immoinulmoin @GeraldOfNivea @FactoryAI what's the hack?",
-    "url": "https://x.com/AVGVSTVS96/status/1980813095225422107",
-    "timestamp": "2025-10-22T01:46:58.000Z",
+    "id": "reddit_1ocv9jx",
+    "source": "reddit",
+    "author": "heretiqal",
+    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
+    "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "conversation_id": "1980813095225422107",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
+      "score": 2,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
     }
   },
   {
-    "id": "twitter_1980812837749744099",
-    "source": "twitter",
-    "author": "immoinulmoin",
-    "content": "@GeraldOfNivea @FactoryAI yes, need to use a hack btw",
-    "url": "https://x.com/immoinulmoin/status/1980812837749744099",
-    "timestamp": "2025-10-22T01:45:56.000Z",
+    "id": "reddit_1ocpe9w",
+    "source": "reddit",
+    "author": "FocusResponsible4499",
+    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
+    "timestamp": "2025-10-21T21:19:05.000Z",
     "metadata": {
-      "conversation_id": "1980812837749744099",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
+      "score": 2,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -378,6 +404,19 @@
     }
   },
   {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -404,6 +443,19 @@
     }
   },
   {
+    "id": "reddit_1obv6pd",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
+    "timestamp": "2025-10-20T21:59:41.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_217",
     "source": "github",
     "author": "dvcrn",
@@ -417,6 +469,19 @@
     }
   },
   {
+    "id": "reddit_1obd1tm",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
+    "timestamp": "2025-10-20T06:53:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_215",
     "source": "github",
     "author": "iota9star",
@@ -427,6 +492,32 @@
       "type": "issue",
       "labels": [],
       "number": 215
+    }
+  },
+  {
+    "id": "reddit_1ob2dsx",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
+    "timestamp": "2025-10-19T21:56:23.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ob0d6z",
+    "source": "reddit",
+    "author": "Daed0802",
+    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
+    "timestamp": "2025-10-19T20:35:03.000Z",
+    "metadata": {
+      "score": 7,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -465,19 +556,6 @@
     "metadata": {
       "score": 1,
       "num_comments": 9,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
       "subreddit": "FactoryAi"
     }
   },
@@ -586,45 +664,6 @@
     }
   },
   {
-    "id": "reddit_1o8t9pq",
-    "source": "reddit",
-    "author": "raghav0610",
-    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
-    "timestamp": "2025-10-17T05:47:17.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o89mzk",
-    "source": "reddit",
-    "author": "x86rip",
-    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
-    "timestamp": "2025-10-16T15:43:59.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o86tci",
-    "source": "reddit",
-    "author": "mr_dudo",
-    "content": "TTY problem\n\nI’m not sure if it happened to someone else but the moment I installed droid cli I’m unable to use Claude code and opencode because it’s saying I don’t have TTY on my terminal, I’m not accusing you guys at factory but it just seemed strange to me, I’m able to run droid cli normally without colors.\n\nI have tried resetting the terminal settings and didn’t work but guess what fixed it? Uninstalling droid cli, I like droid and I’m still going to use it but I still want to use my z.ai sub of $3 when ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o86tci/tty_problem/",
-    "timestamp": "2025-10-16T13:55:41.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_200",
     "source": "github",
     "author": "JohnDotOwl",
@@ -664,19 +703,6 @@
     }
   },
   {
-    "id": "reddit_1o7ywba",
-    "source": "reddit",
-    "author": "Erebea01",
-    "content": "How to delete my account and how to delete droid?\n\nHow do I delete my account? I send an email to support but they told me how to cancel my subscription? I'm also unable to find the docs for deleting droid from my system",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7ywba/how_to_delete_my_account_and_how_to_delete_droid/",
-    "timestamp": "2025-10-16T06:30:21.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_195",
     "source": "github",
     "author": "iota9star",
@@ -700,19 +726,6 @@
       "type": "issue",
       "labels": [],
       "number": 194
-    }
-  },
-  {
-    "id": "reddit_1o7h903",
-    "source": "reddit",
-    "author": "itsmemac43",
-    "content": "Referral gone ??\n\nSo first they give referral option and make everyone refer their buddies\n\nOnce everyone is onboarded, they completely remove the referral on the whole \n\nThe website currently doesn't have a single word as referral and all the referral bonuses and posts are gone",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7h903/referral_gone/",
-    "timestamp": "2025-10-15T17:22:36.000Z",
-    "metadata": {
-      "score": 5,
-      "num_comments": 18,
-      "subreddit": "FactoryAi"
     }
   },
   {
