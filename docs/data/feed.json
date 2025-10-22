@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1981120968040075444",
+    "source": "twitter",
+    "author": "aeitroc",
+    "content": "@CloudTrader4 @FactoryAI @github Care to share the api?",
+    "url": "https://x.com/aeitroc/status/1981120968040075444",
+    "timestamp": "2025-10-22T22:10:20.000Z",
+    "metadata": {
+      "conversation_id": "1981120968040075444",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981119365853708473",
+    "source": "twitter",
+    "author": "Social_Quotient",
+    "content": "@CloudTrader4 @FactoryAI @github Wait a minute… I need details. What are you cookin? 🧑‍🍳",
+    "url": "https://x.com/Social_Quotient/status/1981119365853708473",
+    "timestamp": "2025-10-22T22:03:58.000Z",
+    "metadata": {
+      "conversation_id": "1981119365853708473",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981114924236755426",
     "source": "twitter",
     "author": "buggyDcode",
@@ -81,9 +111,9 @@
     "timestamp": "2025-10-22T20:47:33.000Z",
     "metadata": {
       "conversation_id": "1981100132536897723",
-      "likes": 7,
+      "likes": 10,
       "retweets": 1,
-      "replies": 1,
+      "replies": 3,
       "quotes": 0
     }
   },
@@ -111,7 +141,7 @@
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
       "score": 2,
-      "num_comments": 0,
+      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -124,7 +154,7 @@
     "timestamp": "2025-10-22T20:19:06.000Z",
     "metadata": {
       "conversation_id": "1981092972319138296",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -289,36 +319,6 @@
     "timestamp": "2025-10-22T19:19:47.000Z",
     "metadata": {
       "conversation_id": "1981078046095396884",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981076754866311551",
-    "source": "twitter",
-    "author": "chigozzdev",
-    "content": "Hello @FactoryAI, please can you maybe give us the option of viewing terminal runs logs? \nIn Claude Code, we use CTRL + o, and it's very helpful for debugging and understanding what's actually going on. \nThanks :)",
-    "url": "https://x.com/chigozzdev/status/1981076754866311551",
-    "timestamp": "2025-10-22T19:14:39.000Z",
-    "metadata": {
-      "conversation_id": "1981076754866311551",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981075866307153952",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@correacristobal @FactoryAI yep got it! looking into it - https://t.co/zbdJnoyd35",
-    "url": "https://x.com/bentossell/status/1981075866307153952",
-    "timestamp": "2025-10-22T19:11:07.000Z",
-    "metadata": {
-      "conversation_id": "1981075866307153952",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
@@ -573,32 +573,6 @@
     }
   },
   {
-    "id": "reddit_1ob0d6z",
-    "source": "reddit",
-    "author": "Daed0802",
-    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
-    "timestamp": "2025-10-19T20:35:03.000Z",
-    "metadata": {
-      "score": 8,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oazqru",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
-    "timestamp": "2025-10-19T20:10:35.000Z",
-    "metadata": {
-      "score": 4,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -609,19 +583,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1oayeuk",
-    "source": "reddit",
-    "author": "Malek262",
-    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
-    "timestamp": "2025-10-19T19:18:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 9,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -690,6 +651,19 @@
     }
   },
   {
+    "id": "reddit_1o86tci",
+    "source": "reddit",
+    "author": "mr_dudo",
+    "content": "TTY problem\n\nI’m not sure if it happened to someone else but the moment I installed droid cli I’m unable to use Claude code and opencode because it’s saying I don’t have TTY on my terminal, I’m not accusing you guys at factory but it just seemed strange to me, I’m able to run droid cli normally without colors.\n\nI have tried resetting the terminal settings and didn’t work but guess what fixed it? Uninstalling droid cli, I like droid and I’m still going to use it but I still want to use my z.ai sub of $3 when ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o86tci/tty_problem/",
+    "timestamp": "2025-10-16T13:55:41.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_200",
     "source": "github",
     "author": "JohnDotOwl",
@@ -726,6 +700,19 @@
       "type": "issue",
       "labels": [],
       "number": 197
+    }
+  },
+  {
+    "id": "reddit_1o7ywba",
+    "source": "reddit",
+    "author": "Erebea01",
+    "content": "How to delete my account and how to delete droid?\n\nHow do I delete my account? I send an email to support but they told me how to cancel my subscription? I'm also unable to find the docs for deleting droid from my system",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7ywba/how_to_delete_my_account_and_how_to_delete_droid/",
+    "timestamp": "2025-10-16T06:30:21.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
     }
   },
   {
