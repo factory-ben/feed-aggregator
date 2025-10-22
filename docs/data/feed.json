@@ -1,5 +1,93 @@
 [
   {
+    "id": "twitter_1981017335650451784",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI Thats awesome. I cannot wait to try it",
+    "url": "https://x.com/mandarinoapp/status/1981017335650451784",
+    "timestamp": "2025-10-22T15:18:32.000Z",
+    "metadata": {
+      "conversation_id": "1981017335650451784",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981017213869207567",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI Basically this but with custom models: https://t.co/9REVlDaIXC",
+    "url": "https://x.com/mandarinoapp/status/1981017213869207567",
+    "timestamp": "2025-10-22T15:18:03.000Z",
+    "metadata": {
+      "conversation_id": "1981017213869207567",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981016737102643289",
+    "source": "twitter",
+    "author": "mandarinoapp",
+    "content": "@bentossell @FactoryAI droid exec on github",
+    "url": "https://x.com/mandarinoapp/status/1981016737102643289",
+    "timestamp": "2025-10-22T15:16:10.000Z",
+    "metadata": {
+      "conversation_id": "1981016737102643289",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "twitter_1981012966364336265",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "yeh im against it as i get pitched all the time so also know who takes the money. \n\nfor our series b and cli launch (a month ago?) we paid one guy for a thread on x and ray fernando for a couple streams which were awesome and hes super authentic about disclaiming the partnership.\n\nbut since then, 0 sponsorship.",
+    "url": "https://x.com/bentossell/status/1981012966364336265",
+    "timestamp": "2025-10-22T15:01:11.000Z",
+    "metadata": {
+      "conversation_id": "1981012966364336265",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981011852281983306",
+    "source": "twitter",
+    "author": "aroussi",
+    "content": ".@FactoryAI Please inject today’s date to every prompt so comments and specs stop showing up as Jan 2025 🙏🏻",
+    "url": "https://x.com/aroussi/status/1981011852281983306",
+    "timestamp": "2025-10-22T14:56:45.000Z",
+    "metadata": {
+      "conversation_id": "1981011852281983306",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981010800119795845",
     "source": "twitter",
     "author": "alvinsng",
@@ -25,7 +113,7 @@
       "conversation_id": "1981009181030412303",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -66,9 +154,9 @@
     "timestamp": "2025-10-22T14:21:23.000Z",
     "metadata": {
       "conversation_id": "1981002950588903930",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 3,
       "quotes": 0
     }
   },
@@ -156,10 +244,10 @@
     "timestamp": "2025-10-22T13:59:49.000Z",
     "metadata": {
       "conversation_id": "1980997525021831219",
-      "likes": 8,
+      "likes": 13,
       "retweets": 1,
       "replies": 4,
-      "quotes": 2
+      "quotes": 1
     }
   },
   {
@@ -238,81 +326,6 @@
     }
   },
   {
-    "id": "twitter_1980982244820029550",
-    "source": "twitter",
-    "author": "TCGsealed",
-    "content": "@bentossell @kcosr @FactoryAI no one with 150k+ followers is going to listen to someone with 1k followers.\n\ni know the world i live in",
-    "url": "https://x.com/TCGsealed/status/1980982244820029550",
-    "timestamp": "2025-10-22T12:59:06.000Z",
-    "metadata": {
-      "conversation_id": "1980982244820029550",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980982132463088108",
-    "source": "twitter",
-    "author": "kcosr",
-    "content": "@bentossell @TCGsealed @FactoryAI Nice! I'm excited to experience what others have been saying about Droid. It just doesn't work with my codebase and prompting style yet. ☹️",
-    "url": "https://x.com/kcosr/status/1980982132463088108",
-    "timestamp": "2025-10-22T12:58:39.000Z",
-    "metadata": {
-      "conversation_id": "1980982132463088108",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980981580043817009",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@marcgregory_ @iannuttall @FactoryAI 🔥",
-    "url": "https://x.com/bentossell/status/1980981580043817009",
-    "timestamp": "2025-10-22T12:56:28.000Z",
-    "metadata": {
-      "conversation_id": "1980981580043817009",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980981429476757715",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@TCGsealed @kcosr @FactoryAI bugs happen for every product unfortunately. we're fixing this one right now. happy to help if you had any issues using it?",
-    "url": "https://x.com/bentossell/status/1980981429476757715",
-    "timestamp": "2025-10-22T12:55:52.000Z",
-    "metadata": {
-      "conversation_id": "1980981429476757715",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1980976590822773215",
-    "source": "twitter",
-    "author": "crazy_tech80",
-    "content": "@ArtificialAnlys @Zai_org Try it with @FactoryAI  Droid and then build droids it is like agents that is a game changer. It handles very well task.",
-    "url": "https://x.com/crazy_tech80/status/1980976590822773215",
-    "timestamp": "2025-10-22T12:36:38.000Z",
-    "metadata": {
-      "conversation_id": "1980976590822773215",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1ocv9jx",
     "source": "reddit",
     "author": "heretiqal",
@@ -321,7 +334,7 @@
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
       "score": 3,
-      "num_comments": 14,
+      "num_comments": 15,
       "subreddit": "FactoryAi"
     }
   },
@@ -569,19 +582,6 @@
     "metadata": {
       "score": 1,
       "num_comments": 9,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
       "subreddit": "FactoryAi"
     }
   },
