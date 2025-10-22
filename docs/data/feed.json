@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1981037876277129254",
+    "source": "twitter",
+    "author": "Keshavatearth",
+    "content": "droids from @FactoryAI just worked for 30 mins and updated my system to bun and uv\n\nmeself is a 10x dev now",
+    "url": "https://x.com/Keshavatearth/status/1981037876277129254",
+    "timestamp": "2025-10-22T16:40:10.000Z",
+    "metadata": {
+      "conversation_id": "1981037876277129254",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981037298834637262",
     "source": "twitter",
     "author": "mandarinoapp",
@@ -248,7 +263,7 @@
       "conversation_id": "1981011852281983306",
       "likes": 3,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -307,21 +322,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981002950588903930",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@mandarinoapp @FactoryAI do you mean droid exec on github? or the github app? or something else\n\nin this changelog we have custom models for droid exec :)",
-    "url": "https://x.com/bentossell/status/1981002950588903930",
-    "timestamp": "2025-10-22T14:21:23.000Z",
-    "metadata": {
-      "conversation_id": "1981002950588903930",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 2,
       "quotes": 0
     }
   },
@@ -541,21 +541,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oazqru",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
-    "timestamp": "2025-10-19T20:10:35.000Z",
-    "metadata": {
-      "score": 4,
-      "num_comments": 6,
       "subreddit": "FactoryAi"
     }
   },
@@ -570,19 +557,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -638,19 +612,6 @@
     }
   },
   {
-    "id": "reddit_1o98xc1",
-    "source": "reddit",
-    "author": "Unlucky_Draft_3468",
-    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
-    "timestamp": "2025-10-17T18:18:56.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_203",
     "source": "github",
     "author": "a112121788",
@@ -661,6 +622,19 @@
       "type": "issue",
       "labels": [],
       "number": 203
+    }
+  },
+  {
+    "id": "reddit_1o86tci",
+    "source": "reddit",
+    "author": "mr_dudo",
+    "content": "TTY problem\n\nI’m not sure if it happened to someone else but the moment I installed droid cli I’m unable to use Claude code and opencode because it’s saying I don’t have TTY on my terminal, I’m not accusing you guys at factory but it just seemed strange to me, I’m able to run droid cli normally without colors.\n\nI have tried resetting the terminal settings and didn’t work but guess what fixed it? Uninstalling droid cli, I like droid and I’m still going to use it but I still want to use my z.ai sub of $3 when ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o86tci/tty_problem/",
+    "timestamp": "2025-10-16T13:55:41.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -700,6 +674,19 @@
       "type": "issue",
       "labels": [],
       "number": 197
+    }
+  },
+  {
+    "id": "reddit_1o7ywba",
+    "source": "reddit",
+    "author": "Erebea01",
+    "content": "How to delete my account and how to delete droid?\n\nHow do I delete my account? I send an email to support but they told me how to cancel my subscription? I'm also unable to find the docs for deleting droid from my system",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o7ywba/how_to_delete_my_account_and_how_to_delete_droid/",
+    "timestamp": "2025-10-16T06:30:21.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
     }
   },
   {
