@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1981207908919697628",
+    "source": "twitter",
+    "author": "arafatkatze",
+    "content": "@erd0xbc @FactoryAI Makes total sense, although consider trying cline, it’s a different experience",
+    "url": "https://x.com/arafatkatze/status/1981207908919697628",
+    "timestamp": "2025-10-23T03:55:49.000Z",
+    "metadata": {
+      "conversation_id": "1981207908919697628",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981202419456389614",
     "source": "twitter",
     "author": "erd0xbc",
@@ -10,7 +25,7 @@
       "conversation_id": "1981202419456389614",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -307,21 +322,6 @@
       "likes": 22,
       "retweets": 1,
       "replies": 4,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981099699865341991",
-    "source": "twitter",
-    "author": "withmegg",
-    "content": "@matanSF on stage with OpenAI and Vercel🎙️coding for the future and prompting for the present 🤖 @FactoryAI https://t.co/RbmWt4wvIB",
-    "url": "https://x.com/withmegg/status/1981099699865341991",
-    "timestamp": "2025-10-22T20:45:50.000Z",
-    "metadata": {
-      "conversation_id": "1981099699865341991",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
