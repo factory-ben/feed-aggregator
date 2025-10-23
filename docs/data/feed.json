@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1981464157494108661",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@bentossell @FactoryAI sent!",
+    "url": "https://x.com/fire/status/1981464157494108661",
+    "timestamp": "2025-10-23T20:54:03.000Z",
+    "metadata": {
+      "conversation_id": "1981464157494108661",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981463390263431581",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@fire @FactoryAI can fwd to me ben @ :)",
+    "url": "https://x.com/bentossell/status/1981463390263431581",
+    "timestamp": "2025-10-23T20:51:00.000Z",
+    "metadata": {
+      "conversation_id": "1981463390263431581",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981460835596980725",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@bentossell @FactoryAI sick! aside: two days ago I sent feedback as a reply to that automatic feedback request email sent from Matan's address. Will there be any kind of followup or confirmation of receipt, or should I send that feedback somewhere else as well?",
+    "url": "https://x.com/fire/status/1981460835596980725",
+    "timestamp": "2025-10-23T20:40:51.000Z",
+    "metadata": {
+      "conversation_id": "1981460835596980725",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981459458615365931",
     "source": "twitter",
     "author": "loopfox_",
@@ -201,7 +246,7 @@
     "timestamp": "2025-10-23T17:30:49.000Z",
     "metadata": {
       "conversation_id": "1981413013115834842",
-      "likes": 9,
+      "likes": 10,
       "retweets": 2,
       "replies": 1,
       "quotes": 1
@@ -268,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1981384537113579597",
-    "source": "twitter",
-    "author": "aislepartnersai",
-    "content": "Claude Code &amp; Skills - Superpowers\n\nBeen digging into Claude Code and @FactoryAI lately, as well as getting my head around Skills.\n\nHave come across a few amazing resources today - I figured others may find value here.\n\nBookmark for later. \n\nLinks in next post 👇 https://t.co/jtPmFnly9W",
-    "url": "https://x.com/aislepartnersai/status/1981384537113579597",
-    "timestamp": "2025-10-23T15:37:40.000Z",
-    "metadata": {
-      "conversation_id": "1981384537113579597",
-      "likes": 10,
-      "retweets": 0,
-      "replies": 4,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981381087675719836",
-    "source": "twitter",
-    "author": "Show_TimeZ_",
-    "content": "@KwaiAICoder how to use it in droid cli by @FactoryAI ?",
-    "url": "https://x.com/Show_TimeZ_/status/1981381087675719836",
-    "timestamp": "2025-10-23T15:23:58.000Z",
-    "metadata": {
-      "conversation_id": "1981381087675719836",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_243",
     "source": "github",
     "author": "accelas",
@@ -308,21 +323,6 @@
       "type": "issue",
       "labels": [],
       "number": 243
-    }
-  },
-  {
-    "id": "twitter_1981371659618501090",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@jpohhhh @iannuttall @SvenMeyer @FactoryAI i tried finding it previously with no luck. skill issue",
-    "url": "https://x.com/bentossell/status/1981371659618501090",
-    "timestamp": "2025-10-23T14:46:30.000Z",
-    "metadata": {
-      "conversation_id": "1981371659618501090",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
     }
   },
   {
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
     "timestamp": "2025-10-19T20:10:35.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
