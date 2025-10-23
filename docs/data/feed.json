@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1981453404850339854",
+    "source": "twitter",
+    "author": "adisanu",
+    "content": "@bentossell @FactoryAI is there any bitbucket integration planned?",
+    "url": "https://x.com/adisanu/status/1981453404850339854",
+    "timestamp": "2025-10-23T20:11:19.000Z",
+    "metadata": {
+      "conversation_id": "1981453404850339854",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981450257599758395",
+    "source": "twitter",
+    "author": "monk_forge68",
+    "content": "@bentossell @FactoryAI @bentossell and @FactoryAI , I’m having problems setting up my windows Droid Cli ,even looking into the best-practices and official install instructions…perhaps it’s your windows version or something I don’t but I haven’t had the chance to try Droid Cli for almost 3 weeks trying",
+    "url": "https://x.com/monk_forge68/status/1981450257599758395",
+    "timestamp": "2025-10-23T19:58:49.000Z",
+    "metadata": {
+      "conversation_id": "1981450257599758395",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981447730225463677",
     "source": "twitter",
     "author": "bentossell",
@@ -8,7 +38,7 @@
     "timestamp": "2025-10-23T19:48:47.000Z",
     "metadata": {
       "conversation_id": "1981447730225463677",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -156,7 +186,7 @@
     "timestamp": "2025-10-23T17:30:49.000Z",
     "metadata": {
       "conversation_id": "1981413013115834842",
-      "likes": 6,
+      "likes": 9,
       "retweets": 2,
       "replies": 1,
       "quotes": 1
@@ -292,36 +322,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981370054127292515",
-    "source": "twitter",
-    "author": "thielaut",
-    "content": "@bentossell @FactoryAI Great! thank you so much",
-    "url": "https://x.com/thielaut/status/1981370054127292515",
-    "timestamp": "2025-10-23T14:40:07.000Z",
-    "metadata": {
-      "conversation_id": "1981370054127292515",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981369091244900796",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@iannuttall @SvenMeyer @FactoryAI i hate having to think about reasoning ha",
-    "url": "https://x.com/bentossell/status/1981369091244900796",
-    "timestamp": "2025-10-23T14:36:18.000Z",
-    "metadata": {
-      "conversation_id": "1981369091244900796",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -638,6 +638,19 @@
     }
   },
   {
+    "id": "reddit_1oazqru",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
+    "timestamp": "2025-10-19T20:10:35.000Z",
+    "metadata": {
+      "score": 4,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -648,32 +661,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1oayeuk",
-    "source": "reddit",
-    "author": "Malek262",
-    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
-    "timestamp": "2025-10-19T19:18:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 11,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oapxet",
-    "source": "reddit",
-    "author": "Chemical_Bid_2195",
-    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
-    "timestamp": "2025-10-19T13:40:51.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -729,19 +716,6 @@
     }
   },
   {
-    "id": "reddit_1o98xc1",
-    "source": "reddit",
-    "author": "Unlucky_Draft_3468",
-    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
-    "timestamp": "2025-10-17T18:18:56.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_203",
     "source": "github",
     "author": "a112121788",
@@ -752,19 +726,6 @@
       "type": "issue",
       "labels": [],
       "number": 203
-    }
-  },
-  {
-    "id": "reddit_1o8tf0s",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
-    "timestamp": "2025-10-17T05:56:27.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
     }
   },
   {
