@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1981447730225463677",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@crypto_deniro @FactoryAI replied to your other post on this :)",
+    "url": "https://x.com/bentossell/status/1981447730225463677",
+    "timestamp": "2025-10-23T19:48:47.000Z",
+    "metadata": {
+      "conversation_id": "1981447730225463677",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981447686835343684",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@crypto_deniro @RayFernando1337 @FactoryAI hey can you email support @ factory . ai please - they'll investigate for you - seems like some security flagging",
+    "url": "https://x.com/bentossell/status/1981447686835343684",
+    "timestamp": "2025-10-23T19:48:36.000Z",
+    "metadata": {
+      "conversation_id": "1981447686835343684",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981438591180951984",
     "source": "twitter",
     "author": "CloudTrader4",
@@ -98,7 +128,7 @@
       "conversation_id": "1981420978585415734",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -113,7 +143,7 @@
       "conversation_id": "1981419152502902871",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -126,10 +156,10 @@
     "timestamp": "2025-10-23T17:30:49.000Z",
     "metadata": {
       "conversation_id": "1981413013115834842",
-      "likes": 3,
-      "retweets": 1,
+      "likes": 6,
+      "retweets": 2,
       "replies": 1,
-      "quotes": 0
+      "quotes": 1
     }
   },
   {
@@ -201,7 +231,7 @@
     "timestamp": "2025-10-23T15:37:40.000Z",
     "metadata": {
       "conversation_id": "1981384537113579597",
-      "likes": 9,
+      "likes": 10,
       "retweets": 0,
       "replies": 4,
       "quotes": 0
@@ -292,36 +322,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981369056209830048",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@iannuttall @SvenMeyer @FactoryAI oh maybe recently changed then",
-    "url": "https://x.com/bentossell/status/1981369056209830048",
-    "timestamp": "2025-10-23T14:36:09.000Z",
-    "metadata": {
-      "conversation_id": "1981369056209830048",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981368958088266188",
-    "source": "twitter",
-    "author": "iannuttall",
-    "content": "@bentossell @SvenMeyer @FactoryAI I think they are but I have come round to medium/auto and think it’s perfect model for coding",
-    "url": "https://x.com/iannuttall/status/1981368958088266188",
-    "timestamp": "2025-10-23T14:35:46.000Z",
-    "metadata": {
-      "conversation_id": "1981368958088266188",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 2,
       "quotes": 0
     }
   },
@@ -625,15 +625,15 @@
     }
   },
   {
-    "id": "reddit_1oazqru",
+    "id": "reddit_1ob0d6z",
     "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
-    "timestamp": "2025-10-19T20:10:35.000Z",
+    "author": "Daed0802",
+    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
+    "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 4,
-      "num_comments": 6,
+      "score": 9,
+      "num_comments": 5,
       "subreddit": "FactoryAi"
     }
   },
@@ -660,6 +660,19 @@
     "metadata": {
       "score": 1,
       "num_comments": 11,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oapxet",
+    "source": "reddit",
+    "author": "Chemical_Bid_2195",
+    "content": "What is an authenticator app?\n\nWhen I try to sign in to app.factory.ai with my Google account, I'm blocked by the auth.factory.ai/ page asking for me to check my \"authenticator app\". However, I have never set up an authenticator app for Factory AI, so I have no way of logging in and authenticating for it. For the past couple of weeks that I've used Factory AI I never had to use an authenticator app. I have also not found references to this \"authenticator app\" in their documentation. Therefore, Droid CLI has become unusable as",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oapxet/what_is_an_authenticator_app/",
+    "timestamp": "2025-10-19T13:40:51.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 2,
       "subreddit": "FactoryAi"
     }
   },
@@ -716,6 +729,19 @@
     }
   },
   {
+    "id": "reddit_1o98xc1",
+    "source": "reddit",
+    "author": "Unlucky_Draft_3468",
+    "content": "How to Enable Deep Reasoning (High) When Using Custom ChatGPT Models?\n\nI’m a big fan of Factory’s Droid. Currently, I’m experimenting with using ChatGPT’s API through Factory Droid’s custom models, and I find it works much better than the Codex CLI. However, I have a question about the reasoning functionality.\nWhen calling the API this way, I’m not sure whether the model is actually engaging in deep thought. I can’t see any reasoning process in the responses, and they come back very quickly, which makes me suspect the reasoning mode isn’t being activated.\nHow can I",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o98xc1/how_to_enable_deep_reasoning_high_when_using/",
+    "timestamp": "2025-10-17T18:18:56.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_203",
     "source": "github",
     "author": "a112121788",
@@ -726,6 +752,19 @@
       "type": "issue",
       "labels": [],
       "number": 203
+    }
+  },
+  {
+    "id": "reddit_1o8tf0s",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
+    "timestamp": "2025-10-17T05:56:27.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
     }
   },
   {
