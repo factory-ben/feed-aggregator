@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1981304985871917418",
+    "source": "twitter",
+    "author": "AlexBHolt",
+    "content": "@donvito Works great with @FactoryAI droids",
+    "url": "https://x.com/AlexBHolt/status/1981304985871917418",
+    "timestamp": "2025-10-23T10:21:34.000Z",
+    "metadata": {
+      "conversation_id": "1981304985871917418",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981297056409895045",
     "source": "twitter",
     "author": "bentossell",
@@ -298,21 +313,6 @@
     }
   },
   {
-    "id": "twitter_1981146199181971567",
-    "source": "twitter",
-    "author": "MXPONENTIAL",
-    "content": "Unblocked and rectified within the hour. Amazing support from @FactoryAI. Thank you @cmricksen and @matanSF",
-    "url": "https://x.com/MXPONENTIAL/status/1981146199181971567",
-    "timestamp": "2025-10-22T23:50:36.000Z",
-    "metadata": {
-      "conversation_id": "1981146199181971567",
-      "likes": 5,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_238",
     "source": "github",
     "author": "ivoneijr-lumiahealth",
@@ -349,6 +349,19 @@
       "type": "issue",
       "labels": [],
       "number": 236
+    }
+  },
+  {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -560,6 +573,45 @@
     }
   },
   {
+    "id": "reddit_1ob2dsx",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
+    "timestamp": "2025-10-19T21:56:23.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ob0d6z",
+    "source": "reddit",
+    "author": "Daed0802",
+    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
+    "timestamp": "2025-10-19T20:35:03.000Z",
+    "metadata": {
+      "score": 7,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oazqru",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
+    "timestamp": "2025-10-19T20:10:35.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -687,58 +739,6 @@
       "type": "issue",
       "labels": [],
       "number": 195
-    }
-  },
-  {
-    "id": "reddit_1o6tivb",
-    "source": "reddit",
-    "author": "stevilg",
-    "content": "byok / custom_models\n\nIs Bring your own keys / custom\\_models working for anybody? I've tried a few combinations and no luck; droid never shows it on the list. Below is in my projects directory e.g. /project/.factory/config.json and I can confirm POST to [http://localhost:8317/v1/chat/completions](http://localhost:8317/v1/chat/completions) does work and so does GET to [http://localhost:8317/v1/models](http://localhost:8317/v1/models)\n\n    {\n      \"custom_models\": [\n        {\n          \"model_display_name\": \"qwen3-cod",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6tivb/byok_custom_models/",
-    "timestamp": "2025-10-14T22:13:49.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o6jgc5",
-    "source": "reddit",
-    "author": "Kindly_District",
-    "content": "attach a image to the droid cli?\n\nIs there a way to attach a design image to the droid cli?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6jgc5/attach_a_image_to_the_droid_cli/",
-    "timestamp": "2025-10-14T15:58:56.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o6e9gw",
-    "source": "reddit",
-    "author": "selfdb",
-    "content": "Building with factoryAI. a self-hosted backend with: auth, db, storage, cloud functions, webhooks and a sql editor.\n\nHello droids. I wanted to share this project that i'm buildng with factory ai for local / selfhost multimodel ai agents. v0.05 on the way. It is fully open source:  [https://github.com/Selfdb-io/SelfDB](https://github.com/Selfdb-io/SelfDB)",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o6e9gw/building_with_factoryai_a_selfhosted_backend_with/",
-    "timestamp": "2025-10-14T12:34:23.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o69z6f",
-    "source": "reddit",
-    "author": "Optimal-Swordfish",
-    "content": "Codex works worse with droids than gpt-5\n\nTitle. When can we expect codex usage with droids to actually perform as expected? This is also apparent from the terminal bench results. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o69z6f/codex_works_worse_with_droids_than_gpt5/",
-    "timestamp": "2025-10-14T08:34:32.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
     }
   },
   {
