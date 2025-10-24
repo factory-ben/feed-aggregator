@@ -1,5 +1,153 @@
 [
   {
+    "id": "twitter_1981700289154666800",
+    "source": "twitter",
+    "author": "jatob0y",
+    "content": "@ducaswtf @FactoryAI Sem pegadinha, testa ai. https://t.co/lSHWm1KlOW\nTem extensão pro VSCODE também.",
+    "url": "https://x.com/jatob0y/status/1981700289154666800",
+    "timestamp": "2025-10-24T12:32:21.000Z",
+    "metadata": {
+      "conversation_id": "1981700289154666800",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981699304827113979",
+    "source": "twitter",
+    "author": "djasnive",
+    "content": "@bentossell @FactoryAI Thank you Bro.",
+    "url": "https://x.com/djasnive/status/1981699304827113979",
+    "timestamp": "2025-10-24T12:28:27.000Z",
+    "metadata": {
+      "conversation_id": "1981699304827113979",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981694910396067941",
+    "source": "twitter",
+    "author": "ducaswtf",
+    "content": "@jatob0y @FactoryAI que daora. tem alguma pegadinha? como posso resgatar esses tokens?",
+    "url": "https://x.com/ducaswtf/status/1981694910396067941",
+    "timestamp": "2025-10-24T12:10:59.000Z",
+    "metadata": {
+      "conversation_id": "1981694910396067941",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981693749274263714",
+    "source": "twitter",
+    "author": "jatob0y",
+    "content": "@ducaswtf Ja viu o @FactoryAI ? Estão dando 40M tokens free",
+    "url": "https://x.com/jatob0y/status/1981693749274263714",
+    "timestamp": "2025-10-24T12:06:22.000Z",
+    "metadata": {
+      "conversation_id": "1981693749274263714",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981693118337655055",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@AI_dude_eu @RayFernando1337 @FactoryAI oh sounds like a bug. if you can run /bug in the session and email support@factory.ai with a link to this thread and the bug report that'll help us a lot with fixes :) thank you",
+    "url": "https://x.com/bentossell/status/1981693118337655055",
+    "timestamp": "2025-10-24T12:03:52.000Z",
+    "metadata": {
+      "conversation_id": "1981693118337655055",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981692500768407640",
+    "source": "twitter",
+    "author": "AI_dude_eu",
+    "content": "@bentossell @RayFernando1337 @FactoryAI I dont think GLM is generally bad, just with Droid I had all the time issues with wrong paths when READ, failed searches with GREP, and in some cases it just stopped in the middle just so. On the Max Plan of GLM subscription btw with custom model in Droid.",
+    "url": "https://x.com/AI_dude_eu/status/1981692500768407640",
+    "timestamp": "2025-10-24T12:01:24.000Z",
+    "metadata": {
+      "conversation_id": "1981692500768407640",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981692013386047868",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@berthojoris @FactoryAI please generate the bug report in this session by using /bug and then email to support@factory.ai with a link ot this tweet 🙏",
+    "url": "https://x.com/bentossell/status/1981692013386047868",
+    "timestamp": "2025-10-24T11:59:28.000Z",
+    "metadata": {
+      "conversation_id": "1981692013386047868",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_254",
+    "source": "github",
+    "author": "ryzen3100",
+    "content": "[Issue] Illegal instruction (core dumped)\n\nI can't run Droid anymore, it used to work before, but with the latest update I'm getting core dumped error.\n`Illegal instruction (core dumped)`\n```\n[vm@ubuntu-coding vm]> droid\nfish: Job 1, 'droid' terminated by signal SIGILL (Illegal instruction)\n```\nRemoving the `~/.factory/` directory and then reinstalling Droid didn't solve the issue.\nSystem: Ubuntu VM on an Intel X5650 CPU host (Hyper-V).",
+    "url": "https://github.com/Factory-AI/factory/issues/254",
+    "timestamp": "2025-10-24T11:58:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 254
+    }
+  },
+  {
+    "id": "twitter_1981691632253829388",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@AI_dude_eu @RayFernando1337 @FactoryAI curious why you think its bad ? whats been happening for you?",
+    "url": "https://x.com/bentossell/status/1981691632253829388",
+    "timestamp": "2025-10-24T11:57:57.000Z",
+    "metadata": {
+      "conversation_id": "1981691632253829388",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981691432353349712",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@djasnive @FactoryAI should be able to use for plan payments and on-demand usage. email support @ factory . ai if you're stuck and someone will get you unstuck!",
+    "url": "https://x.com/bentossell/status/1981691432353349712",
+    "timestamp": "2025-10-24T11:57:10.000Z",
+    "metadata": {
+      "conversation_id": "1981691432353349712",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981691216912880054",
     "source": "twitter",
     "author": "bentossell",
@@ -55,7 +203,7 @@
       "conversation_id": "1981651766178369796",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -85,7 +233,7 @@
       "conversation_id": "1981646078198857802",
       "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -178,81 +326,6 @@
     }
   },
   {
-    "id": "twitter_1981603028831785417",
-    "source": "twitter",
-    "author": "dctmfoo",
-    "content": "@tristanbob also @FactoryAI  droid and @AmpCode  have background agents which can execute any script and follow instructions. . Take a look at https://t.co/NmtLXV1CLg and https://t.co/wiMovfwCwi",
-    "url": "https://x.com/dctmfoo/status/1981603028831785417",
-    "timestamp": "2025-10-24T06:05:53.000Z",
-    "metadata": {
-      "conversation_id": "1981603028831785417",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981589562372563401",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@bernaferrari @AliDTwitt @FactoryAI https://t.co/dPQdSuByhU",
-    "url": "https://x.com/bentossell/status/1981589562372563401",
-    "timestamp": "2025-10-24T05:12:22.000Z",
-    "metadata": {
-      "conversation_id": "1981589562372563401",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981589447293419992",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@zhangjintao9020 @matanSF @FactoryAI yep i’ve sorted one by one. we’re in dms about your issue :) support @ factory . ai is best to handle the auth issue",
-    "url": "https://x.com/bentossell/status/1981589447293419992",
-    "timestamp": "2025-10-24T05:11:55.000Z",
-    "metadata": {
-      "conversation_id": "1981589447293419992",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981572091045704031",
-    "source": "twitter",
-    "author": "leodoan_",
-    "content": "@MullerNavas @FactoryAI can't argue with results",
-    "url": "https://x.com/leodoan_/status/1981572091045704031",
-    "timestamp": "2025-10-24T04:02:56.000Z",
-    "metadata": {
-      "conversation_id": "1981572091045704031",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981559716636713414",
-    "source": "twitter",
-    "author": "berthojoris",
-    "content": "@FactoryAI Hi Team, I found bug when using GPT-5-Codex model. Error 400 https://t.co/ZSYG6R9sqE",
-    "url": "https://x.com/berthojoris/status/1981559716636713414",
-    "timestamp": "2025-10-24T03:13:46.000Z",
-    "metadata": {
-      "conversation_id": "1981559716636713414",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_250",
     "source": "github",
     "author": "byJim",
@@ -263,66 +336,6 @@
       "type": "issue",
       "labels": [],
       "number": 250
-    }
-  },
-  {
-    "id": "twitter_1981553460500975928",
-    "source": "twitter",
-    "author": "francesca_lab",
-    "content": "@kylezantos @FactoryAI Support@factory.ai !",
-    "url": "https://x.com/francesca_lab/status/1981553460500975928",
-    "timestamp": "2025-10-24T02:48:55.000Z",
-    "metadata": {
-      "conversation_id": "1981553460500975928",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981550503483101298",
-    "source": "twitter",
-    "author": "kylezantos",
-    "content": "@francesca_lab @FactoryAI Hey @francesca_lab  I've had a few hiccups lately with Droids sometimes, and have a few other nuggets of feedback/questions. Where should I go to deliver that feedback?",
-    "url": "https://x.com/kylezantos/status/1981550503483101298",
-    "timestamp": "2025-10-24T02:37:10.000Z",
-    "metadata": {
-      "conversation_id": "1981550503483101298",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981524723399086550",
-    "source": "twitter",
-    "author": "zhangjintao9020",
-    "content": "@bentossell @matanSF @FactoryAI I can see I'm not the only one having this problem.\n\nhttps://t.co/XMuIonoFyG",
-    "url": "https://x.com/zhangjintao9020/status/1981524723399086550",
-    "timestamp": "2025-10-24T00:54:43.000Z",
-    "metadata": {
-      "conversation_id": "1981524723399086550",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981519883180638450",
-    "source": "twitter",
-    "author": "KirkMarple",
-    "content": "As part of our docs refresh, I wanted to build out new @graphlit tutorials. \n\nFirst, planned out requirements for a deep research concept using @FactoryAI Droid and Sonnet 4.5\n\nThen going to write a tutorial, along with code, using @graphlit for ingest and memory, and built with each of these frameworks:\n\n@mastra_ai \n@AgnoAgi \nLangGraph\n@vercel Workflow\n\nInterested to see how this goes, and will post each tutorial once it’s done.  Maybe even videos too.",
-    "url": "https://x.com/KirkMarple/status/1981519883180638450",
-    "timestamp": "2025-10-24T00:35:29.000Z",
-    "metadata": {
-      "conversation_id": "1981519883180638450",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -671,7 +684,20 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oazqru",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
+    "timestamp": "2025-10-19T20:10:35.000Z",
+    "metadata": {
+      "score": 4,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
@@ -726,19 +752,6 @@
       "type": "issue",
       "labels": [],
       "number": 210
-    }
-  },
-  {
-    "id": "github_issue_208",
-    "source": "github",
-    "author": "WhiteBite",
-    "content": "[Issue] Registration not working and not concact\n\nRegistration is not working and there are no contacts to contact.",
-    "url": "https://github.com/Factory-AI/factory/issues/208",
-    "timestamp": "2025-10-17T20:31:44Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 208
     }
   },
   {
