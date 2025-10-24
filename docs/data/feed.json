@@ -1,5 +1,78 @@
 [
   {
+    "id": "twitter_1981718993238167794",
+    "source": "twitter",
+    "author": "_Sagiquarius_",
+    "content": "@EnoReyes There appears to be a bug with configuring GPT 5 reasoning in spec mode.  G5 reasoning flips to disabled despite it saying \"high\" in spec mode config. But when I switch into spec mode it lists the correct model. So I guess it's fine? @FactoryAI https://t.co/M43WLoqCys",
+    "url": "https://x.com/_Sagiquarius_/status/1981718993238167794",
+    "timestamp": "2025-10-24T13:46:41.000Z",
+    "metadata": {
+      "conversation_id": "1981718993238167794",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981716682256134384",
+    "source": "twitter",
+    "author": "AdamTossell",
+    "content": "Built primarily with GPT-5-Codex in droid @FactoryAI",
+    "url": "https://x.com/AdamTossell/status/1981716682256134384",
+    "timestamp": "2025-10-24T13:37:30.000Z",
+    "metadata": {
+      "conversation_id": "1981716682256134384",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_256",
+    "source": "github",
+    "author": "dusancv22",
+    "content": "[Issue] Login doesn't work\n\nhttps://s3.us-east-1.amazonaws.com/exercise.files/Temp+Download/login_01.png\n\nI just installed Droid on Windows, and when I typed \"Droid\", I just had the option to \"Login\" and \"Exit\".\n\nWhen I click on \"Login\", I just get a warning:\nAuthentication failed:\nWas there a typo in the url or port?\n\nWhat is the issue here? \n\n",
+    "url": "https://github.com/Factory-AI/factory/issues/256",
+    "timestamp": "2025-10-24T13:35:49Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 256
+    }
+  },
+  {
+    "id": "twitter_1981715241126842656",
+    "source": "twitter",
+    "author": "MKulria",
+    "content": "@FactoryAI That was much needed, excellent move.",
+    "url": "https://x.com/MKulria/status/1981715241126842656",
+    "timestamp": "2025-10-24T13:31:46.000Z",
+    "metadata": {
+      "conversation_id": "1981715241126842656",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981713930926932024",
+    "source": "twitter",
+    "author": "trieloff",
+    "content": "Trying @FactoryAI droid for the first time. Their own Droid Core (GLM-4.6) model has a billing bug that means it won’t recognize trial credits. Only after putting down $20, I learned that it also won’t recognize actual dollars. Using GPT or Sonnet works, though.",
+    "url": "https://x.com/trieloff/status/1981713930926932024",
+    "timestamp": "2025-10-24T13:26:34.000Z",
+    "metadata": {
+      "conversation_id": "1981713930926932024",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981712131583246664",
     "source": "twitter",
     "author": "verioussmith",
@@ -53,7 +126,7 @@
     "timestamp": "2025-10-24T12:10:59.000Z",
     "metadata": {
       "conversation_id": "1981694910396067941",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -246,7 +319,7 @@
     "timestamp": "2025-10-24T08:56:56.000Z",
     "metadata": {
       "conversation_id": "1981646078198857802",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -263,66 +336,6 @@
       "type": "issue",
       "labels": [],
       "number": 252
-    }
-  },
-  {
-    "id": "twitter_1981640734802694343",
-    "source": "twitter",
-    "author": "zhangjintao9020",
-    "content": "@bentossell @matanSF @FactoryAI Thank you! I will add support to the mail thread",
-    "url": "https://x.com/zhangjintao9020/status/1981640734802694343",
-    "timestamp": "2025-10-24T08:35:42.000Z",
-    "metadata": {
-      "conversation_id": "1981640734802694343",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981620551748874317",
-    "source": "twitter",
-    "author": "Fahad_Mustafa1",
-    "content": "@bentossell Got 40 Million Tokens. Thanks @FactoryAI.",
-    "url": "https://x.com/Fahad_Mustafa1/status/1981620551748874317",
-    "timestamp": "2025-10-24T07:15:30.000Z",
-    "metadata": {
-      "conversation_id": "1981620551748874317",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981619428702740529",
-    "source": "twitter",
-    "author": "tinkerersanky",
-    "content": "@RayFernando1337 @FactoryAI CLI needs a $100 plan.",
-    "url": "https://x.com/tinkerersanky/status/1981619428702740529",
-    "timestamp": "2025-10-24T07:11:03.000Z",
-    "metadata": {
-      "conversation_id": "1981619428702740529",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981619312625684507",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@bernaferrari @FactoryAI add GLM as a custom model in '.factory/config.json' @Zai_org has documentation on their coding website, then you can switch/swap/let them collaborate as you wish.\nOtherwise just use the built-in GLM-4.6 in DROID CLI",
-    "url": "https://x.com/SvenMeyer/status/1981619312625684507",
-    "timestamp": "2025-10-24T07:10:35.000Z",
-    "metadata": {
-      "conversation_id": "1981619312625684507",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -684,7 +697,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
     "timestamp": "2025-10-19T20:35:03.000Z",
     "metadata": {
-      "score": 10,
+      "score": 11,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
@@ -726,19 +739,6 @@
       "type": "issue",
       "labels": [],
       "number": 212
-    }
-  },
-  {
-    "id": "github_issue_210",
-    "source": "github",
-    "author": "iota9star",
-    "content": "[Issue] Frequent errors when deleting files (versions 0.19–0.21.3)\n\n<img width=\"1262\" height=\"304\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/791ec316-718a-4691-9fd6-55969347f89d\" />\n\nEnvironment:\n\t•\tOS: macOS\n\t•\tEditor: VSCode and Terminal\n\t•\tDroid Version: 0.21.3\n\nDescription:\nI’ve noticed that deleting files often leads to errors in Droid. This behavior has been present since version 0.19 and continues up to 0.21.3.\nThe issue appears more frequently when performing file deletion operations, both in VSCode and in the terminal.\n\nSteps to Reprod",
-    "url": "https://github.com/Factory-AI/factory/issues/210",
-    "timestamp": "2025-10-18T03:18:12Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 210
     }
   },
   {
