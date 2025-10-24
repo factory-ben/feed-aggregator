@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1981792743086338059",
+    "source": "twitter",
+    "author": "MinChonChiSF",
+    "content": "@AdamTossell @FactoryAI GPT-5-Codex looks like a key piece of the puzzle here.",
+    "url": "https://x.com/MinChonChiSF/status/1981792743086338059",
+    "timestamp": "2025-10-24T18:39:44.000Z",
+    "metadata": {
+      "conversation_id": "1981792743086338059",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981790268383723701",
+    "source": "twitter",
+    "author": "nightmaaan",
+    "content": "@CloudTrader4 @FactoryAI @firecrawl_dev Why not just Ref MCP? It will work better for such tasks as getting docs etc",
+    "url": "https://x.com/nightmaaan/status/1981790268383723701",
+    "timestamp": "2025-10-24T18:29:54.000Z",
+    "metadata": {
+      "conversation_id": "1981790268383723701",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_257",
     "source": "github",
     "author": "johnhowelljr",
@@ -126,9 +156,9 @@
     "timestamp": "2025-10-24T15:07:36.000Z",
     "metadata": {
       "conversation_id": "1981739358131560726",
-      "likes": 11,
+      "likes": 13,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -279,36 +309,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981718993238167794",
-    "source": "twitter",
-    "author": "_Sagiquarius_",
-    "content": "@EnoReyes There appears to be a bug with configuring GPT 5 reasoning in spec mode.  G5 reasoning flips to disabled despite it saying \"high\" in spec mode config. But when I switch into spec mode it lists the correct model. So I guess it's fine? @FactoryAI https://t.co/M43WLoqCys",
-    "url": "https://x.com/_Sagiquarius_/status/1981718993238167794",
-    "timestamp": "2025-10-24T13:46:41.000Z",
-    "metadata": {
-      "conversation_id": "1981718993238167794",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981716682256134384",
-    "source": "twitter",
-    "author": "AdamTossell",
-    "content": "Built primarily with GPT-5-Codex in droid @FactoryAI",
-    "url": "https://x.com/AdamTossell/status/1981716682256134384",
-    "timestamp": "2025-10-24T13:37:30.000Z",
-    "metadata": {
-      "conversation_id": "1981716682256134384",
-      "likes": 13,
-      "retweets": 1,
-      "replies": 1,
       "quotes": 0
     }
   },
