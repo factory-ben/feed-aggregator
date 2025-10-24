@@ -1,5 +1,18 @@
 [
   {
+    "id": "reddit_1of1zjv",
+    "source": "reddit",
+    "author": "hrdn",
+    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
+    "timestamp": "2025-10-24T16:13:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_1981750563743093072",
     "source": "twitter",
     "author": "PythagoraAI",
@@ -68,7 +81,7 @@
     "timestamp": "2025-10-24T15:07:36.000Z",
     "metadata": {
       "conversation_id": "1981739358131560726",
-      "likes": 1,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -248,7 +261,7 @@
     "timestamp": "2025-10-24T13:37:30.000Z",
     "metadata": {
       "conversation_id": "1981716682256134384",
-      "likes": 6,
+      "likes": 8,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
