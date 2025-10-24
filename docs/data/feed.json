@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1981589562372563401",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@bernaferrari @AliDTwitt @FactoryAI https://t.co/dPQdSuByhU",
+    "url": "https://x.com/bentossell/status/1981589562372563401",
+    "timestamp": "2025-10-24T05:12:22.000Z",
+    "metadata": {
+      "conversation_id": "1981589562372563401",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981589447293419992",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@zhangjintao9020 @matanSF @FactoryAI yep i’ve sorted one by one. we’re in dms about your issue :) support @ factory . ai is best to handle the auth issue",
+    "url": "https://x.com/bentossell/status/1981589447293419992",
+    "timestamp": "2025-10-24T05:11:55.000Z",
+    "metadata": {
+      "conversation_id": "1981589447293419992",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981572091045704031",
     "source": "twitter",
     "author": "leodoan_",
@@ -83,7 +113,7 @@
       "conversation_id": "1981524723399086550",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -141,10 +171,10 @@
     "timestamp": "2025-10-24T00:04:44.000Z",
     "metadata": {
       "conversation_id": "1981512143280406692",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
+      "quotes": 1
     }
   },
   {
@@ -158,7 +188,7 @@
       "conversation_id": "1981503584211546333",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -216,7 +246,7 @@
     "timestamp": "2025-10-23T22:11:08.000Z",
     "metadata": {
       "conversation_id": "1981483555487437248",
-      "likes": 5,
+      "likes": 6,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -231,7 +261,7 @@
     "timestamp": "2025-10-23T22:10:56.000Z",
     "metadata": {
       "score": 0,
-      "num_comments": 0,
+      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -244,7 +274,7 @@
     "timestamp": "2025-10-23T22:00:27.000Z",
     "metadata": {
       "conversation_id": "1981480866682487174",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 2,
       "quotes": 0
@@ -289,36 +319,6 @@
     "timestamp": "2025-10-23T21:16:48.000Z",
     "metadata": {
       "conversation_id": "1981469881041072257",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981469655081636120",
-    "source": "twitter",
-    "author": "nawaz_ai",
-    "content": "@FactoryAI Great, I have been waiting for this.",
-    "url": "https://x.com/nawaz_ai/status/1981469655081636120",
-    "timestamp": "2025-10-23T21:15:54.000Z",
-    "metadata": {
-      "conversation_id": "1981469655081636120",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981464693865926658",
-    "source": "twitter",
-    "author": "Alevy1511",
-    "content": "@francesca_lab @FactoryAI 🚀",
-    "url": "https://x.com/Alevy1511/status/1981464693865926658",
-    "timestamp": "2025-10-23T20:56:11.000Z",
-    "metadata": {
-      "conversation_id": "1981464693865926658",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
@@ -638,32 +638,6 @@
     }
   },
   {
-    "id": "reddit_1ob2dsx",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
-    "timestamp": "2025-10-19T21:56:23.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob0d6z",
-    "source": "reddit",
-    "author": "Daed0802",
-    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
-    "timestamp": "2025-10-19T20:35:03.000Z",
-    "metadata": {
-      "score": 11,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -739,6 +713,32 @@
       "type": "issue",
       "labels": [],
       "number": 203
+    }
+  },
+  {
+    "id": "reddit_1o89mzk",
+    "source": "reddit",
+    "author": "x86rip",
+    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
+    "timestamp": "2025-10-16T15:43:59.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o86tci",
+    "source": "reddit",
+    "author": "mr_dudo",
+    "content": "TTY problem\n\nI’m not sure if it happened to someone else but the moment I installed droid cli I’m unable to use Claude code and opencode because it’s saying I don’t have TTY on my terminal, I’m not accusing you guys at factory but it just seemed strange to me, I’m able to run droid cli normally without colors.\n\nI have tried resetting the terminal settings and didn’t work but guess what fixed it? Uninstalling droid cli, I like droid and I’m still going to use it but I still want to use my z.ai sub of $3 when ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o86tci/tty_problem/",
+    "timestamp": "2025-10-16T13:55:41.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
