@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1981969388359008600",
+    "source": "twitter",
+    "author": "CavalliniPosada",
+    "content": "Im a huge @claudeai fan, believe me, but I'm not being able to reproduce high quality designs with it in claude code, with @FactoryAI i can, maybe @AnthropicAI should change the system prompt to detect ui ux designs and prohibit purple, tell to use images from Web, among others..",
+    "url": "https://x.com/CavalliniPosada/status/1981969388359008600",
+    "timestamp": "2025-10-25T06:21:40.000Z",
+    "metadata": {
+      "conversation_id": "1981969388359008600",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981965636701225307",
+    "source": "twitter",
+    "author": "CavalliniPosada",
+    "content": "What's going on @claudeai  it was just a landing page 😅 guys what i'm doing wrong? S.O.S\n\ngood thing i have @FactoryAI  on the side https://t.co/OFoHlrBmCw",
+    "url": "https://x.com/CavalliniPosada/status/1981965636701225307",
+    "timestamp": "2025-10-25T06:06:45.000Z",
+    "metadata": {
+      "conversation_id": "1981965636701225307",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981965595718701335",
+    "source": "twitter",
+    "author": "andyrewlee",
+    "content": "here is my review of @FactoryAI as a codex maximalist.\n\ndroid was addicting, i couldn't stop until i used all my tokens.\n\npros\n- spec mode\n- context management\n- multiple models\n\ncons\n- glitchy behavior in ghostty\n- gpt-5-codex is better on codex CLI\n\nmore details below",
+    "url": "https://x.com/andyrewlee/status/1981965595718701335",
+    "timestamp": "2025-10-25T06:06:35.000Z",
+    "metadata": {
+      "conversation_id": "1981965595718701335",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1981963262947168327",
+    "source": "twitter",
+    "author": "TakuyaInGeorgia",
+    "content": "開発ツールの@FactoryAI 混合モデル実行（mixed-model runs）に対応\n\nコスパ重視とパフォーマンスを以下で実現\n\n🧠考えるAI：Sonnet4.5（高いけど賢い）\n🧑‍💻コード書くAI：GLM-4.5（安いけどアホ）\n\nSonnet 4.5単体で両方やるのと4%程度のパフォーマンス差異を実現\nツールサイドが最適な方法を考えてくれるのいいね",
+    "url": "https://x.com/TakuyaInGeorgia/status/1981963262947168327",
+    "timestamp": "2025-10-25T05:57:19.000Z",
+    "metadata": {
+      "conversation_id": "1981963262947168327",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981960569562300538",
     "source": "twitter",
     "author": "crowlabstech",
@@ -285,66 +345,6 @@
     "timestamp": "2025-10-25T00:36:14.000Z",
     "metadata": {
       "conversation_id": "1981882459601207625",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981862701677891664",
-    "source": "twitter",
-    "author": "garymjr",
-    "content": "we should also spam @FactoryAI for a command to generate an https://t.co/bpX8jCnLD8 file",
-    "url": "https://x.com/garymjr/status/1981862701677891664",
-    "timestamp": "2025-10-24T23:17:43.000Z",
-    "metadata": {
-      "conversation_id": "1981862701677891664",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981860391723610311",
-    "source": "twitter",
-    "author": "ItIsAny",
-    "content": "@bakek_c @hqmank @FactoryAI https://t.co/5DFWczzPJq i dunno if still works. Try!",
-    "url": "https://x.com/ItIsAny/status/1981860391723610311",
-    "timestamp": "2025-10-24T23:08:33.000Z",
-    "metadata": {
-      "conversation_id": "1981860391723610311",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981857759323906527",
-    "source": "twitter",
-    "author": "crazy_tech80",
-    "content": "So I get illegal then corrupted message I have to go through system logs to get that information. But the I setup the same thing on my windows machined that not a virtual machine it works as expected. So it definitely looking at the processor level. It happens to all great products so please try to fix it. Thanks",
-    "url": "https://x.com/crazy_tech80/status/1981857759323906527",
-    "timestamp": "2025-10-24T22:58:05.000Z",
-    "metadata": {
-      "conversation_id": "1981857759323906527",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981856135289434240",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@GitMaxd @ExaAILabs @FactoryAI Why do you still need Exa as Ref already provides web url read, search, and documentation extraction ?",
-    "url": "https://x.com/SvenMeyer/status/1981856135289434240",
-    "timestamp": "2025-10-24T22:51:38.000Z",
-    "metadata": {
-      "conversation_id": "1981856135289434240",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -725,19 +725,6 @@
     "metadata": {
       "score": 2,
       "num_comments": 12,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
