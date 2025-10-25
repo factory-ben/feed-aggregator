@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1982125390563885480",
+    "source": "twitter",
+    "author": "mnair1",
+    "content": "“From the human side, at the same time that the capabilities of agents get better, the security that you can use …but if you don’t know what you’re doing, you’re going to get a lot more slop generated and in a much more insecure way.. behavior change reqd” - @matanSF @FactoryAI",
+    "url": "https://x.com/mnair1/status/1982125390563885480",
+    "timestamp": "2025-10-25T16:41:33.000Z",
+    "metadata": {
+      "conversation_id": "1982125390563885480",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982124516185620552",
+    "source": "twitter",
+    "author": "CloudTrader4",
+    "content": "@bitdoze @OpenRouterAI @FactoryAI @Zai_org I know, you can’t use (exacto) endpoint from openrouter, thats what I am testing",
+    "url": "https://x.com/CloudTrader4/status/1982124516185620552",
+    "timestamp": "2025-10-25T16:38:05.000Z",
+    "metadata": {
+      "conversation_id": "1982124516185620552",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982123855301734826",
+    "source": "twitter",
+    "author": "bitdoze",
+    "content": "@CloudTrader4 @OpenRouterAI @FactoryAI @Zai_org You can use GLM coddling plan in factory without a problem. Just use the endpoint with coding for this.",
+    "url": "https://x.com/bitdoze/status/1982123855301734826",
+    "timestamp": "2025-10-25T16:35:27.000Z",
+    "metadata": {
+      "conversation_id": "1982123855301734826",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982120870475710637",
     "source": "twitter",
     "author": "thielaut",
@@ -55,7 +100,7 @@
       "conversation_id": "1982109215817699562",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -255,51 +300,6 @@
     }
   },
   {
-    "id": "twitter_1982071372819120324",
-    "source": "twitter",
-    "author": "OxFrancesco_",
-    "content": "What's the easiest way to run a @FactoryAI Droid on a schedule?",
-    "url": "https://x.com/OxFrancesco_/status/1982071372819120324",
-    "timestamp": "2025-10-25T13:06:55.000Z",
-    "metadata": {
-      "conversation_id": "1982071372819120324",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982069195866292676",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "@RollingWithG @OpenRouterAI @Zai_org @FactoryAI Never heard of it what is that?",
-    "url": "https://x.com/CloudTrader4/status/1982069195866292676",
-    "timestamp": "2025-10-25T12:58:16.000Z",
-    "metadata": {
-      "conversation_id": "1982069195866292676",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982069114580382057",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "1- I never continue with a single long session, it is ineffective for every AI tool that is out there imo\n2- I first use the spec-research mode to make model create a solid plan, but I definitely tell the tech stack and what I want explicitly, after that save that plan as .md file\n3- Create a new session for executing/implementing the code , but again I only implement one feature per session and start a new one\n\nI am on Max plan\n4- I don't know how they achieve it but @FactoryAI 's GPT-5 (high) is performing better than Codex GPT-5 .\nI have Claude Code, Codex, Cursor and @FactoryAI Droid. I am happy with the performance of droid but it could just be a personal taste.\n\nP.S.: I am not supported , paid or have any professional link to @FactoryAI . Just like the tool and sharing some experiences.",
-    "url": "https://x.com/CloudTrader4/status/1982069114580382057",
-    "timestamp": "2025-10-25T12:57:56.000Z",
-    "metadata": {
-      "conversation_id": "1982069114580382057",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1ofmunx",
     "source": "reddit",
     "author": "Warm_Sandwich3769",
@@ -307,7 +307,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 3,
+      "score": 4,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
