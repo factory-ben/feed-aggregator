@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1981983688520016017",
+    "source": "twitter",
+    "author": "NicholasZozaya",
+    "content": "@CloudTrader4 @OpenRouterAI @Zai_org @FactoryAI It doesn't seem ready for prime time. I saw multiple chat messages terminate prematurely with \"&gt;  Error: undefined is not an object (evaluating 'A.match')\" ... I like the openrouter support, but am not going to switch off codex + cc for now.",
+    "url": "https://x.com/NicholasZozaya/status/1981983688520016017",
+    "timestamp": "2025-10-25T07:18:29.000Z",
+    "metadata": {
+      "conversation_id": "1981983688520016017",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1981969388359008600",
     "source": "twitter",
     "author": "CavalliniPosada",
@@ -38,7 +53,7 @@
     "timestamp": "2025-10-25T06:06:35.000Z",
     "metadata": {
       "conversation_id": "1981965595718701335",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -199,7 +214,7 @@
     "timestamp": "2025-10-25T03:02:00.000Z",
     "metadata": {
       "conversation_id": "1981919144212586710",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -272,7 +287,7 @@
     "timestamp": "2025-10-25T02:22:48.000Z",
     "metadata": {
       "conversation_id": "1981909278764958045",
-      "likes": 1,
+      "likes": 0,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -330,21 +345,6 @@
     "timestamp": "2025-10-25T00:54:03.000Z",
     "metadata": {
       "conversation_id": "1981886943437963593",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1981882459601207625",
-    "source": "twitter",
-    "author": "Pranav2278",
-    "content": "Was hyped to integrate @FactoryAI into my org\n\nBut realized I cannot just talk to the droid from slack, upon @-ing it gives a link to a session, where you can go and continue the conversation.\n\n@DevinAI is much better as I can have normal conversations with it in slack, like I would with an employee.\n\nFactory AI for sure needs this ASAP.",
-    "url": "https://x.com/Pranav2278/status/1981882459601207625",
-    "timestamp": "2025-10-25T00:36:14.000Z",
-    "metadata": {
-      "conversation_id": "1981882459601207625",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -716,15 +716,15 @@
     }
   },
   {
-    "id": "reddit_1obv6pd",
+    "id": "reddit_1oazqru",
     "source": "reddit",
     "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
+    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
+    "timestamp": "2025-10-19T20:10:35.000Z",
     "metadata": {
-      "score": 2,
-      "num_comments": 12,
+      "score": 4,
+      "num_comments": 6,
       "subreddit": "FactoryAi"
     }
   },
@@ -739,6 +739,71 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
+    }
+  },
+  {
+    "id": "reddit_1oayeuk",
+    "source": "reddit",
+    "author": "Malek262",
+    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
+    "timestamp": "2025-10-19T19:18:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o8tf0s",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
+    "timestamp": "2025-10-17T05:56:27.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o8t9pq",
+    "source": "reddit",
+    "author": "raghav0610",
+    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
+    "timestamp": "2025-10-17T05:47:17.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o89mzk",
+    "source": "reddit",
+    "author": "x86rip",
+    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
+    "timestamp": "2025-10-16T15:43:59.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1o86tci",
+    "source": "reddit",
+    "author": "mr_dudo",
+    "content": "TTY problem\n\nI’m not sure if it happened to someone else but the moment I installed droid cli I’m unable to use Claude code and opencode because it’s saying I don’t have TTY on my terminal, I’m not accusing you guys at factory but it just seemed strange to me, I’m able to run droid cli normally without colors.\n\nI have tried resetting the terminal settings and didn’t work but guess what fixed it? Uninstalling droid cli, I like droid and I’m still going to use it but I still want to use my z.ai sub of $3 when ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o86tci/tty_problem/",
+    "timestamp": "2025-10-16T13:55:41.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
