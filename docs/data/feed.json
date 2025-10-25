@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982172039210217473",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "@erd0xbc @AmpCode @FactoryAI Both @FactoryAI and @AmpCode are doing a really good job building an alternative to claude code and codex. I honestly use them both every day, each have pros &amp; cons on the other.",
+    "url": "https://x.com/ben_vargas/status/1982172039210217473",
+    "timestamp": "2025-10-25T19:46:55.000Z",
+    "metadata": {
+      "conversation_id": "1982172039210217473",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982167793995854302",
     "source": "twitter",
     "author": "aculzzz",
@@ -220,7 +235,7 @@
       "conversation_id": "1982102092018839662",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1982096561443098748",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "This is a new CLI update @FactoryAI pushed:\n\"\nCustom models in subagents: Added support for using custom models when executing subagents via Task tool\n\"\n\nMaybe if you update and try again it could resolve, I haven't tried the custom models with subagents but definitely will give it a try",
-    "url": "https://x.com/CloudTrader4/status/1982096561443098748",
-    "timestamp": "2025-10-25T14:47:00.000Z",
-    "metadata": {
-      "conversation_id": "1982096561443098748",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1ofmunx",
     "source": "reddit",
     "author": "Warm_Sandwich3769",
@@ -307,7 +307,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
