@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982295393850585205",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@mjs527 @FactoryAI 🫡",
+    "url": "https://x.com/matanSF/status/1982295393850585205",
+    "timestamp": "2025-10-26T03:57:05.000Z",
+    "metadata": {
+      "conversation_id": "1982295393850585205",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982291837294416222",
     "source": "twitter",
     "author": "mjs527",
@@ -8,9 +23,9 @@
     "timestamp": "2025-10-26T03:42:57.000Z",
     "metadata": {
       "conversation_id": "1982291837294416222",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
+      "likes": 2,
+      "retweets": 1,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -53,7 +68,7 @@
     "timestamp": "2025-10-26T02:08:02.000Z",
     "metadata": {
       "conversation_id": "1982267950200414214",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -276,7 +291,7 @@
     "timestamp": "2025-10-25T22:03:24.000Z",
     "metadata": {
       "conversation_id": "1982206385405231255",
-      "likes": 8,
+      "likes": 9,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
@@ -292,21 +307,6 @@
     "metadata": {
       "conversation_id": "1982185687777485079",
       "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982185477374386442",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@rodrigoehlers @FactoryAI we hear you - something coming in the next couple of weeks",
-    "url": "https://x.com/bentossell/status/1982185477374386442",
-    "timestamp": "2025-10-25T20:40:19.000Z",
-    "metadata": {
-      "conversation_id": "1982185477374386442",
-      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
