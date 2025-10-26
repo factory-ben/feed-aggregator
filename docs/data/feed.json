@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1982556064320225308",
+    "source": "twitter",
+    "author": "AIwithJai",
+    "content": "@etashio @FactoryAI Is this Factory CLI?",
+    "url": "https://x.com/AIwithJai/status/1982556064320225308",
+    "timestamp": "2025-10-26T21:12:54.000Z",
+    "metadata": {
+      "conversation_id": "1982556064320225308",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982553485972562394",
+    "source": "twitter",
+    "author": "tobwen",
+    "content": "@etashio @FactoryAI Sadly, no EDU discount. 😇",
+    "url": "https://x.com/tobwen/status/1982553485972562394",
+    "timestamp": "2025-10-26T21:02:39.000Z",
+    "metadata": {
+      "conversation_id": "1982553485972562394",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982552819203797406",
+    "source": "twitter",
+    "author": "_odsc",
+    "content": "At ODSC AI West 2025, @EnoReyes, Co-Founder &amp; CTO of @FactoryAI, introduces a new framework to get your enterprise ready for autonomous software development in his talk:\nAgent Readiness in the Enterprise.\n\n🔗 Register now → https://t.co/KLLX3wuCOo https://t.co/SebRR6816m",
+    "url": "https://x.com/_odsc/status/1982552819203797406",
+    "timestamp": "2025-10-26T21:00:00.000Z",
+    "metadata": {
+      "conversation_id": "1982552819203797406",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982549444576026906",
     "source": "twitter",
     "author": "maceip",
@@ -38,7 +83,7 @@
     "timestamp": "2025-10-26T19:49:35.000Z",
     "metadata": {
       "conversation_id": "1982535097753760218",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -113,7 +158,7 @@
     "timestamp": "2025-10-26T19:05:40.000Z",
     "metadata": {
       "conversation_id": "1982524044521144533",
-      "likes": 8,
+      "likes": 11,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -218,7 +263,7 @@
     "timestamp": "2025-10-26T16:34:55.000Z",
     "metadata": {
       "conversation_id": "1982486109344211259",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -248,52 +293,7 @@
     "timestamp": "2025-10-26T16:12:13.000Z",
     "metadata": {
       "conversation_id": "1982480394881790173",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982475245417381980",
-    "source": "twitter",
-    "author": "crypto_vert",
-    "content": "@bentossell @etashio @FactoryAI you ceo sent email. i already gave feedback. check dm",
-    "url": "https://x.com/crypto_vert/status/1982475245417381980",
-    "timestamp": "2025-10-26T15:51:45.000Z",
-    "metadata": {
-      "conversation_id": "1982475245417381980",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982471753902252299",
-    "source": "twitter",
-    "author": "AI_dude_eu",
-    "content": "@SkylerMiao7 @FactoryAI Seems to be fixed indeed! Thx. Hope we will see a Coding Plan like GLM and Kimi!?",
-    "url": "https://x.com/AI_dude_eu/status/1982471753902252299",
-    "timestamp": "2025-10-26T15:37:53.000Z",
-    "metadata": {
-      "conversation_id": "1982471753902252299",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982467764213125338",
-    "source": "twitter",
-    "author": "MinChonChiSF",
-    "content": "@CloudTrader4 @OpenRouterAI @FactoryAI @Zai_org Interesting comparison of the exacto variant against default routing.",
-    "url": "https://x.com/MinChonChiSF/status/1982467764213125338",
-    "timestamp": "2025-10-26T15:22:02.000Z",
-    "metadata": {
-      "conversation_id": "1982467764213125338",
-      "likes": 0,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -726,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
