@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1982394830568263951",
+    "source": "twitter",
+    "author": "Marble68",
+    "content": "FWIW, I’m finding codex vastly superior to cc when dealing with existing, large codebases. I’m a 20x max cc subscriber and I’m seriously thinking of switching.\n@AnthropicAI’s approach seems broken. It burns so many tokens trying to fix its own issues I’m getting more out of codex’s less shot, albeit slower, work. Anthropic is faster, but it takes so many more attempts to complete work successfully, so it evens out.",
+    "url": "https://x.com/Marble68/status/1982394830568263951",
+    "timestamp": "2025-10-26T10:32:13.000Z",
+    "metadata": {
+      "conversation_id": "1982394830568263951",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982392735547236563",
+    "source": "twitter",
+    "author": "Ra1kshit",
+    "content": "@FactoryAI Gpt 5 codex is extremely slow on droids i find it almost unusable in large codebases whereas gpt 5 high is insanely good and uncomparable, i understand the API openai is providing is like that and nothing can be done. I would suggest honestly to get rid of gpt 5 codex, because many assume codex will be good and they try that",
+    "url": "https://x.com/Ra1kshit/status/1982392735547236563",
+    "timestamp": "2025-10-26T10:23:53.000Z",
+    "metadata": {
+      "conversation_id": "1982392735547236563",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982392457347342665",
+    "source": "twitter",
+    "author": "AI_dude_eu",
+    "content": "@SkylerMiao7 @FactoryAI Group ID: 1982233801492796090",
+    "url": "https://x.com/AI_dude_eu/status/1982392457347342665",
+    "timestamp": "2025-10-26T10:22:47.000Z",
+    "metadata": {
+      "conversation_id": "1982392457347342665",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982392377718505778",
+    "source": "twitter",
+    "author": "AI_dude_eu",
+    "content": "@SkylerMiao7 @FactoryAI API Validation Error: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"invalid params, biz error: code=400, msg=amadeus play err, code=400,\n    errMsg=[RelayToProxyAtDcAsync] failed, statusCode=400, err=code=400, errMsg=decode resp nonzero statuscode=400 (2013)",
+    "url": "https://x.com/AI_dude_eu/status/1982392377718505778",
+    "timestamp": "2025-10-26T10:22:28.000Z",
+    "metadata": {
+      "conversation_id": "1982392377718505778",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982384090990129627",
     "source": "twitter",
     "author": "novita_labs",
@@ -240,66 +300,6 @@
     }
   },
   {
-    "id": "twitter_1982315109973107048",
-    "source": "twitter",
-    "author": "DatSciX",
-    "content": "@etashio @FactoryAI Would be great to have a connection protocol where droid, claude code, and gemini can be in the same session to be a greater team based on how the user uses them.",
-    "url": "https://x.com/DatSciX/status/1982315109973107048",
-    "timestamp": "2025-10-26T05:15:26.000Z",
-    "metadata": {
-      "conversation_id": "1982315109973107048",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982307394576056348",
-    "source": "twitter",
-    "author": "ramdhanhdy",
-    "content": "@etashio @chasebrignac @FactoryAI I'd focus more on the output/result quality than ui or ux when judging codex cli.",
-    "url": "https://x.com/ramdhanhdy/status/1982307394576056348",
-    "timestamp": "2025-10-26T04:44:47.000Z",
-    "metadata": {
-      "conversation_id": "1982307394576056348",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982306090181144645",
-    "source": "twitter",
-    "author": "geo_anima",
-    "content": "@mjs527 @FactoryAI oh yeah",
-    "url": "https://x.com/geo_anima/status/1982306090181144645",
-    "timestamp": "2025-10-26T04:39:36.000Z",
-    "metadata": {
-      "conversation_id": "1982306090181144645",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982303356342477161",
-    "source": "twitter",
-    "author": "EarlDennisonTan",
-    "content": "@etashio @FactoryAI Its because they never claude. Ofe so much. Context window is always filled up.",
-    "url": "https://x.com/EarlDennisonTan/status/1982303356342477161",
-    "timestamp": "2025-10-26T04:28:44.000Z",
-    "metadata": {
-      "conversation_id": "1982303356342477161",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_263",
     "source": "github",
     "author": "tgerighty",
@@ -323,6 +323,45 @@
       "type": "issue",
       "labels": [],
       "number": 262
+    }
+  },
+  {
+    "id": "reddit_1ofmunx",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
+    "metadata": {
+      "score": 6,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofh9so",
+    "source": "reddit",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofh3rn",
+    "source": "reddit",
+    "author": "zhangjun3371",
+    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
+    "timestamp": "2025-10-25T03:12:45.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -378,6 +417,19 @@
     }
   },
   {
+    "id": "reddit_1of1zjv",
+    "source": "reddit",
+    "author": "hrdn",
+    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
+    "timestamp": "2025-10-24T16:13:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_254",
     "source": "github",
     "author": "ryzen3100",
@@ -414,6 +466,19 @@
       "type": "issue",
       "labels": [],
       "number": 250
+    }
+  },
+  {
+    "id": "reddit_1oegs4w",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "ISSUE: GLM 4.6 doesnt support Images\n\nBro we were using it with MCP. Why did you bring this new shitty update. Please fix it bro we are using GLM as custom model allow us to use images in it\n\nDroid version - 0.22.1\n\nhttps://preview.redd.it/p8u9fuciqxwf1.jpg?width=877&amp;format=pjpg&amp;auto=webp&amp;s=6e495e3b4beb975ca90fa26d2c81c83baf0b9309",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oegs4w/issue_glm_46_doesnt_support_images/",
+    "timestamp": "2025-10-23T22:10:56.000Z",
+    "metadata": {
+      "score": 0,
+      "num_comments": 13,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -482,6 +547,19 @@
     }
   },
   {
+    "id": "reddit_1odjcfl",
+    "source": "reddit",
+    "author": "Hassan_A2H",
+    "content": "Factory consumes way too many tokens\n\nCodex was my daily driver before factory, and its weekly quota was enough to last entire week. Today I connected my codex with factory and boy ooh boy... For the first time I hit the 5hr limit, and that too within 60 minutes of usage.\n\nBesides connecting with codex, even on default factory models I've noticed that even super simple prompts take up to 10k-20k input tokens, which on cheaper models might not hurt as much but when you consider sonnet's or opus'  multiplier this means monthly 20 mil ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
+    "timestamp": "2025-10-22T20:20:05.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 8,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_236",
     "source": "github",
     "author": "correa-cristobal",
@@ -495,6 +573,19 @@
     }
   },
   {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_234",
     "source": "github",
     "author": "tgerighty",
@@ -505,6 +596,32 @@
       "type": "issue",
       "labels": [],
       "number": 234
+    }
+  },
+  {
+    "id": "reddit_1ocv9jx",
+    "source": "reddit",
+    "author": "heretiqal",
+    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
+    "timestamp": "2025-10-22T01:34:31.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 15,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ocpe9w",
+    "source": "reddit",
+    "author": "FocusResponsible4499",
+    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
+    "timestamp": "2025-10-21T21:19:05.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -583,6 +700,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 225
+    }
+  },
+  {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
     }
   },
   {
