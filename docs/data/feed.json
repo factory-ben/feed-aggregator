@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982364955988148390",
+    "source": "twitter",
+    "author": "martin_ict_algo",
+    "content": "@etashio @FactoryAI How do yo use it",
+    "url": "https://x.com/martin_ict_algo/status/1982364955988148390",
+    "timestamp": "2025-10-26T08:33:30.000Z",
+    "metadata": {
+      "conversation_id": "1982364955988148390",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982360560475025723",
     "source": "twitter",
     "author": "rezaul_arif",
@@ -295,21 +310,6 @@
       "type": "issue",
       "labels": [],
       "number": 263
-    }
-  },
-  {
-    "id": "twitter_1982296675248169201",
-    "source": "twitter",
-    "author": "TrygenticAI",
-    "content": "@mjs527 @FactoryAI How does it compare to subagents?",
-    "url": "https://x.com/TrygenticAI/status/1982296675248169201",
-    "timestamp": "2025-10-26T04:02:11.000Z",
-    "metadata": {
-      "conversation_id": "1982296675248169201",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
     }
   },
   {
@@ -703,6 +703,19 @@
     }
   },
   {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -725,6 +738,19 @@
     "metadata": {
       "score": 2,
       "num_comments": 12,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1obd1tm",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
+    "timestamp": "2025-10-20T06:53:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
