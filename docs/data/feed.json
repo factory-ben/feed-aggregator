@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1982455589495058532",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@Ra1kshit @FactoryAI odd not the experience i’ve had - it’s my daily driver. happy to look into your acct to see what’s going on",
+    "url": "https://x.com/bentossell/status/1982455589495058532",
+    "timestamp": "2025-10-26T14:33:39.000Z",
+    "metadata": {
+      "conversation_id": "1982455589495058532",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982455580624105554",
+    "source": "twitter",
+    "author": "308Greenfield",
+    "content": "@bentossell @etashio @FactoryAI I used it for 2 days straight - waste of time",
+    "url": "https://x.com/308Greenfield/status/1982455580624105554",
+    "timestamp": "2025-10-26T14:33:37.000Z",
+    "metadata": {
+      "conversation_id": "1982455580624105554",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982455386327159044",
+    "source": "twitter",
+    "author": "arnaud_breton",
+    "content": "@bentossell @FactoryAI Thanks Ben!",
+    "url": "https://x.com/arnaud_breton/status/1982455386327159044",
+    "timestamp": "2025-10-26T14:32:50.000Z",
+    "metadata": {
+      "conversation_id": "1982455386327159044",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982455270698565885",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@arnaud_breton @FactoryAI known issues working on it sorry",
+    "url": "https://x.com/bentossell/status/1982455270698565885",
+    "timestamp": "2025-10-26T14:32:23.000Z",
+    "metadata": {
+      "conversation_id": "1982455270698565885",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982455127857307784",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@308Greenfield @etashio @FactoryAI nope actually",
+    "url": "https://x.com/bentossell/status/1982455127857307784",
+    "timestamp": "2025-10-26T14:31:49.000Z",
+    "metadata": {
+      "conversation_id": "1982455127857307784",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982454968461279326",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@stefandevo @etashio @FactoryAI oh dear sorry about this. mind sending me your session and i can take a look",
+    "url": "https://x.com/bentossell/status/1982454968461279326",
+    "timestamp": "2025-10-26T14:31:11.000Z",
+    "metadata": {
+      "conversation_id": "1982454968461279326",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982451725953888542",
     "source": "twitter",
     "author": "markobilal",
@@ -25,7 +115,7 @@
       "conversation_id": "1982432280292315357",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -70,7 +160,7 @@
       "conversation_id": "1982417509119938799",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -175,7 +265,7 @@
       "conversation_id": "1982399684468707547",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -203,96 +293,6 @@
     "timestamp": "2025-10-26T10:32:13.000Z",
     "metadata": {
       "conversation_id": "1982394830568263951",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982392735547236563",
-    "source": "twitter",
-    "author": "Ra1kshit",
-    "content": "@FactoryAI Gpt 5 codex is extremely slow on droids i find it almost unusable in large codebases whereas gpt 5 high is insanely good and uncomparable, i understand the API openai is providing is like that and nothing can be done. I would suggest honestly to get rid of gpt 5 codex, because many assume codex will be good and they try that",
-    "url": "https://x.com/Ra1kshit/status/1982392735547236563",
-    "timestamp": "2025-10-26T10:23:53.000Z",
-    "metadata": {
-      "conversation_id": "1982392735547236563",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982392457347342665",
-    "source": "twitter",
-    "author": "AI_dude_eu",
-    "content": "@SkylerMiao7 @FactoryAI Group ID: 1982233801492796090",
-    "url": "https://x.com/AI_dude_eu/status/1982392457347342665",
-    "timestamp": "2025-10-26T10:22:47.000Z",
-    "metadata": {
-      "conversation_id": "1982392457347342665",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982392377718505778",
-    "source": "twitter",
-    "author": "AI_dude_eu",
-    "content": "@SkylerMiao7 @FactoryAI API Validation Error: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"invalid params, biz error: code=400, msg=amadeus play err, code=400,\n    errMsg=[RelayToProxyAtDcAsync] failed, statusCode=400, err=code=400, errMsg=decode resp nonzero statuscode=400 (2013)",
-    "url": "https://x.com/AI_dude_eu/status/1982392377718505778",
-    "timestamp": "2025-10-26T10:22:28.000Z",
-    "metadata": {
-      "conversation_id": "1982392377718505778",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 1
-    }
-  },
-  {
-    "id": "twitter_1982384090990129627",
-    "source": "twitter",
-    "author": "novita_labs",
-    "content": "@SvenMeyer @CloudTrader4 @bitdoze @OpenRouterAI @FactoryAI @Zai_org @OpenAI @ArtificialAnlys @DeepInfra Could you share with us more context?",
-    "url": "https://x.com/novita_labs/status/1982384090990129627",
-    "timestamp": "2025-10-26T09:49:32.000Z",
-    "metadata": {
-      "conversation_id": "1982384090990129627",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982380240287699226",
-    "source": "twitter",
-    "author": "JeremiahIEze",
-    "content": "been playing around with @FactoryAI \nfeels like home man https://t.co/hnAJnX3bz8",
-    "url": "https://x.com/JeremiahIEze/status/1982380240287699226",
-    "timestamp": "2025-10-26T09:34:14.000Z",
-    "metadata": {
-      "conversation_id": "1982380240287699226",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982376050643403189",
-    "source": "twitter",
-    "author": "crypto_vert",
-    "content": "@etashio @FactoryAI lie.. it’s slow af",
-    "url": "https://x.com/crypto_vert/status/1982376050643403189",
-    "timestamp": "2025-10-26T09:17:35.000Z",
-    "metadata": {
-      "conversation_id": "1982376050643403189",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
