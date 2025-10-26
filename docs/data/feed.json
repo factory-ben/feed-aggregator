@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982501121613820042",
+    "source": "twitter",
+    "author": "youflavio",
+    "content": "@FactoryAI hey guys, when I activated my paid account, you deducted the tokens that I used during my free testing time. That's not right!",
+    "url": "https://x.com/youflavio/status/1982501121613820042",
+    "timestamp": "2025-10-26T17:34:35.000Z",
+    "metadata": {
+      "conversation_id": "1982501121613820042",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982492953454248297",
     "source": "twitter",
     "author": "Jborgwing",
@@ -291,21 +306,6 @@
     "timestamp": "2025-10-26T14:33:39.000Z",
     "metadata": {
       "conversation_id": "1982455589495058532",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982455580624105554",
-    "source": "twitter",
-    "author": "308Greenfield",
-    "content": "@bentossell @etashio @FactoryAI I used it for 2 days straight - waste of time",
-    "url": "https://x.com/308Greenfield/status/1982455580624105554",
-    "timestamp": "2025-10-26T14:33:37.000Z",
-    "metadata": {
-      "conversation_id": "1982455580624105554",
       "likes": 0,
       "retweets": 0,
       "replies": 1,
