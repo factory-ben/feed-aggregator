@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982562379595694355",
+    "source": "twitter",
+    "author": "martia_es",
+    "content": "@etashio @FactoryAI I’ve been trying Codex, Claude Code, and Droid. Codex is the worst for me — just not my style. Honestly, Droid’s just as good as Claude Code",
+    "url": "https://x.com/martia_es/status/1982562379595694355",
+    "timestamp": "2025-10-26T21:38:00.000Z",
+    "metadata": {
+      "conversation_id": "1982562379595694355",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982557583299981443",
     "source": "twitter",
     "author": "B3achPleas3",
@@ -98,7 +113,7 @@
     "timestamp": "2025-10-26T19:49:35.000Z",
     "metadata": {
       "conversation_id": "1982535097753760218",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -173,7 +188,7 @@
     "timestamp": "2025-10-26T19:05:40.000Z",
     "metadata": {
       "conversation_id": "1982524044521144533",
-      "likes": 12,
+      "likes": 15,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -278,22 +293,7 @@
     "timestamp": "2025-10-26T16:34:55.000Z",
     "metadata": {
       "conversation_id": "1982486109344211259",
-      "likes": 5,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982481372179783950",
-    "source": "twitter",
-    "author": "alexsheppert",
-    "content": "@chasebrignac @etashio @FactoryAI The pressing enter to approve cc commands is indeed a downside that codex and kilo are superior in",
-    "url": "https://x.com/alexsheppert/status/1982481372179783950",
-    "timestamp": "2025-10-26T16:16:06.000Z",
-    "metadata": {
-      "conversation_id": "1982481372179783950",
-      "likes": 0,
+      "likes": 6,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 6,
+      "score": 7,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
@@ -726,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
