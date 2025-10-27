@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982684143529132513",
+    "source": "twitter",
+    "author": "dvcrn",
+    "content": "Is something up with @FactoryAI droid? In the short time of using it with Sonnet, it completely chew through my entire Claude Max quota AND Copilot Pro requests. \nNever had multiple providers get exhausted this quick\n\nIs it using an abnormal amount of requests? 🤔\nJust me? https://t.co/LdpUc053yr",
+    "url": "https://x.com/dvcrn/status/1982684143529132513",
+    "timestamp": "2025-10-27T05:41:50.000Z",
+    "metadata": {
+      "conversation_id": "1982684143529132513",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_266",
     "source": "github",
     "author": "iota9star",
@@ -311,21 +326,6 @@
     }
   },
   {
-    "id": "twitter_1982586159352967566",
-    "source": "twitter",
-    "author": "tsi_org",
-    "content": "So tiny story time , I’m using @FactoryAI  for about two weeks . It is single handedly tackling the hardest problems I face as an engineer building @myaitutor  , @the_machine_ai  and  @pixio_ai . What’s crazy is the agent left my project folder yesterday mid chat and went to a whole diff folder , where backend was , I was working in front end . It went to the other folder and fixed backend too . This type of behavior in a coding agent is exactly what we need . Also the customization is just insane , shout out to @AlisherFarhadi  for getting my config working  😂  .",
-    "url": "https://x.com/tsi_org/status/1982586159352967566",
-    "timestamp": "2025-10-26T23:12:29.000Z",
-    "metadata": {
-      "conversation_id": "1982586159352967566",
-      "likes": 24,
-      "retweets": 4,
-      "replies": 5,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_264",
     "source": "github",
     "author": "a112121788",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -703,19 +703,6 @@
     }
   },
   {
-    "id": "reddit_1oc3yt9",
-    "source": "reddit",
-    "author": "Big-Recognition7298",
-    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
-    "timestamp": "2025-10-21T04:52:45.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -726,6 +713,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
+    }
+  },
+  {
+    "id": "reddit_1obv6pd",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
+    "timestamp": "2025-10-20T21:59:41.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
     }
   },
   {
