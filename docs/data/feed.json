@@ -1,5 +1,48 @@
 [
   {
+    "id": "github_issue_266",
+    "source": "github",
+    "author": "iota9star",
+    "content": "[Issue] Suggestion: Display current project name in terminal instead of always showing \"droid\"\n\n<img width=\"972\" height=\"132\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f29781e4-dca5-4c29-87c5-cc0512220f96\" />\n\n**Environment:**\n- **OS:** macOS  \n\n**Description:**  \nIn the terminal, Droid always displays the name **“droid”** as the active session label, regardless of which project is currently open.  \nThis makes it difficult to distinguish between multiple running projects or sessions, especially when working with several terminals at once.  \n\n**Suggested Improvement:**  \nD",
+    "url": "https://github.com/Factory-AI/factory/issues/266",
+    "timestamp": "2025-10-27T05:14:02Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 266
+    }
+  },
+  {
+    "id": "twitter_1982676113915863528",
+    "source": "twitter",
+    "author": "explorersofai",
+    "content": "@tsi_org @FactoryAI @myaitutor @the_machine_ai @pixio_ai I love it! So much fun",
+    "url": "https://x.com/explorersofai/status/1982676113915863528",
+    "timestamp": "2025-10-27T05:09:56.000Z",
+    "metadata": {
+      "conversation_id": "1982676113915863528",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982672620505215162",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@steipete @SvenMeyer @FactoryAI @iannuttall maybe a sign to give us a try :)",
+    "url": "https://x.com/matanSF/status/1982672620505215162",
+    "timestamp": "2025-10-27T04:56:03.000Z",
+    "metadata": {
+      "conversation_id": "1982672620505215162",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982660409514770823",
     "source": "twitter",
     "author": "SvenMeyer",
@@ -23,9 +66,9 @@
     "timestamp": "2025-10-27T04:06:17.000Z",
     "metadata": {
       "conversation_id": "1982660097676583248",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -68,7 +111,7 @@
     "timestamp": "2025-10-27T04:02:37.000Z",
     "metadata": {
       "conversation_id": "1982659173646291338",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 2,
       "quotes": 0
@@ -276,39 +319,9 @@
     "timestamp": "2025-10-26T23:12:29.000Z",
     "metadata": {
       "conversation_id": "1982586159352967566",
-      "likes": 22,
+      "likes": 24,
       "retweets": 4,
-      "replies": 4,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982574487104262563",
-    "source": "twitter",
-    "author": "ifitsmanu",
-    "content": "@etashio @FactoryAI Tried it, it’s good if you know how to code! I still yet to see any AI code cli that a non coder can use and ship something nice!!",
-    "url": "https://x.com/ifitsmanu/status/1982574487104262563",
-    "timestamp": "2025-10-26T22:26:06.000Z",
-    "metadata": {
-      "conversation_id": "1982574487104262563",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982564190809387011",
-    "source": "twitter",
-    "author": "darrenangle",
-    "content": "@chasebrignac @etashio @FactoryAI --dangerously-skip-permissions fixes all that btw",
-    "url": "https://x.com/darrenangle/status/1982564190809387011",
-    "timestamp": "2025-10-26T21:45:12.000Z",
-    "metadata": {
-      "conversation_id": "1982564190809387011",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
+      "replies": 5,
       "quotes": 0
     }
   },
@@ -346,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 3,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -677,19 +690,6 @@
     }
   },
   {
-    "id": "github_issue_227",
-    "source": "github",
-    "author": "britannio",
-    "content": "[Issue] `droid exec --output-format stream-json` is erroneously emitting an error\n\n# Steps to reproduce\n\n1. Run droid exec with the default autonomy level, instructing it to take an action it doesn't have permission to carry out.\n\nCommand: \n`droid exec --output-format stream-json \"create a text file with the contents 'hello world'\"`\nOutput:\n```jsonl\n{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/private/tmp/droid-testing\",\"session_id\":\"8ade99b9-2c6f-4de2-b727-b527b0cdfbd0\",\"tools\":[\"Read\",\"LS\",\"Execute\",\"Edit\",\"MultiEdit\",\"ApplyPatch\",\"Grep\",\"Glob\",\"Create\",\"ExitSpecMode\",\"WebSearc",
-    "url": "https://github.com/Factory-AI/factory/issues/227",
-    "timestamp": "2025-10-21T10:39:40Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 227
-    }
-  },
-  {
     "id": "github_discussion_225",
     "source": "github",
     "author": "JohnDotOwl",
@@ -726,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
