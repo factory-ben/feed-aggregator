@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1982731101992087870",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@dctmfoo @golang @FactoryAI what model ?",
+    "url": "https://x.com/SvenMeyer/status/1982731101992087870",
+    "timestamp": "2025-10-27T08:48:26.000Z",
+    "metadata": {
+      "conversation_id": "1982731101992087870",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982724351335252105",
     "source": "twitter",
     "author": "bentossell",
@@ -298,21 +313,6 @@
     }
   },
   {
-    "id": "twitter_1982660097676583248",
-    "source": "twitter",
-    "author": "steipete",
-    "content": "@SvenMeyer @FactoryAI @iannuttall mate I use codex.",
-    "url": "https://x.com/steipete/status/1982660097676583248",
-    "timestamp": "2025-10-27T04:06:17.000Z",
-    "metadata": {
-      "conversation_id": "1982660097676583248",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_265",
     "source": "github",
     "author": "VTSTG233",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 10,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -703,6 +703,19 @@
     }
   },
   {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -713,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
