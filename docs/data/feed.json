@@ -1,5 +1,93 @@
 [
   {
+    "id": "twitter_1982659755568185513",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@FactoryAI @iannuttall @steipete 2/3: To fix this, DROID needs better session management:\n\n* Show full date/time (started/closed/last-used) instead of just relative time.\n\n* Allow switching to a session by its unique ID within the DROID CLI (/session &lt;id&gt;).\n\n* Add `--session-id` option to interactive DROID",
+    "url": "https://x.com/SvenMeyer/status/1982659755568185513",
+    "timestamp": "2025-10-27T04:04:56.000Z",
+    "metadata": {
+      "conversation_id": "1982659755568185513",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982659552131891674",
+    "source": "twitter",
+    "author": "lovvrEth",
+    "content": "@DatSciX @etashio @FactoryAI @tsi_org can aitutor  ultra plan do this with beam?",
+    "url": "https://x.com/lovvrEth/status/1982659552131891674",
+    "timestamp": "2025-10-27T04:04:07.000Z",
+    "metadata": {
+      "conversation_id": "1982659552131891674",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982659173646291338",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@FactoryAI FEATURE REQUEST :\n1/3 Finding a previous DROID sessions from a few days ago is difficult ! Generic labels like \"3 day\" make it difficult to find the right one if you do not recognize the session by its title. (cc @iannuttall @steipete for distribution)",
+    "url": "https://x.com/SvenMeyer/status/1982659173646291338",
+    "timestamp": "2025-10-27T04:02:37.000Z",
+    "metadata": {
+      "conversation_id": "1982659173646291338",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_265",
+    "source": "github",
+    "author": "VTSTG233",
+    "content": "[Issue] The same model name is provided by two providers, but only the first model name is displayed in the CLI.\n\n<img width=\"981\" height=\"1145\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5a4701b9-fe41-40ea-b47a-fa8ca54936cd\" />\n\n<img width=\"669\" height=\"656\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6e5b6716-61fc-49aa-92ad-73aaebe01ed1\" />\n\n\nThere are two providers for the same model name, but the humanized name of the model displayed in the CLI is only the first one. The final use will not use the second provider, so this is a bug!",
+    "url": "https://github.com/Factory-AI/factory/issues/265",
+    "timestamp": "2025-10-27T03:59:02Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 265
+    }
+  },
+  {
+    "id": "twitter_1982655882128453858",
+    "source": "twitter",
+    "author": "tribbloid",
+    "content": "@mjs527 @TrygenticAI @FactoryAI still can't understand why you have to activate and configure them manually, topology for every parallelizable job is unique and become obsolete instantly. If the orchestrator can't spawn them without human intervention it won't be used often",
+    "url": "https://x.com/tribbloid/status/1982655882128453858",
+    "timestamp": "2025-10-27T03:49:32.000Z",
+    "metadata": {
+      "conversation_id": "1982655882128453858",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982653979814469817",
+    "source": "twitter",
+    "author": "tribbloid",
+    "content": "@mjs527 @FactoryAI the changelog looks kind of meh, in which way does it standout?",
+    "url": "https://x.com/tribbloid/status/1982653979814469817",
+    "timestamp": "2025-10-27T03:41:59.000Z",
+    "metadata": {
+      "conversation_id": "1982653979814469817",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982640896639418695",
     "source": "twitter",
     "author": "leodoan_",
@@ -38,7 +126,7 @@
     "timestamp": "2025-10-27T02:22:19.000Z",
     "metadata": {
       "conversation_id": "1982633929799770562",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -158,7 +246,7 @@
     "timestamp": "2025-10-26T23:12:29.000Z",
     "metadata": {
       "conversation_id": "1982586159352967566",
-      "likes": 18,
+      "likes": 19,
       "retweets": 4,
       "replies": 4,
       "quotes": 0
@@ -225,81 +313,6 @@
     }
   },
   {
-    "id": "twitter_1982556064320225308",
-    "source": "twitter",
-    "author": "AIwithJai",
-    "content": "@etashio @FactoryAI Is this Factory CLI?",
-    "url": "https://x.com/AIwithJai/status/1982556064320225308",
-    "timestamp": "2025-10-26T21:12:54.000Z",
-    "metadata": {
-      "conversation_id": "1982556064320225308",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982553485972562394",
-    "source": "twitter",
-    "author": "tobwen",
-    "content": "@etashio @FactoryAI Sadly, no EDU discount. 😇",
-    "url": "https://x.com/tobwen/status/1982553485972562394",
-    "timestamp": "2025-10-26T21:02:39.000Z",
-    "metadata": {
-      "conversation_id": "1982553485972562394",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982552819203797406",
-    "source": "twitter",
-    "author": "_odsc",
-    "content": "At ODSC AI West 2025, @EnoReyes, Co-Founder &amp; CTO of @FactoryAI, introduces a new framework to get your enterprise ready for autonomous software development in his talk:\nAgent Readiness in the Enterprise.\n\n🔗 Register now → https://t.co/KLLX3wuCOo https://t.co/SebRR6816m",
-    "url": "https://x.com/_odsc/status/1982552819203797406",
-    "timestamp": "2025-10-26T21:00:00.000Z",
-    "metadata": {
-      "conversation_id": "1982552819203797406",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982549444576026906",
-    "source": "twitter",
-    "author": "maceip",
-    "content": "@etashio @FactoryAI bruh next time post a vid of it one shotting vs posting a screenshot of the splash",
-    "url": "https://x.com/maceip/status/1982549444576026906",
-    "timestamp": "2025-10-26T20:46:36.000Z",
-    "metadata": {
-      "conversation_id": "1982549444576026906",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982544791109026246",
-    "source": "twitter",
-    "author": "aroussi",
-    "content": "@luke_alvoeiro @FactoryAI Amazing. Thank you for the tip!",
-    "url": "https://x.com/aroussi/status/1982544791109026246",
-    "timestamp": "2025-10-26T20:28:06.000Z",
-    "metadata": {
-      "conversation_id": "1982544791109026246",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_264",
     "source": "github",
     "author": "a112121788",
@@ -333,7 +346,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -606,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -677,19 +690,6 @@
     }
   },
   {
-    "id": "github_issue_226",
-    "source": "github",
-    "author": "britannio",
-    "content": "[Issue] MCP tools are not available when using `droid exec`\n\n<img width=\"4064\" height=\"2334\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/39cb7733-4906-445c-9877-6cff44ab29a3\" />\n\n\n\n~/.factory/mcp.json\n```json\n{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n```",
-    "url": "https://github.com/Factory-AI/factory/issues/226",
-    "timestamp": "2025-10-21T10:39:22Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 226
-    }
-  },
-  {
     "id": "github_discussion_225",
     "source": "github",
     "author": "JohnDotOwl",
@@ -726,32 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
     }
   },
   {
