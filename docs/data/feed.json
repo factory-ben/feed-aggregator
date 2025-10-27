@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1982934834063519786",
+    "source": "twitter",
+    "author": "moderat10n",
+    "content": "Trying to work out if referring to Claude Code, OpenAI Codex, @FactoryAI Droid, @opencode, @AmpCode as \"harnesses\" is going to confuse a somewhat technical, but more senior exec audience. I think it'll confuse them &amp; am leaning towards \"coding agent\".\n\nPaging @simonw",
+    "url": "https://x.com/moderat10n/status/1982934834063519786",
+    "timestamp": "2025-10-27T22:18:00.000Z",
+    "metadata": {
+      "conversation_id": "1982934834063519786",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982931065242300589",
+    "source": "twitter",
+    "author": "0xTheWay",
+    "content": "@FactoryAI @awscloud 👏",
+    "url": "https://x.com/0xTheWay/status/1982931065242300589",
+    "timestamp": "2025-10-27T22:03:01.000Z",
+    "metadata": {
+      "conversation_id": "1982931065242300589",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1982930632427876584",
+    "source": "twitter",
+    "author": "claudeusmaximus",
+    "content": "@FactoryAI @awscloud Oh shit this is huge you guys are gonna crush if you can make Factory faster than Claude code on bedrock. It is currently extremely slow compared to direct anthropic api.",
+    "url": "https://x.com/claudeusmaximus/status/1982930632427876584",
+    "timestamp": "2025-10-27T22:01:18.000Z",
+    "metadata": {
+      "conversation_id": "1982930632427876584",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1982929153424060499",
     "source": "twitter",
     "author": "NathanLands",
@@ -128,7 +173,7 @@
     "timestamp": "2025-10-27T21:05:52.000Z",
     "metadata": {
       "conversation_id": "1982916681279189422",
-      "likes": 8,
+      "likes": 9,
       "retweets": 3,
       "replies": 1,
       "quotes": 0
@@ -173,7 +218,7 @@
     "timestamp": "2025-10-27T21:00:13.000Z",
     "metadata": {
       "conversation_id": "1982915258307195292",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -188,10 +233,10 @@
     "timestamp": "2025-10-27T21:00:07.000Z",
     "metadata": {
       "conversation_id": "1982915233963442609",
-      "likes": 10,
-      "retweets": 2,
+      "likes": 14,
+      "retweets": 3,
       "replies": 1,
-      "quotes": 4
+      "quotes": 3
     }
   },
   {
@@ -249,51 +294,6 @@
     "metadata": {
       "conversation_id": "1982906205904482709",
       "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982905546236944787",
-    "source": "twitter",
-    "author": "francesca_lab",
-    "content": "@DannyAziz97 @FactoryAI ♥️",
-    "url": "https://x.com/francesca_lab/status/1982905546236944787",
-    "timestamp": "2025-10-27T20:21:37.000Z",
-    "metadata": {
-      "conversation_id": "1982905546236944787",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982904044986478877",
-    "source": "twitter",
-    "author": "DannyAziz97",
-    "content": "The boys know that I love @FactoryAI’s droid https://t.co/lDYzagTX5s",
-    "url": "https://x.com/DannyAziz97/status/1982904044986478877",
-    "timestamp": "2025-10-27T20:15:39.000Z",
-    "metadata": {
-      "conversation_id": "1982904044986478877",
-      "likes": 8,
-      "retweets": 0,
-      "replies": 6,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982904035134054403",
-    "source": "twitter",
-    "author": "agheieff_",
-    "content": "@FactoryAI @FactoryAI I couldn't make it, I created another account for the trial 40m tokens. Please don't ban me, I'll buy the pro sub next Monday",
-    "url": "https://x.com/agheieff_/status/1982904035134054403",
-    "timestamp": "2025-10-27T20:15:37.000Z",
-    "metadata": {
-      "conversation_id": "1982904035134054403",
-      "likes": 0,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -385,7 +385,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 10,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -703,19 +703,6 @@
     }
   },
   {
-    "id": "reddit_1oc3yt9",
-    "source": "reddit",
-    "author": "Big-Recognition7298",
-    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
-    "timestamp": "2025-10-21T04:52:45.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -729,19 +716,6 @@
     }
   },
   {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -752,6 +726,19 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
+    }
+  },
+  {
+    "id": "reddit_1o8tf0s",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
+    "timestamp": "2025-10-17T05:56:27.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 4,
+      "subreddit": "FactoryAi"
     }
   },
   {
