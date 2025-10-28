@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1983081577002479687",
+    "source": "twitter",
+    "author": "M2Fauzaan",
+    "content": "@ronaldmannak @FactoryAI @GroqInc @pluk_sh DM me your email, and I’ll send you an invite 🙆🏻‍♂️",
+    "url": "https://x.com/M2Fauzaan/status/1983081577002479687",
+    "timestamp": "2025-10-28T08:01:06.000Z",
+    "metadata": {
+      "conversation_id": "1983081577002479687",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983081056770175296",
+    "source": "twitter",
+    "author": "ronaldmannak",
+    "content": "@M2Fauzaan @FactoryAI @GroqInc @pluk_sh Oh interesting app. I’ll check it out",
+    "url": "https://x.com/ronaldmannak/status/1983081056770175296",
+    "timestamp": "2025-10-28T07:59:02.000Z",
+    "metadata": {
+      "conversation_id": "1983081056770175296",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983077905031713096",
     "source": "twitter",
     "author": "pascallammers_",
@@ -68,7 +98,7 @@
     "timestamp": "2025-10-28T06:54:24.000Z",
     "metadata": {
       "conversation_id": "1983064790152233211",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -279,36 +309,6 @@
       "likes": 2,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982994786257981754",
-    "source": "twitter",
-    "author": "GitMaxd",
-    "content": "@alvinsng @FactoryAI Just give it a “PR N” - Droid knows",
-    "url": "https://x.com/GitMaxd/status/1982994786257981754",
-    "timestamp": "2025-10-28T02:16:13.000Z",
-    "metadata": {
-      "conversation_id": "1982994786257981754",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1982994305745825841",
-    "source": "twitter",
-    "author": "GitMaxd",
-    "content": "@alvinsng @FactoryAI Secret sauce stuff - try adding “Resolve and respond to PR comments…” with Droid Code Review agent comments\n\nPure gold",
-    "url": "https://x.com/GitMaxd/status/1982994305745825841",
-    "timestamp": "2025-10-28T02:14:19.000Z",
-    "metadata": {
-      "conversation_id": "1982994305745825841",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 2,
       "quotes": 0
     }
   },
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -738,6 +738,19 @@
     "metadata": {
       "score": 2,
       "num_comments": 12,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1obd1tm",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
+    "timestamp": "2025-10-20T06:53:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
