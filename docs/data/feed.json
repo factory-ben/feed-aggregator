@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1983215901097824447",
+    "source": "twitter",
+    "author": "TheDiakou",
+    "content": "@hey_iam_alex @immoinulmoin @FactoryAI routed through website and having droid wait for the website response? no\n\nthe best for this type of workflow would be something like repoprompt, but macos only",
+    "url": "https://x.com/TheDiakou/status/1983215901097824447",
+    "timestamp": "2025-10-28T16:54:51.000Z",
+    "metadata": {
+      "conversation_id": "1983215901097824447",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983214950039331275",
+    "source": "twitter",
+    "author": "MI_Patriotic",
+    "content": "@TheDiakou @immoinulmoin @FactoryAI From GitHub README\n“For Claude Code (DRIOD) Users\nFor best results when using Claude Code:\n•Sonnet 4.5 - All agentic work and orchestration\n•Gemini 2.5 Pro OR GPT-5-Pro - Deep thinking, additional code reviews, debugging and validations, pre-commit analysis”",
+    "url": "https://x.com/MI_Patriotic/status/1983214950039331275",
+    "timestamp": "2025-10-28T16:51:05.000Z",
+    "metadata": {
+      "conversation_id": "1983214950039331275",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983214230158336257",
+    "source": "twitter",
+    "author": "MI_Patriotic",
+    "content": "@TheDiakou @immoinulmoin @FactoryAI https://t.co/d7bBh9oJDg",
+    "url": "https://x.com/MI_Patriotic/status/1983214230158336257",
+    "timestamp": "2025-10-28T16:48:13.000Z",
+    "metadata": {
+      "conversation_id": "1983214230158336257",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983214047165116615",
+    "source": "twitter",
+    "author": "MI_Patriotic",
+    "content": "@TheDiakou @immoinulmoin @FactoryAI If you will pay for GPT tokens — use zen mcp.\nChatGPT pro to design, layout. Droid to execute. When doing things call on zen mcp to (GPT-5-PRO, Gemini 2.5 Pro, etc) for second opinion, consensus, even 04-mini for “clear thinking”. 2k tokens can save 30k for the CLI!",
+    "url": "https://x.com/MI_Patriotic/status/1983214047165116615",
+    "timestamp": "2025-10-28T16:47:29.000Z",
+    "metadata": {
+      "conversation_id": "1983214047165116615",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983210134412111911",
     "source": "twitter",
     "author": "bentossell",
@@ -55,7 +115,7 @@
       "conversation_id": "1983209790319775949",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -143,7 +203,7 @@
     "timestamp": "2025-10-28T16:05:13.000Z",
     "metadata": {
       "conversation_id": "1983203410254963028",
-      "likes": 11,
+      "likes": 12,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
@@ -247,66 +307,6 @@
     "metadata": {
       "conversation_id": "1983193486502379539",
       "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983192696757072012",
-    "source": "twitter",
-    "author": "ben_rapaport",
-    "content": "@rishistyping @matanSF @FactoryAI @AmpCode Ends Oct 29...",
-    "url": "https://x.com/ben_rapaport/status/1983192696757072012",
-    "timestamp": "2025-10-28T15:22:39.000Z",
-    "metadata": {
-      "conversation_id": "1983192696757072012",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983191677914517898",
-    "source": "twitter",
-    "author": "AonSayyed",
-    "content": "@matanSF @ben_rapaport @FactoryAI @AmpCode yep, because everyone who used it for more than a week is shipping, ngl claude is sometimes better, specially with the models that don't have custom harnesses in droid but for those that have, its way ahead of the rest",
-    "url": "https://x.com/AonSayyed/status/1983191677914517898",
-    "timestamp": "2025-10-28T15:18:36.000Z",
-    "metadata": {
-      "conversation_id": "1983191677914517898",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983190722686923220",
-    "source": "twitter",
-    "author": "rishistyping",
-    "content": "@matanSF @ben_rapaport @FactoryAI @AmpCode Free trial still active?",
-    "url": "https://x.com/rishistyping/status/1983190722686923220",
-    "timestamp": "2025-10-28T15:14:48.000Z",
-    "metadata": {
-      "conversation_id": "1983190722686923220",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983189125156221376",
-    "source": "twitter",
-    "author": "ben_rapaport",
-    "content": "@matanSF @FactoryAI @AmpCode Trying today... apparently my free trial ends tmrw.",
-    "url": "https://x.com/ben_rapaport/status/1983189125156221376",
-    "timestamp": "2025-10-28T15:08:27.000Z",
-    "metadata": {
-      "conversation_id": "1983189125156221376",
-      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 10,
+      "score": 8,
       "num_comments": 10,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 3,
+      "score": 5,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -726,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
