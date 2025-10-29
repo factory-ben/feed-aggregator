@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1983544190085849482",
+    "source": "twitter",
+    "author": "every",
+    "content": "@bentossell @FactoryAI @danshipper https://t.co/xuja7xbBmj",
+    "url": "https://x.com/every/status/1983544190085849482",
+    "timestamp": "2025-10-29T14:39:22.000Z",
+    "metadata": {
+      "conversation_id": "1983544190085849482",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983543934006566927",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@every @FactoryAI @danshipper droid mode: on",
+    "url": "https://x.com/bentossell/status/1983543934006566927",
+    "timestamp": "2025-10-29T14:38:20.000Z",
+    "metadata": {
+      "conversation_id": "1983543934006566927",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983543158387638541",
+    "source": "twitter",
+    "author": "marcgregory_",
+    "content": "@EddieBe @FactoryAI Droid ui and tool calling are elite",
+    "url": "https://x.com/marcgregory_/status/1983543158387638541",
+    "timestamp": "2025-10-29T14:35:16.000Z",
+    "metadata": {
+      "conversation_id": "1983543158387638541",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983542540474437944",
+    "source": "twitter",
+    "author": "happydesign_",
+    "content": "@every @FactoryAI @bentossell @danshipper love the animation",
+    "url": "https://x.com/happydesign_/status/1983542540474437944",
+    "timestamp": "2025-10-29T14:32:48.000Z",
+    "metadata": {
+      "conversation_id": "1983542540474437944",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983542201029107979",
+    "source": "twitter",
+    "author": "ThatImagin4361",
+    "content": "Just gonna leave this here while I “work” today. @FactoryAI https://t.co/qOZYPROro2",
+    "url": "https://x.com/ThatImagin4361/status/1983542201029107979",
+    "timestamp": "2025-10-29T14:31:27.000Z",
+    "metadata": {
+      "conversation_id": "1983542201029107979",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983538709736894604",
     "source": "twitter",
     "author": "bentossell",
@@ -23,7 +98,7 @@
     "timestamp": "2025-10-29T14:13:59.000Z",
     "metadata": {
       "conversation_id": "1983537803251077152",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -68,9 +143,9 @@
     "timestamp": "2025-10-29T14:02:18.000Z",
     "metadata": {
       "conversation_id": "1983534862557663599",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
+      "likes": 7,
+      "retweets": 2,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -83,7 +158,7 @@
     "timestamp": "2025-10-29T13:43:33.000Z",
     "metadata": {
       "conversation_id": "1983530144816898149",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -128,7 +203,7 @@
     "timestamp": "2025-10-29T12:31:16.000Z",
     "metadata": {
       "conversation_id": "1983511956137910432",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -219,81 +294,6 @@
     "metadata": {
       "conversation_id": "1983509993975402855",
       "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983508268896108997",
-    "source": "twitter",
-    "author": "sha_sujin",
-    "content": "@pascallammers_ @FactoryAI I already paid for so many ai model",
-    "url": "https://x.com/sha_sujin/status/1983508268896108997",
-    "timestamp": "2025-10-29T12:16:37.000Z",
-    "metadata": {
-      "conversation_id": "1983508268896108997",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983507971255443772",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@pascallammers_ @FactoryAI you must’ve imported a bunch tho right? we don’t predefine any",
-    "url": "https://x.com/bentossell/status/1983507971255443772",
-    "timestamp": "2025-10-29T12:15:26.000Z",
-    "metadata": {
-      "conversation_id": "1983507971255443772",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983507920273764700",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "@jkudish @FactoryAI Built in one’s 🙃",
-    "url": "https://x.com/pascallammers_/status/1983507920273764700",
-    "timestamp": "2025-10-29T12:15:14.000Z",
-    "metadata": {
-      "conversation_id": "1983507920273764700",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983507056918237519",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "@sha_sujin @FactoryAI Why would you use it freely?",
-    "url": "https://x.com/pascallammers_/status/1983507056918237519",
-    "timestamp": "2025-10-29T12:11:48.000Z",
-    "metadata": {
-      "conversation_id": "1983507056918237519",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983506977532592348",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "@bentossell @FactoryAI Not one till now 😅😂",
-    "url": "https://x.com/pascallammers_/status/1983506977532592348",
-    "timestamp": "2025-10-29T12:11:29.000Z",
-    "metadata": {
-      "conversation_id": "1983506977532592348",
-      "likes": 0,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
