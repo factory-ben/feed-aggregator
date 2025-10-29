@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1983399819642388656",
+    "source": "twitter",
+    "author": "ryanalldridge",
+    "content": "@mikez93 @pascallammers_ @RayFernando1337 @FactoryAI Very interesting! How do you use that in practice? What kind of situations work best? Sorry! Still learning here 🙂",
+    "url": "https://x.com/ryanalldridge/status/1983399819642388656",
+    "timestamp": "2025-10-29T05:05:41.000Z",
+    "metadata": {
+      "conversation_id": "1983399819642388656",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983389216768978992",
     "source": "twitter",
     "author": "mikez93",
@@ -23,7 +38,7 @@
     "timestamp": "2025-10-29T04:22:32.000Z",
     "metadata": {
       "conversation_id": "1983388960924504271",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -218,7 +233,7 @@
     "timestamp": "2025-10-29T00:45:46.000Z",
     "metadata": {
       "conversation_id": "1983334409647599841",
-      "likes": 38,
+      "likes": 41,
       "retweets": 2,
       "replies": 3,
       "quotes": 0
@@ -233,7 +248,7 @@
     "timestamp": "2025-10-29T00:43:04.000Z",
     "metadata": {
       "conversation_id": "1983333731025953066",
-      "likes": 10,
+      "likes": 11,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -294,21 +309,6 @@
       "likes": 4,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983311802730742159",
-    "source": "twitter",
-    "author": "KalGrinberg",
-    "content": "@EddieBe @FactoryAI lfg 🔥",
-    "url": "https://x.com/KalGrinberg/status/1983311802730742159",
-    "timestamp": "2025-10-28T23:15:56.000Z",
-    "metadata": {
-      "conversation_id": "1983311802730742159",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 10,
       "subreddit": "FactoryAi"
     }
@@ -677,19 +677,6 @@
     }
   },
   {
-    "id": "reddit_1ocv9jx",
-    "source": "reddit",
-    "author": "heretiqal",
-    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
-    "timestamp": "2025-10-22T01:34:31.000Z",
-    "metadata": {
-      "score": 4,
-      "num_comments": 15,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "reddit_1ocpe9w",
     "source": "reddit",
     "author": "FocusResponsible4499",
@@ -713,6 +700,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 225
+    }
+  },
+  {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
     }
   },
   {
