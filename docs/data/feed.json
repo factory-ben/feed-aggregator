@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1983461305542693156",
+    "source": "twitter",
+    "author": "pascallammers_",
+    "content": "Wait a minute? Those are only a few of the Droids from @FactoryAI like WTF? 😅 https://t.co/GLRINEb8tk",
+    "url": "https://x.com/pascallammers_/status/1983461305542693156",
+    "timestamp": "2025-10-29T09:10:00.000Z",
+    "metadata": {
+      "conversation_id": "1983461305542693156",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983460022312149027",
+    "source": "twitter",
+    "author": "SaidAitmbarek",
+    "content": "@FactoryAI hell yeah, bullish on the custom subagents feat.\n\ntrying today guys ~\n\nwould love to explore a collab w/ @microlaunchhq btw\n\nplanning product-build templates in-app",
+    "url": "https://x.com/SaidAitmbarek/status/1983460022312149027",
+    "timestamp": "2025-10-29T09:04:54.000Z",
+    "metadata": {
+      "conversation_id": "1983460022312149027",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983459997263790195",
+    "source": "twitter",
+    "author": "ryanalldridge",
+    "content": "@pascallammers_ @mikez93 @RayFernando1337 @FactoryAI Nice! Yeah I guess I'm trying to figure out when I should @ the https://t.co/tfSNsYrzlC file. Thanks!",
+    "url": "https://x.com/ryanalldridge/status/1983459997263790195",
+    "timestamp": "2025-10-29T09:04:48.000Z",
+    "metadata": {
+      "conversation_id": "1983459997263790195",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983424967435051019",
     "source": "twitter",
     "author": "NoBanksNearby",
@@ -23,8 +68,8 @@
     "timestamp": "2025-10-29T06:42:10.000Z",
     "metadata": {
       "conversation_id": "1983424099629355281",
-      "likes": 10,
-      "retweets": 1,
+      "likes": 12,
+      "retweets": 2,
       "replies": 1,
       "quotes": 0
     }
@@ -68,7 +113,7 @@
       "conversation_id": "1983415522114089360",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -268,51 +313,6 @@
     }
   },
   {
-    "id": "twitter_1983361893466284476",
-    "source": "twitter",
-    "author": "SkylerMiao7",
-    "content": "@SvenMeyer @MiniMax__AI @FactoryAI Sure, check the guide here!\r And we are  working with them to integrate M2 officially\nhttps://t.co/TumiwtAg3Q",
-    "url": "https://x.com/SkylerMiao7/status/1983361893466284476",
-    "timestamp": "2025-10-29T02:34:59.000Z",
-    "metadata": {
-      "conversation_id": "1983361893466284476",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983357247146315835",
-    "source": "twitter",
-    "author": "archimagos",
-    "content": "@davidrsdlife @EddieBe @FactoryAI More like a class of its own 😄",
-    "url": "https://x.com/archimagos/status/1983357247146315835",
-    "timestamp": "2025-10-29T02:16:31.000Z",
-    "metadata": {
-      "conversation_id": "1983357247146315835",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983349687416697073",
-    "source": "twitter",
-    "author": "launchaddict",
-    "content": "I know this is captain obvious to most (brain not working today) but is Max mode 200m tokens shared across all users (+5 per additional user/seat), or 200m per user/seat? I think it's shared but ¯\\_(ツ)_/¯\n\ncc @FactoryAI @bentossell https://t.co/OlCSOdBWrH",
-    "url": "https://x.com/launchaddict/status/1983349687416697073",
-    "timestamp": "2025-10-29T01:46:28.000Z",
-    "metadata": {
-      "conversation_id": "1983349687416697073",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1oipsqf",
     "source": "reddit",
     "author": "StrixGGUY",
@@ -320,8 +320,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 7,
+      "score": 2,
+      "num_comments": 8,
       "subreddit": "FactoryAi"
     }
   },
@@ -476,7 +476,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 10,
       "subreddit": "FactoryAi"
     }
