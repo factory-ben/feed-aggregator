@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1983662087047168472",
+    "source": "twitter",
+    "author": "BillCrosby",
+    "content": "@lovedashmatcher @FactoryAI the CLI tool learning curve is real, but it's worth it once you master it.",
+    "url": "https://x.com/BillCrosby/status/1983662087047168472",
+    "timestamp": "2025-10-29T22:27:50.000Z",
+    "metadata": {
+      "conversation_id": "1983662087047168472",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983658971685908888",
+    "source": "twitter",
+    "author": "SynthSquid",
+    "content": "@FactoryAI plz, 🙏, can you run the Terminal-Bench. Using Droid running Kimi k2 , and Minimax M2.",
+    "url": "https://x.com/SynthSquid/status/1983658971685908888",
+    "timestamp": "2025-10-29T22:15:28.000Z",
+    "metadata": {
+      "conversation_id": "1983658971685908888",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983654105781604358",
     "source": "twitter",
     "author": "CloudTrader4",
@@ -38,8 +68,8 @@
     "timestamp": "2025-10-29T21:53:32.000Z",
     "metadata": {
       "conversation_id": "1983653452296417491",
-      "likes": 0,
-      "retweets": 0,
+      "likes": 4,
+      "retweets": 1,
       "replies": 0,
       "quotes": 0
     }
@@ -128,7 +158,7 @@
     "timestamp": "2025-10-29T20:35:56.000Z",
     "metadata": {
       "conversation_id": "1983633923684057516",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -203,7 +233,7 @@
     "timestamp": "2025-10-29T19:57:30.000Z",
     "metadata": {
       "conversation_id": "1983624251983974419",
-      "likes": 20,
+      "likes": 21,
       "retweets": 3,
       "replies": 2,
       "quotes": 0
@@ -264,36 +294,6 @@
     "metadata": {
       "conversation_id": "1983606273263489451",
       "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983602766053568884",
-    "source": "twitter",
-    "author": "PatschSchneider",
-    "content": "@noelhatem @pascallammers_ @FactoryAI But this sound like show",
-    "url": "https://x.com/PatschSchneider/status/1983602766053568884",
-    "timestamp": "2025-10-29T18:32:07.000Z",
-    "metadata": {
-      "conversation_id": "1983602766053568884",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983601675320619377",
-    "source": "twitter",
-    "author": "JoelDeTeves",
-    "content": "@MickeyShaughnes @FactoryAI It really is!",
-    "url": "https://x.com/JoelDeTeves/status/1983601675320619377",
-    "timestamp": "2025-10-29T18:27:47.000Z",
-    "metadata": {
-      "conversation_id": "1983601675320619377",
-      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -684,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
