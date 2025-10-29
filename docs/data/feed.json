@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1983591705191329985",
+    "source": "twitter",
+    "author": "noelhatem",
+    "content": "@pascallammers_ @FactoryAI thanks for sharing, my team is on it already!",
+    "url": "https://x.com/noelhatem/status/1983591705191329985",
+    "timestamp": "2025-10-29T17:48:10.000Z",
+    "metadata": {
+      "conversation_id": "1983591705191329985",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983588550093537332",
     "source": "twitter",
     "author": "MickeyShaughnes",
@@ -154,9 +169,9 @@
     "timestamp": "2025-10-29T16:24:09.000Z",
     "metadata": {
       "conversation_id": "1983570560303948224",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -307,21 +322,6 @@
       "likes": 1,
       "retweets": 1,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983556430499324346",
-    "source": "twitter",
-    "author": "AVGVSTVS96",
-    "content": "@pascallammers_ @jkudish @FactoryAI you sure those are built in? I dont have those 🤔",
-    "url": "https://x.com/AVGVSTVS96/status/1983556430499324346",
-    "timestamp": "2025-10-29T15:28:00.000Z",
-    "metadata": {
-      "conversation_id": "1983556430499324346",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 2,
       "quotes": 0
     }
   },
