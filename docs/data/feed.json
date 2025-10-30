@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1983953397104406868",
+    "source": "twitter",
+    "author": "anthonyronning_",
+    "content": "@DannyAziz97 @FactoryAI @every I did the same. Cancelled both of my max plans in favor of Factory’s.",
+    "url": "https://x.com/anthonyronning_/status/1983953397104406868",
+    "timestamp": "2025-10-30T17:45:24.000Z",
+    "metadata": {
+      "conversation_id": "1983953397104406868",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983949156222955702",
     "source": "twitter",
     "author": "EnoReyes",
@@ -23,9 +38,9 @@
     "timestamp": "2025-10-30T17:16:51.000Z",
     "metadata": {
       "conversation_id": "1983946210261319863",
-      "likes": 10,
-      "retweets": 1,
-      "replies": 0,
+      "likes": 16,
+      "retweets": 2,
+      "replies": 1,
       "quotes": 1
     }
   },
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1983887975705399340",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@JuiceSharp @thedanifrim @FactoryAI yeh ofc it would mimic the 20 or 200 plan. $1 = 1m tokens",
-    "url": "https://x.com/bentossell/status/1983887975705399340",
-    "timestamp": "2025-10-30T13:25:26.000Z",
-    "metadata": {
-      "conversation_id": "1983887975705399340",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_282",
     "source": "github",
     "author": "DkRsrl",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 22,
       "subreddit": "FactoryAi"
     }
