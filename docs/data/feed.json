@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1983970214015648216",
+    "source": "twitter",
+    "author": "LevJampolsky",
+    "content": "@alvinsng @FactoryAI are bets made on that ping pong table? 😏",
+    "url": "https://x.com/LevJampolsky/status/1983970214015648216",
+    "timestamp": "2025-10-30T18:52:14.000Z",
+    "metadata": {
+      "conversation_id": "1983970214015648216",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983970020217782745",
+    "source": "twitter",
+    "author": "cmricksen",
+    "content": "@anthonyronning_ @DannyAziz97 @FactoryAI @every love to hear this - keep us posted on your experience building with Droids!",
+    "url": "https://x.com/cmricksen/status/1983970020217782745",
+    "timestamp": "2025-10-30T18:51:27.000Z",
+    "metadata": {
+      "conversation_id": "1983970020217782745",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983969687336792346",
+    "source": "twitter",
+    "author": "every",
+    "content": "The reach test at @every: Is it something you open first, every day?\n\n@DannyAziz97 kept opening Droid by @FactoryAI. Now he's paying for it instead of keeping Max plans for Claude and ChatGPT.\n\nWhy he switched: https://t.co/Oi8ATG01Eq",
+    "url": "https://x.com/every/status/1983969687336792346",
+    "timestamp": "2025-10-30T18:50:08.000Z",
+    "metadata": {
+      "conversation_id": "1983969687336792346",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983969138138869841",
+    "source": "twitter",
+    "author": "alvinjamur",
+    "content": "@EnoReyes @FactoryAI thank u! as soon as u wrote this, i got a meeting with your sales team. awesome! am a fan and have been evangelizing. just spoke to one of your investors, btw!",
+    "url": "https://x.com/alvinjamur/status/1983969138138869841",
+    "timestamp": "2025-10-30T18:47:57.000Z",
+    "metadata": {
+      "conversation_id": "1983969138138869841",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983966643350118665",
     "source": "twitter",
     "author": "alvinsng",
@@ -8,9 +68,9 @@
     "timestamp": "2025-10-30T18:38:02.000Z",
     "metadata": {
       "conversation_id": "1983966643350118665",
-      "likes": 0,
+      "likes": 8,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -23,9 +83,9 @@
     "timestamp": "2025-10-30T17:45:24.000Z",
     "metadata": {
       "conversation_id": "1983953397104406868",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
+      "likes": 4,
+      "retweets": 1,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -38,9 +98,9 @@
     "timestamp": "2025-10-30T17:28:33.000Z",
     "metadata": {
       "conversation_id": "1983949156222955702",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -53,8 +113,8 @@
     "timestamp": "2025-10-30T17:16:51.000Z",
     "metadata": {
       "conversation_id": "1983946210261319863",
-      "likes": 31,
-      "retweets": 4,
+      "likes": 44,
+      "retweets": 8,
       "replies": 1,
       "quotes": 2
     }
@@ -234,66 +294,6 @@
     "metadata": {
       "conversation_id": "1983916255389110704",
       "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983915686909874329",
-    "source": "twitter",
-    "author": "nilag_dev",
-    "content": "@explosivesox @FactoryAI @BlinkOnChain How did you dod that? :O",
-    "url": "https://x.com/nilag_dev/status/1983915686909874329",
-    "timestamp": "2025-10-30T15:15:33.000Z",
-    "metadata": {
-      "conversation_id": "1983915686909874329",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983914353448415495",
-    "source": "twitter",
-    "author": "kageiit",
-    "content": "@alvinsng @FactoryAI You can just install @gitarcode bot on your repo and it will do it on the PR in the background so you do have to copy paste things into the terminal/context switch",
-    "url": "https://x.com/kageiit/status/1983914353448415495",
-    "timestamp": "2025-10-30T15:10:15.000Z",
-    "metadata": {
-      "conversation_id": "1983914353448415495",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983902556146561215",
-    "source": "twitter",
-    "author": "alvinsng",
-    "content": "@kieran_hunt @FactoryAI Absolutely! That's why we made so many lint rules!",
-    "url": "https://x.com/alvinsng/status/1983902556146561215",
-    "timestamp": "2025-10-30T14:23:23.000Z",
-    "metadata": {
-      "conversation_id": "1983902556146561215",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983900021566120444",
-    "source": "twitter",
-    "author": "PhongGT",
-    "content": "@JuiceSharp @FactoryAI same experience here, lots of value for the price and would love a $40-$50 plan\n\ni understand they gotta make money though and that 2.6x overage cost is where they recoup on inference",
-    "url": "https://x.com/PhongGT/status/1983900021566120444",
-    "timestamp": "2025-10-30T14:13:18.000Z",
-    "metadata": {
-      "conversation_id": "1983900021566120444",
-      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -495,32 +495,6 @@
     }
   },
   {
-    "id": "reddit_1ofh9so",
-    "source": "reddit",
-    "author": "abecc2",
-    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
-    "timestamp": "2025-10-25T03:21:56.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofh3rn",
-    "source": "reddit",
-    "author": "zhangjun3371",
-    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
-    "timestamp": "2025-10-25T03:12:45.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_258",
     "source": "github",
     "author": "britannio",
@@ -599,45 +573,6 @@
     }
   },
   {
-    "id": "reddit_1odjcfl",
-    "source": "reddit",
-    "author": "Hassan_A2H",
-    "content": "Factory consumes way too many tokens\n\nCodex was my daily driver before factory, and its weekly quota was enough to last entire week. Today I connected my codex with factory and boy ooh boy... For the first time I hit the 5hr limit, and that too within 60 minutes of usage.\n\nBesides connecting with codex, even on default factory models I've noticed that even super simple prompts take up to 10k-20k input tokens, which on cheaper models might not hurt as much but when you consider sonnet's or opus'  multiplier this means monthly 20 mil ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
-    "timestamp": "2025-10-22T20:20:05.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 9,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1odatnb",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
-    "timestamp": "2025-10-22T15:06:14.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ocv9jx",
-    "source": "reddit",
-    "author": "heretiqal",
-    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
-    "timestamp": "2025-10-22T01:34:31.000Z",
-    "metadata": {
-      "score": 4,
-      "num_comments": 15,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_225",
     "source": "github",
     "author": "JohnDotOwl",
@@ -664,45 +599,6 @@
     }
   },
   {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob2dsx",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
-    "timestamp": "2025-10-19T21:56:23.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob0d6z",
-    "source": "reddit",
-    "author": "Daed0802",
-    "content": "Referral Credit Balance can't be used\n\ni have pay one time for 20$ because i think i need to pay the first time to use my credit balance from referral but now it asking me 100$ for the invoice while i still got 520$ from my referral . I mean why you guy giving referral credit and now i can't used anything ?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob0d6z/referral_credit_balance_cant_be_used/",
-    "timestamp": "2025-10-19T20:35:03.000Z",
-    "metadata": {
-      "score": 10,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -713,45 +609,6 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
-    }
-  },
-  {
-    "id": "reddit_1o8tf0s",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "grep is not working\n\nOther tools work perfectly; however, when Droid uses the `grep` tool, all tasks stop and wait forever, showing “executing...” and never finishing. Has anyone experienced the same issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8tf0s/grep_is_not_working/",
-    "timestamp": "2025-10-17T05:56:27.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o8t9pq",
-    "source": "reddit",
-    "author": "raghav0610",
-    "content": "Remote MCP not working\n\nInam trying to connect remote MCP's and it says sever not started. Same MCP work in claude",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o8t9pq/remote_mcp_not_working/",
-    "timestamp": "2025-10-17T05:47:17.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1o89mzk",
-    "source": "reddit",
-    "author": "x86rip",
-    "content": "Can we have Haiku 4.5 model ?\n\nIt would save a lot cost to use claude model perhaps charge at 0.5x per token. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1o89mzk/can_we_have_haiku_45_model/",
-    "timestamp": "2025-10-16T15:43:59.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
