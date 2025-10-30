@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1983765369006538970",
+    "source": "twitter",
+    "author": "_lparadisemusic",
+    "content": "@FactoryAI Droid is not working",
+    "url": "https://x.com/_lparadisemusic/status/1983765369006538970",
+    "timestamp": "2025-10-30T05:18:15.000Z",
+    "metadata": {
+      "conversation_id": "1983765369006538970",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1983760170774896807",
+    "source": "twitter",
+    "author": "The_Anant_Raj",
+    "content": "This is a proof that we dont need big LLMs with trillions of parameters to generate production level code\n\nWhat we need is highly specialised LLMs with better tool usage \n\nOne of the best examples of this is:\n- @cursor_ai \n- @AmpCode \n- @Kombaico \n- @FactoryAI",
+    "url": "https://x.com/The_Anant_Raj/status/1983760170774896807",
+    "timestamp": "2025-10-30T04:57:35.000Z",
+    "metadata": {
+      "conversation_id": "1983760170774896807",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1983750387187511796",
     "source": "twitter",
     "author": "fire",
@@ -160,7 +190,7 @@
       "conversation_id": "1983722885400412429",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -270,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1983699553720397939",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@thdxr @pvncher @AustinAI That's exactly what annoyed me with @AnthropicAI  Claude Code. About 5 prompts, and then it started Auto-Compact. With @FactoryAI DROID CLI + GPT-5/Codex I almost never hit the \"auto compact wall\".",
-    "url": "https://x.com/SvenMeyer/status/1983699553720397939",
-    "timestamp": "2025-10-30T00:56:43.000Z",
-    "metadata": {
-      "conversation_id": "1983699553720397939",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1983696828156772365",
-    "source": "twitter",
-    "author": "EnoReyes",
-    "content": "@erd0xbc @JuiceSharp @FactoryAI Curious what habits you find most difficult to break / that you'd expect in our CLI?",
-    "url": "https://x.com/EnoReyes/status/1983696828156772365",
-    "timestamp": "2025-10-30T00:45:53.000Z",
-    "metadata": {
-      "conversation_id": "1983696828156772365",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_282",
     "source": "github",
     "author": "DkRsrl",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 14,
       "subreddit": "FactoryAi"
     }
@@ -684,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
