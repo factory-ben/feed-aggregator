@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1984300935716462919",
+    "source": "twitter",
+    "author": "raizamrtn",
+    "content": "@constantin_e21 @FactoryAI oh very nice!!",
+    "url": "https://x.com/raizamrtn/status/1984300935716462919",
+    "timestamp": "2025-10-31T16:46:24.000Z",
+    "metadata": {
+      "conversation_id": "1984300935716462919",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984299700095246370",
+    "source": "twitter",
+    "author": "karanjagtiani04",
+    "content": "@DannyAziz97 @bentossell @kieranklaassen @danshipper @FactoryAI Sounds fun! Curious to see how the Droid CLI agent performs in action.",
+    "url": "https://x.com/karanjagtiani04/status/1984299700095246370",
+    "timestamp": "2025-10-31T16:41:29.000Z",
+    "metadata": {
+      "conversation_id": "1984299700095246370",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984297054802174151",
     "source": "twitter",
     "author": "constantin_e21",
@@ -8,9 +38,9 @@
     "timestamp": "2025-10-31T16:30:58.000Z",
     "metadata": {
       "conversation_id": "1984297054802174151",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -98,7 +128,7 @@
     "timestamp": "2025-10-31T16:04:15.000Z",
     "metadata": {
       "conversation_id": "1984290327243743303",
-      "likes": 2,
+      "likes": 3,
       "retweets": 1,
       "replies": 0,
       "quotes": 0
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1984253570523480388",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@CipherVectors @FactoryAI https://t.co/JoX2NONvQM",
-    "url": "https://x.com/bentossell/status/1984253570523480388",
-    "timestamp": "2025-10-31T13:38:11.000Z",
-    "metadata": {
-      "conversation_id": "1984253570523480388",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984253027461824759",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@EmmaLustre90 @FactoryAI seems like something up with your setup. happy to take a look at your account if you dm your email and the session this was in",
-    "url": "https://x.com/bentossell/status/1984253027461824759",
-    "timestamp": "2025-10-31T13:36:02.000Z",
-    "metadata": {
-      "conversation_id": "1984253027461824759",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_292",
     "source": "github",
     "author": "krit3dvanced",
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -554,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 10,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -697,21 +697,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 15,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ocpe9w",
-    "source": "reddit",
-    "author": "FocusResponsible4499",
-    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
-    "timestamp": "2025-10-21T21:19:05.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -729,6 +716,19 @@
     }
   },
   {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -739,6 +739,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
+    }
+  },
+  {
+    "id": "reddit_1obv6pd",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
+    "timestamp": "2025-10-20T21:59:41.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
     }
   },
   {
