@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1984134241144438924",
+    "source": "twitter",
+    "author": "rezaul_arif",
+    "content": "@FactoryAI @MiniMax__AI @chutes_ai *max token: 131072",
+    "url": "https://x.com/rezaul_arif/status/1984134241144438924",
+    "timestamp": "2025-10-31T05:44:01.000Z",
+    "metadata": {
+      "conversation_id": "1984134241144438924",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984133970356043964",
+    "source": "twitter",
+    "author": "elie2222",
+    "content": "@nest_elf @windsurf @FactoryAI i need to try factory. signed up but never used it",
+    "url": "https://x.com/elie2222/status/1984133970356043964",
+    "timestamp": "2025-10-31T05:42:56.000Z",
+    "metadata": {
+      "conversation_id": "1984133970356043964",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984133947199254891",
+    "source": "twitter",
+    "author": "CryptoSolana_OG",
+    "content": "@_01010101 @donvito @FactoryAI Is droid really that good.i would love to try it",
+    "url": "https://x.com/CryptoSolana_OG/status/1984133947199254891",
+    "timestamp": "2025-10-31T05:42:51.000Z",
+    "metadata": {
+      "conversation_id": "1984133947199254891",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984133826814341514",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@yusufg @FactoryAI coming!",
+    "url": "https://x.com/bentossell/status/1984133826814341514",
+    "timestamp": "2025-10-31T05:42:22.000Z",
+    "metadata": {
+      "conversation_id": "1984133826814341514",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984132650072993807",
     "source": "twitter",
     "author": "Ripann_",
@@ -53,9 +113,9 @@
     "timestamp": "2025-10-31T04:34:54.000Z",
     "metadata": {
       "conversation_id": "1984116847776768347",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -100,7 +160,7 @@
       "conversation_id": "1984108309054681278",
       "likes": 1,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -113,9 +173,9 @@
     "timestamp": "2025-10-31T03:48:49.000Z",
     "metadata": {
       "conversation_id": "1984105252812103688",
-      "likes": 9,
+      "likes": 12,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -128,7 +188,7 @@
     "timestamp": "2025-10-31T03:33:45.000Z",
     "metadata": {
       "conversation_id": "1984101461886943453",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -160,7 +220,7 @@
       "conversation_id": "1984098538201215484",
       "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -236,66 +296,6 @@
       "likes": 4,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984088370126242028",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@hampsonw @aicodeking @Zai_org GLM-4.6 better with @AnthropicAI Claude Code CLI than in @FactoryAI DROID CLI ? ... interesting. Any more deatil on that?",
-    "url": "https://x.com/SvenMeyer/status/1984088370126242028",
-    "timestamp": "2025-10-31T02:41:44.000Z",
-    "metadata": {
-      "conversation_id": "1984088370126242028",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984086772532572218",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@aicodeking @CodebuffAI that good !?😮 I actually had it already installed, but haven't had time to test is.\nMaybe you want to try @FactoryAI DROID CLI as well ? It's also super easy to add custom models.",
-    "url": "https://x.com/SvenMeyer/status/1984086772532572218",
-    "timestamp": "2025-10-31T02:35:23.000Z",
-    "metadata": {
-      "conversation_id": "1984086772532572218",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984079655935307929",
-    "source": "twitter",
-    "author": "pgbouncer",
-    "content": "@DannyAziz97 @FactoryAI @every Which FactoryAI plan did you get and how do the limits compare to Claude max?",
-    "url": "https://x.com/pgbouncer/status/1984079655935307929",
-    "timestamp": "2025-10-31T02:07:07.000Z",
-    "metadata": {
-      "conversation_id": "1984079655935307929",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984072895967195583",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "cool. i can automate even pr's now. thanks @FactoryAI",
-    "url": "https://x.com/nest_elf/status/1984072895967195583",
-    "timestamp": "2025-10-31T01:40:15.000Z",
-    "metadata": {
-      "conversation_id": "1984072895967195583",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 10,
+      "score": 11,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -684,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -716,19 +716,6 @@
     }
   },
   {
-    "id": "reddit_1oc3yt9",
-    "source": "reddit",
-    "author": "Big-Recognition7298",
-    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
-    "timestamp": "2025-10-21T04:52:45.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -739,19 +726,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obv6pd",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
-    "timestamp": "2025-10-20T21:59:41.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 12,
-      "subreddit": "FactoryAi"
     }
   },
   {
