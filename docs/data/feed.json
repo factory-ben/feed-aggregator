@@ -1,16 +1,106 @@
 [
   {
-    "id": "twitter_1984247879079456894",
+    "id": "twitter_1984253570523480388",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@CipherVectors @FactoryAI https://t.co/JoX2NONvQM",
+    "url": "https://x.com/bentossell/status/1984253570523480388",
+    "timestamp": "2025-10-31T13:38:11.000Z",
+    "metadata": {
+      "conversation_id": "1984253570523480388",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984253027461824759",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@EmmaLustre90 @FactoryAI seems like something up with your setup. happy to take a look at your account if you dm your email and the session this was in",
+    "url": "https://x.com/bentossell/status/1984253027461824759",
+    "timestamp": "2025-10-31T13:36:02.000Z",
+    "metadata": {
+      "conversation_id": "1984253027461824759",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984252893281808394",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@EmmaLustre90 @DannyAziz97 @FactoryAI @every scam is a bit wild",
+    "url": "https://x.com/bentossell/status/1984252893281808394",
+    "timestamp": "2025-10-31T13:35:30.000Z",
+    "metadata": {
+      "conversation_id": "1984252893281808394",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984252813007012047",
     "source": "twitter",
     "author": "DannyAziz97",
-    "content": "Join @bentossell, @kieranklaassen, @danshipper and I as we walk through we use @FactoryAI's Droid CLI agent\n\nWe may or may not be dressed up for halloween",
-    "url": "https://x.com/DannyAziz97/status/1984247879079456894",
-    "timestamp": "2025-10-31T13:15:34.000Z",
+    "content": "Join @bentossell, @kieranklaassen, @danshipper and I as we walk through how we use @FactoryAI's Droid CLI agent\n\nWe may or may not be dressed up for halloween",
+    "url": "https://x.com/DannyAziz97/status/1984252813007012047",
+    "timestamp": "2025-10-31T13:35:10.000Z",
     "metadata": {
-      "conversation_id": "1984247879079456894",
+      "conversation_id": "1984252813007012047",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984252765414248708",
+    "source": "twitter",
+    "author": "DannyAziz97",
+    "content": "@bentossell @kieranklaassen @danshipper @FactoryAI https://t.co/LZczKqZhY5",
+    "url": "https://x.com/DannyAziz97/status/1984252765414248708",
+    "timestamp": "2025-10-31T13:34:59.000Z",
+    "metadata": {
+      "conversation_id": "1984252765414248708",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984252021923570077",
+    "source": "twitter",
+    "author": "hampsonw",
+    "content": "@SvenMeyer @aicodeking @Zai_org @AnthropicAI @FactoryAI to be clear the Droid Core (GLM 4.6) is excellent in droid, it's just the BYOK version of GLM 4.6 that has many more tools call errors and doesn't feel like it fits into the agent harness as well, like it's missing a few configs the Droid Core implementation has.",
+    "url": "https://x.com/hampsonw/status/1984252021923570077",
+    "timestamp": "2025-10-31T13:32:02.000Z",
+    "metadata": {
+      "conversation_id": "1984252021923570077",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984251420191924643",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@DannyAziz97 @kieranklaassen @danshipper @FactoryAI two of us in spidey costumes pointing at one another for an hour?",
+    "url": "https://x.com/bentossell/status/1984251420191924643",
+    "timestamp": "2025-10-31T13:29:38.000Z",
+    "metadata": {
+      "conversation_id": "1984251420191924643",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -38,7 +128,7 @@
     "timestamp": "2025-10-31T13:09:43.000Z",
     "metadata": {
       "conversation_id": "1984246406094479872",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -53,10 +143,10 @@
     "timestamp": "2025-10-31T12:59:02.000Z",
     "metadata": {
       "conversation_id": "1984243718296367478",
-      "likes": 7,
+      "likes": 8,
       "retweets": 1,
       "replies": 2,
-      "quotes": 1
+      "quotes": 2
     }
   },
   {
@@ -83,7 +173,7 @@
     "timestamp": "2025-10-31T12:45:19.000Z",
     "metadata": {
       "conversation_id": "1984240266103173311",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -130,7 +220,7 @@
       "conversation_id": "1984230425418707195",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -206,96 +296,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984225756944503104",
-    "source": "twitter",
-    "author": "yusufg",
-    "content": "FWIW,  I created the following https://t.co/y8Ur49z9FX in .factory/commands.   However,  it just gives me a summary.  Not sure what I did incorrectly\n--------------\n---\ndescription: Render changelog\n---\n\nPlease read this URL https://t.co/xelkB4xZo1\n\n- Render the content read as is\n- Do not summarise",
-    "url": "https://x.com/yusufg/status/1984225756944503104",
-    "timestamp": "2025-10-31T11:47:40.000Z",
-    "metadata": {
-      "conversation_id": "1984225756944503104",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984223988793651547",
-    "source": "twitter",
-    "author": "hasantoxr",
-    "content": "@NathanLands @FactoryAI The way FactoryAI brings together the best from different labs is so good.",
-    "url": "https://x.com/hasantoxr/status/1984223988793651547",
-    "timestamp": "2025-10-31T11:40:38.000Z",
-    "metadata": {
-      "conversation_id": "1984223988793651547",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984223003862032752",
-    "source": "twitter",
-    "author": "CipherVectors",
-    "content": "@FactoryAI Show examples. Not only writing",
-    "url": "https://x.com/CipherVectors/status/1984223003862032752",
-    "timestamp": "2025-10-31T11:36:43.000Z",
-    "metadata": {
-      "conversation_id": "1984223003862032752",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984214347477062037",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@Ra1kshit @FactoryAI 🔥 siiiick!",
-    "url": "https://x.com/bentossell/status/1984214347477062037",
-    "timestamp": "2025-10-31T11:02:20.000Z",
-    "metadata": {
-      "conversation_id": "1984214347477062037",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984213366664212765",
-    "source": "twitter",
-    "author": "Ayan_sh003",
-    "content": "@rezaul_arif @FactoryAI @MiniMax__AI @chutes_ai Great\nDoes it support interleaved thinking ?",
-    "url": "https://x.com/Ayan_sh003/status/1984213366664212765",
-    "timestamp": "2025-10-31T10:58:26.000Z",
-    "metadata": {
-      "conversation_id": "1984213366664212765",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984190241075552691",
-    "source": "twitter",
-    "author": "_ahahq",
-    "content": "@Scobleizer @gregisenberg @flowith @FactoryAI @lovart_ai The three most important phases of building a great product. Thanks for trusting us Robert.",
-    "url": "https://x.com/_ahahq/status/1984190241075552691",
-    "timestamp": "2025-10-31T09:26:32.000Z",
-    "metadata": {
-      "conversation_id": "1984190241075552691",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -385,7 +385,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -541,7 +541,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 11,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -658,7 +658,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -684,21 +684,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ocpe9w",
-    "source": "reddit",
-    "author": "FocusResponsible4499",
-    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
-    "timestamp": "2025-10-21T21:19:05.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -739,6 +726,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
+    }
+  },
+  {
+    "id": "reddit_1obv6pd",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
+    "timestamp": "2025-10-20T21:59:41.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
     }
   },
   {
