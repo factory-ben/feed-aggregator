@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1984515514404913430",
+    "source": "twitter",
+    "author": "NilkhanVaibhav",
+    "content": "@hexawulf @FactoryAI Sonnet 4.5 in FactoryAI is the best combination I have experienced so far.",
+    "url": "https://x.com/NilkhanVaibhav/status/1984515514404913430",
+    "timestamp": "2025-11-01T06:59:03.000Z",
+    "metadata": {
+      "conversation_id": "1984515514404913430",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984513993160212627",
+    "source": "twitter",
+    "author": "hqmank",
+    "content": "@hexawulf @FactoryAI Same feeling here  Droid&gt;CC",
+    "url": "https://x.com/hqmank/status/1984513993160212627",
+    "timestamp": "2025-11-01T06:53:01.000Z",
+    "metadata": {
+      "conversation_id": "1984513993160212627",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984511600561438838",
     "source": "twitter",
     "author": "RayFernando1337",
@@ -248,9 +278,9 @@
     "timestamp": "2025-11-01T01:40:21.000Z",
     "metadata": {
       "conversation_id": "1984435309896220924",
-      "likes": 7,
+      "likes": 9,
       "retweets": 0,
-      "replies": 2,
+      "replies": 4,
       "quotes": 0
     }
   },
@@ -266,36 +296,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984429598411776388",
-    "source": "twitter",
-    "author": "chirping_ai",
-    "content": "@doodlestein @doodlestein do you think @FactoryAI should use this? They already have the orchestrator!",
-    "url": "https://x.com/chirping_ai/status/1984429598411776388",
-    "timestamp": "2025-11-01T01:17:39.000Z",
-    "metadata": {
-      "conversation_id": "1984429598411776388",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984429558448431424",
-    "source": "twitter",
-    "author": "fire",
-    "content": "@bentossell @FactoryAI fwiw I probably would if I wasn't already locked into a cursor annual",
-    "url": "https://x.com/fire/status/1984429558448431424",
-    "timestamp": "2025-11-01T01:17:30.000Z",
-    "metadata": {
-      "conversation_id": "1984429558448431424",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 4,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -554,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 10,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
