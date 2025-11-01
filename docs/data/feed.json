@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1984532293550219309",
+    "source": "twitter",
+    "author": "hexawulf",
+    "content": "@RayFernando1337 @FactoryAI Super cool! If I put a global https://t.co/J4TV3LHdS4 in ❯  ~/.agents/AGENTS.md\nWill droid pick it up automatically?",
+    "url": "https://x.com/hexawulf/status/1984532293550219309",
+    "timestamp": "2025-11-01T08:05:44.000Z",
+    "metadata": {
+      "conversation_id": "1984532293550219309",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984531905048690973",
+    "source": "twitter",
+    "author": "choectt",
+    "content": "@YourDesigncoza @FactoryAI How about some middle ground $40 or $50 plan?",
+    "url": "https://x.com/choectt/status/1984531905048690973",
+    "timestamp": "2025-11-01T08:04:11.000Z",
+    "metadata": {
+      "conversation_id": "1984531905048690973",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984530199695016219",
     "source": "twitter",
     "author": "damien_r_h",
@@ -8,7 +38,7 @@
     "timestamp": "2025-11-01T07:57:25.000Z",
     "metadata": {
       "conversation_id": "1984530199695016219",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -190,7 +220,7 @@
       "conversation_id": "1984511600561438838",
       "likes": 3,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -263,36 +293,6 @@
     "timestamp": "2025-11-01T05:31:03.000Z",
     "metadata": {
       "conversation_id": "1984493369150914719",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984493209297506413",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "@_lparadisemusic @FactoryAI @GiusMarci Oh interesting. Thanks for sharing this. I’ll try this out. Does this compare with Cline?",
-    "url": "https://x.com/nkgoutham/status/1984493209297506413",
-    "timestamp": "2025-11-01T05:30:25.000Z",
-    "metadata": {
-      "conversation_id": "1984493209297506413",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984492918384857345",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "@codewithimanshu @FactoryAI Yep! My only spite with Claude Code is that it slaps you with rate limits too soon. Makes me hesitant in getting the $100 plan",
-    "url": "https://x.com/nkgoutham/status/1984492918384857345",
-    "timestamp": "2025-11-01T05:29:16.000Z",
-    "metadata": {
-      "conversation_id": "1984492918384857345",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -699,6 +699,19 @@
     "metadata": {
       "score": 4,
       "num_comments": 15,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ocpe9w",
+    "source": "reddit",
+    "author": "FocusResponsible4499",
+    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
+    "timestamp": "2025-10-21T21:19:05.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
