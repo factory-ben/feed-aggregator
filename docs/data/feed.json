@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1984738996350828942",
+    "source": "twitter",
+    "author": "AshXtech",
+    "content": "@hexawulf @bentossell @FactoryAI Just you",
+    "url": "https://x.com/AshXtech/status/1984738996350828942",
+    "timestamp": "2025-11-01T21:47:06.000Z",
+    "metadata": {
+      "conversation_id": "1984738996350828942",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984738204264644697",
+    "source": "twitter",
+    "author": "SaidAitmbarek",
+    "content": "@JoshuaIPark the famous @FactoryAI droids ;)",
+    "url": "https://x.com/SaidAitmbarek/status/1984738204264644697",
+    "timestamp": "2025-11-01T21:43:57.000Z",
+    "metadata": {
+      "conversation_id": "1984738204264644697",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984725290937888918",
     "source": "twitter",
     "author": "TheWildTrue",
@@ -270,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1984698118819233966",
-    "source": "twitter",
-    "author": "MickeyShaughnes",
-    "content": "Droid from @FactoryAI is like Minecraft for adults.\n\nI could just watch it invoke tools all day. https://t.co/WsQcOF70ox",
-    "url": "https://x.com/MickeyShaughnes/status/1984698118819233966",
-    "timestamp": "2025-11-01T19:04:40.000Z",
-    "metadata": {
-      "conversation_id": "1984698118819233966",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984697863834910955",
-    "source": "twitter",
-    "author": "ruchernchong",
-    "content": "@hexawulf @FactoryAI System instructions.",
-    "url": "https://x.com/ruchernchong/status/1984697863834910955",
-    "timestamp": "2025-11-01T19:03:39.000Z",
-    "metadata": {
-      "conversation_id": "1984697863834910955",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_299",
     "source": "github",
     "author": "Slyvester-cyber",
@@ -450,7 +450,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -684,21 +684,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
   },
   {
-    "id": "reddit_1odatnb",
+    "id": "reddit_1ocv9jx",
     "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
-    "timestamp": "2025-10-22T15:06:14.000Z",
+    "author": "heretiqal",
+    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
+    "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 3,
+      "score": 5,
+      "num_comments": 15,
       "subreddit": "FactoryAi"
     }
   },
