@@ -1,5 +1,228 @@
 [
   {
+    "id": "twitter_1984552094079295694",
+    "source": "twitter",
+    "author": "zhangjintao9020",
+    "content": "@hexawulf @FactoryAI I did not directly compare them. But I feel Claude 4.5 sonnet is better than GPT-5 in the Droid CLI.\n\nThey might be focusing on improving the prompt for Claude(1.2x) instead of GPT-5(0.5x) 🤣",
+    "url": "https://x.com/zhangjintao9020/status/1984552094079295694",
+    "timestamp": "2025-11-01T09:24:25.000Z",
+    "metadata": {
+      "conversation_id": "1984552094079295694",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984552045769343267",
+    "source": "twitter",
+    "author": "rohanshar",
+    "content": "@hexawulf @FactoryAI No",
+    "url": "https://x.com/rohanshar/status/1984552045769343267",
+    "timestamp": "2025-11-01T09:24:13.000Z",
+    "metadata": {
+      "conversation_id": "1984552045769343267",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "reddit_1oljgx4",
+    "source": "reddit",
+    "author": "steve1215",
+    "content": "Intrigued to know. How is Factory not Claude Code Skills / Sub Agents?\n\nThe post title probably says it all.  ;-)\n\nLooks like some impressive real-world results from Factory if the Internet is to believed.   \n\nBut just so I can understand things better - how is a Factory \"droid\" not just a Claude Code \"Skill\" and or a sub-agent?\n\nPerhaps it is, just a really good one and I'd be ok with that - just trying to understand.\n\nThanks",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
+    "timestamp": "2025-11-01T09:23:30.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "twitter_1984550335822823640",
+    "source": "twitter",
+    "author": "mdsiaofficial",
+    "content": "@hexawulf @FactoryAI Yes. Cleaner response",
+    "url": "https://x.com/mdsiaofficial/status/1984550335822823640",
+    "timestamp": "2025-11-01T09:17:25.000Z",
+    "metadata": {
+      "conversation_id": "1984550335822823640",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984548646789267578",
+    "source": "twitter",
+    "author": "hexawulf",
+    "content": "@RayFernando1337 @FactoryAI @RayFernando1337 did it :-) your prompt worked beautifully 🙏 https://t.co/BPgF3DR9cC",
+    "url": "https://x.com/hexawulf/status/1984548646789267578",
+    "timestamp": "2025-11-01T09:10:43.000Z",
+    "metadata": {
+      "conversation_id": "1984548646789267578",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984548250423345307",
+    "source": "twitter",
+    "author": "pgbouncer",
+    "content": "@hexawulf @FactoryAI How’s token usage tho",
+    "url": "https://x.com/pgbouncer/status/1984548250423345307",
+    "timestamp": "2025-11-01T09:09:08.000Z",
+    "metadata": {
+      "conversation_id": "1984548250423345307",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547600675049550",
+    "source": "twitter",
+    "author": "Aristotleless",
+    "content": "@thdxr It adds and delete the same lime far too often. I'm trying @FactoryAI and it is incredibly better. Amp is sometimes useful as well, but having only tried their free version I've often been disappointed. But again, @FactoryAI with only Sonnet 4.5 Low is GREAT",
+    "url": "https://x.com/Aristotleless/status/1984547600675049550",
+    "timestamp": "2025-11-01T09:06:33.000Z",
+    "metadata": {
+      "conversation_id": "1984547600675049550",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547542692970771",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@nkgoutham @FactoryAI shift+enter works for newlines too. just got to check your keybindings",
+    "url": "https://x.com/bentossell/status/1984547542692970771",
+    "timestamp": "2025-11-01T09:06:19.000Z",
+    "metadata": {
+      "conversation_id": "1984547542692970771",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547371985092811",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@explosivesox @FactoryAI soon",
+    "url": "https://x.com/bentossell/status/1984547371985092811",
+    "timestamp": "2025-11-01T09:05:39.000Z",
+    "metadata": {
+      "conversation_id": "1984547371985092811",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547354997932165",
+    "source": "twitter",
+    "author": "SaidAitmbarek",
+    "content": "@hexawulf @FactoryAI i have this feeling too, probably a master/system prompt or something ;)",
+    "url": "https://x.com/SaidAitmbarek/status/1984547354997932165",
+    "timestamp": "2025-11-01T09:05:35.000Z",
+    "metadata": {
+      "conversation_id": "1984547354997932165",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547323683188958",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@choectt @YourDesigncoza @FactoryAI talking about it :)",
+    "url": "https://x.com/bentossell/status/1984547323683188958",
+    "timestamp": "2025-11-01T09:05:27.000Z",
+    "metadata": {
+      "conversation_id": "1984547323683188958",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547290112004201",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@AiAristotle @hexawulf @FactoryAI you can with proxy",
+    "url": "https://x.com/bentossell/status/1984547290112004201",
+    "timestamp": "2025-11-01T09:05:19.000Z",
+    "metadata": {
+      "conversation_id": "1984547290112004201",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984547156057817493",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@immoinulmoin @FactoryAI yup!",
+    "url": "https://x.com/bentossell/status/1984547156057817493",
+    "timestamp": "2025-11-01T09:04:47.000Z",
+    "metadata": {
+      "conversation_id": "1984547156057817493",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984546714557292976",
+    "source": "twitter",
+    "author": "YabutLino",
+    "content": "@hexawulf @pascallammers_ @FactoryAI This is true, but the pricing is not good!",
+    "url": "https://x.com/YabutLino/status/1984546714557292976",
+    "timestamp": "2025-11-01T09:03:02.000Z",
+    "metadata": {
+      "conversation_id": "1984546714557292976",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984546666859340008",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@fernandooghh @FactoryAI @ollama 🧠",
+    "url": "https://x.com/bentossell/status/1984546666859340008",
+    "timestamp": "2025-11-01T09:02:51.000Z",
+    "metadata": {
+      "conversation_id": "1984546666859340008",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984544217751044469",
     "source": "twitter",
     "author": "hexawulf",
@@ -10,7 +233,7 @@
       "conversation_id": "1984544217751044469",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -23,9 +246,9 @@
     "timestamp": "2025-11-01T08:50:28.000Z",
     "metadata": {
       "conversation_id": "1984543552148554198",
-      "likes": 0,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -38,7 +261,7 @@
     "timestamp": "2025-11-01T08:47:51.000Z",
     "metadata": {
       "conversation_id": "1984542893185302720",
-      "likes": 1,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -68,9 +291,9 @@
     "timestamp": "2025-11-01T08:36:51.000Z",
     "metadata": {
       "conversation_id": "1984540127298011417",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -83,218 +306,8 @@
     "timestamp": "2025-11-01T08:36:03.000Z",
     "metadata": {
       "conversation_id": "1984539923886572022",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984539709075533935",
-    "source": "twitter",
-    "author": "RayFernando1337",
-    "content": "@hexawulf @FactoryAI Yeah!!",
-    "url": "https://x.com/RayFernando1337/status/1984539709075533935",
-    "timestamp": "2025-11-01T08:35:12.000Z",
-    "metadata": {
-      "conversation_id": "1984539709075533935",
       "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984539593392472422",
-    "source": "twitter",
-    "author": "AiAristotle",
-    "content": "@hexawulf @FactoryAI The main downside is not supporting Claude/OpenAI subs.\n\nIf the harness is that much better I'd pay a few $/mo.. 🤷‍♂️",
-    "url": "https://x.com/AiAristotle/status/1984539593392472422",
-    "timestamp": "2025-11-01T08:34:44.000Z",
-    "metadata": {
-      "conversation_id": "1984539593392472422",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984532293550219309",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@RayFernando1337 @FactoryAI Super cool! If I put a global https://t.co/J4TV3LHdS4 in ❯  ~/.agents/AGENTS.md\nWill droid pick it up automatically?",
-    "url": "https://x.com/hexawulf/status/1984532293550219309",
-    "timestamp": "2025-11-01T08:05:44.000Z",
-    "metadata": {
-      "conversation_id": "1984532293550219309",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984531905048690973",
-    "source": "twitter",
-    "author": "choectt",
-    "content": "@YourDesigncoza @FactoryAI How about some middle ground $40 or $50 plan?",
-    "url": "https://x.com/choectt/status/1984531905048690973",
-    "timestamp": "2025-11-01T08:04:11.000Z",
-    "metadata": {
-      "conversation_id": "1984531905048690973",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984530199695016219",
-    "source": "twitter",
-    "author": "damien_r_h",
-    "content": "@hexawulf @bentossell @FactoryAI The way of the wrapper.",
-    "url": "https://x.com/damien_r_h/status/1984530199695016219",
-    "timestamp": "2025-11-01T07:57:25.000Z",
-    "metadata": {
-      "conversation_id": "1984530199695016219",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984526246781600103",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@SvenMeyer @0xDerekLao @FactoryAI Thanks! In Claude Code, I'm using an API key from the Claude Developer Platform console. In droid, just the tokens provided with the sub by factory ai at 1.2X.",
-    "url": "https://x.com/hexawulf/status/1984526246781600103",
-    "timestamp": "2025-11-01T07:41:42.000Z",
-    "metadata": {
-      "conversation_id": "1984526246781600103",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984524653998850231",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@0xDerekLao @hexawulf @FactoryAI If you have the \"normal\" (non API) https://t.co/iBG03ehc7S subscription , then you do not have an API key and need to login via the web. To use it in DROID you would need to setup a proxy.",
-    "url": "https://x.com/SvenMeyer/status/1984524653998850231",
-    "timestamp": "2025-11-01T07:35:22.000Z",
-    "metadata": {
-      "conversation_id": "1984524653998850231",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984522979263594907",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@hqmank @FactoryAI absolutely!",
-    "url": "https://x.com/hexawulf/status/1984522979263594907",
-    "timestamp": "2025-11-01T07:28:43.000Z",
-    "metadata": {
-      "conversation_id": "1984522979263594907",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984522930030784828",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@NilkhanVaibhav @FactoryAI I feel the same! It's the combo to getting things done without endless back and forth.",
-    "url": "https://x.com/hexawulf/status/1984522930030784828",
-    "timestamp": "2025-11-01T07:28:31.000Z",
-    "metadata": {
-      "conversation_id": "1984522930030784828",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984522422314541242",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@0xDerekLao @FactoryAI Good point. I am using the model provided by Droid, the one with a 1.2x token cost multiplier. In Claude Code, the Claude sub API key. https://t.co/CP3JBges8A",
-    "url": "https://x.com/hexawulf/status/1984522422314541242",
-    "timestamp": "2025-11-01T07:26:30.000Z",
-    "metadata": {
-      "conversation_id": "1984522422314541242",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984520526581424558",
-    "source": "twitter",
-    "author": "explosivesox",
-    "content": "$BETTER getting better, thanks to @FactoryAI 🫶\n(Grok for droid when?!)\nI had no idea front end dev is more painful than backend.\nAnyone have any tips on deploying latency-sensitive signals from in Rust to a website? Some smart cookies have followed recently, would love tips! https://t.co/7VwcnMY8iS",
-    "url": "https://x.com/explosivesox/status/1984520526581424558",
-    "timestamp": "2025-11-01T07:18:58.000Z",
-    "metadata": {
-      "conversation_id": "1984520526581424558",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984519889718297075",
-    "source": "twitter",
-    "author": "0xDerekLao",
-    "content": "@hexawulf @FactoryAI Do you use CC's subscription within Droid CLI or the model directly from Droid? Not sure if its a CC endpoint issue",
-    "url": "https://x.com/0xDerekLao/status/1984519889718297075",
-    "timestamp": "2025-11-01T07:16:26.000Z",
-    "metadata": {
-      "conversation_id": "1984519889718297075",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984519755685118393",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "some handy shortcuts to know about Droid by @FactoryAI \n\ni didn't know we could use a \"new line\" while prompting. For someone who does most of his prompting in XML or markdown format, having a new line is useful. \n\nwill keep sharing what i discover, with droid! https://t.co/fdgtOn0nsP",
-    "url": "https://x.com/nkgoutham/status/1984519755685118393",
-    "timestamp": "2025-11-01T07:15:55.000Z",
-    "metadata": {
-      "conversation_id": "1984519755685118393",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984517179266777104",
-    "source": "twitter",
-    "author": "SvenMeyer",
-    "content": "@hampsonw @aicodeking @Zai_org @AnthropicAI @FactoryAI what inference provider did you use for GLM-4.6 BYOK ?",
-    "url": "https://x.com/SvenMeyer/status/1984517179266777104",
-    "timestamp": "2025-11-01T07:05:40.000Z",
-    "metadata": {
-      "conversation_id": "1984517179266777104",
-      "likes": 0,
-      "retweets": 0,
+      "retweets": 1,
       "replies": 0,
       "quotes": 0
     }
@@ -671,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 3,
+      "score": 5,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -686,19 +699,6 @@
     "metadata": {
       "score": 1,
       "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ocv9jx",
-    "source": "reddit",
-    "author": "heretiqal",
-    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
-    "timestamp": "2025-10-22T01:34:31.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 15,
       "subreddit": "FactoryAi"
     }
   },
