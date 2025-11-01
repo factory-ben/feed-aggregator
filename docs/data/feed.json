@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1984615991847109077",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@alvinjamur @FactoryAI @EnoReyes hellll yeah",
+    "url": "https://x.com/bentossell/status/1984615991847109077",
+    "timestamp": "2025-11-01T13:38:19.000Z",
+    "metadata": {
+      "conversation_id": "1984615991847109077",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984612976226419007",
+    "source": "twitter",
+    "author": "nkgoutham",
+    "content": "About 18 hours in going all abusive on Droid - almost completed 2 landing pages, and I'm about 80% done - on the FREE trial. \n\nNice stuff, @FactoryAI \n\nNext steps - I'll need to try and figure out ways in which we can save tokens - model tweaks, maybe try running a sub-agent which identifies the best model for the nature of work we give? I don't know - but I think I'll figure out. Will keep you posted!",
+    "url": "https://x.com/nkgoutham/status/1984612976226419007",
+    "timestamp": "2025-11-01T13:26:20.000Z",
+    "metadata": {
+      "conversation_id": "1984612976226419007",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984612472138121522",
+    "source": "twitter",
+    "author": "nkgoutham",
+    "content": "Oh is it? I didn't face it till now. I mean - I used Sonnet 4.5 like crazy on Droid - like super crazy, and Sonnet 4.5 isn't cheap. So I guess its more about the model than Droid itself?\n\nI've been abusing Droid for the last 18 hours or so - and I haven't yet finished the limits. Thanks for the heads up though, I'll try a few other options to see how to save tokens/credits.",
+    "url": "https://x.com/nkgoutham/status/1984612472138121522",
+    "timestamp": "2025-11-01T13:24:20.000Z",
+    "metadata": {
+      "conversation_id": "1984612472138121522",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984610384435953941",
     "source": "twitter",
     "author": "TCGsealed",
@@ -53,9 +98,9 @@
     "timestamp": "2025-11-01T13:04:57.000Z",
     "metadata": {
       "conversation_id": "1984607595168960518",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -70,7 +115,7 @@
       "conversation_id": "1984605202230427734",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -255,51 +300,6 @@
     }
   },
   {
-    "id": "twitter_1984564038819610964",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "@draslan_eth @claudeai @FactoryAI It sure is!",
-    "url": "https://x.com/nkgoutham/status/1984564038819610964",
-    "timestamp": "2025-11-01T10:11:52.000Z",
-    "metadata": {
-      "conversation_id": "1984564038819610964",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984563993072332955",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "@bentossell @FactoryAI Oh I'm using the default \\ + return right now. Shift + enter is the best combination and feels natural. Thanks for sharing this - will check!",
-    "url": "https://x.com/nkgoutham/status/1984563993072332955",
-    "timestamp": "2025-11-01T10:11:42.000Z",
-    "metadata": {
-      "conversation_id": "1984563993072332955",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984562393280643324",
-    "source": "twitter",
-    "author": "TweeterOp1",
-    "content": "@hexawulf @0xDerekLao @FactoryAI I’ve noticed similar behavior. Using @zencoderai’s repo-info agent helps track when the model context changes between wrappers like Droid and CC.",
-    "url": "https://x.com/TweeterOp1/status/1984562393280643324",
-    "timestamp": "2025-11-01T10:05:20.000Z",
-    "metadata": {
-      "conversation_id": "1984562393280643324",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1oljgx4",
     "source": "reddit",
     "author": "steve1215",
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 8,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 9,
+      "score": 10,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -684,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
