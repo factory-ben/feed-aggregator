@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1984645206147285078",
+    "source": "twitter",
+    "author": "crypto_vert",
+    "content": "@nkgoutham @FactoryAI custom models works worst",
+    "url": "https://x.com/crypto_vert/status/1984645206147285078",
+    "timestamp": "2025-11-01T15:34:24.000Z",
+    "metadata": {
+      "conversation_id": "1984645206147285078",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984640126727725059",
     "source": "twitter",
     "author": "AbdMuizAdeyemo",
@@ -203,7 +218,7 @@
     "timestamp": "2025-11-01T13:52:03.000Z",
     "metadata": {
       "conversation_id": "1984619447441842400",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -233,7 +248,7 @@
     "timestamp": "2025-11-01T13:26:20.000Z",
     "metadata": {
       "conversation_id": "1984612976226419007",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -278,21 +293,6 @@
     "timestamp": "2025-11-01T13:13:49.000Z",
     "metadata": {
       "conversation_id": "1984609825670775101",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984608599071490143",
-    "source": "twitter",
-    "author": "Ryanskickz",
-    "content": "@crypto_vert @fire @FactoryAI Skill issue",
-    "url": "https://x.com/Ryanskickz/status/1984608599071490143",
-    "timestamp": "2025-11-01T13:08:56.000Z",
-    "metadata": {
-      "conversation_id": "1984608599071490143",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -684,7 +684,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
