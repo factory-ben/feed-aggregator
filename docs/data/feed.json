@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1984524653998850231",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@0xDerekLao @hexawulf @FactoryAI If you have the \"normal\" (non API) https://t.co/iBG03ehc7S subscription , then you do not have an API key and need to login via the web. To use it in DROID you would need to setup a proxy.",
+    "url": "https://x.com/SvenMeyer/status/1984524653998850231",
+    "timestamp": "2025-11-01T07:35:22.000Z",
+    "metadata": {
+      "conversation_id": "1984524653998850231",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984522979263594907",
+    "source": "twitter",
+    "author": "hexawulf",
+    "content": "@hqmank @FactoryAI absolutely!",
+    "url": "https://x.com/hexawulf/status/1984522979263594907",
+    "timestamp": "2025-11-01T07:28:43.000Z",
+    "metadata": {
+      "conversation_id": "1984522979263594907",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984522930030784828",
+    "source": "twitter",
+    "author": "hexawulf",
+    "content": "@NilkhanVaibhav @FactoryAI I feel the same! It's the combo to getting things done without endless back and forth.",
+    "url": "https://x.com/hexawulf/status/1984522930030784828",
+    "timestamp": "2025-11-01T07:28:31.000Z",
+    "metadata": {
+      "conversation_id": "1984522930030784828",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984522422314541242",
+    "source": "twitter",
+    "author": "hexawulf",
+    "content": "@0xDerekLao @FactoryAI Good point. I am using the model provided by Droid, the one with a 1.2x token cost multiplier. In Claude Code, the Claude sub API key. https://t.co/CP3JBges8A",
+    "url": "https://x.com/hexawulf/status/1984522422314541242",
+    "timestamp": "2025-11-01T07:26:30.000Z",
+    "metadata": {
+      "conversation_id": "1984522422314541242",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984520526581424558",
     "source": "twitter",
     "author": "explosivesox",
@@ -8,7 +68,7 @@
     "timestamp": "2025-11-01T07:18:58.000Z",
     "metadata": {
       "conversation_id": "1984520526581424558",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -25,7 +85,7 @@
       "conversation_id": "1984519889718297075",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -68,9 +128,9 @@
     "timestamp": "2025-11-01T06:59:03.000Z",
     "metadata": {
       "conversation_id": "1984515514404913430",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -85,7 +145,7 @@
       "conversation_id": "1984513993160212627",
       "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -98,7 +158,7 @@
     "timestamp": "2025-11-01T06:43:30.000Z",
     "metadata": {
       "conversation_id": "1984511600561438838",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -240,66 +300,6 @@
     }
   },
   {
-    "id": "twitter_1984477138989588845",
-    "source": "twitter",
-    "author": "towrywang",
-    "content": "@nkgoutham @claudeai @FactoryAI It sucks https://t.co/Lc7BSG8PSL",
-    "url": "https://x.com/towrywang/status/1984477138989588845",
-    "timestamp": "2025-11-01T04:26:34.000Z",
-    "metadata": {
-      "conversation_id": "1984477138989588845",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984465339972010312",
-    "source": "twitter",
-    "author": "quyettruon37828",
-    "content": "@Supaulwale @FactoryAI .",
-    "url": "https://x.com/quyettruon37828/status/1984465339972010312",
-    "timestamp": "2025-11-01T03:39:41.000Z",
-    "metadata": {
-      "conversation_id": "1984465339972010312",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984453478274466055",
-    "source": "twitter",
-    "author": "_lparadisemusic",
-    "content": "@nkgoutham @FactoryAI Droid is the best, and if you don't want to get too technical, @GiusMarci launched a VS Code extension that connects your API providers in seconds. It's called Any LLM Gateway, I highly recommend it",
-    "url": "https://x.com/_lparadisemusic/status/1984453478274466055",
-    "timestamp": "2025-11-01T02:52:33.000Z",
-    "metadata": {
-      "conversation_id": "1984453478274466055",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984442450228982147",
-    "source": "twitter",
-    "author": "chirping_ai",
-    "content": "@doodlestein @FactoryAI Yes, its a great MCP! Will try it soon.",
-    "url": "https://x.com/chirping_ai/status/1984442450228982147",
-    "timestamp": "2025-11-01T02:08:43.000Z",
-    "metadata": {
-      "conversation_id": "1984442450228982147",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1okwodb",
     "source": "reddit",
     "author": "Uzeii",
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 4,
+      "score": 8,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -671,7 +671,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
     "timestamp": "2025-10-22T20:20:05.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -697,7 +697,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
     "timestamp": "2025-10-22T01:34:31.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
