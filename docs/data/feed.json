@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1984861291186725112",
+    "source": "twitter",
+    "author": "techguyver",
+    "content": "@iannuttall @AnthropicAI @FactoryAI must be a bug then @AnthropicAI @claudeai !!",
+    "url": "https://x.com/techguyver/status/1984861291186725112",
+    "timestamp": "2025-11-02T05:53:03.000Z",
+    "metadata": {
+      "conversation_id": "1984861291186725112",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984860301385482583",
+    "source": "twitter",
+    "author": "iannuttall",
+    "content": "@techguyver @AnthropicAI I think it might be new. I had same issue using sonnet with @FactoryAI and it kills the chat - have to compact or start a new one",
+    "url": "https://x.com/iannuttall/status/1984860301385482583",
+    "timestamp": "2025-11-02T05:49:07.000Z",
+    "metadata": {
+      "conversation_id": "1984860301385482583",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984860256032473463",
+    "source": "twitter",
+    "author": "JennyChops88",
+    "content": "@farizkamini @FactoryAI Please stop woke shit in software!",
+    "url": "https://x.com/JennyChops88/status/1984860256032473463",
+    "timestamp": "2025-11-02T05:48:56.000Z",
+    "metadata": {
+      "conversation_id": "1984860256032473463",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1984859015176995111",
+    "source": "twitter",
+    "author": "phanindra_ai",
+    "content": "@nkgoutham @FactoryAI What about claude code?",
+    "url": "https://x.com/phanindra_ai/status/1984859015176995111",
+    "timestamp": "2025-11-02T05:44:00.000Z",
+    "metadata": {
+      "conversation_id": "1984859015176995111",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1984858327885725897",
     "source": "twitter",
     "author": "GitMaxd",
@@ -240,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1984816098714202364",
-    "source": "twitter",
-    "author": "rwdaigle",
-    "content": "@curiouslychase @FactoryAI Screenshots like this make me really want to learn tmux…",
-    "url": "https://x.com/rwdaigle/status/1984816098714202364",
-    "timestamp": "2025-11-02T02:53:28.000Z",
-    "metadata": {
-      "conversation_id": "1984816098714202364",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984815501596639600",
-    "source": "twitter",
-    "author": "hexawulf",
-    "content": "@servasyy @iamzhihui @FactoryAI 免费 token 活动确实香，但应该只限一个账号",
-    "url": "https://x.com/hexawulf/status/1984815501596639600",
-    "timestamp": "2025-11-02T02:51:06.000Z",
-    "metadata": {
-      "conversation_id": "1984815501596639600",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_300",
     "source": "github",
     "author": "dpalfery",
@@ -280,36 +310,6 @@
       "type": "issue",
       "labels": [],
       "number": 300
-    }
-  },
-  {
-    "id": "twitter_1984808679485419657",
-    "source": "twitter",
-    "author": "erd0xbc",
-    "content": "One simple job\n- @geminicli failed and just froze, even with all the power and context of Gemini 2.5.\n- @FactoryAI (via Codex and Haiku 2.5) executed the task with ease.\n\nWill we see a Gemini model in Droid?",
-    "url": "https://x.com/erd0xbc/status/1984808679485419657",
-    "timestamp": "2025-11-02T02:23:59.000Z",
-    "metadata": {
-      "conversation_id": "1984808679485419657",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1984807919486218470",
-    "source": "twitter",
-    "author": "EnoReyes",
-    "content": "@farizkamini @FactoryAI I always treat droids nicely… just in case",
-    "url": "https://x.com/EnoReyes/status/1984807919486218470",
-    "timestamp": "2025-11-02T02:20:58.000Z",
-    "metadata": {
-      "conversation_id": "1984807919486218470",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -476,7 +476,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 5,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 9,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -690,15 +690,15 @@
     }
   },
   {
-    "id": "reddit_1odjcfl",
+    "id": "reddit_1odatnb",
     "source": "reddit",
-    "author": "Hassan_A2H",
-    "content": "Factory consumes way too many tokens\n\nCodex was my daily driver before factory, and its weekly quota was enough to last entire week. Today I connected my codex with factory and boy ooh boy... For the first time I hit the 5hr limit, and that too within 60 minutes of usage.\n\nBesides connecting with codex, even on default factory models I've noticed that even super simple prompts take up to 10k-20k input tokens, which on cheaper models might not hurt as much but when you consider sonnet's or opus'  multiplier this means monthly 20 mil ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
-    "timestamp": "2025-10-22T20:20:05.000Z",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
     "metadata": {
-      "score": 4,
-      "num_comments": 9,
+      "score": 1,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
