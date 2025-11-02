@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1985102158014943580",
+    "source": "twitter",
+    "author": "meTheKarthik",
+    "content": "especially for coding\n\nsonnet 4.5 feels like this really bright but lazy student - just isnt meticulous enough \n\nit does slightly better within @FactoryAI - like the said student atleast got a decent tutor",
+    "url": "https://x.com/meTheKarthik/status/1985102158014943580",
+    "timestamp": "2025-11-02T21:50:10.000Z",
+    "metadata": {
+      "conversation_id": "1985102158014943580",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985095031544549418",
     "source": "twitter",
     "author": "mikez93",
@@ -298,21 +313,6 @@
     }
   },
   {
-    "id": "twitter_1985039879559115127",
-    "source": "twitter",
-    "author": "JoelDeTeves",
-    "content": "@immoinulmoin @FactoryAI Not much to tell. I set up Gemini using BYOK.\n\nDroid’s harness works well with it.\n\nHere’s hoping @OfficialLoganK and @matanSF become friends and add Gemini as a standard model using Factory tokens 😎",
-    "url": "https://x.com/JoelDeTeves/status/1985039879559115127",
-    "timestamp": "2025-11-02T17:42:42.000Z",
-    "metadata": {
-      "conversation_id": "1985039879559115127",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1omlc3f",
     "source": "reddit",
     "author": "IslandOceanWater",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 8,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -686,19 +686,6 @@
     "metadata": {
       "score": 1,
       "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oegs4w",
-    "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "ISSUE: GLM 4.6 doesnt support Images\n\nBro we were using it with MCP. Why did you bring this new shitty update. Please fix it bro we are using GLM as custom model allow us to use images in it\n\nDroid version - 0.22.1\n\nhttps://preview.redd.it/p8u9fuciqxwf1.jpg?width=877&amp;format=pjpg&amp;auto=webp&amp;s=6e495e3b4beb975ca90fa26d2c81c83baf0b9309",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oegs4w/issue_glm_46_doesnt_support_images/",
-    "timestamp": "2025-10-23T22:10:56.000Z",
-    "metadata": {
-      "score": 0,
-      "num_comments": 18,
       "subreddit": "FactoryAi"
     }
   },
