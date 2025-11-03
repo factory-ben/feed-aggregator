@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1985326273334538513",
+    "source": "twitter",
+    "author": "pnjegan",
+    "content": "@FactoryAI - i cant see the chat option and not able to connect with Factory Bridge, everytime it says Invalid code.",
+    "url": "https://x.com/pnjegan/status/1985326273334538513",
+    "timestamp": "2025-11-03T12:40:43.000Z",
+    "metadata": {
+      "conversation_id": "1985326273334538513",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985302598119821588",
     "source": "twitter",
     "author": "akhi20187",
@@ -8,7 +23,7 @@
     "timestamp": "2025-11-03T11:06:39.000Z",
     "metadata": {
       "conversation_id": "1985302598119821588",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1985272152996860197",
-    "source": "twitter",
-    "author": "codewithimanshu",
-    "content": "@launchaddict @FactoryAI @claudeai Eoghan, that's a brilliant suggestion! Getting directory-specific history would be super useful, no?",
-    "url": "https://x.com/codewithimanshu/status/1985272152996860197",
-    "timestamp": "2025-11-03T09:05:40.000Z",
-    "metadata": {
-      "conversation_id": "1985272152996860197",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_302",
     "source": "github",
     "author": "Evan-Kim2028",
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 6,
+      "score": 7,
       "num_comments": 7,
       "subreddit": "FactoryAi"
     }
@@ -372,7 +372,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 7,
       "subreddit": "FactoryAi"
     }
@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 3,
+      "score": 4,
       "num_comments": 0,
       "subreddit": "FactoryAi"
     }
@@ -528,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 12,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -677,15 +677,15 @@
     }
   },
   {
-    "id": "reddit_1of1zjv",
+    "id": "reddit_1oegs4w",
     "source": "reddit",
-    "author": "hrdn",
-    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
-    "timestamp": "2025-10-24T16:13:54.000Z",
+    "author": "Warm_Sandwich3769",
+    "content": "ISSUE: GLM 4.6 doesnt support Images\n\nBro we were using it with MCP. Why did you bring this new shitty update. Please fix it bro we are using GLM as custom model allow us to use images in it\n\nDroid version - 0.22.1\n\nhttps://preview.redd.it/p8u9fuciqxwf1.jpg?width=877&amp;format=pjpg&amp;auto=webp&amp;s=6e495e3b4beb975ca90fa26d2c81c83baf0b9309",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oegs4w/issue_glm_46_doesnt_support_images/",
+    "timestamp": "2025-10-23T22:10:56.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 5,
+      "score": 0,
+      "num_comments": 18,
       "subreddit": "FactoryAi"
     }
   },
