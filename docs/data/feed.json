@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1985204799445295121",
+    "source": "twitter",
+    "author": "nkgoutham",
+    "content": "Ah I totally get the sentiment man. I think \"being in the wrong mindset\" while vibe-coding, often leads to bad prompts. I experienced this too - I observed that my prompts become shorter, vague when I am a bit pissed off or not in the mindspace! I thought I was the only one - thanks for sharing this!",
+    "url": "https://x.com/nkgoutham/status/1985204799445295121",
+    "timestamp": "2025-11-03T04:38:02.000Z",
+    "metadata": {
+      "conversation_id": "1985204799445295121",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985204181339136044",
+    "source": "twitter",
+    "author": "paulbettner",
+    "content": "well it's time to admit it:\n\n@FactoryAI's Droid is far and away my new favorite coding tui  \n\ni typically bounce all over the place (mainly between @opencode and just-every/code)... but recently, i'm fed up with tuis that try to capture the whole terminal window, it just messes with too many of my workflows  \n\n@claudeai, @OpenAICodexCli, @CodebuffAI and now droid get it right: append only tui ux is The Way  \n\n(also, droid's harness ROCKS and their inference prices are great too - or can byok)",
+    "url": "https://x.com/paulbettner/status/1985204181339136044",
+    "timestamp": "2025-11-03T04:35:34.000Z",
+    "metadata": {
+      "conversation_id": "1985204181339136044",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985192621955068251",
     "source": "twitter",
     "author": "acoustik",
@@ -23,9 +53,9 @@
     "timestamp": "2025-11-03T03:47:39.000Z",
     "metadata": {
       "conversation_id": "1985192121415127125",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -68,7 +98,7 @@
     "timestamp": "2025-11-03T03:11:45.000Z",
     "metadata": {
       "conversation_id": "1985183086511071517",
-      "likes": 1,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1985102158014943580",
-    "source": "twitter",
-    "author": "meTheKarthik",
-    "content": "especially for coding\n\nsonnet 4.5 feels like this really bright but lazy student - just isnt meticulous enough \n\nit does slightly better within @FactoryAI - like the said student atleast got a decent tutor",
-    "url": "https://x.com/meTheKarthik/status/1985102158014943580",
-    "timestamp": "2025-11-02T21:50:10.000Z",
-    "metadata": {
-      "conversation_id": "1985102158014943580",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985095031544549418",
-    "source": "twitter",
-    "author": "mikez93",
-    "content": "@the_ido_levi @FactoryAI DROID!!!! Yesss. @FactoryAI @EnoReyes @bentossell",
-    "url": "https://x.com/mikez93/status/1985095031544549418",
-    "timestamp": "2025-11-02T21:21:51.000Z",
-    "metadata": {
-      "conversation_id": "1985095031544549418",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1omo14j",
     "source": "reddit",
     "author": "HanSkin-reynard",
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -372,8 +372,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 5,
-      "num_comments": 5,
+      "score": 6,
+      "num_comments": 6,
       "subreddit": "FactoryAi"
     }
   },
@@ -528,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
