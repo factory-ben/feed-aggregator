@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1985386788928831688",
+    "source": "twitter",
+    "author": "erd0xbc",
+    "content": "@itsbyrobin @pyronaur @EnoReyes Yes, the @FactoryAI team is outstanding.",
+    "url": "https://x.com/erd0xbc/status/1985386788928831688",
+    "timestamp": "2025-11-03T16:41:11.000Z",
+    "metadata": {
+      "conversation_id": "1985386788928831688",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985386019407999355",
+    "source": "twitter",
+    "author": "BTConnector_",
+    "content": "@CloudTrader4 @FactoryAI @PlebLab",
+    "url": "https://x.com/BTConnector_/status/1985386019407999355",
+    "timestamp": "2025-11-03T16:38:08.000Z",
+    "metadata": {
+      "conversation_id": "1985386019407999355",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985379302670536993",
     "source": "twitter",
     "author": "AntonioJASmith",
@@ -126,7 +156,7 @@
     "timestamp": "2025-11-03T13:34:03.000Z",
     "metadata": {
       "conversation_id": "1985339694901841937",
-      "likes": 3,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -201,8 +231,8 @@
     "timestamp": "2025-11-03T10:24:00.000Z",
     "metadata": {
       "conversation_id": "1985291866888134966",
-      "likes": 1,
-      "retweets": 1,
+      "likes": 2,
+      "retweets": 0,
       "replies": 0,
       "quotes": 0
     }
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1985283095952527740",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@mrchris_ai @RayFernando1337 @FactoryAI ❤️",
-    "url": "https://x.com/bentossell/status/1985283095952527740",
-    "timestamp": "2025-11-03T09:49:09.000Z",
-    "metadata": {
-      "conversation_id": "1985283095952527740",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985283060351603032",
-    "source": "twitter",
-    "author": "malikwas1f",
-    "content": "@SvenMeyer @SkylerMiao7 @FactoryAI @MiniMax__AI @OpenRouterAI Glad to know that, did you use anthropic endpoint for M2 or openai?",
-    "url": "https://x.com/malikwas1f/status/1985283060351603032",
-    "timestamp": "2025-11-03T09:49:01.000Z",
-    "metadata": {
-      "conversation_id": "1985283060351603032",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_302",
     "source": "github",
     "author": "Evan-Kim2028",
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 1,
       "subreddit": "FactoryAi"
     }
@@ -346,7 +346,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -385,7 +385,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 12,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -687,19 +687,6 @@
       "type": "issue",
       "labels": [],
       "number": 258
-    }
-  },
-  {
-    "id": "reddit_1of1zjv",
-    "source": "reddit",
-    "author": "hrdn",
-    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
-    "timestamp": "2025-10-24T16:13:54.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
     }
   },
   {
