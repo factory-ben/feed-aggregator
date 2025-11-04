@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1985832275964280857",
+    "source": "twitter",
+    "author": "AVGVSTVS96",
+    "content": "@nest_elf @FactoryAI Do you have it set up as a custom model? Not available for me, I have a custom model using openrouter but that doesn’t work.",
+    "url": "https://x.com/AVGVSTVS96/status/1985832275964280857",
+    "timestamp": "2025-11-04T22:11:24.000Z",
+    "metadata": {
+      "conversation_id": "1985832275964280857",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985824542758240400",
     "source": "twitter",
     "author": "brexton",
@@ -278,21 +293,6 @@
     "timestamp": "2025-11-04T19:27:27.000Z",
     "metadata": {
       "conversation_id": "1985791019716325687",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985789559259742394",
-    "source": "twitter",
-    "author": "codewithimanshu",
-    "content": "@brexton @cursor_ai @AmpCode @FactoryAI Brexton, that Agent Bake-Off sounds quite exciting, and these real-world benchmarks are a much-needed thing, no?",
-    "url": "https://x.com/codewithimanshu/status/1985789559259742394",
-    "timestamp": "2025-11-04T19:21:39.000Z",
-    "metadata": {
-      "conversation_id": "1985789559259742394",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
