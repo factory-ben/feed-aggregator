@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1985777749907370151",
+    "source": "twitter",
+    "author": "getpy",
+    "content": "@abhagsain @AmpCode @FactoryAI Switching is a joy.",
+    "url": "https://x.com/getpy/status/1985777749907370151",
+    "timestamp": "2025-11-04T18:34:44.000Z",
+    "metadata": {
+      "conversation_id": "1985777749907370151",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985777598509494345",
+    "source": "twitter",
+    "author": "raulsaavedra_",
+    "content": "@5aikat @FactoryAI How are the max plan limits for Factory? Do you still have to worry about usage if you run a couple sessions per day?",
+    "url": "https://x.com/raulsaavedra_/status/1985777598509494345",
+    "timestamp": "2025-11-04T18:34:08.000Z",
+    "metadata": {
+      "conversation_id": "1985777598509494345",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985777202395328708",
+    "source": "twitter",
+    "author": "abhagsain",
+    "content": "I hate switching AI coding agents every few weeks, but I was stuck on a bug for several hours with @AmpCode \n\n@FactoryAI Droid solved the bug in 15 minutes 🙇‍♂️\nWill try Droid for the rest of the feature implementation",
+    "url": "https://x.com/abhagsain/status/1985777202395328708",
+    "timestamp": "2025-11-04T18:32:33.000Z",
+    "metadata": {
+      "conversation_id": "1985777202395328708",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985776545819214082",
+    "source": "twitter",
+    "author": "chintanturakhia",
+    "content": "@brexton @cursor_ai @AmpCode @FactoryAI This is dope",
+    "url": "https://x.com/chintanturakhia/status/1985776545819214082",
+    "timestamp": "2025-11-04T18:29:57.000Z",
+    "metadata": {
+      "conversation_id": "1985776545819214082",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985768078689648854",
     "source": "twitter",
     "author": "brexton",
@@ -173,7 +233,7 @@
     "timestamp": "2025-11-04T16:58:16.000Z",
     "metadata": {
       "conversation_id": "1985753475012313520",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -240,66 +300,6 @@
     }
   },
   {
-    "id": "twitter_1985752413190476116",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@Francesco_Oddo @FactoryAI @Hailuo_AI @Zai_org @OpenRouterAI easy just press 'i' on the droids or commands menus :)",
-    "url": "https://x.com/bentossell/status/1985752413190476116",
-    "timestamp": "2025-11-04T16:54:03.000Z",
-    "metadata": {
-      "conversation_id": "1985752413190476116",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985751915418763706",
-    "source": "twitter",
-    "author": "haridigresses",
-    "content": "@brexton @cursor_ai @AmpCode @FactoryAI Gonna be a power user of this 👀",
-    "url": "https://x.com/haridigresses/status/1985751915418763706",
-    "timestamp": "2025-11-04T16:52:04.000Z",
-    "metadata": {
-      "conversation_id": "1985751915418763706",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985751890894979225",
-    "source": "twitter",
-    "author": "mlejva",
-    "content": "@brexton @cursor_ai @AmpCode @FactoryAI Congrats @brexton!",
-    "url": "https://x.com/mlejva/status/1985751890894979225",
-    "timestamp": "2025-11-04T16:51:58.000Z",
-    "metadata": {
-      "conversation_id": "1985751890894979225",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985750465041035729",
-    "source": "twitter",
-    "author": "HanifCarroll",
-    "content": "Committing to trying out @FactoryAI Droid for the next week.\n\nI've been hearing so much about it lately, so might as well see what all the hype is about.\n\nComing from Codex CLI and Claude Code. I'll be posting my thoughts as I continue to use it, then I'll most likely do the same thing with Amp.",
-    "url": "https://x.com/HanifCarroll/status/1985750465041035729",
-    "timestamp": "2025-11-04T16:46:18.000Z",
-    "metadata": {
-      "conversation_id": "1985750465041035729",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_discussion_309",
     "source": "github",
     "author": "msneijders",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 6,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 12,
       "subreddit": "FactoryAi"
     }
@@ -690,19 +690,6 @@
     }
   },
   {
-    "id": "reddit_1ofh3rn",
-    "source": "reddit",
-    "author": "zhangjun3371",
-    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
-    "timestamp": "2025-10-25T03:12:45.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_240",
     "source": "github",
     "author": "factory-ben",
@@ -713,6 +700,19 @@
       "type": "discussion",
       "category": "Factory Official",
       "number": 240
+    }
+  },
+  {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
