@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1985662928230760752",
+    "source": "twitter",
+    "author": "karanjagtiani04",
+    "content": "@nkgoutham @FactoryAI Curious to see how you navigate those token limits. What specific workflows are you planning to tweak first?",
+    "url": "https://x.com/karanjagtiani04/status/1985662928230760752",
+    "timestamp": "2025-11-04T10:58:28.000Z",
+    "metadata": {
+      "conversation_id": "1985662928230760752",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_discussion_309",
     "source": "github",
     "author": "msneijders",
@@ -276,7 +291,7 @@
     "timestamp": "2025-11-04T04:50:37.000Z",
     "metadata": {
       "conversation_id": "1985570357441396843",
-      "likes": 13,
+      "likes": 14,
       "retweets": 2,
       "replies": 0,
       "quotes": 0
@@ -292,21 +307,6 @@
     "metadata": {
       "conversation_id": "1985564299562270816",
       "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985558479659287032",
-    "source": "twitter",
-    "author": "NilkhanVaibhav",
-    "content": "Spent a good bit of time with both coding agents. @FactoryAI Droid’s solid with Sonnet 4.5, but @AmpCode Oracle’s still the real OG. I use Droid day-to-day, and when I hit a wall, Amp’s the one that bails me out.",
-    "url": "https://x.com/NilkhanVaibhav/status/1985558479659287032",
-    "timestamp": "2025-11-04T04:03:26.000Z",
-    "metadata": {
-      "conversation_id": "1985558479659287032",
-      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -541,7 +541,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 8,
+      "score": 5,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -671,7 +671,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 13,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
@@ -699,19 +699,6 @@
     "metadata": {
       "score": 2,
       "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1of1zjv",
-    "source": "reddit",
-    "author": "hrdn",
-    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
-    "timestamp": "2025-10-24T16:13:54.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 5,
       "subreddit": "FactoryAi"
     }
   },
