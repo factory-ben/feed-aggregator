@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1986165384203149584",
+    "source": "twitter",
+    "author": "lghtneon",
+    "content": "@FactoryAI I also noticed GLM 4.6 was not able to interact with Linear MCP when GPT-5 Codex executed the task successfully (like making a new comment in the ticket after the agent finished one implementation task or closing a ticket).\n\nAnyone has similar stories?",
+    "url": "https://x.com/lghtneon/status/1986165384203149584",
+    "timestamp": "2025-11-05T20:15:03.000Z",
+    "metadata": {
+      "conversation_id": "1986165384203149584",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986164885890195861",
+    "source": "twitter",
+    "author": "lghtneon",
+    "content": "@FactoryAI The agent defended itself by saying it did not create the doc because it was in \"spec mode\" where It was actually in \"Auto (High) - allow all commands. \n\nI believe this has something to do with the chosen model itself because if I used GPT-5 Codex, it worked fine.",
+    "url": "https://x.com/lghtneon/status/1986164885890195861",
+    "timestamp": "2025-11-05T20:13:04.000Z",
+    "metadata": {
+      "conversation_id": "1986164885890195861",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986164178093019437",
+    "source": "twitter",
+    "author": "lghtneon",
+    "content": "I have a very strange experience today with @FactoryAI + GLM 4.6 Coding Plan\n\nIt lied to me many times. I asked to create one documentation and it kept saying that it created the doc when actually it was not the case. \n\nI repeated the process again and the outcome was the same.",
+    "url": "https://x.com/lghtneon/status/1986164178093019437",
+    "timestamp": "2025-11-05T20:10:15.000Z",
+    "metadata": {
+      "conversation_id": "1986164178093019437",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 2,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986163427920752940",
+    "source": "twitter",
+    "author": "Todd_CISO",
+    "content": "@liran_tal @snyksec @FactoryAI Liran, if it comes with steak, I'll sign anything you want.",
+    "url": "https://x.com/Todd_CISO/status/1986163427920752940",
+    "timestamp": "2025-11-05T20:07:17.000Z",
+    "metadata": {
+      "conversation_id": "1986163427920752940",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986160959891665291",
+    "source": "twitter",
+    "author": "liran_tal",
+    "content": "@Todd_CISO @snyksec @FactoryAI Todd, if you invite us to your next executive steak dinner we'll handle the AI-native explanations for you!\n\nBut seriously, the Snyk integration with Factory AI adds seamless security into droids agentic coding thanks to Snyk Studio (did someone say MCP? 😉)",
+    "url": "https://x.com/liran_tal/status/1986160959891665291",
+    "timestamp": "2025-11-05T19:57:28.000Z",
+    "metadata": {
+      "conversation_id": "1986160959891665291",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986148681213501674",
     "source": "twitter",
     "author": "stacksats3",
@@ -225,51 +300,6 @@
     }
   },
   {
-    "id": "twitter_1986109441607946606",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@dawid_jordaan @psomkar1 @FactoryAI this!",
-    "url": "https://x.com/bentossell/status/1986109441607946606",
-    "timestamp": "2025-11-05T16:32:45.000Z",
-    "metadata": {
-      "conversation_id": "1986109441607946606",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986105353638228233",
-    "source": "twitter",
-    "author": "nkgoutham",
-    "content": "@FactoryAI there's a setback! I'm not able to subscribe to the paid plan - I'm from India and have a VISA Card/RuPay card. I tried with a friends' Master Card, but then I get this error when I do that. \n\nPlease help here! I've reached out to support as well! Want to get back to shipping now that you gave me a taste of how droid works :)",
-    "url": "https://x.com/nkgoutham/status/1986105353638228233",
-    "timestamp": "2025-11-05T16:16:31.000Z",
-    "metadata": {
-      "conversation_id": "1986105353638228233",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986101737858679012",
-    "source": "twitter",
-    "author": "oi_laz",
-    "content": "@edels0n @matanSF @FactoryAI And here I thought you only spoke about porn with your boss",
-    "url": "https://x.com/oi_laz/status/1986101737858679012",
-    "timestamp": "2025-11-05T16:02:08.000Z",
-    "metadata": {
-      "conversation_id": "1986101737858679012",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1op6njm",
     "source": "reddit",
     "author": "Sakrilegi0us",
@@ -280,36 +310,6 @@
       "score": 1,
       "num_comments": 0,
       "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "twitter_1986095261484278094",
-    "source": "twitter",
-    "author": "rezaul_arif",
-    "content": "It's a Flutter app, my prompt was: \n\n'Review my codebase and analyze the widget tree. Find places where I can refactor or simplify the code. Point out any over-engineering or unnecessary complexity for the future. \nMy goal is to make the app production ready, so remove or flag any demo, markdown, or leftover files that aren't needed.'",
-    "url": "https://x.com/rezaul_arif/status/1986095261484278094",
-    "timestamp": "2025-11-05T15:36:24.000Z",
-    "metadata": {
-      "conversation_id": "1986095261484278094",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986085421462536417",
-    "source": "twitter",
-    "author": "every",
-    "content": "What coding tool is good enough to replace both Claude Max and ChatGPT Max?\n\n@DannyAziz97 found it: Droid by @FactoryAI lets you run multiple AI models from one terminal, so he canceled both subscriptions and moved his entire agent workflow over. https://t.co/FAK5FAdDWB",
-    "url": "https://x.com/every/status/1986085421462536417",
-    "timestamp": "2025-11-05T14:57:18.000Z",
-    "metadata": {
-      "conversation_id": "1986085421462536417",
-      "likes": 23,
-      "retweets": 3,
-      "replies": 2,
-      "quotes": 0
     }
   },
   {
@@ -489,7 +489,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -697,21 +697,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 12,
+      "score": 13,
       "num_comments": 11,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofh9so",
-    "source": "reddit",
-    "author": "abecc2",
-    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
-    "timestamp": "2025-10-25T03:21:56.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
