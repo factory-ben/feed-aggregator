@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1985975653439824219",
+    "source": "twitter",
+    "author": "5aikat",
+    "content": "@LyceumCloud @FactoryAI context engineering &gt; prompt engineering\n\nuntill something new/better comes along\n\ninnovation in this space is absurdly fast 😁 hard to keep track/be in sync 😅",
+    "url": "https://x.com/5aikat/status/1985975653439824219",
+    "timestamp": "2025-11-05T07:41:08.000Z",
+    "metadata": {
+      "conversation_id": "1985975653439824219",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1985974520579309905",
+    "source": "twitter",
+    "author": "LyceumCloud",
+    "content": "@5aikat @FactoryAI Context is king! Love how FactoryAI is stepping up the game. 🏆",
+    "url": "https://x.com/LyceumCloud/status/1985974520579309905",
+    "timestamp": "2025-11-05T07:36:37.000Z",
+    "metadata": {
+      "conversation_id": "1985974520579309905",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1985947392525418820",
     "source": "twitter",
     "author": "5aikat",
@@ -270,33 +300,16 @@
     }
   },
   {
-    "id": "twitter_1985892407511056554",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "@AVGVSTVS96 @FactoryAI i used openai api as a custom model",
-    "url": "https://x.com/nest_elf/status/1985892407511056554",
-    "timestamp": "2025-11-05T02:10:20.000Z",
+    "id": "reddit_1oomptx",
+    "source": "reddit",
+    "author": "samplifyk",
+    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
+    "timestamp": "2025-11-04T23:17:50.000Z",
     "metadata": {
-      "conversation_id": "1985892407511056554",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1985892306923261982",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "@ramnanimanan @FactoryAI ?",
-    "url": "https://x.com/nest_elf/status/1985892306923261982",
-    "timestamp": "2025-11-05T02:09:56.000Z",
-    "metadata": {
-      "conversation_id": "1985892306923261982",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -339,6 +352,19 @@
     }
   },
   {
+    "id": "reddit_1oneja7",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
+    "timestamp": "2025-11-03T15:20:27.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_302",
     "source": "github",
     "author": "Evan-Kim2028",
@@ -349,6 +375,32 @@
       "type": "issue",
       "labels": [],
       "number": 302
+    }
+  },
+  {
+    "id": "reddit_1omo14j",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "Please add “Edit Prompt in External Editor” (like Ctrl + G in Claude Code) to Droid CLI\n\nHello guys!\n\nCan you add *“Edit Prompt in External Editor”* feature? That feature in Claude Code is super helpful — it lets you open your current prompt in an external editor (like VS Code, Vim, etc.), make edits comfortably, and then jump back to the CLI.\n\nRight now, writing or editing long prompts in Droid CLI can be a bit frustrating. Once the prompt gets long (especially after line breaks), if I try to move the cursor left with the arrow key to fix a word, the text sometimes overlaps or disa",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
+    "timestamp": "2025-11-02T17:56:04.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1omlc3f",
+    "source": "reddit",
+    "author": "IslandOceanWater",
+    "content": "Is there any plans to add checkpoints. I would use Factory AI 100% of the time if it had restore points.\n\nAre checkpoints going to be added anytime soon. This is the only thing keeping me using Claude Code for most things because i don't want to have to always use git for each change.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
+    "timestamp": "2025-11-02T16:11:56.000Z",
+    "metadata": {
+      "score": 8,
+      "num_comments": 8,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -378,6 +430,19 @@
     }
   },
   {
+    "id": "reddit_1om3tvt",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "Good work guys, just keep doing it!\n\nhttps://preview.redd.it/9n6ma7a6pqyf1.png?width=1637&amp;format=png&amp;auto=webp&amp;s=6888d3623cebb5cd9517a6e4c4142b6f29713f33\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
+    "timestamp": "2025-11-02T00:38:45.000Z",
+    "metadata": {
+      "score": 8,
+      "num_comments": 13,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_298",
     "source": "github",
     "author": "tgerighty",
@@ -401,6 +466,32 @@
       "type": "issue",
       "labels": [],
       "number": 297
+    }
+  },
+  {
+    "id": "reddit_1oljgx4",
+    "source": "reddit",
+    "author": "steve1215",
+    "content": "Intrigued to know. How is Factory not Claude Code Skills / Sub Agents?\n\nThe post title probably says it all.  ;-)\n\nLooks like some impressive real-world results from Factory if the Internet is to be believed.   \n\nBut just so I can understand things better - how is a Factory \"droid\" not just a Claude Code \"Skill\" and or a sub-agent?\n\nPerhaps it is, just a really good one and I'd be ok with that - just trying to understand.\n\nThanks",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
+    "timestamp": "2025-11-01T09:23:30.000Z",
+    "metadata": {
+      "score": 6,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1okwodb",
+    "source": "reddit",
+    "author": "Uzeii",
+    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
+    "timestamp": "2025-10-31T14:51:05.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -466,6 +557,19 @@
       "type": "issue",
       "labels": [],
       "number": 279
+    }
+  },
+  {
+    "id": "reddit_1oipsqf",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
+    "timestamp": "2025-10-29T00:01:57.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 23,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -570,6 +674,32 @@
       "type": "issue",
       "labels": [],
       "number": 265
+    }
+  },
+  {
+    "id": "reddit_1ofmunx",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
+    "metadata": {
+      "score": 11,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofh9so",
+    "source": "reddit",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
