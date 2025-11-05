@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1986201993602326609",
+    "source": "twitter",
+    "author": "thedockpod",
+    "content": "Building @FactoryAI after being an investor.\nFrom investor to DevRel w/ @bentossell.\n\nSearch “Omar Waseem” on YouTube for the full episode. https://t.co/hntzj0i26D",
+    "url": "https://x.com/thedockpod/status/1986201993602326609",
+    "timestamp": "2025-11-05T22:40:31.000Z",
+    "metadata": {
+      "conversation_id": "1986201993602326609",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986200135169126561",
+    "source": "twitter",
+    "author": "NikolasTsa12265",
+    "content": "@bentossell @FactoryAI Much appreciated Ben.",
+    "url": "https://x.com/NikolasTsa12265/status/1986200135169126561",
+    "timestamp": "2025-11-05T22:33:08.000Z",
+    "metadata": {
+      "conversation_id": "1986200135169126561",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986196670431039497",
     "source": "twitter",
     "author": "rezaul_arif",
@@ -270,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1986118241618698729",
-    "source": "twitter",
-    "author": "samuelekpe",
-    "content": "@bentossell @FactoryAI @claudeai @OpenAI @GoogleDeepMind Thanks! Wanna see what we’re cooking?",
-    "url": "https://x.com/samuelekpe/status/1986118241618698729",
-    "timestamp": "2025-11-05T17:07:43.000Z",
-    "metadata": {
-      "conversation_id": "1986118241618698729",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986112561658368039",
-    "source": "twitter",
-    "author": "BillCrosby",
-    "content": "@every @DannyAziz97 @FactoryAI droid is truly a step up in coding, it's made my tasks a breeze. kudos to @FactoryAI!",
-    "url": "https://x.com/BillCrosby/status/1986112561658368039",
-    "timestamp": "2025-11-05T16:45:09.000Z",
-    "metadata": {
-      "conversation_id": "1986112561658368039",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1op6njm",
     "source": "reddit",
     "author": "Sakrilegi0us",
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 9,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -450,7 +450,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -489,7 +489,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 4,
+      "score": 8,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -699,19 +699,6 @@
     "metadata": {
       "score": 11,
       "num_comments": 11,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofh9so",
-    "source": "reddit",
-    "author": "abecc2",
-    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
-    "timestamp": "2025-10-25T03:21:56.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
