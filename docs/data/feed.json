@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1986440627312001303",
+    "source": "twitter",
+    "author": "pascallammers_",
+    "content": "96% faster implementation thanks to @FactoryAI  Droids :D https://t.co/7XTzIvVPzH",
+    "url": "https://x.com/pascallammers_/status/1986440627312001303",
+    "timestamp": "2025-11-06T14:28:46.000Z",
+    "metadata": {
+      "conversation_id": "1986440627312001303",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986437991498195251",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@sha_sujin @hqmank @FactoryAI no you can't use models free im afraid",
+    "url": "https://x.com/bentossell/status/1986437991498195251",
+    "timestamp": "2025-11-06T14:18:18.000Z",
+    "metadata": {
+      "conversation_id": "1986437991498195251",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986437126687498271",
+    "source": "twitter",
+    "author": "kylantomita",
+    "content": "@garymjr @FactoryAI actually I should probs test with other models and see\n\nive switched some of my MCP servers to code execution mode, from the anthropic article that was just published, so we’ll see if that helps there too",
+    "url": "https://x.com/kylantomita/status/1986437126687498271",
+    "timestamp": "2025-11-06T14:14:51.000Z",
+    "metadata": {
+      "conversation_id": "1986437126687498271",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986434861377470499",
+    "source": "twitter",
+    "author": "yuhasbeentaken",
+    "content": "@alecpow @Justin_Digs @modal @FactoryAI @vibescaling omg, the energy here is unreal!!!",
+    "url": "https://x.com/yuhasbeentaken/status/1986434861377470499",
+    "timestamp": "2025-11-06T14:05:51.000Z",
+    "metadata": {
+      "conversation_id": "1986434861377470499",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986434787062784357",
+    "source": "twitter",
+    "author": "BillCrosby",
+    "content": "@alecpow @bentossell @Justin_Digs @modal @FactoryAI @vibescaling I too am a frequent attender of SF events and have found @modal to always deliver.",
+    "url": "https://x.com/BillCrosby/status/1986434787062784357",
+    "timestamp": "2025-11-06T14:05:34.000Z",
+    "metadata": {
+      "conversation_id": "1986434787062784357",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986433578914488398",
+    "source": "twitter",
+    "author": "sha_sujin",
+    "content": "@bentossell @hqmank @FactoryAI With respect to models",
+    "url": "https://x.com/sha_sujin/status/1986433578914488398",
+    "timestamp": "2025-11-06T14:00:46.000Z",
+    "metadata": {
+      "conversation_id": "1986433578914488398",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986431482127102104",
     "source": "twitter",
     "author": "BillQueens",
@@ -23,7 +113,7 @@
     "timestamp": "2025-11-06T13:06:39.000Z",
     "metadata": {
       "conversation_id": "1986419961854582817",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -55,7 +145,7 @@
       "conversation_id": "1986419738583462122",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -173,7 +263,7 @@
     "timestamp": "2025-11-06T09:55:15.000Z",
     "metadata": {
       "conversation_id": "1986371793414680840",
-      "likes": 16,
+      "likes": 19,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -203,96 +293,6 @@
     "timestamp": "2025-11-06T08:36:49.000Z",
     "metadata": {
       "conversation_id": "1986352056064745575",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986342523053482391",
-    "source": "twitter",
-    "author": "gabe__perez",
-    "content": "@taishifromjapan @FactoryAI teach me senpai",
-    "url": "https://x.com/gabe__perez/status/1986342523053482391",
-    "timestamp": "2025-11-06T07:58:56.000Z",
-    "metadata": {
-      "conversation_id": "1986342523053482391",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986332896937058652",
-    "source": "twitter",
-    "author": "S1lv3rd3m0n",
-    "content": "@FactoryAI @snyksec Brilliant.",
-    "url": "https://x.com/S1lv3rd3m0n/status/1986332896937058652",
-    "timestamp": "2025-11-06T07:20:41.000Z",
-    "metadata": {
-      "conversation_id": "1986332896937058652",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986321958699737486",
-    "source": "twitter",
-    "author": "grok",
-    "content": "@minheo93698092 @explosivesox @FactoryAI @BlinkOnChain 이 포스트는 FactoryAI를 사용해 Rust로 만든 도구에 관한 거예요. 매시간 Polymarket의 알파(인사이트)를 제공하며, v0.1.0 버전이 라이브 중이고 프론트엔드가 곧 나올 예정입니다. BlinkOnChain과 파트너십, $BETTER 토큰 언급. 비디오는 터미널에서 데이터 로그를 보여줘요.",
-    "url": "https://x.com/grok/status/1986321958699737486",
-    "timestamp": "2025-11-06T06:37:13.000Z",
-    "metadata": {
-      "conversation_id": "1986321958699737486",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986321780366279004",
-    "source": "twitter",
-    "author": "minheo93698092",
-    "content": "@explosivesox @FactoryAI @BlinkOnChain @grok 무슨내용이야?",
-    "url": "https://x.com/minheo93698092/status/1986321780366279004",
-    "timestamp": "2025-11-06T06:36:31.000Z",
-    "metadata": {
-      "conversation_id": "1986321780366279004",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986320112635552217",
-    "source": "twitter",
-    "author": "alecpow",
-    "content": "Great event ft. leaders like @Justin_Digs from @modal tonight at the @FactoryAI office.\n\nI attend many events in SF &amp; this was the most genuinely well prepared and curated - @vibescaling team are building a great community.\n\nTechnical GTM is on🔥 https://t.co/0k7KPKsuAb",
-    "url": "https://x.com/alecpow/status/1986320112635552217",
-    "timestamp": "2025-11-06T06:29:53.000Z",
-    "metadata": {
-      "conversation_id": "1986320112635552217",
-      "likes": 6,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986316858598040040",
-    "source": "twitter",
-    "author": "acoustik",
-    "content": "@NLilichenko @matanSF @FactoryAI Thanks! Looks like it's working now.",
-    "url": "https://x.com/acoustik/status/1986316858598040040",
-    "timestamp": "2025-11-06T06:16:57.000Z",
-    "metadata": {
-      "conversation_id": "1986316858598040040",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -450,7 +450,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 10,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -489,7 +489,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -557,19 +557,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "reddit_1oipsqf",
-    "source": "reddit",
-    "author": "StrixGGUY",
-    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
-    "timestamp": "2025-10-29T00:01:57.000Z",
-    "metadata": {
-      "score": 5,
-      "num_comments": 23,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -697,34 +684,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 12,
+      "score": 11,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
   },
   {
-    "id": "reddit_1ofh3rn",
+    "id": "reddit_1ofh9so",
     "source": "reddit",
-    "author": "zhangjun3371",
-    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
-    "timestamp": "2025-10-25T03:12:45.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1of1zjv",
-    "source": "reddit",
-    "author": "hrdn",
-    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
-    "timestamp": "2025-10-24T16:13:54.000Z",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
     "metadata": {
       "score": 1,
-      "num_comments": 5,
+      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -765,32 +739,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
-    }
-  },
-  {
-    "id": "reddit_1obd1tm",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
-    "timestamp": "2025-10-20T06:53:47.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ob2dsx",
-    "source": "reddit",
-    "author": "Conscious-Fee7844",
-    "content": "I get this  A LOT: Error: undefined is not an object (evaluating 'A.match')\n\nDoes anyone else see this? u/bentossell do you know what this is? What it means? I get this many times a day, trying to do short or long tasks. Just randomly in the middle of a process this returns and no results. What sucks is I see my usage to up.. e.g. whatever task it was doing.. eats away at my tokens/credits.. and then I get no response at all. I have to submit again and/or sometimes exit, restart and add a bunch of context. So I end up wasting a ton of context tokens.\n\nThis is with the de",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ob2dsx/i_get_this_a_lot_error_undefined_is_not_an_object/",
-    "timestamp": "2025-10-19T21:56:23.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
     }
   },
   {
