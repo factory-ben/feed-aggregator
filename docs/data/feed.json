@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1986458931372433879",
+    "source": "twitter",
+    "author": "NilkhanVaibhav",
+    "content": "@pascallammers_ @FactoryAI Which model are you using ?",
+    "url": "https://x.com/NilkhanVaibhav/status/1986458931372433879",
+    "timestamp": "2025-11-06T15:41:30.000Z",
+    "metadata": {
+      "conversation_id": "1986458931372433879",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986456857666339070",
+    "source": "twitter",
+    "author": "EbenEsterhuizen",
+    "content": "hey @FactoryAI have you resolved the performance issues? Droids + Codex very slow, gets stuck in loops, takes forever and then gets it wrong? Don't pull an anthropic on us please",
+    "url": "https://x.com/EbenEsterhuizen/status/1986456857666339070",
+    "timestamp": "2025-11-06T15:33:16.000Z",
+    "metadata": {
+      "conversation_id": "1986456857666339070",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986453434116255903",
     "source": "twitter",
     "author": "masfiq018",
@@ -68,9 +98,9 @@
     "timestamp": "2025-11-06T14:28:46.000Z",
     "metadata": {
       "conversation_id": "1986440627312001303",
-      "likes": 9,
+      "likes": 10,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -270,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1986394382833230254",
-    "source": "twitter",
-    "author": "asensitivedev",
-    "content": "@FactoryAI 2/3 I'm using it to build some very simple app/websites just by giving a very SIMPLE prompt without optimizing it, in less then 20 minutes it has built the whole project, refactored it and implemented new features without doing any errors, it always built smoothly.",
-    "url": "https://x.com/asensitivedev/status/1986394382833230254",
-    "timestamp": "2025-11-06T11:25:00.000Z",
-    "metadata": {
-      "conversation_id": "1986394382833230254",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986393924332585285",
-    "source": "twitter",
-    "author": "asensitivedev",
-    "content": "I've been playing around with Droid by @FactoryAI and IT IS AWESOME. I've never used AI agents in the last years but I've always followed the progress during this time. I've started trying them with Codex, Claude Code with Sonnet 4.5 and Droid literally outperformed all them all.",
-    "url": "https://x.com/asensitivedev/status/1986393924332585285",
-    "timestamp": "2025-11-06T11:23:11.000Z",
-    "metadata": {
-      "conversation_id": "1986393924332585285",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1op6njm",
     "source": "reddit",
     "author": "Sakrilegi0us",
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 8,
       "subreddit": "FactoryAi"
     }
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -697,7 +697,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 12,
+      "score": 11,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
