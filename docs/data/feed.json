@@ -1,5 +1,125 @@
 [
   {
+    "id": "twitter_1986502042794217974",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@yaghsizian @dogancanbaris @5aikat @FactoryAI you can run /bug in the session",
+    "url": "https://x.com/bentossell/status/1986502042794217974",
+    "timestamp": "2025-11-06T18:32:49.000Z",
+    "metadata": {
+      "conversation_id": "1986502042794217974",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986501280315945447",
+    "source": "twitter",
+    "author": "gtmba_",
+    "content": "awesome time last night, co-hosting a \"selling to developers\" private GTM event with @vibescaling <> @factoryAI with ~100 of the top technical GTM AEs/operators in SF\n\nbeen stellar partnering with the Factory team on their founding GTM build out\n\nwas amazing to see a talent-dense room from the likes of OpenAI, Anthropic, Vercel, Baseten, Fireworks, Grafana, LiveKit, Retool, Lambda, Exa, Dust, Mistral, Modal, ElevenLabs, Persona, Parallel, CodeRabbit, Together, Groq, Fal, and others.\n\nwe chatted about topics including:\n\n1) 𝗵𝗼𝘄 𝘁𝗼 𝗰𝗵𝗼𝗼𝘀𝗲 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝗱𝗲𝘃𝘁𝗼𝗼𝗹𝘀/𝗶𝗻𝗳𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗻𝘆 (what metrics to look for/questions to ask)\n2) 𝘄𝗵𝗮𝘁 𝗼𝘂𝘁𝗯𝗼𝘂𝗻𝗱/𝘀𝗶𝗴𝗻𝗮𝗹𝘀 𝗮𝗿𝗲 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 as it relates to selling to devs\n3) 𝗺𝗼𝘃𝗶𝗻𝗴 𝗳𝗿𝗼𝗺 𝗣𝗟𝗚 𝘁𝗼 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 and taking control of your deals with developers who might be boxing you out in Slack\n\nshoutout to our world-class speakers:\n- Andy Codner, VP of Sales @ Factory\n- June-June Shih, VP of Sales @ LiveKit\n- Bardia Shahali, VP of Sales @ Fireworks AI\n- Justin Dignelli, VP of Sales @ Modal\n\nwe host these private events monthly in SF and NYC, excited for a similar rendition of this with Clay in December in NYC\n\nfor those who are new, VibeScaling is a GTM advisory, recruiting, media, and investing firm helping seed through series C AI-natives\n\nfor startups looking for GTM advisory + help recruiting their founding teams + want to host the next event (in SF or NYC) + want to be on the podcast, or candidates looking to break into the space/their next move - shoot me a DM 🙂",
+    "url": "https://x.com/gtmba_/status/1986501280315945447",
+    "timestamp": "2025-11-06T18:29:47.000Z",
+    "metadata": {
+      "conversation_id": "1986501280315945447",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986499824016105925",
+    "source": "twitter",
+    "author": "yaghsizian",
+    "content": "@bentossell @dogancanbaris @5aikat @FactoryAI Hmm possible. Is there logging somewhere i can dig into? i’ll try to time and capture the error message next time",
+    "url": "https://x.com/yaghsizian/status/1986499824016105925",
+    "timestamp": "2025-11-06T18:24:00.000Z",
+    "metadata": {
+      "conversation_id": "1986499824016105925",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986499085172396346",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@yaghsizian @dogancanbaris @5aikat @FactoryAI oh. a timeout perhaps?",
+    "url": "https://x.com/bentossell/status/1986499085172396346",
+    "timestamp": "2025-11-06T18:21:03.000Z",
+    "metadata": {
+      "conversation_id": "1986499085172396346",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986499010668920974",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@kylantomita @FactoryAI this is expected with sonnet being around 5x more expensive",
+    "url": "https://x.com/bentossell/status/1986499010668920974",
+    "timestamp": "2025-11-06T18:20:46.000Z",
+    "metadata": {
+      "conversation_id": "1986499010668920974",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986497004881781223",
+    "source": "twitter",
+    "author": "yaghsizian",
+    "content": "@bentossell @dogancanbaris @5aikat @FactoryAI Ah maybe just a me problem, fails to compress universally on own models. Runs the compression then errors out.",
+    "url": "https://x.com/yaghsizian/status/1986497004881781223",
+    "timestamp": "2025-11-06T18:12:47.000Z",
+    "metadata": {
+      "conversation_id": "1986497004881781223",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986496465225605205",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@yaghsizian @dogancanbaris @5aikat @FactoryAI what’s the issue?",
+    "url": "https://x.com/bentossell/status/1986496465225605205",
+    "timestamp": "2025-11-06T18:10:39.000Z",
+    "metadata": {
+      "conversation_id": "1986496465225605205",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986494893506940984",
+    "source": "twitter",
+    "author": "yaghsizian",
+    "content": "@bentossell @dogancanbaris @5aikat @FactoryAI Any plans on fixing compression with BYO models?",
+    "url": "https://x.com/yaghsizian/status/1986494893506940984",
+    "timestamp": "2025-11-06T18:04:24.000Z",
+    "metadata": {
+      "conversation_id": "1986494893506940984",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986492610639503729",
     "source": "twitter",
     "author": "contxtkng",
@@ -8,7 +128,7 @@
     "timestamp": "2025-11-06T17:55:20.000Z",
     "metadata": {
       "conversation_id": "1986492610639503729",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -40,7 +160,7 @@
       "conversation_id": "1986490425100890611",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -180,152 +300,6 @@
     }
   },
   {
-    "id": "twitter_1986448691150901735",
-    "source": "twitter",
-    "author": "anujbpanchal",
-    "content": ".@FactoryAI helps teams code and document faster with agentic intelligence. As they grew, their multi-database setup slowed them down. Switching to @MongoDB Atlas brought everything together, so they could scale with ease. https://t.co/UzVfAA6UeZ https://t.co/ANA5fgj2jG",
-    "url": "https://x.com/anujbpanchal/status/1986448691150901735",
-    "timestamp": "2025-11-06T15:00:49.000Z",
-    "metadata": {
-      "conversation_id": "1986448691150901735",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986441206046372075",
-    "source": "twitter",
-    "author": "mnair1",
-    "content": "@snyksec + @FactoryAI 🚀\nAI is writing code — now it can secure it too.\n\nBy embedding Snyk Studio into Factory’s AI Droids, every line of AI-generated code is secured at inception and remediated intelligently.\n\n🎥👇\nhttps://t.co/4i3etkjKmq\n\n⌨️ https://t.co/a6SjJtyEUT\n\n@matanSF 💥",
-    "url": "https://x.com/mnair1/status/1986441206046372075",
-    "timestamp": "2025-11-06T14:31:04.000Z",
-    "metadata": {
-      "conversation_id": "1986441206046372075",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986440627312001303",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "96% faster implementation thanks to @FactoryAI  Droids :D https://t.co/7XTzIvVPzH",
-    "url": "https://x.com/pascallammers_/status/1986440627312001303",
-    "timestamp": "2025-11-06T14:28:46.000Z",
-    "metadata": {
-      "conversation_id": "1986440627312001303",
-      "likes": 17,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986437991498195251",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@sha_sujin @hqmank @FactoryAI no you can't use models free im afraid",
-    "url": "https://x.com/bentossell/status/1986437991498195251",
-    "timestamp": "2025-11-06T14:18:18.000Z",
-    "metadata": {
-      "conversation_id": "1986437991498195251",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986437126687498271",
-    "source": "twitter",
-    "author": "kylantomita",
-    "content": "@garymjr @FactoryAI actually I should probs test with other models and see\n\nive switched some of my MCP servers to code execution mode, from the anthropic article that was just published, so we’ll see if that helps there too",
-    "url": "https://x.com/kylantomita/status/1986437126687498271",
-    "timestamp": "2025-11-06T14:14:51.000Z",
-    "metadata": {
-      "conversation_id": "1986437126687498271",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986434861377470499",
-    "source": "twitter",
-    "author": "yuhasbeentaken",
-    "content": "@alecpow @Justin_Digs @modal @FactoryAI @vibescaling omg, the energy here is unreal!!!",
-    "url": "https://x.com/yuhasbeentaken/status/1986434861377470499",
-    "timestamp": "2025-11-06T14:05:51.000Z",
-    "metadata": {
-      "conversation_id": "1986434861377470499",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986434787062784357",
-    "source": "twitter",
-    "author": "BillCrosby",
-    "content": "@alecpow @bentossell @Justin_Digs @modal @FactoryAI @vibescaling I too am a frequent attender of SF events and have found @modal to always deliver.",
-    "url": "https://x.com/BillCrosby/status/1986434787062784357",
-    "timestamp": "2025-11-06T14:05:34.000Z",
-    "metadata": {
-      "conversation_id": "1986434787062784357",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986433578914488398",
-    "source": "twitter",
-    "author": "sha_sujin",
-    "content": "@bentossell @hqmank @FactoryAI With respect to models",
-    "url": "https://x.com/sha_sujin/status/1986433578914488398",
-    "timestamp": "2025-11-06T14:00:46.000Z",
-    "metadata": {
-      "conversation_id": "1986433578914488398",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "reddit_1op6njm",
-    "source": "reddit",
-    "author": "Sakrilegi0us",
-    "content": "Droid is failing to compress every time and I have to start a new chat.\n\nI keep getting \"Error: stream ended without producing a Message with role=assistant\" when reach my context window and It fails to compress every time. Im using vibeProxy to use my claude code max subscription and switching model, or service (to codex or GLM) I get \"Error: Failed to compress conversation for model switch\"",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
-    "timestamp": "2025-11-05T15:57:27.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 5,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oomptx",
-    "source": "reddit",
-    "author": "samplifyk",
-    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
-    "timestamp": "2025-11-04T23:17:50.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_314",
     "source": "github",
     "author": "lifeisnphard",
@@ -365,19 +339,6 @@
     }
   },
   {
-    "id": "reddit_1oneja7",
-    "source": "reddit",
-    "author": "UrAn8",
-    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
-    "timestamp": "2025-11-03T15:20:27.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_302",
     "source": "github",
     "author": "Evan-Kim2028",
@@ -398,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -482,32 +443,6 @@
     }
   },
   {
-    "id": "reddit_1oljgx4",
-    "source": "reddit",
-    "author": "steve1215",
-    "content": "Intrigued to know. How is Factory not Claude Code Skills / Sub Agents?\n\nThe post title probably says it all.  ;-)\n\nLooks like some impressive real-world results from Factory if the Internet is to be believed.   \n\nBut just so I can understand things better - how is a Factory \"droid\" not just a Claude Code \"Skill\" and or a sub-agent?\n\nPerhaps it is, just a really good one and I'd be ok with that - just trying to understand.\n\nThanks",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
-    "timestamp": "2025-11-01T09:23:30.000Z",
-    "metadata": {
-      "score": 4,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1okwodb",
-    "source": "reddit",
-    "author": "Uzeii",
-    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
-    "timestamp": "2025-10-31T14:51:05.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_292",
     "source": "github",
     "author": "krit3dvanced",
@@ -557,19 +492,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "reddit_1oipsqf",
-    "source": "reddit",
-    "author": "StrixGGUY",
-    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
-    "timestamp": "2025-10-29T00:01:57.000Z",
-    "metadata": {
-      "score": 6,
-      "num_comments": 23,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -690,15 +612,28 @@
     }
   },
   {
-    "id": "reddit_1ofmunx",
+    "id": "reddit_1ofh9so",
     "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
-    "timestamp": "2025-10-25T09:01:37.000Z",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
     "metadata": {
-      "score": 11,
-      "num_comments": 11,
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1of1zjv",
+    "source": "reddit",
+    "author": "hrdn",
+    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
+    "timestamp": "2025-10-24T16:13:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 5,
       "subreddit": "FactoryAi"
     }
   },
@@ -713,6 +648,45 @@
       "type": "discussion",
       "category": "Factory Official",
       "number": 240
+    }
+  },
+  {
+    "id": "reddit_1odjcfl",
+    "source": "reddit",
+    "author": "Hassan_A2H",
+    "content": "Factory consumes way too many tokens\n\nCodex was my daily driver before factory, and its weekly quota was enough to last entire week. Today I connected my codex with factory and boy ooh boy... For the first time I hit the 5hr limit, and that too within 60 minutes of usage.\n\nBesides connecting with codex, even on default factory models I've noticed that even super simple prompts take up to 10k-20k input tokens, which on cheaper models might not hurt as much but when you consider sonnet's or opus'  multiplier this means monthly 20 mil ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
+    "timestamp": "2025-10-22T20:20:05.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 9,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ocv9jx",
+    "source": "reddit",
+    "author": "heretiqal",
+    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
+    "timestamp": "2025-10-22T01:34:31.000Z",
+    "metadata": {
+      "score": 4,
+      "num_comments": 15,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -742,6 +716,19 @@
     }
   },
   {
+    "id": "reddit_1oazqru",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "Droid Author/Owner.. please provide release updates\n\nHey there,\n\nI see one person that responds that I assume is from FactoryAI from time to time asking about bugs, etc. Can that person or someone from the FactorAI/Droid team when they put out NEW droid updates, share a post here on this forum for the few of us here to read. It would be very helpful to see what changes/additions/features were made each time there is an update. \n\nThank you.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oazqru/droid_authorowner_please_provide_release_updates/",
+    "timestamp": "2025-10-19T20:10:35.000Z",
+    "metadata": {
+      "score": 4,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_214",
     "source": "github",
     "author": "0xStuart",
@@ -752,6 +739,19 @@
       "type": "discussion",
       "category": "Questions",
       "number": 214
+    }
+  },
+  {
+    "id": "reddit_1oayeuk",
+    "source": "reddit",
+    "author": "Malek262",
+    "content": "\"Is Factory AI Real ?\" We heard there's a free trial of 20 million tokens , But i get Nothing\n\nI heard about Factory AI and Droid CLI from a friend. I downloaded Droid CLI and tried to create an account, expecting a 20 million token free trial to test things out. However, the signup process was a nightmare. It involved two-factor authentication, email verification, and repeatedly entering my phone number. I'd enter my number, they'd send a code, then it would ask for two-factor authentication. After setting that up, it would loop back to verifying my phone number again, requesting another",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oayeuk/is_factory_ai_real_we_heard_theres_a_free_trial/",
+    "timestamp": "2025-10-19T19:18:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
     }
   },
   {
