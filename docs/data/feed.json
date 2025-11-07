@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1986886148183236729",
+    "source": "twitter",
+    "author": "mikez93",
+    "content": "@RepoPrompt @FactoryAI @pvncher Cool I figured there was a good reason. Thanks for the reply.",
+    "url": "https://x.com/mikez93/status/1986886148183236729",
+    "timestamp": "2025-11-07T19:59:06.000Z",
+    "metadata": {
+      "conversation_id": "1986886148183236729",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986885975537316196",
+    "source": "twitter",
+    "author": "RepoPrompt",
+    "content": "@mikez93 @FactoryAI @pvncher Yeah we dont yet have support for Codex in that way because its not possible to fully turn off tool calls on codex and I've been relunctant to make this work the same way. That said, working on options to make it possible",
+    "url": "https://x.com/RepoPrompt/status/1986885975537316196",
+    "timestamp": "2025-11-07T19:58:25.000Z",
+    "metadata": {
+      "conversation_id": "1986885975537316196",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986885705625395489",
+    "source": "twitter",
+    "author": "mikez93",
+    "content": "@RepoPrompt @FactoryAI @pvncher do you mind taking a look at the above question when you have a sec?",
+    "url": "https://x.com/mikez93/status/1986885705625395489",
+    "timestamp": "2025-11-07T19:57:21.000Z",
+    "metadata": {
+      "conversation_id": "1986885705625395489",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986875652121751725",
     "source": "twitter",
     "author": "Social_Quotient",
@@ -8,8 +53,8 @@
     "timestamp": "2025-11-07T19:17:24.000Z",
     "metadata": {
       "conversation_id": "1986875652121751725",
-      "likes": 3,
-      "retweets": 0,
+      "likes": 4,
+      "retweets": 1,
       "replies": 0,
       "quotes": 0
     }
@@ -113,7 +158,7 @@
     "timestamp": "2025-11-07T17:39:03.000Z",
     "metadata": {
       "conversation_id": "1986850903484485670",
-      "likes": 27,
+      "likes": 30,
       "retweets": 3,
       "replies": 1,
       "quotes": 1
@@ -248,54 +293,9 @@
     "timestamp": "2025-11-07T15:55:30.000Z",
     "metadata": {
       "conversation_id": "1986824843388391778",
-      "likes": 11,
+      "likes": 12,
       "retweets": 0,
       "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986823437818425855",
-    "source": "twitter",
-    "author": "thedanifrim",
-    "content": "@AntonioJASmith @FactoryAI Been on the pro plan just for 3 days. I don't even know if the 200 is even going to be enough at this point haha",
-    "url": "https://x.com/thedanifrim/status/1986823437818425855",
-    "timestamp": "2025-11-07T15:49:55.000Z",
-    "metadata": {
-      "conversation_id": "1986823437818425855",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986823412086407376",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@thedanifrim @FactoryAI https://t.co/Y88lZywsNU :) see you in there",
-    "url": "https://x.com/bentossell/status/1986823412086407376",
-    "timestamp": "2025-11-07T15:49:49.000Z",
-    "metadata": {
-      "conversation_id": "1986823412086407376",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986822251107254505",
-    "source": "twitter",
-    "author": "snyksec",
-    "content": "📖 Patching Detected Vulnerabilities with @FactoryAI and #Snyk Studio\n\nDiscover how to revolutionize your #DevSecOps workflows with:\n\n🛠️ Automated fixes\n🔒 Integrated security\n💪 Empowered teams\n\nLearn more 💡 https://t.co/xfYnUu1DEl\n\n#FactoryAI #AISecurity #SnykStudio https://t.co/ZyVA1ABT9U",
-    "url": "https://x.com/snyksec/status/1986822251107254505",
-    "timestamp": "2025-11-07T15:45:12.000Z",
-    "metadata": {
-      "conversation_id": "1986822251107254505",
-      "likes": 6,
-      "retweets": 2,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -320,7 +320,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 12,
       "subreddit": "FactoryAi"
     }
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 8,
+      "score": 10,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 8,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -697,7 +697,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 12,
+      "score": 11,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
