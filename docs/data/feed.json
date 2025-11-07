@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1986708789496537321",
+    "source": "twitter",
+    "author": "Omarboucher",
+    "content": "@Scobleizer @FactoryAI @cursor_ai @genspark_ai @ManusAI @n8n_io @flowith_ai @Pokee_AI I use Flowith and just yesterday night, got my access code to OS. A lot to discover on your lists too.\nThank you Robert!",
+    "url": "https://x.com/Omarboucher/status/1986708789496537321",
+    "timestamp": "2025-11-07T08:14:21.000Z",
+    "metadata": {
+      "conversation_id": "1986708789496537321",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986706696719536280",
+    "source": "twitter",
+    "author": "Scobleizer",
+    "content": "There are developer AI’s for AI agents like @FactoryAI or @cursor_ai. More than 1,000 of this on my lists here on X.\n\nThen there are more generalized platforms like @genspark_ai, @ManusAI, @n8n_io, @flowith_ai, @Pokee_AI which are better for running agents for humans. \n\nHave you tried them all? You should. They are evolving very fast. And you should keep comparing them every month or two for the next few years.\n\nWhich one are you using today? Why?",
+    "url": "https://x.com/Scobleizer/status/1986706696719536280",
+    "timestamp": "2025-11-07T08:06:02.000Z",
+    "metadata": {
+      "conversation_id": "1986706696719536280",
+      "likes": 7,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986680836045902066",
     "source": "twitter",
     "author": "KKoppenhaver",
@@ -23,7 +53,7 @@
     "timestamp": "2025-11-07T06:00:59.000Z",
     "metadata": {
       "conversation_id": "1986675229155111327",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1986516350291030384",
-    "source": "twitter",
-    "author": "Arindam_1729",
-    "content": "@pascallammers_ @FactoryAI Oh Nice!",
-    "url": "https://x.com/Arindam_1729/status/1986516350291030384",
-    "timestamp": "2025-11-06T19:29:40.000Z",
-    "metadata": {
-      "conversation_id": "1986516350291030384",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986512410966974699",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "@Arindam_1729 @FactoryAI Sonnet 4.5",
-    "url": "https://x.com/pascallammers_/status/1986512410966974699",
-    "timestamp": "2025-11-06T19:14:01.000Z",
-    "metadata": {
-      "conversation_id": "1986512410966974699",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1op6njm",
     "source": "reddit",
     "author": "Sakrilegi0us",
@@ -320,7 +320,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 5,
+      "score": 7,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
