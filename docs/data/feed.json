@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1986680836045902066",
+    "source": "twitter",
+    "author": "KKoppenhaver",
+    "content": "😅 @FactoryAI 's Droid casually calling me out:\n\n\"Done! I've added a sentence explaining the Midjourney flags with specific examples (--ar 16:9 and --v 6) while maintaining your casual, \"I don't need to know everything\" voice. Ready to move on to Step 2?\"",
+    "url": "https://x.com/KKoppenhaver/status/1986680836045902066",
+    "timestamp": "2025-11-07T06:23:16.000Z",
+    "metadata": {
+      "conversation_id": "1986680836045902066",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1986675229155111327",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@archimagos @SkylerMiao7 @crystalsssup @FactoryAI yup looking",
+    "url": "https://x.com/bentossell/status/1986675229155111327",
+    "timestamp": "2025-11-07T06:00:59.000Z",
+    "metadata": {
+      "conversation_id": "1986675229155111327",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986647449122054289",
     "source": "twitter",
     "author": "0xDerekLao",
@@ -23,9 +53,9 @@
     "timestamp": "2025-11-07T04:01:49.000Z",
     "metadata": {
       "conversation_id": "1986645236773175745",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1986510666040004910",
-    "source": "twitter",
-    "author": "RepoPrompt",
-    "content": "@mikez93 @FactoryAI If you enable agent mode for the edits, it takes precedence over the other settings.\n\nJust having the agent mode picked in that ui is sufficient",
-    "url": "https://x.com/RepoPrompt/status/1986510666040004910",
-    "timestamp": "2025-11-06T19:07:05.000Z",
-    "metadata": {
-      "conversation_id": "1986510666040004910",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1986509697558729196",
-    "source": "twitter",
-    "author": "Arindam_1729",
-    "content": "@pascallammers_ @FactoryAI This is Cool!\n\nWhat model is it?",
-    "url": "https://x.com/Arindam_1729/status/1986509697558729196",
-    "timestamp": "2025-11-06T19:03:14.000Z",
-    "metadata": {
-      "conversation_id": "1986509697558729196",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1op6njm",
     "source": "reddit",
     "author": "Sakrilegi0us",
@@ -411,7 +411,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -697,7 +697,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
     "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 11,
+      "score": 12,
       "num_comments": 11,
       "subreddit": "FactoryAi"
     }
