@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1986749202911904112",
+    "source": "twitter",
+    "author": "abhagsain",
+    "content": "@_ImFarhan1 @AmpCode @FactoryAI yup",
+    "url": "https://x.com/abhagsain/status/1986749202911904112",
+    "timestamp": "2025-11-07T10:54:56.000Z",
+    "metadata": {
+      "conversation_id": "1986749202911904112",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1986746493449974015",
     "source": "twitter",
     "author": "_ImFarhan1",
@@ -10,7 +25,7 @@
       "conversation_id": "1986746493449974015",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1986532295214334289",
-    "source": "twitter",
-    "author": "RepoPrompt",
-    "content": "@mikez93 @FactoryAI Yes that's right. I shipped those settings a bit quick, but you've got it",
-    "url": "https://x.com/RepoPrompt/status/1986532295214334289",
-    "timestamp": "2025-11-06T20:33:01.000Z",
-    "metadata": {
-      "conversation_id": "1986532295214334289",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_319",
     "source": "github",
     "author": "Bladed3d",
@@ -320,7 +320,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 3,
       "num_comments": 6,
       "subreddit": "FactoryAi"
     }
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 4,
+      "score": 7,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -690,15 +690,15 @@
     }
   },
   {
-    "id": "reddit_1ofh3rn",
+    "id": "reddit_1ofmunx",
     "source": "reddit",
-    "author": "zhangjun3371",
-    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
-    "timestamp": "2025-10-25T03:12:45.000Z",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
     "metadata": {
-      "score": 2,
-      "num_comments": 1,
+      "score": 12,
+      "num_comments": 11,
       "subreddit": "FactoryAi"
     }
   },
