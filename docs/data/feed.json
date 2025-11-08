@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1987069822644220388",
+    "source": "twitter",
+    "author": "nazar44444444",
+    "content": "@FactoryAI chop chop droid agent we're waiting for terminal bench 2 and kimi thinking results",
+    "url": "https://x.com/nazar44444444/status/1987069822644220388",
+    "timestamp": "2025-11-08T08:08:58.000Z",
+    "metadata": {
+      "conversation_id": "1987069822644220388",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1987058007327281620",
     "source": "twitter",
     "author": "karmakomik",
@@ -160,7 +175,7 @@
       "conversation_id": "1987000265137136007",
       "likes": 3,
       "retweets": 0,
-      "replies": 1,
+      "replies": 0,
       "quotes": 0
     }
   },
@@ -282,21 +297,6 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 1
-    }
-  },
-  {
-    "id": "twitter_1986939735105745273",
-    "source": "twitter",
-    "author": "CyprianWetende",
-    "content": "This is crazy @FactoryAI. No terminal agent beats Droid. How do you handle large context ? https://t.co/VcnGw0Bm4D",
-    "url": "https://x.com/CyprianWetende/status/1986939735105745273",
-    "timestamp": "2025-11-07T23:32:03.000Z",
-    "metadata": {
-      "conversation_id": "1986939735105745273",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -583,19 +583,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "reddit_1oipsqf",
-    "source": "reddit",
-    "author": "StrixGGUY",
-    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
-    "timestamp": "2025-10-29T00:01:57.000Z",
-    "metadata": {
-      "score": 6,
-      "num_comments": 23,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -700,6 +687,19 @@
       "type": "issue",
       "labels": [],
       "number": 265
+    }
+  },
+  {
+    "id": "reddit_1ofh9so",
+    "source": "reddit",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
