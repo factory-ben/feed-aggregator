@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1987183395357552855",
+    "source": "twitter",
+    "author": "DennisonBertram",
+    "content": "@windsurf and others I just never get to. I tried @FactoryAI, and it's good, def feels smarter, but I never understood the rest of it's offering very well.",
+    "url": "https://x.com/DennisonBertram/status/1987183395357552855",
+    "timestamp": "2025-11-08T15:40:16.000Z",
+    "metadata": {
+      "conversation_id": "1987183395357552855",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1987183389133111666",
+    "source": "twitter",
+    "author": "DennisonBertram",
+    "content": "Platforms are changing and you're starting to need to learn the peculiarities of each one. \n\n@cursor_ai \n@conductor_build \n@windsurf \n@cline \n@AmpCode \n@FactoryAI \n@Openai - Codex\n@anthropic - Claude Code\n@opencode \n\nThey are all a little bit different",
+    "url": "https://x.com/DennisonBertram/status/1987183389133111666",
+    "timestamp": "2025-11-08T15:40:14.000Z",
+    "metadata": {
+      "conversation_id": "1987183389133111666",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1987182022381457415",
+    "source": "twitter",
+    "author": "pascallammers_",
+    "content": "@NilkhanVaibhav @FactoryAI Token usage is „normal“ on my side",
+    "url": "https://x.com/pascallammers_/status/1987182022381457415",
+    "timestamp": "2025-11-08T15:34:48.000Z",
+    "metadata": {
+      "conversation_id": "1987182022381457415",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1987162129783197927",
     "source": "twitter",
     "author": "bentossell",
@@ -53,9 +98,9 @@
     "timestamp": "2025-11-08T13:59:15.000Z",
     "metadata": {
       "conversation_id": "1987157976009052399",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -220,7 +265,7 @@
       "conversation_id": "1987100124758352320",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -251,51 +296,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1987099138731700544",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@SvenMeyer @EnoReyes @FactoryAI its live :)",
-    "url": "https://x.com/bentossell/status/1987099138731700544",
-    "timestamp": "2025-11-08T10:05:27.000Z",
-    "metadata": {
-      "conversation_id": "1987099138731700544",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1987093207994311068",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@nazar44444444 @FactoryAI coming 👀",
-    "url": "https://x.com/bentossell/status/1987093207994311068",
-    "timestamp": "2025-11-08T09:41:53.000Z",
-    "metadata": {
-      "conversation_id": "1987093207994311068",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1987093116529353031",
-    "source": "twitter",
-    "author": "EnoReyes",
-    "content": "@softcoda @FactoryAI Really glad to hear that! Let us know if you have any feedback or suggestions :)",
-    "url": "https://x.com/EnoReyes/status/1987093116529353031",
-    "timestamp": "2025-11-08T09:41:32.000Z",
-    "metadata": {
-      "conversation_id": "1987093116529353031",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
       "quotes": 0
     }
   },
@@ -346,7 +346,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 14,
       "subreddit": "FactoryAi"
     }
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
@@ -700,19 +700,6 @@
       "type": "issue",
       "labels": [],
       "number": 265
-    }
-  },
-  {
-    "id": "reddit_1ofmunx",
-    "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
-    "timestamp": "2025-10-25T09:01:37.000Z",
-    "metadata": {
-      "score": 12,
-      "num_comments": 11,
-      "subreddit": "FactoryAi"
     }
   },
   {
