@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1987371442401370469",
+    "source": "twitter",
+    "author": "dgrreen",
+    "content": "@NickADobos [@TheChainsmokers / @mantisVC participated in @FactoryAI Series B]",
+    "url": "https://x.com/dgrreen/status/1987371442401370469",
+    "timestamp": "2025-11-09T04:07:30.000Z",
+    "metadata": {
+      "conversation_id": "1987371442401370469",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1987363177433341996",
     "source": "twitter",
     "author": "SvenMeyer",
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1987237207086883210",
-    "source": "twitter",
-    "author": "martin_ict_algo",
-    "content": "@thedanifrim @FactoryAI Just wish they would add grok as a model",
-    "url": "https://x.com/martin_ict_algo/status/1987237207086883210",
-    "timestamp": "2025-11-08T19:14:05.000Z",
-    "metadata": {
-      "conversation_id": "1987237207086883210",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_328",
     "source": "github",
     "author": "a112121788",
@@ -489,7 +489,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -606,7 +606,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 4,
+      "score": 8,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
