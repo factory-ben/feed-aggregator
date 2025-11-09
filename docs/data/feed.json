@@ -8,7 +8,7 @@
     "timestamp": "2025-11-09T15:43:17.000Z",
     "metadata": {
       "conversation_id": "1987546544346898633",
-      "likes": 0,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -188,7 +188,7 @@
       "conversation_id": "1987455002374545562",
       "likes": 0,
       "retweets": 0,
-      "replies": 2,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -229,7 +229,7 @@
       "conversation_id": "1987437062052774322",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 0,
       "quotes": 0
     }
   },
@@ -242,7 +242,7 @@
     "timestamp": "2025-11-09T06:06:13.000Z",
     "metadata": {
       "conversation_id": "1987401318953308522",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -272,7 +272,7 @@
     "timestamp": "2025-11-09T03:34:39.000Z",
     "metadata": {
       "conversation_id": "1987363177433341996",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -319,7 +319,7 @@
       "conversation_id": "1987294289123287451",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 0,
       "quotes": 0
     }
   },
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 14,
       "subreddit": "FactoryAi"
     }
@@ -489,7 +489,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -528,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -635,19 +635,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "reddit_1oipsqf",
-    "source": "reddit",
-    "author": "StrixGGUY",
-    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
-    "timestamp": "2025-10-29T00:01:57.000Z",
-    "metadata": {
-      "score": 8,
-      "num_comments": 23,
-      "subreddit": "FactoryAi"
     }
   },
   {
