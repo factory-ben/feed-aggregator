@@ -101,6 +101,19 @@
     }
   },
   {
+    "id": "github_issue_333",
+    "source": "github",
+    "author": "diegodev9",
+    "content": "[Issue] illegal hardware instruction (core dumped)\n\n[1]    7041 illegal hardware instruction (core dumped)  droid\n\nHi guys, this error it's back again. It was fixed in previous version but now it's back\n\nhttps://github.com/Factory-AI/factory/issues/270 ",
+    "url": "https://github.com/Factory-AI/factory/issues/333",
+    "timestamp": "2025-11-10T11:28:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 333
+    }
+  },
+  {
     "id": "twitter_1987838190732943786",
     "source": "twitter",
     "author": "kuba_shev",
@@ -528,7 +541,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -541,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -687,19 +700,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "github_issue_278",
-    "source": "github",
-    "author": "jakob1379",
-    "content": "[Issue] easier way to show current plan and task tracker\n\nIt seems a waste of token to have the llm make a tool calling to show what could just be a regular command - to be able to see the plan and task tracker, it would be easier to keep the overview or help navigate on focus of the agent.",
-    "url": "https://github.com/Factory-AI/factory/issues/278",
-    "timestamp": "2025-10-28T18:17:08Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 278
     }
   },
   {
