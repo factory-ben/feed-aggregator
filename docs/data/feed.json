@@ -23,7 +23,7 @@
     "timestamp": "2025-11-09T17:58:54.000Z",
     "metadata": {
       "conversation_id": "1987580672576487857",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -38,7 +38,7 @@
     "timestamp": "2025-11-09T17:52:47.000Z",
     "metadata": {
       "conversation_id": "1987579134214562162",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -81,7 +81,7 @@
     "timestamp": "2025-11-09T15:43:17.000Z",
     "metadata": {
       "conversation_id": "1987546544346898633",
-      "likes": 8,
+      "likes": 10,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
