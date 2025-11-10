@@ -424,7 +424,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 14,
       "subreddit": "FactoryAi"
     }
@@ -554,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -583,32 +583,6 @@
       "type": "issue",
       "labels": [],
       "number": 297
-    }
-  },
-  {
-    "id": "reddit_1oljgx4",
-    "source": "reddit",
-    "author": "steve1215",
-    "content": "Intrigued to know. How is Factory not Claude Code Skills / Sub Agents?\n\nThe post title probably says it all.  ;-)\n\nLooks like some impressive real-world results from Factory if the Internet is to be believed.   \n\nBut just so I can understand things better - how is a Factory \"droid\" not just a Claude Code \"Skill\" and or a sub-agent?\n\nPerhaps it is, just a really good one and I'd be ok with that - just trying to understand.\n\nThanks",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
-    "timestamp": "2025-11-01T09:23:30.000Z",
-    "metadata": {
-      "score": 6,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1okwodb",
-    "source": "reddit",
-    "author": "Uzeii",
-    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
-    "timestamp": "2025-10-31T14:51:05.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -700,6 +674,58 @@
       "type": "issue",
       "labels": [],
       "number": 276
+    }
+  },
+  {
+    "id": "reddit_1ofmunx",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
+    "metadata": {
+      "score": 13,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofh9so",
+    "source": "reddit",
+    "author": "abecc2",
+    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
+    "timestamp": "2025-10-25T03:21:56.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofh3rn",
+    "source": "reddit",
+    "author": "zhangjun3371",
+    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
+    "timestamp": "2025-10-25T03:12:45.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1of1zjv",
+    "source": "reddit",
+    "author": "hrdn",
+    "content": "How droid cli handle exceed context window?\n\ni never face auto-compact, even on long horizon task, do we need to manual compact or? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1of1zjv/how_droid_cli_handle_exceed_context_window/",
+    "timestamp": "2025-10-24T16:13:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
     }
   },
   {
