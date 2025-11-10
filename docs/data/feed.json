@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1987985544517722380",
+    "source": "twitter",
+    "author": "nathanpareo",
+    "content": "3 @FactoryAI droids. 3 random app ideas. Zero intention of shipping.\n\nThis is the coding equivalent of doodling in a notebook. Not everything needs to be a startup.\n\nSometimes you just build because your brain needs to create something. https://t.co/dDm9OU7psu",
+    "url": "https://x.com/nathanpareo/status/1987985544517722380",
+    "timestamp": "2025-11-10T20:47:43.000Z",
+    "metadata": {
+      "conversation_id": "1987985544517722380",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1987984858585706699",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@bentossell @FactoryAI @Kimi_Moonshot @nahcrof oh a birthday gift to meeee ( tomorrow )",
+    "url": "https://x.com/fire/status/1987984858585706699",
+    "timestamp": "2025-11-10T20:44:59.000Z",
+    "metadata": {
+      "conversation_id": "1987984858585706699",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1987973660397990320",
     "source": "twitter",
     "author": "klyndrud1",
@@ -285,9 +315,9 @@
     "timestamp": "2025-11-09T13:46:49.000Z",
     "metadata": {
       "conversation_id": "1987517235741798802",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -315,36 +345,6 @@
     "timestamp": "2025-11-09T13:45:47.000Z",
     "metadata": {
       "conversation_id": "1987516971920068948",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1987516865820705202",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@coyotevn @FactoryAI going to do this with my agents .md too",
-    "url": "https://x.com/bentossell/status/1987516865820705202",
-    "timestamp": "2025-11-09T13:45:21.000Z",
-    "metadata": {
-      "conversation_id": "1987516865820705202",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1987516258737090846",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@Ricardo_Nth @FactoryAI ooo good catch - will add! hooks coming any day too :)",
-    "url": "https://x.com/bentossell/status/1987516258737090846",
-    "timestamp": "2025-11-09T13:42:57.000Z",
-    "metadata": {
-      "conversation_id": "1987516258737090846",
       "likes": 2,
       "retweets": 0,
       "replies": 0,
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 14,
       "subreddit": "FactoryAi"
     }
@@ -700,6 +700,19 @@
       "type": "issue",
       "labels": [],
       "number": 282
+    }
+  },
+  {
+    "id": "reddit_1oipsqf",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
+    "timestamp": "2025-10-29T00:01:57.000Z",
+    "metadata": {
+      "score": 7,
+      "num_comments": 23,
+      "subreddit": "FactoryAi"
     }
   },
   {
