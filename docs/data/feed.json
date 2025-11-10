@@ -126,7 +126,7 @@
     "timestamp": "2025-11-09T14:29:35.000Z",
     "metadata": {
       "conversation_id": "1987527995246989386",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -300,7 +300,7 @@
     "timestamp": "2025-11-09T08:28:15.000Z",
     "metadata": {
       "conversation_id": "1987437062052774322",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -315,7 +315,7 @@
     "timestamp": "2025-11-09T06:06:13.000Z",
     "metadata": {
       "conversation_id": "1987401318953308522",
-      "likes": 2,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -554,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
