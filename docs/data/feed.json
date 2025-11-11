@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988220554810454261",
+    "source": "twitter",
+    "author": "joshwagenbach",
+    "content": "wow working with @FactoryAI is amazing finished a lot of small features for https://t.co/2etnyP6OGk",
+    "url": "https://x.com/joshwagenbach/status/1988220554810454261",
+    "timestamp": "2025-11-11T12:21:34.000Z",
+    "metadata": {
+      "conversation_id": "1988220554810454261",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988216238125052081",
     "source": "twitter",
     "author": "AdhamAlkhaja",
@@ -98,7 +113,7 @@
     "timestamp": "2025-11-11T10:24:42.000Z",
     "metadata": {
       "conversation_id": "1988191144296026266",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -113,7 +128,7 @@
     "timestamp": "2025-11-11T10:24:29.000Z",
     "metadata": {
       "conversation_id": "1988191091016036502",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -279,21 +294,6 @@
     "metadata": {
       "conversation_id": "1988064526210891953",
       "likes": 5,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988050700484710510",
-    "source": "twitter",
-    "author": "AVGVSTVS96",
-    "content": "@FactoryAI running into a bug where droid execution completes but doesn't return a summary. after droid returns \"done\", the orchestrator claims the droid is still running. \n\nthis is happening with several custom droids https://t.co/kJomZaQOZ1",
-    "url": "https://x.com/AVGVSTVS96/status/1988050700484710510",
-    "timestamp": "2025-11-11T01:06:37.000Z",
-    "metadata": {
-      "conversation_id": "1988050700484710510",
-      "likes": 0,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -541,7 +541,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 4,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -687,19 +687,6 @@
       "type": "issue",
       "labels": [],
       "number": 282
-    }
-  },
-  {
-    "id": "reddit_1oipsqf",
-    "source": "reddit",
-    "author": "StrixGGUY",
-    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
-    "timestamp": "2025-10-29T00:01:57.000Z",
-    "metadata": {
-      "score": 6,
-      "num_comments": 23,
-      "subreddit": "FactoryAi"
     }
   },
   {
