@@ -430,19 +430,6 @@
     }
   },
   {
-    "id": "reddit_1oomptx",
-    "source": "reddit",
-    "author": "samplifyk",
-    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
-    "timestamp": "2025-11-04T23:17:50.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_314",
     "source": "github",
     "author": "lifeisnphard",
@@ -479,45 +466,6 @@
       "type": "issue",
       "labels": [],
       "number": 308
-    }
-  },
-  {
-    "id": "reddit_1oneja7",
-    "source": "reddit",
-    "author": "UrAn8",
-    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
-    "timestamp": "2025-11-03T15:20:27.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1omo14j",
-    "source": "reddit",
-    "author": "HanSkin-reynard",
-    "content": "Please add “Edit Prompt in External Editor” (like Ctrl + G in Claude Code) to Droid CLI\n\nHello guys!\n\nCan you add *“Edit Prompt in External Editor”* feature? That feature in Claude Code is super helpful — it lets you open your current prompt in an external editor (like VS Code, Vim, etc.), make edits comfortably, and then jump back to the CLI.\n\nRight now, writing or editing long prompts in Droid CLI can be a bit frustrating. Once the prompt gets long (especially after line breaks), if I try to move the cursor left with the arrow key to fix a word, the text sometimes overlaps or disa",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
-    "timestamp": "2025-11-02T17:56:04.000Z",
-    "metadata": {
-      "score": 5,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1omlc3f",
-    "source": "reddit",
-    "author": "IslandOceanWater",
-    "content": "Is there any plans to add checkpoints. I would use Factory AI 100% of the time if it had restore points.\n\nAre checkpoints going to be added anytime soon. This is the only thing keeping me using Claude Code for most things because i don't want to have to always use git for each change.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
-    "timestamp": "2025-11-02T16:11:56.000Z",
-    "metadata": {
-      "score": 9,
-      "num_comments": 9,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -573,19 +521,6 @@
     }
   },
   {
-    "id": "github_issue_297",
-    "source": "github",
-    "author": "crypto-maniac",
-    "content": "[Issue] illegal hardware instruction` on macOS running `droid\n\nHello Dev team , just want to report a bug on my Mac OS Monterey\n### Unexpected crash: `illegal hardware instruction` on macOS running `droid`\n\n**Description**  \nWhen running the `droid` command, the process crashes immediately with an “illegal hardware instruction” error, rather than executing normally.\n\n---\n\n**Steps to reproduce**  \n1. Open terminal (zsh) on macOS.  \n2. From any directory, run:  \n   ```bash\n   droid\n\noutput:\nzsh: illegal hardware instruction  droid\n\nuname -a\nDarwin MacBook.loc",
-    "url": "https://github.com/Factory-AI/factory/issues/297",
-    "timestamp": "2025-11-01T16:07:38Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 297
-    }
-  },
-  {
     "id": "reddit_1oljgx4",
     "source": "reddit",
     "author": "steve1215",
@@ -593,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -671,35 +606,22 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 23,
       "subreddit": "FactoryAi"
     }
   },
   {
-    "id": "reddit_1ofmunx",
-    "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
-    "timestamp": "2025-10-25T09:01:37.000Z",
+    "id": "github_issue_278",
+    "source": "github",
+    "author": "jakob1379",
+    "content": "[Issue] easier way to show current plan and task tracker\n\nIt seems a waste of token to have the llm make a tool calling to show what could just be a regular command - to be able to see the plan and task tracker, it would be easier to keep the overview or help navigate on focus of the agent.",
+    "url": "https://github.com/Factory-AI/factory/issues/278",
+    "timestamp": "2025-10-28T18:17:08Z",
     "metadata": {
-      "score": 11,
-      "num_comments": 11,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofh9so",
-    "source": "reddit",
-    "author": "abecc2",
-    "content": "Has anyone been getting the \"Attempted to assign to readonly property\" error?\n\nHi all! I've been enjoying Droid for many weeks now. But last week I started to notice that the agent randomly stops working and shows \"Error: Attempted to assign to readonly property.\".\n\nHas anyone seen this? Any workarounds?\n\nI use macOS and I can confirm that it's still happening with the latest version v0.22.3",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh9so/has_anyone_been_getting_the_attempted_to_assign/",
-    "timestamp": "2025-10-25T03:21:56.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
+      "type": "issue",
+      "labels": [],
+      "number": 278
     }
   },
   {
@@ -716,6 +638,58 @@
     }
   },
   {
+    "id": "reddit_1odjcfl",
+    "source": "reddit",
+    "author": "Hassan_A2H",
+    "content": "Factory consumes way too many tokens\n\nCodex was my daily driver before factory, and its weekly quota was enough to last entire week. Today I connected my codex with factory and boy ooh boy... For the first time I hit the 5hr limit, and that too within 60 minutes of usage.\n\nBesides connecting with codex, even on default factory models I've noticed that even super simple prompts take up to 10k-20k input tokens, which on cheaper models might not hurt as much but when you consider sonnet's or opus'  multiplier this means monthly 20 mil ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odjcfl/factory_consumes_way_too_many_tokens/",
+    "timestamp": "2025-10-22T20:20:05.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 9,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1odatnb",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "BUG: When using @ to find/\"read\" a file.. everything slows down very badly\n\nJust a heads up to the authors.. I am in a \"root\" folder, and trying to find/load a .md file I had generated the day before for context. Basically summary of work/etc done and what was left. In Claude Code this works very fast in the CLI. But in Droid.. as I am in a folder that has lots of sub folders AND files.. it starts off not bad but as I try to get to the ../ path (a folder that is a sibling of the one I am in) OR even starting in the top folder and trying to do the '@ path/path2/path3/fil",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1odatnb/bug_when_using_to_findread_a_file_everything/",
+    "timestamp": "2025-10-22T15:06:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ocv9jx",
+    "source": "reddit",
+    "author": "heretiqal",
+    "content": "Droid is really trying hard to encourage me to cancel\n\nI was working in Droid in the middle of a very involved refactoring and suddenly Droid triggered a new completely blank session. New Droid sessions have zero knowledge of what you were working on -- requiring you to start completely over re-educating the agent about what you are tryingto accomplish, where you are and recreating a plan you were pursuing.\n\nI asked the agent how to get back to the prior session and it gave instructions to open the sidebar, select history and choose the session. Pro",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocv9jx/droid_is_really_trying_hard_to_encourage_me_to/",
+    "timestamp": "2025-10-22T01:34:31.000Z",
+    "metadata": {
+      "score": 4,
+      "num_comments": 15,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ocpe9w",
+    "source": "reddit",
+    "author": "FocusResponsible4499",
+    "content": "User guidelines\n\nHi,\nCould you tell me if there is a possibility to set-up user guidelines (not by AGENTS.MD)?\n\nI ask because I found that this additional system prompt:\nhttps://github.com/julesmons/the-augster\n\nwork very well with Augment Code and I'd give it a try with Droid. I've tried to create the custom agent with this prompt but it doesn't work as it should. In the readme, the author says that it has to be stored in user guidelines or substitute.\nCould you please provide the info about the correct place f",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ocpe9w/user_guidelines/",
+    "timestamp": "2025-10-21T21:19:05.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_225",
     "source": "github",
     "author": "JohnDotOwl",
@@ -729,6 +703,19 @@
     }
   },
   {
+    "id": "reddit_1oc3yt9",
+    "source": "reddit",
+    "author": "Big-Recognition7298",
+    "content": "Can't get bell notification to work\n\nHas anyone had issues with the bell notification? Can't seem to get it to work on macos.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oc3yt9/cant_get_bell_notification_to_work/",
+    "timestamp": "2025-10-21T04:52:45.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 5,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_223",
     "source": "github",
     "author": "JohnDotOwl",
@@ -739,6 +726,32 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 223
+    }
+  },
+  {
+    "id": "reddit_1obv6pd",
+    "source": "reddit",
+    "author": "Conscious-Fee7844",
+    "content": "How to configure MCP? I tried  and didn't work. Also.. .factory/ dir is not anywhere to be found\n\nJust wondering.. I would like to try to configure a few MCP servers. Context7, and Playwright. Maybe a couple others. \n\nI see from the docs there should be a .factory/ directory and in there mcp.json or something. But.. did I miss a step when I installed the droid cli that initiates a directory or something?\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obv6pd/how_to_configure_mcp_i_tried_and_didnt_work_also/",
+    "timestamp": "2025-10-20T21:59:41.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 12,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1obd1tm",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "ERROR: [Agent] runAgent error\n\nHey everyone,  \nI’m posting this because I ran into an issue for the first time after updating to **Droid v0.21.4**.\n\nWhen I used the `/bug` command to create a bug report, it didn’t show up properly — it seemed like it created a new session instead. So I’m sharing an excerpt from my `droid-log-single.log` instead:\n\n`[2025-10-20T06:36:03.511Z] ERROR: [Agent] runAgent error`\n\n`TypeError: Attempted to assign to readonly property.`\n\n`at &lt;anonymous&gt; (B:/~BUN/root/droid.exe:148:15386)`\n\n`at for",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1obd1tm/error_agent_runagent_error/",
+    "timestamp": "2025-10-20T06:53:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
