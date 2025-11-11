@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988378453083910150",
+    "source": "twitter",
+    "author": "martin_ict_algo",
+    "content": "@melodykoh @FactoryAI @claudeai @OpenAI Great feedback",
+    "url": "https://x.com/martin_ict_algo/status/1988378453083910150",
+    "timestamp": "2025-11-11T22:49:00.000Z",
+    "metadata": {
+      "conversation_id": "1988378453083910150",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988376937262444708",
     "source": "twitter",
     "author": "martin_ict_algo",
@@ -68,8 +83,8 @@
     "timestamp": "2025-11-11T21:37:55.000Z",
     "metadata": {
       "conversation_id": "1988360566293811276",
-      "likes": 3,
-      "retweets": 1,
+      "likes": 4,
+      "retweets": 2,
       "replies": 1,
       "quotes": 0
     }
@@ -292,21 +307,6 @@
     "metadata": {
       "conversation_id": "1988291671302566260",
       "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988291563936796682",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@joshwagenbach @FactoryAI 🔥",
-    "url": "https://x.com/bentossell/status/1988291563936796682",
-    "timestamp": "2025-11-11T17:03:44.000Z",
-    "metadata": {
-      "conversation_id": "1988291563936796682",
-      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -606,7 +606,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -700,6 +700,19 @@
       "type": "issue",
       "labels": [],
       "number": 282
+    }
+  },
+  {
+    "id": "reddit_1oipsqf",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
+    "timestamp": "2025-10-29T00:01:57.000Z",
+    "metadata": {
+      "score": 6,
+      "num_comments": 23,
+      "subreddit": "FactoryAi"
     }
   },
   {
