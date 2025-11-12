@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988617328041599328",
+    "source": "twitter",
+    "author": "OmegaLabsARMPT",
+    "content": "@melodykoh @FactoryAI @claudeai @OpenAI Tbh. I had move on from Droid recently. But iFlow x Grok x BMAD will actually change the way you think about the entire thing tbh. It just drops 10 functions at once and then it’s kinda done",
+    "url": "https://x.com/OmegaLabsARMPT/status/1988617328041599328",
+    "timestamp": "2025-11-12T14:38:12.000Z",
+    "metadata": {
+      "conversation_id": "1988617328041599328",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988606945289543773",
     "source": "twitter",
     "author": "_BrianKimball",
@@ -158,7 +173,7 @@
     "timestamp": "2025-11-12T10:01:20.000Z",
     "metadata": {
       "conversation_id": "1988547650988245149",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -292,21 +307,6 @@
     "metadata": {
       "conversation_id": "1988505882859278520",
       "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988503894280863854",
-    "source": "twitter",
-    "author": "TheNormVg",
-    "content": "@CyberBoyAyush @OpenRouterAI @ExaAILabs @mannupaaji @kirat_tw @Hiteshdotcom @piyushgarg_dev @FactoryAI @matanSF @itsbyrobin @ankushdharkar Hey this is cool stuff , 🔥",
-    "url": "https://x.com/TheNormVg/status/1988503894280863854",
-    "timestamp": "2025-11-12T07:07:27.000Z",
-    "metadata": {
-      "conversation_id": "1988503894280863854",
-      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -700,19 +700,6 @@
       "type": "issue",
       "labels": [],
       "number": 290
-    }
-  },
-  {
-    "id": "reddit_1ofmunx",
-    "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
-    "timestamp": "2025-10-25T09:01:37.000Z",
-    "metadata": {
-      "score": 12,
-      "num_comments": 11,
-      "subreddit": "FactoryAi"
     }
   },
   {
