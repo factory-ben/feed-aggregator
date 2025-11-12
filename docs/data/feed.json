@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1988723101224562944",
+    "source": "twitter",
+    "author": "farizkamini",
+    "content": "@codewithimanshu @FactoryAI Yes Himanshu.. The most noticeable benefit is that spec created by Sonnet, and executed  by Haiku (reasoning off). It saves a lot of tokens.",
+    "url": "https://x.com/farizkamini/status/1988723101224562944",
+    "timestamp": "2025-11-12T21:38:30.000Z",
+    "metadata": {
+      "conversation_id": "1988723101224562944",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988721987339092223",
+    "source": "twitter",
+    "author": "codewithimanshu",
+    "content": "@farizkamini @FactoryAI Good news, Fariz! FactoryAI's update sounds promising, but let's see how it actually impacts the ground reality, no?",
+    "url": "https://x.com/codewithimanshu/status/1988721987339092223",
+    "timestamp": "2025-11-12T21:34:05.000Z",
+    "metadata": {
+      "conversation_id": "1988721987339092223",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988719868414423215",
     "source": "twitter",
     "author": "farizkamini",
@@ -83,7 +113,7 @@
     "timestamp": "2025-11-12T20:34:23.000Z",
     "metadata": {
       "conversation_id": "1988706965393142000",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -188,7 +218,7 @@
     "timestamp": "2025-11-12T19:17:16.000Z",
     "metadata": {
       "conversation_id": "1988687557685834007",
-      "likes": 8,
+      "likes": 9,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
@@ -280,36 +310,6 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 1
-    }
-  },
-  {
-    "id": "twitter_1988656901010456620",
-    "source": "twitter",
-    "author": "1TeamSoftware",
-    "content": "@AVGVSTVS96 @theo @FactoryAI I've heard a lot of good words about it. Did it become your daily driver?",
-    "url": "https://x.com/1TeamSoftware/status/1988656901010456620",
-    "timestamp": "2025-11-12T17:15:27.000Z",
-    "metadata": {
-      "conversation_id": "1988656901010456620",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988656495760949297",
-    "source": "twitter",
-    "author": "MickeyShaughnes",
-    "content": "@FactoryAI @AnthropicAI https://t.co/uaZxfCu6iV",
-    "url": "https://x.com/MickeyShaughnes/status/1988656495760949297",
-    "timestamp": "2025-11-12T17:13:50.000Z",
-    "metadata": {
-      "conversation_id": "1988656495760949297",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
     }
   },
   {
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
