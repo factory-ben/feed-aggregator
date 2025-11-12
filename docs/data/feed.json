@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988404642343166092",
+    "source": "twitter",
+    "author": "contxtkng",
+    "content": "@theo Damn no love for @FactoryAI ? Droid is killing it these days. Overall agree with the sentiment tho",
+    "url": "https://x.com/contxtkng/status/1988404642343166092",
+    "timestamp": "2025-11-12T00:33:04.000Z",
+    "metadata": {
+      "conversation_id": "1988404642343166092",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988400769494905067",
     "source": "twitter",
     "author": "NilkhanVaibhav",
@@ -143,7 +158,7 @@
     "timestamp": "2025-11-11T22:49:00.000Z",
     "metadata": {
       "conversation_id": "1988378453083910150",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -158,7 +173,7 @@
     "timestamp": "2025-11-11T22:42:58.000Z",
     "metadata": {
       "conversation_id": "1988376937262444708",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -278,21 +293,6 @@
     "timestamp": "2025-11-11T19:54:17.000Z",
     "metadata": {
       "conversation_id": "1988334487374336339",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988333333118660966",
-    "source": "twitter",
-    "author": "liran_tal",
-    "content": "@joshwagenbach @FactoryAI Yeah looks nice. I hope it works out for you :-)",
-    "url": "https://x.com/liran_tal/status/1988333333118660966",
-    "timestamp": "2025-11-11T19:49:42.000Z",
-    "metadata": {
-      "conversation_id": "1988333333118660966",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
@@ -554,7 +554,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
