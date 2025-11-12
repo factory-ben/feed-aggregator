@@ -1,5 +1,63 @@
 [
   {
+    "id": "twitter_1988531035290653024",
+    "source": "twitter",
+    "author": "asensitivedev",
+    "content": "@FactoryAI 3/3 I'd be very grateful to receive any feedback and suggestions by you to implement new features, improve apps utility and usability. It won't be a project abandoned to itself, but it'll be constantly update based on users' feedback.",
+    "url": "https://x.com/asensitivedev/status/1988531035290653024",
+    "timestamp": "2025-11-12T08:55:18.000Z",
+    "metadata": {
+      "conversation_id": "1988531035290653024",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988530726208209347",
+    "source": "twitter",
+    "author": "asensitivedev",
+    "content": "@FactoryAI 2/3 The app's purpose is the fusion between mood tracking apps and motivational quotes apps without forcing the user to journaling about that. The whole process has been an experiment to understand the real power of AI Agents.",
+    "url": "https://x.com/asensitivedev/status/1988530726208209347",
+    "timestamp": "2025-11-12T08:54:04.000Z",
+    "metadata": {
+      "conversation_id": "1988530726208209347",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988530316454007163",
+    "source": "twitter",
+    "author": "asensitivedev",
+    "content": "I've almost completed my first project using Droid by @FactoryAI  to build everything from scratches. This is where you can reach the website to understand what this app does: https://t.co/K2NSESeHXs. It isn't completed yet but it'll very soon!!! #AIAgent",
+    "url": "https://x.com/asensitivedev/status/1988530316454007163",
+    "timestamp": "2025-11-12T08:52:27.000Z",
+    "metadata": {
+      "conversation_id": "1988530316454007163",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 2,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_341",
+    "source": "github",
+    "author": "580ai",
+    "content": "[Issue] It seems that the maximum output tokens will not be outputted anymore once they reach 8192\n\n<img width=\"1821\" height=\"312\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ff7ca53e-e1d2-40ff-aac5-dbf8d7d1e20c\" />\nIt will suddenly terminate and then remain stuck without returning any content until the maximum timeout is reached",
+    "url": "https://github.com/Factory-AI/factory/issues/341",
+    "timestamp": "2025-11-12T08:46:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 341
+    }
+  },
+  {
     "id": "twitter_1988515389316149499",
     "source": "twitter",
     "author": "farizkamini",
@@ -203,9 +261,9 @@
     "timestamp": "2025-11-12T03:49:32.000Z",
     "metadata": {
       "conversation_id": "1988454086581383176",
-      "likes": 3,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -248,51 +306,6 @@
     "timestamp": "2025-11-12T02:52:30.000Z",
     "metadata": {
       "conversation_id": "1988439731474968692",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988439451669057723",
-    "source": "twitter",
-    "author": "michabbb",
-    "content": "@melodykoh @FactoryAI You should test their support, it's horrible!\nTwo weeks have passed and I didn't get any feedback!\nIf you are a youtuber with tons of viewers you get attention, if you are nobody (to them) they give a shit!",
-    "url": "https://x.com/michabbb/status/1988439451669057723",
-    "timestamp": "2025-11-12T02:51:23.000Z",
-    "metadata": {
-      "conversation_id": "1988439451669057723",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988438850239070694",
-    "source": "twitter",
-    "author": "melodykoh",
-    "content": "@shreyas1009 @FactoryAI @claudeai @OpenAI Ah i see. I didn’t realize that’s an option. Will have to try it and get a feel.",
-    "url": "https://x.com/melodykoh/status/1988438850239070694",
-    "timestamp": "2025-11-12T02:48:59.000Z",
-    "metadata": {
-      "conversation_id": "1988438850239070694",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988437230537597374",
-    "source": "twitter",
-    "author": "shreyas1009",
-    "content": "You mentioned above you use auto accept edits. that is different from --allow-dangerously-skip-permissions \n\"Claude Code seems to require more approvals even when auto-accept is on out of the box,\"\n\ni dont face the issue of it asking me for permissions in this mode. only it may sometimes ask me when there are many routes ahead or something it isnt certain of which is genuinely good since that means my judgement is needed",
-    "url": "https://x.com/shreyas1009/status/1988437230537597374",
-    "timestamp": "2025-11-12T02:42:33.000Z",
-    "metadata": {
-      "conversation_id": "1988437230537597374",
       "likes": 0,
       "retweets": 0,
       "replies": 1,
@@ -554,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -606,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 8,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -687,19 +700,6 @@
       "type": "issue",
       "labels": [],
       "number": 290
-    }
-  },
-  {
-    "id": "github_issue_282",
-    "source": "github",
-    "author": "DkRsrl",
-    "content": "[Issue] PhpStorm: Droid CLI doesn’t activate IDE-level integration when launched from integrated terminal\n\n**Description**\nAfter installing Droid CLI and configuring `PATH`, running `droid` inside PhpStorm’s integrated terminal starts the TUI, but IDE-level features don’t engage (selection context, diagnostics sharing, IDE diff viewer, etc.). The Factory docs say JetBrains IDEs require no plugin and that running `droid` in the integrated terminal should enable all features, but that’s not happening in my setup. ([[docs.factory.ai](https://docs.factory.ai/cli/configuration/ide-integrations)][1])\n\n**St",
-    "url": "https://github.com/Factory-AI/factory/issues/282",
-    "timestamp": "2025-10-29T17:01:40Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 282
     }
   },
   {
