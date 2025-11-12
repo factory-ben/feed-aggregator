@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1988651211218907255",
+    "source": "twitter",
+    "author": "NilkhanVaibhav",
+    "content": "Genuinely grateful to @cmricksen for sorting out my @FactoryAI account. Things got a bit messy with billing and credits, but Caroline really stepped up and handled everything directly. I’m glad to have a real support team that cares. Hats off to FactoryAI for putting users first.",
+    "url": "https://x.com/NilkhanVaibhav/status/1988651211218907255",
+    "timestamp": "2025-11-12T16:52:50.000Z",
+    "metadata": {
+      "conversation_id": "1988651211218907255",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988650278376337630",
+    "source": "twitter",
+    "author": "mdsiaofficial",
+    "content": "@AVGVSTVS96 @theo @FactoryAI droid is amazing",
+    "url": "https://x.com/mdsiaofficial/status/1988650278376337630",
+    "timestamp": "2025-11-12T16:49:08.000Z",
+    "metadata": {
+      "conversation_id": "1988650278376337630",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988648473990979855",
     "source": "twitter",
     "author": "Auronix_AI",
@@ -266,36 +296,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988559770802897384",
-    "source": "twitter",
-    "author": "_BrianKimball",
-    "content": "@melodykoh @FactoryAI @claudeai @OpenAI I find that some models are better than others at certain tasks. Also for repetitive non-complex tasks I use a cheaper model.",
-    "url": "https://x.com/_BrianKimball/status/1988559770802897384",
-    "timestamp": "2025-11-12T10:49:29.000Z",
-    "metadata": {
-      "conversation_id": "1988559770802897384",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988547650988245149",
-    "source": "twitter",
-    "author": "pascallammers_",
-    "content": "Spec Mode v2? @FactoryAI 🥸 https://t.co/TG8AhbytAa",
-    "url": "https://x.com/pascallammers_/status/1988547650988245149",
-    "timestamp": "2025-11-12T10:01:20.000Z",
-    "metadata": {
-      "conversation_id": "1988547650988245149",
-      "likes": 7,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -567,7 +567,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 9,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -645,7 +645,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
@@ -700,6 +700,32 @@
       "type": "issue",
       "labels": [],
       "number": 290
+    }
+  },
+  {
+    "id": "reddit_1oipsqf",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
+    "timestamp": "2025-10-29T00:01:57.000Z",
+    "metadata": {
+      "score": 8,
+      "num_comments": 23,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofmunx",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
+    "metadata": {
+      "score": 13,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
     }
   },
   {
