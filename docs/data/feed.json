@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988724434803593307",
+    "source": "twitter",
+    "author": "farizkamini",
+    "content": "@bentossell @FactoryAI oh wow.. hello Ben 🙌",
+    "url": "https://x.com/farizkamini/status/1988724434803593307",
+    "timestamp": "2025-11-12T21:43:48.000Z",
+    "metadata": {
+      "conversation_id": "1988724434803593307",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988723101224562944",
     "source": "twitter",
     "author": "farizkamini",
@@ -23,7 +38,7 @@
     "timestamp": "2025-11-12T21:34:05.000Z",
     "metadata": {
       "conversation_id": "1988721987339092223",
-      "likes": 0,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -218,7 +233,7 @@
     "timestamp": "2025-11-12T19:17:16.000Z",
     "metadata": {
       "conversation_id": "1988687557685834007",
-      "likes": 9,
+      "likes": 11,
       "retweets": 1,
       "replies": 1,
       "quotes": 0
@@ -295,21 +310,6 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988658050841080212",
-    "source": "twitter",
-    "author": "MickeyShaughnes",
-    "content": "@FactoryAI @AnthropicAI https://t.co/eRiqbM1T05",
-    "url": "https://x.com/MickeyShaughnes/status/1988658050841080212",
-    "timestamp": "2025-11-12T17:20:01.000Z",
-    "metadata": {
-      "conversation_id": "1988658050841080212",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 1
     }
   },
   {
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -658,7 +658,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 2,
       "subreddit": "FactoryAi"
     }
