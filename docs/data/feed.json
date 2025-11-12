@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988699061541802445",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@JoelDeTeves @FactoryAI sooooo nice isnt it haha. @best_ua's work!",
+    "url": "https://x.com/bentossell/status/1988699061541802445",
+    "timestamp": "2025-11-12T20:02:59.000Z",
+    "metadata": {
+      "conversation_id": "1988699061541802445",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988696067312169138",
     "source": "twitter",
     "author": "0xRaduan",
@@ -38,9 +53,9 @@
     "timestamp": "2025-11-12T19:17:16.000Z",
     "metadata": {
       "conversation_id": "1988687557685834007",
-      "likes": 6,
+      "likes": 8,
       "retweets": 1,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -298,21 +313,6 @@
     }
   },
   {
-    "id": "twitter_1988623490753147202",
-    "source": "twitter",
-    "author": "melodykoh",
-    "content": "I looked into this and don't think it's safe for the average user, unless it's a very contained repo/code base with a lot of safeguards in place. Probably better to build an Allow list under /permissions. \n\nThen the question is, does Factory's Droid have a slightly better out-of-the-box setup that strikes a good balance between speed and security? And Claude Code is better for power users who know what they're doing and can configure things to their exact likings?",
-    "url": "https://x.com/melodykoh/status/1988623490753147202",
-    "timestamp": "2025-11-12T15:02:41.000Z",
-    "metadata": {
-      "conversation_id": "1988623490753147202",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_341",
     "source": "github",
     "author": "580ai",
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -632,7 +632,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 10,
+      "score": 9,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -658,21 +658,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1okwodb",
-    "source": "reddit",
-    "author": "Uzeii",
-    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
-    "timestamp": "2025-10-31T14:51:05.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
