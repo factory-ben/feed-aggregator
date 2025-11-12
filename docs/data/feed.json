@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1988719868414423215",
+    "source": "twitter",
+    "author": "farizkamini",
+    "content": "@mdsiaofficial @FactoryAI yess..new features is very helping",
+    "url": "https://x.com/farizkamini/status/1988719868414423215",
+    "timestamp": "2025-11-12T21:25:39.000Z",
+    "metadata": {
+      "conversation_id": "1988719868414423215",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988719664357326990",
+    "source": "twitter",
+    "author": "farizkamini",
+    "content": "@0xRaduan @FactoryAI im always implement with low.. \nSonnet for spec, Haiku no reasoning for execute",
+    "url": "https://x.com/farizkamini/status/1988719664357326990",
+    "timestamp": "2025-11-12T21:24:51.000Z",
+    "metadata": {
+      "conversation_id": "1988719664357326990",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988719335540682792",
+    "source": "twitter",
+    "author": "farizkamini",
+    "content": "@agent_wrap @FactoryAI Yup, I've tried it with nvim. There's some kind of glitch but it's fine.",
+    "url": "https://x.com/farizkamini/status/1988719335540682792",
+    "timestamp": "2025-11-12T21:23:32.000Z",
+    "metadata": {
+      "conversation_id": "1988719335540682792",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988714738445173209",
     "source": "twitter",
     "author": "Ashish_Soni08",
@@ -70,7 +115,7 @@
       "conversation_id": "1988701732734660713",
       "likes": 4,
       "retweets": 1,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -83,7 +128,7 @@
     "timestamp": "2025-11-12T20:06:56.000Z",
     "metadata": {
       "conversation_id": "1988700055000465588",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -113,9 +158,9 @@
     "timestamp": "2025-11-12T19:51:05.000Z",
     "metadata": {
       "conversation_id": "1988696067312169138",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -158,9 +203,9 @@
     "timestamp": "2025-11-12T18:55:04.000Z",
     "metadata": {
       "conversation_id": "1988681971736908127",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -261,51 +306,6 @@
     "timestamp": "2025-11-12T17:13:50.000Z",
     "metadata": {
       "conversation_id": "1988656495760949297",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988651211218907255",
-    "source": "twitter",
-    "author": "NilkhanVaibhav",
-    "content": "Genuinely grateful to @cmricksen for sorting out my @FactoryAI account. Things got a bit messy with billing and credits, but Caroline really stepped up and handled everything directly. I’m glad to have a real support team that cares. Hats off to FactoryAI for putting users first.",
-    "url": "https://x.com/NilkhanVaibhav/status/1988651211218907255",
-    "timestamp": "2025-11-12T16:52:50.000Z",
-    "metadata": {
-      "conversation_id": "1988651211218907255",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988650278376337630",
-    "source": "twitter",
-    "author": "mdsiaofficial",
-    "content": "@AVGVSTVS96 @theo @FactoryAI droid is amazing",
-    "url": "https://x.com/mdsiaofficial/status/1988650278376337630",
-    "timestamp": "2025-11-12T16:49:08.000Z",
-    "metadata": {
-      "conversation_id": "1988650278376337630",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988648473990979855",
-    "source": "twitter",
-    "author": "Auronix_AI",
-    "content": "@FactoryAI  what the heck is going on with GPT-5 Codex with assisting me in AWS.. it will not help me and keeps proclaiming it cant use my credentials per some made up \"runbook\" while Sonnet4.5 breezed through the AWS configuration without any concern.. https://t.co/n5hvek9CXv",
-    "url": "https://x.com/Auronix_AI/status/1988648473990979855",
-    "timestamp": "2025-11-12T16:41:58.000Z",
-    "metadata": {
-      "conversation_id": "1988648473990979855",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
