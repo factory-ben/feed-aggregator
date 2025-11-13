@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1988763547355214167",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@nahcrof @FactoryAI this is normal thinking ( because turbo does not work ). it worked two days ago and droid updated in the meantime so my initial presumption is a harness issue",
+    "url": "https://x.com/fire/status/1988763547355214167",
+    "timestamp": "2025-11-13T00:19:13.000Z",
+    "metadata": {
+      "conversation_id": "1988763547355214167",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988763303733260415",
+    "source": "twitter",
+    "author": "creatine_cycle",
+    "content": "@FactoryAI here for chainsmokers (the VC firm) beep boops",
+    "url": "https://x.com/creatine_cycle/status/1988763303733260415",
+    "timestamp": "2025-11-13T00:18:15.000Z",
+    "metadata": {
+      "conversation_id": "1988763303733260415",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988763252172677468",
+    "source": "twitter",
+    "author": "nahcrof",
+    "content": "@fire @FactoryAI Turbo or normal? Or both?",
+    "url": "https://x.com/nahcrof/status/1988763252172677468",
+    "timestamp": "2025-11-13T00:18:03.000Z",
+    "metadata": {
+      "conversation_id": "1988763252172677468",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988762712164520244",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@nahcrof @FactoryAI good to know! now my only concern is broken tool calling https://t.co/TcxYtmsMEg",
+    "url": "https://x.com/fire/status/1988762712164520244",
+    "timestamp": "2025-11-13T00:15:54.000Z",
+    "metadata": {
+      "conversation_id": "1988762712164520244",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988761201283621374",
+    "source": "twitter",
+    "author": "nahcrof",
+    "content": "@fire @FactoryAI The turbo endpoint is a bit finicky at the moment by the way, I’m working on a patch at the moment that’ll boost speeds and performance, just so you know :)",
+    "url": "https://x.com/nahcrof/status/1988761201283621374",
+    "timestamp": "2025-11-13T00:09:54.000Z",
+    "metadata": {
+      "conversation_id": "1988761201283621374",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1988759043373167093",
+    "source": "twitter",
+    "author": "contxtkng",
+    "content": "@pmitu @FactoryAI",
+    "url": "https://x.com/contxtkng/status/1988759043373167093",
+    "timestamp": "2025-11-13T00:01:19.000Z",
+    "metadata": {
+      "conversation_id": "1988759043373167093",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988756976579539150",
     "source": "twitter",
     "author": "martin_ict_algo",
@@ -8,7 +98,7 @@
     "timestamp": "2025-11-12T23:53:07.000Z",
     "metadata": {
       "conversation_id": "1988756976579539150",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -23,9 +113,9 @@
     "timestamp": "2025-11-12T23:52:42.000Z",
     "metadata": {
       "conversation_id": "1988756874439848204",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -113,7 +203,7 @@
     "timestamp": "2025-11-12T23:21:58.000Z",
     "metadata": {
       "conversation_id": "1988749136808862090",
-      "likes": 1,
+      "likes": 3,
       "retweets": 1,
       "replies": 0,
       "quotes": 0
@@ -206,96 +296,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988728254921089398",
-    "source": "twitter",
-    "author": "matanSF",
-    "content": "@1Bexly @FactoryAI 🫡",
-    "url": "https://x.com/matanSF/status/1988728254921089398",
-    "timestamp": "2025-11-12T21:58:59.000Z",
-    "metadata": {
-      "conversation_id": "1988728254921089398",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988725808874287147",
-    "source": "twitter",
-    "author": "NathanLands",
-    "content": "@FactoryAI Custom completion sounds. 🥹",
-    "url": "https://x.com/NathanLands/status/1988725808874287147",
-    "timestamp": "2025-11-12T21:49:16.000Z",
-    "metadata": {
-      "conversation_id": "1988725808874287147",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988724434803593307",
-    "source": "twitter",
-    "author": "farizkamini",
-    "content": "@bentossell @FactoryAI oh wow.. hello Ben 🙌",
-    "url": "https://x.com/farizkamini/status/1988724434803593307",
-    "timestamp": "2025-11-12T21:43:48.000Z",
-    "metadata": {
-      "conversation_id": "1988724434803593307",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988723101224562944",
-    "source": "twitter",
-    "author": "farizkamini",
-    "content": "@codewithimanshu @FactoryAI Yes Himanshu.. The most noticeable benefit is that spec created by Sonnet, and executed  by Haiku (reasoning off). It saves a lot of tokens.",
-    "url": "https://x.com/farizkamini/status/1988723101224562944",
-    "timestamp": "2025-11-12T21:38:30.000Z",
-    "metadata": {
-      "conversation_id": "1988723101224562944",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988721987339092223",
-    "source": "twitter",
-    "author": "codewithimanshu",
-    "content": "@farizkamini @FactoryAI Good news, Fariz! FactoryAI's update sounds promising, but let's see how it actually impacts the ground reality, no?",
-    "url": "https://x.com/codewithimanshu/status/1988721987339092223",
-    "timestamp": "2025-11-12T21:34:05.000Z",
-    "metadata": {
-      "conversation_id": "1988721987339092223",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988719868414423215",
-    "source": "twitter",
-    "author": "farizkamini",
-    "content": "@mdsiaofficial @FactoryAI yess..new features is very helping",
-    "url": "https://x.com/farizkamini/status/1988719868414423215",
-    "timestamp": "2025-11-12T21:25:39.000Z",
-    "metadata": {
-      "conversation_id": "1988719868414423215",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -502,7 +502,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -580,7 +580,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
@@ -658,21 +658,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1okwodb",
-    "source": "reddit",
-    "author": "Uzeii",
-    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
-    "timestamp": "2025-10-31T14:51:05.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
