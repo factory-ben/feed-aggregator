@@ -83,7 +83,7 @@
     "timestamp": "2025-11-13T02:20:31.000Z",
     "metadata": {
       "conversation_id": "1988794072929358214",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -188,7 +188,7 @@
     "timestamp": "2025-11-13T01:50:02.000Z",
     "metadata": {
       "conversation_id": "1988786399202668961",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -246,7 +246,7 @@
     "timestamp": "2025-11-13T01:42:17.000Z",
     "metadata": {
       "conversation_id": "1988784451367891418",
-      "likes": 27,
+      "likes": 30,
       "retweets": 1,
       "replies": 4,
       "quotes": 0
@@ -606,7 +606,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
