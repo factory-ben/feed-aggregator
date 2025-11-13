@@ -246,7 +246,7 @@
     "timestamp": "2025-11-13T01:42:17.000Z",
     "metadata": {
       "conversation_id": "1988784451367891418",
-      "likes": 30,
+      "likes": 32,
       "retweets": 1,
       "replies": 4,
       "quotes": 0
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 6,
+      "score": 4,
       "num_comments": 3,
       "subreddit": "FactoryAi"
     }
