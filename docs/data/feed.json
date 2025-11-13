@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988933235376795829",
+    "source": "twitter",
+    "author": "Jborgwing",
+    "content": "@AdhamAlkhaja @Tgerighty @FactoryAI Droid is amazing, just wish they had a metered plan like Claude code Max!",
+    "url": "https://x.com/Jborgwing/status/1988933235376795829",
+    "timestamp": "2025-11-13T11:33:30.000Z",
+    "metadata": {
+      "conversation_id": "1988933235376795829",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988929742834393380",
     "source": "twitter",
     "author": "thedanifrim",
@@ -115,7 +130,7 @@
       "conversation_id": "1988918056089702483",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -276,7 +291,7 @@
     "timestamp": "2025-11-13T08:07:37.000Z",
     "metadata": {
       "conversation_id": "1988881424754033148",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -294,21 +309,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1988879577569996965",
-    "source": "twitter",
-    "author": "martin_ict_algo",
-    "content": "@bentossell @FactoryAI BYOK Grok Code Fast was the one ^, but BYOK models",
-    "url": "https://x.com/martin_ict_algo/status/1988879577569996965",
-    "timestamp": "2025-11-13T08:00:17.000Z",
-    "metadata": {
-      "conversation_id": "1988879577569996965",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
       "quotes": 0
     }
   },
@@ -528,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -658,7 +658,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
     "timestamp": "2025-11-02T00:38:45.000Z",
     "metadata": {
-      "score": 9,
+      "score": 10,
       "num_comments": 13,
       "subreddit": "FactoryAi"
     }
@@ -684,8 +684,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1okwodb",
+    "source": "reddit",
+    "author": "Uzeii",
+    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
+    "timestamp": "2025-10-31T14:51:05.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
