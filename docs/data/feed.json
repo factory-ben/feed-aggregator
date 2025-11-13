@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1988898845451817000",
+    "source": "twitter",
+    "author": "bierlingm",
+    "content": "@pmitu @FactoryAI https://t.co/nVzC00vfnx (also with Claude Code) and my own terminal utility called “command center”",
+    "url": "https://x.com/bierlingm/status/1988898845451817000",
+    "timestamp": "2025-11-13T09:16:51.000Z",
+    "metadata": {
+      "conversation_id": "1988898845451817000",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1988895649698337043",
     "source": "twitter",
     "author": "pmitu",
@@ -10,7 +25,7 @@
       "conversation_id": "1988895649698337043",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -298,21 +313,6 @@
     }
   },
   {
-    "id": "twitter_1988810718045696472",
-    "source": "twitter",
-    "author": "nest_elf",
-    "content": "@raroque use @FactoryAI droid. use gpt 5 high for planing and gpt5 codex for execution",
-    "url": "https://x.com/nest_elf/status/1988810718045696472",
-    "timestamp": "2025-11-13T03:26:40.000Z",
-    "metadata": {
-      "conversation_id": "1988810718045696472",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_345",
     "source": "github",
     "author": "xianzou",
@@ -528,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -619,7 +619,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
     "timestamp": "2025-11-02T16:11:56.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 9,
       "subreddit": "FactoryAi"
     }
@@ -684,8 +684,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
     "timestamp": "2025-11-01T09:23:30.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1okwodb",
+    "source": "reddit",
+    "author": "Uzeii",
+    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
+    "timestamp": "2025-10-31T14:51:05.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
