@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1989409263526228440",
+    "source": "twitter",
+    "author": "tridentasia",
+    "content": "@melodykoh @AnthropicAI @FactoryAI Agents always overestimate time taken in implementing a plan.",
+    "url": "https://x.com/tridentasia/status/1989409263526228440",
+    "timestamp": "2025-11-14T19:05:04.000Z",
+    "metadata": {
+      "conversation_id": "1989409263526228440",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989405646245302719",
     "source": "twitter",
     "author": "martin_ict_algo",
@@ -53,7 +68,7 @@
     "timestamp": "2025-11-14T18:09:57.000Z",
     "metadata": {
       "conversation_id": "1989395393852117288",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -248,9 +263,9 @@
     "timestamp": "2025-11-14T16:22:36.000Z",
     "metadata": {
       "conversation_id": "1989368377278603752",
-      "likes": 18,
+      "likes": 20,
       "retweets": 0,
-      "replies": 4,
+      "replies": 5,
       "quotes": 0
     }
   },
@@ -281,21 +296,6 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989364860011118661",
-    "source": "twitter",
-    "author": "ben_vargas",
-    "content": "@HanifCarroll @martin_ict_algo @FactoryAI Exactly... this setup allows using ChatGPT and Claude subscription use, but with the Factory/Droid harness - so not paying per token.\n\nTLDR; same reason you'd buy a sub vs use API key billing.",
-    "url": "https://x.com/ben_vargas/status/1989364860011118661",
-    "timestamp": "2025-11-14T16:08:37.000Z",
-    "metadata": {
-      "conversation_id": "1989364860011118661",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
       "quotes": 0
     }
   },
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -648,19 +648,6 @@
       "type": "issue",
       "labels": [],
       "number": 308
-    }
-  },
-  {
-    "id": "reddit_1oneja7",
-    "source": "reddit",
-    "author": "UrAn8",
-    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
-    "timestamp": "2025-11-03T15:20:27.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
     }
   },
   {
