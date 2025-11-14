@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1989370174668165444",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "I've found it works really well... both droid and amp function much better than I anticipated when I started researching how to get this working.\n\nI only had 20M trial tokens and haven't been given any extra and haven't purchased more - this is working well enough that I BYOK mode with this setup when using droid.\n\nPaying for tokens through Factory is the pure experience, it will be better and more as Factory intends - but this method works very well.",
+    "url": "https://x.com/ben_vargas/status/1989370174668165444",
+    "timestamp": "2025-11-14T16:29:45.000Z",
+    "metadata": {
+      "conversation_id": "1989370174668165444",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989369168387571831",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "I wouldn't expect 100% parity with Factory's direct API use for API models, especially OpenAI's.\n\nThe \"workaround\" 3rd party tools are using, such as CLIProxyAPI, opencode, etc. for using anthropic oauth is just a few headers and first sentence of the system prompt... but for the openai models the url of the api endpoint is entirely different. Codex CLI uses a backend endpoint and actually validates the **entire** system prompt.\n\nTherefore, any solution spoofing the codex cli, must swap out the system prompt for Codex's system prompt to use the OAuth/backend-api and move what the harness intended to send to a higher level user prompt or similar, that changes the weights/behavior and adds all the extra instruction from the Codex CLI system prompt.\n\nSo, I never expect the openai models via oauth/sub in 3rd party harnesses to behave **exactly** as the harnesses intend, because of the workaround.",
+    "url": "https://x.com/ben_vargas/status/1989369168387571831",
+    "timestamp": "2025-11-14T16:25:45.000Z",
+    "metadata": {
+      "conversation_id": "1989369168387571831",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989368382664376762",
+    "source": "twitter",
+    "author": "martin_ict_algo",
+    "content": "@ben_vargas @FactoryAI Hey Ben, how have you found droid uses this proxy with like planning, executing versus using their own models?",
+    "url": "https://x.com/martin_ict_algo/status/1989368382664376762",
+    "timestamp": "2025-11-14T16:22:37.000Z",
+    "metadata": {
+      "conversation_id": "1989368382664376762",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989368377278603752",
+    "source": "twitter",
+    "author": "melodykoh",
+    "content": "I worked on a side project last week and weekend with AI coding agents (both @AnthropicAI’s Claude Code and @FactoryAI’s Droid alternating). It took me 3-4 hours of active QA plus 3 hours of active energy  reviewing plans, decision-making, checking AI's logic. \n\nAfter I pushed the V1 to production, I asked ChatGPT to estimate how long would a senior software engineer take to finish something that has about 130 story points (estimated both by reviewing the repo/code to do raw estimates, as well as using the project plans Epic/Task breakdown)? \n\nAnd the answer is roughly 5 sprints, which would mean 2.5 months. And I'm not even an engineer. This is pretty stunning.\n\nOh, by the way, the app works. Granted small user base (<5) but it works.",
+    "url": "https://x.com/melodykoh/status/1989368377278603752",
+    "timestamp": "2025-11-14T16:22:36.000Z",
+    "metadata": {
+      "conversation_id": "1989368377278603752",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989367049798463950",
     "source": "twitter",
     "author": "martin_ict_algo",
@@ -10,7 +70,7 @@
       "conversation_id": "1989367049798463950",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -233,66 +293,6 @@
     "timestamp": "2025-11-14T14:25:21.000Z",
     "metadata": {
       "conversation_id": "1989338868987133981",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989337847283769567",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@smithstephen @FactoryAI np. no our tokens dont roll-over unfortunately",
-    "url": "https://x.com/bentossell/status/1989337847283769567",
-    "timestamp": "2025-11-14T14:21:17.000Z",
-    "metadata": {
-      "conversation_id": "1989337847283769567",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989337620384825443",
-    "source": "twitter",
-    "author": "smithstephen",
-    "content": "@bentossell @FactoryAI Ok thanks for letting me know so quickly - appreciate it. Outside of the free trial tokens - I hope that the paid ones will roll over (e.g. the way https://t.co/UYHKaFYojt rolls over unused credits).",
-    "url": "https://x.com/smithstephen/status/1989337620384825443",
-    "timestamp": "2025-11-14T14:20:23.000Z",
-    "metadata": {
-      "conversation_id": "1989337620384825443",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989336030080844226",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@smithstephen @FactoryAI they dont roll over im afraid",
-    "url": "https://x.com/bentossell/status/1989336030080844226",
-    "timestamp": "2025-11-14T14:14:04.000Z",
-    "metadata": {
-      "conversation_id": "1989336030080844226",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989334696602312801",
-    "source": "twitter",
-    "author": "smithstephen",
-    "content": "@FactoryAI - I've got two more days left in my free trial and i've already set up billing for pro mode.  I've got a ton of tokens left in there.  Do they rollover (e.g. - does the $20/pro mode add 20M tokens to what I already have)? Or will they all disappear and I start with 20M fresh (hope not!) Thanks! @bentossell",
-    "url": "https://x.com/smithstephen/status/1989334696602312801",
-    "timestamp": "2025-11-14T14:08:46.000Z",
-    "metadata": {
-      "conversation_id": "1989334696602312801",
       "likes": 0,
       "retweets": 0,
       "replies": 1,
