@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1989285337705935110",
+    "source": "twitter",
+    "author": "rahulvrane",
+    "content": "@LignoL23 @ben_vargas @FactoryAI Caching?",
+    "url": "https://x.com/rahulvrane/status/1989285337705935110",
+    "timestamp": "2025-11-14T10:52:38.000Z",
+    "metadata": {
+      "conversation_id": "1989285337705935110",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989284800163958809",
+    "source": "twitter",
+    "author": "immoinulmoin",
+    "content": "@ben_vargas @FactoryAI https://t.co/DPi30ZAmiN",
+    "url": "https://x.com/immoinulmoin/status/1989284800163958809",
+    "timestamp": "2025-11-14T10:50:30.000Z",
+    "metadata": {
+      "conversation_id": "1989284800163958809",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989283803278499957",
+    "source": "twitter",
+    "author": "LignoL23",
+    "content": "@ben_vargas @FactoryAI From my experience, limits are reached WAY faster when using ChatGPT Plus via proxy compared to codex.",
+    "url": "https://x.com/LignoL23/status/1989283803278499957",
+    "timestamp": "2025-11-14T10:46:32.000Z",
+    "metadata": {
+      "conversation_id": "1989283803278499957",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989282916292301255",
     "source": "twitter",
     "author": "Mohanad423461",
@@ -255,64 +300,6 @@
     }
   },
   {
-    "id": "twitter_1989264507387129972",
-    "source": "twitter",
-    "author": "crowlabstech",
-    "content": "@AdhamAlkhaja @FactoryAI How many lines of code?",
-    "url": "https://x.com/crowlabstech/status/1989264507387129972",
-    "timestamp": "2025-11-14T09:29:51.000Z",
-    "metadata": {
-      "conversation_id": "1989264507387129972",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989262823093158147",
-    "source": "twitter",
-    "author": "mikez93",
-    "content": "Highly useful! Use your Claud code and ChatGPT subscriptions for inference within @FactoryAI Droid. Very nice!",
-    "url": "https://x.com/mikez93/status/1989262823093158147",
-    "timestamp": "2025-11-14T09:23:10.000Z",
-    "metadata": {
-      "conversation_id": "1989262823093158147",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989261385889632760",
-    "source": "twitter",
-    "author": "mikez93",
-    "content": "@ben_vargas @FactoryAI This makes me happy thank you!",
-    "url": "https://x.com/mikez93/status/1989261385889632760",
-    "timestamp": "2025-11-14T09:17:27.000Z",
-    "metadata": {
-      "conversation_id": "1989261385889632760",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "reddit_1ow4spq",
-    "source": "reddit",
-    "author": "Rough-Aioli-7829",
-    "content": "Why I can't register my email?\n\nImages:\n\thttps://preview.redd.it/rgbm3fcdr11g1.png?auto=webp&amp;s=b0a9871d3d6836057ca15067a94c8a71463ae5ca\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow4spq/why_i_cant_register_my_email/",
-    "timestamp": "2025-11-13T15:58:33.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "reddit_1ow0203",
     "source": "reddit",
     "author": "vargalas",
@@ -349,6 +336,19 @@
       "type": "issue",
       "labels": [],
       "number": 345
+    }
+  },
+  {
+    "id": "reddit_1ovbn7q",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Anyone having issues with the Bridge?\n\nLast few days bridge has been disconnecting frequently. then it started crashing after opening. Restarting cpu didn't help so I deleted the bridge, downloaded it again, restarted my computer, and now it's no longer crashing, but won't reconnect to any old or new sessions. Anyone else having this issue? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ovbn7q/anyone_having_issues_with_the_bridge/",
+    "timestamp": "2025-11-12T17:34:16.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -443,6 +443,19 @@
     }
   },
   {
+    "id": "reddit_1osf7sj",
+    "source": "reddit",
+    "author": "LittleChallenge8717",
+    "content": "Custom Droid | Web search Task failed\n\nWeb search and calling custom droid feature in Droid not working, I use claude code inside droid (with CLIProxyAPI),\n\n(Neither works on openrouter models)\n\n\"\n\nWEB SEARCH  (\"current bitcoin price BTC USD\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\nWEB SEARCH  (\"ethereum ETH price USD current\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\n\"\n\n\" TASK  (mermaid-expert: \"Create system architecture diagram\")\n\n⚠ Task failed\n\nTASK  (seo-meta-optimizer: \"Optimi",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1osf7sj/custom_droid_web_search_task_failed/",
+    "timestamp": "2025-11-09T09:35:38.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_329",
     "source": "github",
     "author": "TheSingular",
@@ -515,7 +528,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
@@ -671,21 +684,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
     "timestamp": "2025-10-29T00:01:57.000Z",
     "metadata": {
-      "score": 7,
+      "score": 4,
       "num_comments": 23,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofmunx",
-    "source": "reddit",
-    "author": "Warm_Sandwich3769",
-    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
-    "timestamp": "2025-10-25T09:01:37.000Z",
-    "metadata": {
-      "score": 12,
-      "num_comments": 11,
       "subreddit": "FactoryAi"
     }
   },
@@ -698,19 +698,6 @@
     "timestamp": "2025-10-25T03:21:56.000Z",
     "metadata": {
       "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ofh3rn",
-    "source": "reddit",
-    "author": "zhangjun3371",
-    "content": "verify my phone number error\n\nI registered on factory, and I need to verify my phone number. After I entered the phone number, it showed \"Error with verifying phone number\". I confirm that I entered the correct number, as I used the same phone number for the first verification and received the verification. How should I handle this issue?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofh3rn/verify_my_phone_number_error/",
-    "timestamp": "2025-10-25T03:12:45.000Z",
-    "metadata": {
-      "score": 2,
       "num_comments": 1,
       "subreddit": "FactoryAi"
     }
