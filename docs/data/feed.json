@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1989150364722163833",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@CloudTrader4 @OpenAI @FactoryAI You have to use GPT-5.1 Low !! 😵‍💫\nhttps://t.co/kgxNqeSxGU",
+    "url": "https://x.com/SvenMeyer/status/1989150364722163833",
+    "timestamp": "2025-11-14T01:56:18.000Z",
+    "metadata": {
+      "conversation_id": "1989150364722163833",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989147634192535948",
+    "source": "twitter",
+    "author": "Tekhenra",
+    "content": "@AdhamAlkhaja @FactoryAI Same here. I ended my subscription after burning 40M tokens in 4 days.",
+    "url": "https://x.com/Tekhenra/status/1989147634192535948",
+    "timestamp": "2025-11-14T01:45:27.000Z",
+    "metadata": {
+      "conversation_id": "1989147634192535948",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989144252224577709",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "ChatGPT Plus/Pro subscription use of gpt-5.1 / gpt-5.1-codex / gpt-5.1-codex-mini models in @FactoryAI Droid working with updated CLIProxyAPI... config.json reference/docs linked below. https://t.co/4pk4Jkf0qf",
+    "url": "https://x.com/ben_vargas/status/1989144252224577709",
+    "timestamp": "2025-11-14T01:32:00.000Z",
+    "metadata": {
+      "conversation_id": "1989144252224577709",
+      "likes": 1,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989123184734662750",
     "source": "twitter",
     "author": "oliviakoshy",
@@ -53,8 +98,8 @@
     "timestamp": "2025-11-13T23:03:33.000Z",
     "metadata": {
       "conversation_id": "1989106889787941323",
-      "likes": 16,
-      "retweets": 0,
+      "likes": 23,
+      "retweets": 1,
       "replies": 1,
       "quotes": 0
     }
@@ -255,51 +300,6 @@
     }
   },
   {
-    "id": "twitter_1989082548119773485",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "Ok lets test @OpenAI 's GPT-5.1-Codex with @FactoryAI https://t.co/fPMvP42mWA",
-    "url": "https://x.com/CloudTrader4/status/1989082548119773485",
-    "timestamp": "2025-11-13T21:26:49.000Z",
-    "metadata": {
-      "conversation_id": "1989082548119773485",
-      "likes": 22,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989078563702862271",
-    "source": "twitter",
-    "author": "AVGVSTVS96",
-    "content": "@FactoryAI would be helpful to have a little extra logic for where specs are saved\n\nthe spec save dir setting is outdated, it lists ~/.factory/docs but a recent update changed the spec save location to ~/specs.\n\nadding a specs/ dir to working dir doesn’t automatically prompt droid to save specs there, they still go to ~/specs\n\n the setting does take effect after updating from ~/.factory/docs to ~/specs/\n\n^ but with this setting, a specs/ dir is created in every cwd when a spec is approved.\n\ni like having specs default to ~/.factory/docs or ~/specs/ (no preference) — with logic that saves to a nested project’s spec/ dir if found/created by user, like how it previously worked",
-    "url": "https://x.com/AVGVSTVS96/status/1989078563702862271",
-    "timestamp": "2025-11-13T21:10:59.000Z",
-    "metadata": {
-      "conversation_id": "1989078563702862271",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989076367334670607",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@immoinulmoin @FactoryAI oh i see - they should do community approved badges! paging @nikitabier",
-    "url": "https://x.com/bentossell/status/1989076367334670607",
-    "timestamp": "2025-11-13T21:02:15.000Z",
-    "metadata": {
-      "conversation_id": "1989076367334670607",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1owbvoj",
     "source": "reddit",
     "author": "bentossell",
@@ -326,32 +326,6 @@
     }
   },
   {
-    "id": "reddit_1ow4spq",
-    "source": "reddit",
-    "author": "Rough-Aioli-7829",
-    "content": "Why I can't register my email?\n\nImages:\n\thttps://preview.redd.it/rgbm3fcdr11g1.png?auto=webp&amp;s=b0a9871d3d6836057ca15067a94c8a71463ae5ca\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow4spq/why_i_cant_register_my_email/",
-    "timestamp": "2025-11-13T15:58:33.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ow0203",
-    "source": "reddit",
-    "author": "vargalas",
-    "content": "It's the worst onboarding experience ever\n\nThe provided cli instruction doesn't work, curl is complaining about self-signed certificate. The support link (after logging in) doesn't work. I tried to contact the sales on the homepage, but you cannot write them, they will contact. if they want. \n\nSo no Droid for me. I cannot see how they get customers. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow0203/its_the_worst_onboarding_experience_ever/",
-    "timestamp": "2025-11-13T12:42:42.000Z",
-    "metadata": {
-      "score": 0,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_348",
     "source": "github",
     "author": "aranej",
@@ -375,19 +349,6 @@
       "type": "issue",
       "labels": [],
       "number": 345
-    }
-  },
-  {
-    "id": "reddit_1ovbn7q",
-    "source": "reddit",
-    "author": "UrAn8",
-    "content": "Anyone having issues with the Bridge?\n\nLast few days bridge has been disconnecting frequently. then it started crashing after opening. Restarting cpu didn't help so I deleted the bridge, downloaded it again, restarted my computer, and now it's no longer crashing, but won't reconnect to any old or new sessions. Anyone else having this issue? ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ovbn7q/anyone_having_issues_with_the_bridge/",
-    "timestamp": "2025-11-12T17:34:16.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -479,19 +440,6 @@
       "type": "issue",
       "labels": [],
       "number": 330
-    }
-  },
-  {
-    "id": "reddit_1osf7sj",
-    "source": "reddit",
-    "author": "LittleChallenge8717",
-    "content": "Custom Droid | Web search Task failed\n\nWeb search and calling custom droid feature in Droid not working, I use claude code inside droid (with CLIProxyAPI),\n\n(Neither works on openrouter models)\n\n\"\n\nWEB SEARCH  (\"current bitcoin price BTC USD\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\nWEB SEARCH  (\"ethereum ETH price USD current\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\n\"\n\n\" TASK  (mermaid-expert: \"Create system architecture diagram\")\n\n⚠ Task failed\n\nTASK  (seo-meta-optimizer: \"Optimi",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1osf7sj/custom_droid_web_search_task_failed/",
-    "timestamp": "2025-11-09T09:35:38.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -658,8 +606,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
     "timestamp": "2025-11-02T17:56:04.000Z",
     "metadata": {
-      "score": 5,
+      "score": 4,
       "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1omlc3f",
+    "source": "reddit",
+    "author": "IslandOceanWater",
+    "content": "Is there any plans to add checkpoints. I would use Factory AI 100% of the time if it had restore points.\n\nAre checkpoints going to be added anytime soon. This is the only thing keeping me using Claude Code for most things because i don't want to have to always use git for each change.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
+    "timestamp": "2025-11-02T16:11:56.000Z",
+    "metadata": {
+      "score": 8,
+      "num_comments": 9,
       "subreddit": "FactoryAi"
     }
   },
@@ -690,6 +651,19 @@
     }
   },
   {
+    "id": "reddit_1om3tvt",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "Good work guys, just keep doing it!\n\nhttps://preview.redd.it/9n6ma7a6pqyf1.png?width=1637&amp;format=png&amp;auto=webp&amp;s=6888d3623cebb5cd9517a6e4c4142b6f29713f33\n\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1om3tvt/good_work_guys_just_keep_doing_it/",
+    "timestamp": "2025-11-02T00:38:45.000Z",
+    "metadata": {
+      "score": 9,
+      "num_comments": 13,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_298",
     "source": "github",
     "author": "tgerighty",
@@ -700,6 +674,32 @@
       "type": "issue",
       "labels": [],
       "number": 298
+    }
+  },
+  {
+    "id": "reddit_1oljgx4",
+    "source": "reddit",
+    "author": "steve1215",
+    "content": "Intrigued to know. How is Factory not Claude Code Skills / Sub Agents?\n\nThe post title probably says it all.  ;-)\n\nLooks like some impressive real-world results from Factory if the Internet is to be believed.   \n\nBut just so I can understand things better - how is a Factory \"droid\" not just a Claude Code \"Skill\" and or a sub-agent?\n\nPerhaps it is, just a really good one and I'd be ok with that - just trying to understand.\n\nThanks",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oljgx4/intrigued_to_know_how_is_factory_not_claude_code/",
+    "timestamp": "2025-11-01T09:23:30.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1okwodb",
+    "source": "reddit",
+    "author": "Uzeii",
+    "content": "How do i disconnect jira from factory integrations?\n\nI had connected jira using the integration tab in factory ai, now all my jira tickets have been populated with the jira link. How do i remove this?\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1okwodb/how_do_i_disconnect_jira_from_factory_integrations/",
+    "timestamp": "2025-10-31T14:51:05.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
