@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1989331866202329450",
+    "source": "twitter",
+    "author": "codewithimanshu",
+    "content": "@ben_vargas @FactoryAI Ah, interesting tech updates, Ben! These new models could definitely change the game, no?",
+    "url": "https://x.com/codewithimanshu/status/1989331866202329450",
+    "timestamp": "2025-11-14T13:57:31.000Z",
+    "metadata": {
+      "conversation_id": "1989331866202329450",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989331387397091551",
+    "source": "twitter",
+    "author": "AIgentAGI",
+    "content": "@CloudTrader4 @FactoryAI Nice summary!\n\nFor front end, did you consider getting 5.1 to prompt Codex? I did that last night and got some very nice results.",
+    "url": "https://x.com/AIgentAGI/status/1989331387397091551",
+    "timestamp": "2025-11-14T13:55:37.000Z",
+    "metadata": {
+      "conversation_id": "1989331387397091551",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989326982908109229",
     "source": "twitter",
     "author": "munoncode",
@@ -283,36 +313,6 @@
     }
   },
   {
-    "id": "twitter_1989280537438224649",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@shreyas1009 @itsbyrobin @FactoryAI essentially same features as claude code but a better harness to get most out of the models (+ model agnostic) 😊 \n\nalso we handle context management",
-    "url": "https://x.com/bentossell/status/1989280537438224649",
-    "timestamp": "2025-11-14T10:33:33.000Z",
-    "metadata": {
-      "conversation_id": "1989280537438224649",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989279239271801338",
-    "source": "twitter",
-    "author": "smarative",
-    "content": "@AdhamAlkhaja @FactoryAI use gpt models could slows your token usage. at least longer to days instead of hours. 😅",
-    "url": "https://x.com/smarative/status/1989279239271801338",
-    "timestamp": "2025-11-14T10:28:24.000Z",
-    "metadata": {
-      "conversation_id": "1989279239271801338",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1owpdgs",
     "source": "reddit",
     "author": "Informal-Spinach-345",
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -593,21 +593,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 4,
+      "score": 5,
       "num_comments": 15,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oomptx",
-    "source": "reddit",
-    "author": "samplifyk",
-    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
-    "timestamp": "2025-11-04T23:17:50.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 2,
       "subreddit": "FactoryAi"
     }
   },
@@ -648,6 +635,32 @@
       "type": "issue",
       "labels": [],
       "number": 308
+    }
+  },
+  {
+    "id": "reddit_1oneja7",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
+    "timestamp": "2025-11-03T15:20:27.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1omo14j",
+    "source": "reddit",
+    "author": "HanSkin-reynard",
+    "content": "Please add “Edit Prompt in External Editor” (like Ctrl + G in Claude Code) to Droid CLI\n\nHello guys!\n\nCan you add *“Edit Prompt in External Editor”* feature? That feature in Claude Code is super helpful — it lets you open your current prompt in an external editor (like VS Code, Vim, etc.), make edits comfortably, and then jump back to the CLI.\n\nRight now, writing or editing long prompts in Droid CLI can be a bit frustrating. Once the prompt gets long (especially after line breaks), if I try to move the cursor left with the arrow key to fix a word, the text sometimes overlaps or disa",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1omo14j/please_add_edit_prompt_in_external_editor_like/",
+    "timestamp": "2025-11-02T17:56:04.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
