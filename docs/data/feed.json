@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1989326982908109229",
+    "source": "twitter",
+    "author": "munoncode",
+    "content": "@bentossell @ben_vargas @FactoryAI are you planning to add support for claude code subscription in droid?\n\nHonestly i'm willing to pay JUST for the agent. Literally Droid is so much better than claude code itself.\n\nI haven't converted to the $200 factory ai credits plan cuz it feels expensive compared to cc usage",
+    "url": "https://x.com/munoncode/status/1989326982908109229",
+    "timestamp": "2025-11-14T13:38:07.000Z",
+    "metadata": {
+      "conversation_id": "1989326982908109229",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989324504326140145",
+    "source": "twitter",
+    "author": "AntonioJASmith",
+    "content": "@bentossell @FactoryAI I like the sound of this, I will set this up for my next project and report back.",
+    "url": "https://x.com/AntonioJASmith/status/1989324504326140145",
+    "timestamp": "2025-11-14T13:28:16.000Z",
+    "metadata": {
+      "conversation_id": "1989324504326140145",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989324498391257425",
+    "source": "twitter",
+    "author": "LignoL23",
+    "content": "@rahulvrane @ben_vargas @FactoryAI This or something similar to github copilot. When using github copilot one user chat messages (resulting in many api requests) is equal to one premium request. when using github copilot somewhere else (e.g. cline/roo/kilo), each api request counts as one premium request.",
+    "url": "https://x.com/LignoL23/status/1989324498391257425",
+    "timestamp": "2025-11-14T13:28:14.000Z",
+    "metadata": {
+      "conversation_id": "1989324498391257425",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989324307810636129",
+    "source": "twitter",
+    "author": "NathanLands",
+    "content": "@FactoryAI 🔥",
+    "url": "https://x.com/NathanLands/status/1989324307810636129",
+    "timestamp": "2025-11-14T13:27:29.000Z",
+    "metadata": {
+      "conversation_id": "1989324307810636129",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989317468532445368",
     "source": "twitter",
     "author": "Ricardo_Nth",
@@ -128,7 +188,7 @@
       "conversation_id": "1989285337705935110",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -201,9 +261,9 @@
     "timestamp": "2025-11-14T10:35:04.000Z",
     "metadata": {
       "conversation_id": "1989280916850856126",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -253,66 +313,6 @@
     }
   },
   {
-    "id": "twitter_1989278275353653580",
-    "source": "twitter",
-    "author": "hqmank",
-    "content": "Thanks to @FactoryAI  and Droid for integrating the GPT-5.1 family models so quickly.\nIf Spec Mode Model could be set to GPT-5.1-Codex for task planning, that would be perfect. https://t.co/VIktV7pXe0",
-    "url": "https://x.com/hqmank/status/1989278275353653580",
-    "timestamp": "2025-11-14T10:24:34.000Z",
-    "metadata": {
-      "conversation_id": "1989278275353653580",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989277559364977033",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@ben_vargas @FactoryAI 👀",
-    "url": "https://x.com/bentossell/status/1989277559364977033",
-    "timestamp": "2025-11-14T10:21:43.000Z",
-    "metadata": {
-      "conversation_id": "1989277559364977033",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989272105779970074",
-    "source": "twitter",
-    "author": "roszianski",
-    "content": "@CloudTrader4 @FactoryAI thanks for the update. useful to know.",
-    "url": "https://x.com/roszianski/status/1989272105779970074",
-    "timestamp": "2025-11-14T10:00:03.000Z",
-    "metadata": {
-      "conversation_id": "1989272105779970074",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989272097009643540",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "@pascallammers_ @OpenAI @FactoryAI https://t.co/0q3KIybLl7",
-    "url": "https://x.com/CloudTrader4/status/1989272097009643540",
-    "timestamp": "2025-11-14T10:00:01.000Z",
-    "metadata": {
-      "conversation_id": "1989272097009643540",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1owpdgs",
     "source": "reddit",
     "author": "Informal-Spinach-345",
@@ -333,7 +333,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
     "timestamp": "2025-11-05T15:57:27.000Z",
     "metadata": {
-      "score": 5,
+      "score": 6,
       "num_comments": 15,
       "subreddit": "FactoryAi"
     }
