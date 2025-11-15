@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1989631693813420254",
+    "source": "twitter",
+    "author": "NathanLands",
+    "content": "@DavidBennett__ @OpenAICodexCli @cursor_ai @FactoryAI All are good but I like the CLI best",
+    "url": "https://x.com/NathanLands/status/1989631693813420254",
+    "timestamp": "2025-11-15T09:48:56.000Z",
+    "metadata": {
+      "conversation_id": "1989631693813420254",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989627962933796866",
     "source": "twitter",
     "author": "o_mega___",
@@ -23,9 +38,9 @@
     "timestamp": "2025-11-15T09:21:52.000Z",
     "metadata": {
       "conversation_id": "1989624883668816061",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "twitter_1989605298638631336",
-    "source": "twitter",
-    "author": "magma_man_dd",
-    "content": "@FactoryAI Just another cheap shitty harness that will die once it runs out of vs money to burn on credits. Literally a cc clone. Thats it.",
-    "url": "https://x.com/magma_man_dd/status/1989605298638631336",
-    "timestamp": "2025-11-15T08:04:02.000Z",
-    "metadata": {
-      "conversation_id": "1989605298638631336",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1oxk7bb",
     "source": "reddit",
     "author": "EggNo4904",
@@ -320,7 +320,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
     "timestamp": "2025-11-14T21:33:18.000Z",
     "metadata": {
-      "score": 6,
+      "score": 5,
       "num_comments": 5,
       "subreddit": "FactoryAi"
     }
@@ -398,7 +398,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -609,19 +609,6 @@
       "type": "issue",
       "labels": [],
       "number": 325
-    }
-  },
-  {
-    "id": "reddit_1or5cow",
-    "source": "reddit",
-    "author": "Durst123",
-    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
-    "timestamp": "2025-11-07T20:29:10.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
     }
   },
   {
