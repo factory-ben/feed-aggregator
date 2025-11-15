@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1989726265410977878",
+    "source": "twitter",
+    "author": "melodykoh",
+    "content": "@alemart87 @AnthropicAI @FactoryAI Oh I see. I never learned to use IDE so once I started using CC in terminal I didn’t feel the need to learn it so I just stayed in CLI",
+    "url": "https://x.com/melodykoh/status/1989726265410977878",
+    "timestamp": "2025-11-15T16:04:43.000Z",
+    "metadata": {
+      "conversation_id": "1989726265410977878",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989723590644887707",
+    "source": "twitter",
+    "author": "athleticKoder",
+    "content": "@doesdatmaksense @FactoryAI @matanSF cooked",
+    "url": "https://x.com/athleticKoder/status/1989723590644887707",
+    "timestamp": "2025-11-15T15:54:05.000Z",
+    "metadata": {
+      "conversation_id": "1989723590644887707",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989722671362220430",
     "source": "twitter",
     "author": "alemart87",
@@ -10,7 +40,7 @@
       "conversation_id": "1989722671362220430",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -203,7 +233,7 @@
       "conversation_id": "1989707640532767031",
       "likes": 5,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -296,36 +326,6 @@
     }
   },
   {
-    "id": "twitter_1989695242736451636",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@MickeyShaughnes @IceSolst @FactoryAI https://t.co/l53YsU1EDo",
-    "url": "https://x.com/bentossell/status/1989695242736451636",
-    "timestamp": "2025-11-15T14:01:27.000Z",
-    "metadata": {
-      "conversation_id": "1989695242736451636",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989695100566286492",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@C72Al @AdhamAlkhaja @FactoryAI yes we have smart context management and systems to get more out of the models\n\nhttps://t.co/rQ3JwmbMvD\nhttps://t.co/P2rElYqE6l",
-    "url": "https://x.com/bentossell/status/1989695100566286492",
-    "timestamp": "2025-11-15T14:00:53.000Z",
-    "metadata": {
-      "conversation_id": "1989695100566286492",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_366",
     "source": "github",
     "author": "nikolas-sturm",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
     "timestamp": "2025-11-14T21:33:18.000Z",
     "metadata": {
-      "score": 6,
+      "score": 7,
       "num_comments": 7,
       "subreddit": "FactoryAi"
     }
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 6,
+      "score": 8,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
