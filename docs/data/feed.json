@@ -38,7 +38,7 @@
     "timestamp": "2025-11-15T19:33:50.000Z",
     "metadata": {
       "conversation_id": "1989778892639687094",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -248,7 +248,7 @@
     "timestamp": "2025-11-15T17:07:52.000Z",
     "metadata": {
       "conversation_id": "1989742156802920667",
-      "likes": 7,
+      "likes": 9,
       "retweets": 1,
       "replies": 3,
       "quotes": 0
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -648,6 +648,19 @@
       "type": "issue",
       "labels": [],
       "number": 325
+    }
+  },
+  {
+    "id": "reddit_1or5cow",
+    "source": "reddit",
+    "author": "Durst123",
+    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
+    "timestamp": "2025-11-07T20:29:10.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
     }
   },
   {
