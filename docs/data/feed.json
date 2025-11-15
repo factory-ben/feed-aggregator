@@ -1,5 +1,305 @@
 [
   {
+    "id": "twitter_1989502705497264357",
+    "source": "twitter",
+    "author": "Sm0ken42O",
+    "content": "@tsi_org @FactoryAI @explorersofai 👀",
+    "url": "https://x.com/Sm0ken42O/status/1989502705497264357",
+    "timestamp": "2025-11-15T01:16:22.000Z",
+    "metadata": {
+      "conversation_id": "1989502705497264357",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989500572127694943",
+    "source": "twitter",
+    "author": "curiouslychase",
+    "content": "@ryancarson @AmpCode @FactoryAI @Cursor https://t.co/NevUhn4fSP",
+    "url": "https://x.com/curiouslychase/status/1989500572127694943",
+    "timestamp": "2025-11-15T01:07:54.000Z",
+    "metadata": {
+      "conversation_id": "1989500572127694943",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989499819740541137",
+    "source": "twitter",
+    "author": "ryancarson",
+    "content": "@curiouslychase @AmpCode @FactoryAI @Cursor Amen",
+    "url": "https://x.com/ryancarson/status/1989499819740541137",
+    "timestamp": "2025-11-15T01:04:54.000Z",
+    "metadata": {
+      "conversation_id": "1989499819740541137",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989498365445537925",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@lemon07r @FactoryAI @_AbhaySinghal what do you say?",
+    "url": "https://x.com/matanSF/status/1989498365445537925",
+    "timestamp": "2025-11-15T00:59:08.000Z",
+    "metadata": {
+      "conversation_id": "1989498365445537925",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989497929132917055",
+    "source": "twitter",
+    "author": "wolfaidev",
+    "content": "Are $2,000 / mo plans becoming a thing now?\n\nFor 2B tokens. I mean come on.\n\nI like @FactoryAI but I am using 3-4B tokens per month for roughly $200.\n\nThat is 2x tokens for 1/10 of the price.\n\nHow?\n\nClaude Code + Codex",
+    "url": "https://x.com/wolfaidev/status/1989497929132917055",
+    "timestamp": "2025-11-15T00:57:24.000Z",
+    "metadata": {
+      "conversation_id": "1989497929132917055",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989497273026261225",
+    "source": "twitter",
+    "author": "leoisadev",
+    "content": "@bentossell @Context7AI @FactoryAI coincidence? https://t.co/0fOLrJcila",
+    "url": "https://x.com/leoisadev/status/1989497273026261225",
+    "timestamp": "2025-11-15T00:54:47.000Z",
+    "metadata": {
+      "conversation_id": "1989497273026261225",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989492550336753826",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@darshil @FactoryAI https://t.co/TXSnQcdg8P",
+    "url": "https://x.com/matanSF/status/1989492550336753826",
+    "timestamp": "2025-11-15T00:36:01.000Z",
+    "metadata": {
+      "conversation_id": "1989492550336753826",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989491558207689152",
+    "source": "twitter",
+    "author": "AIFlow_ML",
+    "content": "I have got @MiniMax__AI Code Plan for my personal stack and I must say that the model is really really good on @FactoryAI",
+    "url": "https://x.com/AIFlow_ML/status/1989491558207689152",
+    "timestamp": "2025-11-15T00:32:05.000Z",
+    "metadata": {
+      "conversation_id": "1989491558207689152",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989491077242409280",
+    "source": "twitter",
+    "author": "melodykoh",
+    "content": "From my experience working w real production apps by human engineers, I would say 20-30% of the manual QA time was caused by careless “it’s fixed” (but it’s not) claim by Claude Code, which is massively annoying at times but avoidable if I were more disciplined in some of my reviews.",
+    "url": "https://x.com/melodykoh/status/1989491077242409280",
+    "timestamp": "2025-11-15T00:30:10.000Z",
+    "metadata": {
+      "conversation_id": "1989491077242409280",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989490580066374092",
+    "source": "twitter",
+    "author": "FrancoE114696",
+    "content": "@FHulayyil @FactoryAI Same here 🤣🤣",
+    "url": "https://x.com/FrancoE114696/status/1989490580066374092",
+    "timestamp": "2025-11-15T00:28:11.000Z",
+    "metadata": {
+      "conversation_id": "1989490580066374092",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989490440312438802",
+    "source": "twitter",
+    "author": "darshil",
+    "content": "@FactoryAI HOLYYYY I NEED THISS",
+    "url": "https://x.com/darshil/status/1989490440312438802",
+    "timestamp": "2025-11-15T00:27:38.000Z",
+    "metadata": {
+      "conversation_id": "1989490440312438802",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989490382598516966",
+    "source": "twitter",
+    "author": "melodykoh",
+    "content": "Don’t necessarily disagree, but an engineer can also use AI to get leverage in understanding large code bases, refactoring etc. I think this is just an interesting illustrative example of leverage. \n\nFor work projects we definitely anticipate working with “real engineers” to build/maintain/harden the code once in production, but the ability to quickly validate a concept without engineering involvement is still very useful.\n\nFor personal / side projects, I find it extremely empowering and useful to be able to go from zero to an app that my son uses daily in a week with mostly AI working in the background.",
+    "url": "https://x.com/melodykoh/status/1989490382598516966",
+    "timestamp": "2025-11-15T00:27:24.000Z",
+    "metadata": {
+      "conversation_id": "1989490382598516966",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989490278169006101",
+    "source": "twitter",
+    "author": "robertotcestari",
+    "content": "@FactoryAI No way",
+    "url": "https://x.com/robertotcestari/status/1989490278169006101",
+    "timestamp": "2025-11-15T00:26:59.000Z",
+    "metadata": {
+      "conversation_id": "1989490278169006101",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989488797911072951",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@FactoryAI Can someone hire me so I can spend $ $24000 a year on agents",
+    "url": "https://x.com/fire/status/1989488797911072951",
+    "timestamp": "2025-11-15T00:21:06.000Z",
+    "metadata": {
+      "conversation_id": "1989488797911072951",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989488095885177274",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "Plus is pretty limited on anything, but often provider cli does the best job in token minimization and caching, though that doesn't necessarily equate to the \"best output\" - I definitely use codex cli and claude code heavily too though, they'd be my default if on $20/mo plan(s).\n\nI think the value of this type of proxy approach is if you're on $100/$200 Claude or $200 OAI Pro subs.",
+    "url": "https://x.com/ben_vargas/status/1989488095885177274",
+    "timestamp": "2025-11-15T00:18:19.000Z",
+    "metadata": {
+      "conversation_id": "1989488095885177274",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989487850103144645",
+    "source": "twitter",
+    "author": "FHulayyil",
+    "content": "@FactoryAI read the tweet 3 times and each time I saw it as $200 for 2B 😅",
+    "url": "https://x.com/FHulayyil/status/1989487850103144645",
+    "timestamp": "2025-11-15T00:17:21.000Z",
+    "metadata": {
+      "conversation_id": "1989487850103144645",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989486862386471181",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "@Mohanad423461 @FactoryAI I've seen longer than 4 todo in the plan if that's what you mean? I haven't had issue with a bans personally, but note the disclaimer on the linked md page. :) https://t.co/E8hc8SfQlc",
+    "url": "https://x.com/ben_vargas/status/1989486862386471181",
+    "timestamp": "2025-11-15T00:13:25.000Z",
+    "metadata": {
+      "conversation_id": "1989486862386471181",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989486578683756994",
+    "source": "twitter",
+    "author": "tekbog",
+    "content": "@FactoryAI YES YES MORE TOKENS https://t.co/C44F28Fh6U",
+    "url": "https://x.com/tekbog/status/1989486578683756994",
+    "timestamp": "2025-11-15T00:12:17.000Z",
+    "metadata": {
+      "conversation_id": "1989486578683756994",
+      "likes": 12,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989486253843386704",
+    "source": "twitter",
+    "author": "meddi_kada",
+    "content": "@FactoryAI have this plan been tested enough? I would love to volunteer for testing it",
+    "url": "https://x.com/meddi_kada/status/1989486253843386704",
+    "timestamp": "2025-11-15T00:11:00.000Z",
+    "metadata": {
+      "conversation_id": "1989486253843386704",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989486249196097848",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "@raulsaavedra_ @FactoryAI too good not to share :)",
+    "url": "https://x.com/ben_vargas/status/1989486249196097848",
+    "timestamp": "2025-11-15T00:10:59.000Z",
+    "metadata": {
+      "conversation_id": "1989486249196097848",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "reddit_1ox98ue",
     "source": "reddit",
     "author": "bentossell",
@@ -7,8 +307,8 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
     "timestamp": "2025-11-14T21:33:18.000Z",
     "metadata": {
-      "score": 4,
-      "num_comments": 2,
+      "score": 5,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
@@ -85,7 +385,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
