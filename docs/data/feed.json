@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_369",
+    "source": "github",
+    "author": "BlackCatCmx",
+    "content": "[Issue] The .factory/skills directory is created even when \"enableSkills\": false is set\n\nI have set \"enableSkills\": false in the settings.json, but every time droid starts it still automatically creates the .factory/skills directory.\n\nIs this expected behavior (e.g. I misunderstood how to configure it), or is this setting not intended to prevent the creation of the skills directory, or could this be a bug?",
+    "url": "https://github.com/Factory-AI/factory/issues/369",
+    "timestamp": "2025-11-15T14:38:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 369
+    }
+  },
+  {
     "id": "twitter_1989700400094892373",
     "source": "twitter",
     "author": "_junaidkhalid1",
@@ -68,7 +81,7 @@
     "timestamp": "2025-11-15T14:02:00.000Z",
     "metadata": {
       "conversation_id": "1989695381702402373",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -83,7 +96,7 @@
     "timestamp": "2025-11-15T14:01:27.000Z",
     "metadata": {
       "conversation_id": "1989695242736451636",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -278,7 +291,7 @@
     "timestamp": "2025-11-15T13:29:24.000Z",
     "metadata": {
       "conversation_id": "1989687176662323298",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -573,6 +586,19 @@
     }
   },
   {
+    "id": "reddit_1osf7sj",
+    "source": "reddit",
+    "author": "LittleChallenge8717",
+    "content": "Custom Droid | Web search Task failed\n\nWeb search and calling custom droid feature in Droid not working, I use claude code inside droid (with CLIProxyAPI),\n\n(Neither works on openrouter models)\n\n\"\n\nWEB SEARCH  (\"current bitcoin price BTC USD\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\nWEB SEARCH  (\"ethereum ETH price USD current\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\n\"\n\n\" TASK  (mermaid-expert: \"Create system architecture diagram\")\n\n⚠ Task failed\n\nTASK  (seo-meta-optimizer: \"Optimi",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1osf7sj/custom_droid_web_search_task_failed/",
+    "timestamp": "2025-11-09T09:35:38.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_329",
     "source": "github",
     "author": "TheSingular",
@@ -664,6 +690,19 @@
     }
   },
   {
+    "id": "reddit_1oomptx",
+    "source": "reddit",
+    "author": "samplifyk",
+    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
+    "timestamp": "2025-11-04T23:17:50.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_314",
     "source": "github",
     "author": "lifeisnphard",
@@ -713,19 +752,6 @@
       "type": "issue",
       "labels": [],
       "number": 301
-    }
-  },
-  {
-    "id": "github_issue_300",
-    "source": "github",
-    "author": "dpalfery",
-    "content": "[Issue] Can't use standard c:\\git for root directory on windows\n\nFactory Bridge assumes that all windows developers put the git repos in c:\\users\\<user> but this is very rarely the case wtih expereinced professional developers. we use c:\\git or similar just as mac devs use \\home\\git . need to be able to change this with out adding a link.",
-    "url": "https://github.com/Factory-AI/factory/issues/300",
-    "timestamp": "2025-11-02T02:47:51Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 300
     }
   },
   {
