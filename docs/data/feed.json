@@ -1,5 +1,48 @@
 [
   {
+    "id": "github_issue_370",
+    "source": "github",
+    "author": "aranej",
+    "content": "[Issue] UserPromptSubmit hook stdout not injected into LLM context\n\n## Problem\n\nUserPromptSubmit hooks execute successfully but their stdout is not injected into the LLM context, despite [documentation](https://github.com/Factory-AI/factory/blob/main/docs/reference/hooks-reference.mdx#userpromptsubmit-decision-control) stating it should be.\n\n**Expected:** Hook stdout added to context before prompt processing  \n**Actual:** Hook runs, outputs to stdout, but LLM never receives it\n\n## Evidence\n\nDebug logging proves hook execution:\n\n```\n[2025-11-15 16:16:05.140072] U",
+    "url": "https://github.com/Factory-AI/factory/issues/370",
+    "timestamp": "2025-11-15T15:36:30Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 370
+    }
+  },
+  {
+    "id": "twitter_1989718827588784221",
+    "source": "twitter",
+    "author": "DavidBennett__",
+    "content": "@NathanLands @OpenAICodexCli @cursor_ai @FactoryAI I am curious, how do I make my app LOOK GOOD?\n\ni am a terrible designer.\nI develop apps that I want to use that don’t look great.\nI assume if I’m starting with the app first it will be difficult to overlay on a front end or UI.\nI’m terrible at figma (and design)\n\nSuggestions?",
+    "url": "https://x.com/DavidBennett__/status/1989718827588784221",
+    "timestamp": "2025-11-15T15:35:10.000Z",
+    "metadata": {
+      "conversation_id": "1989718827588784221",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989718444963447258",
+    "source": "twitter",
+    "author": "DavidBennett__",
+    "content": "@bentossell @NathanLands @OpenAICodexCli @cursor_ai @FactoryAI I’ll check the CLI\n\nCurrent flow is cursor to keep an eye on tracking, A - B testing and audit, with main coder in an extension or terminal\n\nI’m excited to try it!",
+    "url": "https://x.com/DavidBennett__/status/1989718444963447258",
+    "timestamp": "2025-11-15T15:33:39.000Z",
+    "metadata": {
+      "conversation_id": "1989718444963447258",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989713238477738008",
     "source": "twitter",
     "author": "kylantomita",
@@ -279,36 +322,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989688543413715432",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@magma_man_dd @FactoryAI wait until i tell you about all the other agents offering credits",
-    "url": "https://x.com/bentossell/status/1989688543413715432",
-    "timestamp": "2025-11-15T13:34:50.000Z",
-    "metadata": {
-      "conversation_id": "1989688543413715432",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989688249611165756",
-    "source": "twitter",
-    "author": "bentossell",
-    "content": "@karanjagtiani04 @FactoryAI wdym by refresh rates? we dont have any message/time limits",
-    "url": "https://x.com/bentossell/status/1989688249611165756",
-    "timestamp": "2025-11-15T13:33:39.000Z",
-    "metadata": {
-      "conversation_id": "1989688249611165756",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
       "quotes": 0
     }
   },
@@ -700,19 +713,6 @@
       "type": "issue",
       "labels": [],
       "number": 308
-    }
-  },
-  {
-    "id": "github_issue_301",
-    "source": "github",
-    "author": "nusquama",
-    "content": "[Issue] How to configure Azure OpenAI with Factory CLI?\n\n\n\nHi\n\nI'm trying to configure Azure OpenAI (GPT-5 Codex) with Factory CLI using BYOK, but I can't find any documentation on how to properly set this up.\n\nI saw in the [[CLI Updates changelog](https://docs.factory.ai/changelog/cli-updates)](https://docs.factory.ai/changelog/cli-updates) that \"Azure OpenAI for GPT-5\" support was added, but there's no example configuration in the [[BYOK documentation](https://docs.factory.ai/cli/byok/overview)](https://docs.factory.ai/cli/byok/overview).\n\n**What I ",
-    "url": "https://github.com/Factory-AI/factory/issues/301",
-    "timestamp": "2025-11-02T10:10:24Z",
-    "metadata": {
-      "type": "issue",
-      "labels": [],
-      "number": 301
     }
   },
   {
