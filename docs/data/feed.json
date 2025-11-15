@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1989804248121708791",
+    "source": "twitter",
+    "author": "sasuke___420",
+    "content": "@fire @FactoryAI 🤔🤔🤔🤔",
+    "url": "https://x.com/sasuke___420/status/1989804248121708791",
+    "timestamp": "2025-11-15T21:14:36.000Z",
+    "metadata": {
+      "conversation_id": "1989804248121708791",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1989802318758609211",
+    "source": "twitter",
+    "author": "moumensoliman",
+    "content": "@FactoryAI 2000 !!",
+    "url": "https://x.com/moumensoliman/status/1989802318758609211",
+    "timestamp": "2025-11-15T21:06:56.000Z",
+    "metadata": {
+      "conversation_id": "1989802318758609211",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989800547969650837",
     "source": "twitter",
     "author": "robert_heimir",
@@ -23,7 +53,7 @@
     "timestamp": "2025-11-15T20:56:02.000Z",
     "metadata": {
       "conversation_id": "1989799575230845050",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -270,36 +300,6 @@
     }
   },
   {
-    "id": "twitter_1989761371287032085",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "@AIgentAGI @FactoryAI I used Claude Skills for design which droid v0.26 release nake it possible and it was pretty good actually.\n\nWill trt 5.1 to prompt Codex too thanks for the tip",
-    "url": "https://x.com/CloudTrader4/status/1989761371287032085",
-    "timestamp": "2025-11-15T18:24:13.000Z",
-    "metadata": {
-      "conversation_id": "1989761371287032085",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989760955044303174",
-    "source": "twitter",
-    "author": "CloudTrader4",
-    "content": "@RayFernando1337 @FactoryAI Thanks!",
-    "url": "https://x.com/CloudTrader4/status/1989760955044303174",
-    "timestamp": "2025-11-15T18:22:34.000Z",
-    "metadata": {
-      "conversation_id": "1989760955044303174",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_370",
     "source": "github",
     "author": "aranej",
@@ -359,7 +359,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
     "timestamp": "2025-11-14T21:33:18.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 7,
       "subreddit": "FactoryAi"
     }
@@ -648,6 +648,19 @@
       "type": "issue",
       "labels": [],
       "number": 325
+    }
+  },
+  {
+    "id": "reddit_1or5cow",
+    "source": "reddit",
+    "author": "Durst123",
+    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
+    "timestamp": "2025-11-07T20:29:10.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
     }
   },
   {
