@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1989662045210644807",
+    "source": "twitter",
+    "author": "fritzstauff",
+    "content": "@AdhamAlkhaja @FactoryAI I don’t think Claude code bases? I’m assuming factory does?",
+    "url": "https://x.com/fritzstauff/status/1989662045210644807",
+    "timestamp": "2025-11-15T11:49:32.000Z",
+    "metadata": {
+      "conversation_id": "1989662045210644807",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989658060588290158",
     "source": "twitter",
     "author": "pascallammers_",
@@ -294,21 +309,6 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1989607651173646777",
-    "source": "twitter",
-    "author": "AdhamAlkhaja",
-    "content": "@bentossell @FactoryAI that's why i keep reloading factory ammo 20m at a time (:",
-    "url": "https://x.com/AdhamAlkhaja/status/1989607651173646777",
-    "timestamp": "2025-11-15T08:13:23.000Z",
-    "metadata": {
-      "conversation_id": "1989607651173646777",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
       "quotes": 0
     }
   },
@@ -622,19 +622,6 @@
       "type": "issue",
       "labels": [],
       "number": 325
-    }
-  },
-  {
-    "id": "reddit_1or5cow",
-    "source": "reddit",
-    "author": "Durst123",
-    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
-    "timestamp": "2025-11-07T20:29:10.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
     }
   },
   {
