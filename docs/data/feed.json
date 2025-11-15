@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1989839846232527235",
+    "source": "twitter",
+    "author": "MihailVarich",
+    "content": "@AntonioJASmith @FactoryAI I recommend creating https://t.co/VzBQ9RFGAS files right away with rules — never create hardcoded files or stubs. I've noticed they're often guilty of this, passing off hack work as \"completed.\"",
+    "url": "https://x.com/MihailVarich/status/1989839846232527235",
+    "timestamp": "2025-11-15T23:36:03.000Z",
+    "metadata": {
+      "conversation_id": "1989839846232527235",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1989836996886544456",
     "source": "twitter",
     "author": "lesssummerize",
@@ -8,7 +23,7 @@
     "timestamp": "2025-11-15T23:24:44.000Z",
     "metadata": {
       "conversation_id": "1989836996886544456",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -311,21 +326,6 @@
     }
   },
   {
-    "id": "twitter_1989787731694940161",
-    "source": "twitter",
-    "author": "mjs527",
-    "content": "i blew through my @FactoryAI MAX plan in 3 days!!! my systems are working more effectively than ever now, but even with intense architecture optimization, progressive disclosure, tiered skills/mcp/subdroid usage, i’m still crushing through my limits. really need this upgrade",
-    "url": "https://x.com/mjs527/status/1989787731694940161",
-    "timestamp": "2025-11-15T20:08:58.000Z",
-    "metadata": {
-      "conversation_id": "1989787731694940161",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_370",
     "source": "github",
     "author": "aranej",
@@ -463,7 +463,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
