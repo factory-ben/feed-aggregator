@@ -23,7 +23,7 @@
     "timestamp": "2025-11-16T13:51:51.000Z",
     "metadata": {
       "conversation_id": "1990055215891198357",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -280,7 +280,7 @@
       "conversation_id": "1989937886020669647",
       "likes": 1,
       "retweets": 0,
-      "replies": 1,
+      "replies": 0,
       "quotes": 0
     }
   },
@@ -293,9 +293,9 @@
     "timestamp": "2025-11-16T05:50:16.000Z",
     "metadata": {
       "conversation_id": "1989934021284171900",
-      "likes": 2,
+      "likes": 1,
       "retweets": 0,
-      "replies": 1,
+      "replies": 0,
       "quotes": 0
     }
   },
@@ -476,7 +476,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 7,
+      "score": 8,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
