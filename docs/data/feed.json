@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1990569011172815294",
+    "source": "twitter",
+    "author": "ain3sh",
+    "content": "@EnoReyes @CloudTrader4 @FactoryAI I have a hypothesis regarding this and how the new generation of models are borderline addicts for using the shell. Going to code up an attempt to validate it, finally have a non-disgusting/somewhat-elegant design that I like :)",
+    "url": "https://x.com/ain3sh/status/1990569011172815294",
+    "timestamp": "2025-11-17T23:53:29.000Z",
+    "metadata": {
+      "conversation_id": "1990569011172815294",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990565568261640264",
     "source": "twitter",
     "author": "damien_r_h",
@@ -53,9 +68,9 @@
     "timestamp": "2025-11-17T22:59:20.000Z",
     "metadata": {
       "conversation_id": "1990555381240844336",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -98,7 +113,7 @@
     "timestamp": "2025-11-17T22:06:15.000Z",
     "metadata": {
       "conversation_id": "1990542024710193409",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -175,7 +190,7 @@
       "conversation_id": "1990496556836139285",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -278,21 +293,6 @@
     "timestamp": "2025-11-17T17:30:47.000Z",
     "metadata": {
       "conversation_id": "1990472700071194919",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990472083252412787",
-    "source": "twitter",
-    "author": "captaink99",
-    "content": "@thdxr That’s looks neat.  @FactoryAI",
-    "url": "https://x.com/captaink99/status/1990472083252412787",
-    "timestamp": "2025-11-17T17:28:20.000Z",
-    "metadata": {
-      "conversation_id": "1990472083252412787",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
@@ -437,7 +437,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
     "timestamp": "2025-11-14T21:33:18.000Z",
     "metadata": {
-      "score": 8,
+      "score": 7,
       "num_comments": 10,
       "subreddit": "FactoryAi"
     }
