@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1990266280792989706",
+    "source": "twitter",
+    "author": "steipete",
+    "content": "@arimedai @FactoryAI And the ones that don't take 500MB :D",
+    "url": "https://x.com/steipete/status/1990266280792989706",
+    "timestamp": "2025-11-17T03:50:33.000Z",
+    "metadata": {
+      "conversation_id": "1990266280792989706",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990264256798003340",
+    "source": "twitter",
+    "author": "arimedai",
+    "content": "@steipete @FactoryAI Handy. The best tools are the ones that quietly fix your daily annoyances.",
+    "url": "https://x.com/arimedai/status/1990264256798003340",
+    "timestamp": "2025-11-17T03:42:30.000Z",
+    "metadata": {
+      "conversation_id": "1990264256798003340",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990261882771394925",
+    "source": "twitter",
+    "author": "erd0xbc",
+    "content": "1) Plan/Spec mode @cursor_ai and @FactoryAI have the best approaches so far.\n2) More polished MCP tool management; e.g., after I add them, I should be able to disable/enable via /mcp\n3) Amp should know Amp settings.json (less relevant as you all are agent vs. model focused), so not much to tinker with.\n4) Not sure the right mental (agent) model, but how could GPT 5-1 Low or 5.1 Codex Med fit in?  GPT 5-1 Low feel like a drop in replacement for Sonnet 4.5 so far.\n4.1) GPT 5-1 Low is like a smarter rush while being cheaper*\n5) @FactoryAI used to have this issue, but its fixed now. Basically @AmpCode is primed for software engineering. If I prime Amp with knowledge of a custom cli, can it take that and run? Claude Code seems to be born for random things like that.\n6) Skills approach",
+    "url": "https://x.com/erd0xbc/status/1990261882771394925",
+    "timestamp": "2025-11-17T03:33:04.000Z",
+    "metadata": {
+      "conversation_id": "1990261882771394925",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990256155608957338",
     "source": "twitter",
     "author": "steipete",
@@ -8,9 +53,9 @@
     "timestamp": "2025-11-17T03:10:19.000Z",
     "metadata": {
       "conversation_id": "1990256155608957338",
-      "likes": 3,
+      "likes": 5,
       "retweets": 1,
-      "replies": 0,
+      "replies": 1,
       "quotes": 1
     }
   },
@@ -268,51 +313,6 @@
     }
   },
   {
-    "id": "twitter_1990138993149915473",
-    "source": "twitter",
-    "author": "ben_vargas",
-    "content": "@immoinulmoin @FactoryAI https://t.co/Mg8JO7WxMh",
-    "url": "https://x.com/ben_vargas/status/1990138993149915473",
-    "timestamp": "2025-11-16T19:24:45.000Z",
-    "metadata": {
-      "conversation_id": "1990138993149915473",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990137250299117751",
-    "source": "twitter",
-    "author": "ben_vargas",
-    "content": "@immoinulmoin @FactoryAI Hmm... working fine for me, but I haven't gone through any re-auth process recently. I've re-based the fork and re-applied the amp changes (you don't even need my fork if not using Amp sometimes, main repo works fine for that). https://t.co/p3ikCMSk3b",
-    "url": "https://x.com/ben_vargas/status/1990137250299117751",
-    "timestamp": "2025-11-16T19:17:50.000Z",
-    "metadata": {
-      "conversation_id": "1990137250299117751",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990126080762544173",
-    "source": "twitter",
-    "author": "mbarbanson",
-    "content": "@brexton @cursor_ai @AmpCode @FactoryAI Love it!",
-    "url": "https://x.com/mbarbanson/status/1990126080762544173",
-    "timestamp": "2025-11-16T18:33:27.000Z",
-    "metadata": {
-      "conversation_id": "1990126080762544173",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "github_issue_372",
     "source": "github",
     "author": "presidentoor",
@@ -534,6 +534,19 @@
     }
   },
   {
+    "id": "reddit_1ovbn7q",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Anyone having issues with the Bridge?\n\nLast few days bridge has been disconnecting frequently. then it started crashing after opening. Restarting cpu didn't help so I deleted the bridge, downloaded it again, restarted my computer, and now it's no longer crashing, but won't reconnect to any old or new sessions. Anyone else having this issue? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ovbn7q/anyone_having_issues_with_the_bridge/",
+    "timestamp": "2025-11-12T17:34:16.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_341",
     "source": "github",
     "author": "580ai",
@@ -674,19 +687,6 @@
       "type": "issue",
       "labels": [],
       "number": 325
-    }
-  },
-  {
-    "id": "reddit_1or5cow",
-    "source": "reddit",
-    "author": "Durst123",
-    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
-    "timestamp": "2025-11-07T20:29:10.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 6,
-      "subreddit": "FactoryAi"
     }
   },
   {
