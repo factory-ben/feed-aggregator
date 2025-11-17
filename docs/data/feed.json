@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1990292344336478415",
+    "source": "twitter",
+    "author": "jywlabs",
+    "content": "All docs page should have this copy page button, it's just easier when you need to copy some info for agents to read and follow the pattern. guys at @FactoryAI really gets it. The docs are amazing. https://t.co/xhKOIG38qq",
+    "url": "https://x.com/jywlabs/status/1990292344336478415",
+    "timestamp": "2025-11-17T05:34:07.000Z",
+    "metadata": {
+      "conversation_id": "1990292344336478415",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990281115224137784",
     "source": "twitter",
     "author": "GitMaxd",
@@ -311,21 +326,6 @@
     }
   },
   {
-    "id": "twitter_1990144843499311498",
-    "source": "twitter",
-    "author": "ben_vargas",
-    "content": "@immoinulmoin @FactoryAI And in case anyone notices, yes, I fixed the permissions on that one file to 600 :)",
-    "url": "https://x.com/ben_vargas/status/1990144843499311498",
-    "timestamp": "2025-11-16T19:48:00.000Z",
-    "metadata": {
-      "conversation_id": "1990144843499311498",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
     "id": "reddit_1oys5f5",
     "source": "reddit",
     "author": "SensitiveUpstairs803",
@@ -515,21 +515,21 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 6,
+      "score": 7,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
   },
   {
-    "id": "reddit_1ow4spq",
+    "id": "reddit_1ow0203",
     "source": "reddit",
-    "author": "Rough-Aioli-7829",
-    "content": "Why I can't register my email?\n\nImages:\n\thttps://preview.redd.it/rgbm3fcdr11g1.png?auto=webp&amp;s=b0a9871d3d6836057ca15067a94c8a71463ae5ca\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow4spq/why_i_cant_register_my_email/",
-    "timestamp": "2025-11-13T15:58:33.000Z",
+    "author": "vargalas",
+    "content": "It's the worst onboarding experience ever\n\nThe provided cli instruction doesn't work, curl is complaining about self-signed certificate. The support link (after logging in) doesn't work. I tried to contact the sales on the homepage, but you cannot write them, they will contact. if they want. \n\nSo no Droid for me. I cannot see how they get customers. ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow0203/its_the_worst_onboarding_experience_ever/",
+    "timestamp": "2025-11-13T12:42:42.000Z",
     "metadata": {
-      "score": 2,
-      "num_comments": 1,
+      "score": 0,
+      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
