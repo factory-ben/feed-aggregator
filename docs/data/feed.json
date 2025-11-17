@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1990380000231739689",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@explosivesox @FactoryAI @getdomeapi @openservai @Polymarket @hash_dive v soon",
+    "url": "https://x.com/bentossell/status/1990380000231739689",
+    "timestamp": "2025-11-17T11:22:26.000Z",
+    "metadata": {
+      "conversation_id": "1990380000231739689",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990379226273583288",
+    "source": "twitter",
+    "author": "explosivesox",
+    "content": "@bentossell @FactoryAI @getdomeapi @openservai @Polymarket @hash_dive Ben don't play with me now; what's the ETA on Grok in Droid?🤨",
+    "url": "https://x.com/explosivesox/status/1990379226273583288",
+    "timestamp": "2025-11-17T11:19:21.000Z",
+    "metadata": {
+      "conversation_id": "1990379226273583288",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990379164504125946",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@martin_ict_algo @CloudTrader4 @FactoryAI its not released yet - my bad",
+    "url": "https://x.com/bentossell/status/1990379164504125946",
+    "timestamp": "2025-11-17T11:19:06.000Z",
+    "metadata": {
+      "conversation_id": "1990379164504125946",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990379019863470194",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@jywlabs @FactoryAI @mintlify makes this easy 😊",
+    "url": "https://x.com/bentossell/status/1990379019863470194",
+    "timestamp": "2025-11-17T11:18:32.000Z",
+    "metadata": {
+      "conversation_id": "1990379019863470194",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990378918512382417",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@michael_chomsky @itsbyrobin @FactoryAI oh we are very methodical\n\nwe've written some blog posts like below - and have plans for more!\n\nhttps://t.co/rQ3Jwmcklb\nhttps://t.co/P2rElYrbVT",
+    "url": "https://x.com/bentossell/status/1990378918512382417",
+    "timestamp": "2025-11-17T11:18:08.000Z",
+    "metadata": {
+      "conversation_id": "1990378918512382417",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990378601246798093",
     "source": "twitter",
     "author": "bentossell",
@@ -8,9 +83,9 @@
     "timestamp": "2025-11-17T11:16:52.000Z",
     "metadata": {
       "conversation_id": "1990378601246798093",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -188,7 +263,7 @@
     "timestamp": "2025-11-17T05:34:07.000Z",
     "metadata": {
       "conversation_id": "1990292344336478415",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -225,81 +300,6 @@
     }
   },
   {
-    "id": "twitter_1990267822422077449",
-    "source": "twitter",
-    "author": "bheemreddy181",
-    "content": "@steipete @FactoryAI So trimmy can copy directly from Ghostty?",
-    "url": "https://x.com/bheemreddy181/status/1990267822422077449",
-    "timestamp": "2025-11-17T03:56:40.000Z",
-    "metadata": {
-      "conversation_id": "1990267822422077449",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990266280792989706",
-    "source": "twitter",
-    "author": "steipete",
-    "content": "@arimedai @FactoryAI And the ones that don't take 500MB :D",
-    "url": "https://x.com/steipete/status/1990266280792989706",
-    "timestamp": "2025-11-17T03:50:33.000Z",
-    "metadata": {
-      "conversation_id": "1990266280792989706",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990264256798003340",
-    "source": "twitter",
-    "author": "arimedai",
-    "content": "@steipete @FactoryAI Handy. The best tools are the ones that quietly fix your daily annoyances.",
-    "url": "https://x.com/arimedai/status/1990264256798003340",
-    "timestamp": "2025-11-17T03:42:30.000Z",
-    "metadata": {
-      "conversation_id": "1990264256798003340",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990261882771394925",
-    "source": "twitter",
-    "author": "erd0xbc",
-    "content": "1) Plan/Spec mode @cursor_ai and @FactoryAI have the best approaches so far.\n2) More polished MCP tool management; e.g., after I add them, I should be able to disable/enable via /mcp\n3) Amp should know Amp settings.json (less relevant as you all are agent vs. model focused), so not much to tinker with.\n4) Not sure the right mental (agent) model, but how could GPT 5-1 Low or 5.1 Codex Med fit in?  GPT 5-1 Low feel like a drop in replacement for Sonnet 4.5 so far.\n4.1) GPT 5-1 Low is like a smarter rush while being cheaper*\n5) @FactoryAI used to have this issue, but its fixed now. Basically @AmpCode is primed for software engineering. If I prime Amp with knowledge of a custom cli, can it take that and run? Claude Code seems to be born for random things like that.\n6) Skills approach",
-    "url": "https://x.com/erd0xbc/status/1990261882771394925",
-    "timestamp": "2025-11-17T03:33:04.000Z",
-    "metadata": {
-      "conversation_id": "1990261882771394925",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990256155608957338",
-    "source": "twitter",
-    "author": "steipete",
-    "content": "Trimmy now supports trimming these || borders, when you copy text from @FactoryAI - thanks to Blueemi! https://t.co/ikOH9Sqsyt https://t.co/L8pF327Kxb",
-    "url": "https://x.com/steipete/status/1990256155608957338",
-    "timestamp": "2025-11-17T03:10:19.000Z",
-    "metadata": {
-      "conversation_id": "1990256155608957338",
-      "likes": 18,
-      "retweets": 3,
-      "replies": 4,
-      "quotes": 1
-    }
-  },
-  {
     "id": "github_discussion_374",
     "source": "github",
     "author": "vibl",
@@ -310,32 +310,6 @@
       "type": "discussion",
       "category": "General",
       "number": 374
-    }
-  },
-  {
-    "id": "reddit_1oz18qh",
-    "source": "reddit",
-    "author": "EggNo4904",
-    "content": "not sure if i am the only one getting this, interestingly enough it had my card details saved tho.\n\nImages:\n\thttps://preview.redd.it/uu8xf048jp1g1.png?auto=webp&amp;s=9574291f2513a281eca97c75667653da65da086d\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oz18qh/not_sure_if_i_am_the_only_one_getting_this/",
-    "timestamp": "2025-11-16T23:56:02.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oys5f5",
-    "source": "reddit",
-    "author": "SensitiveUpstairs803",
-    "content": "Fix large file parsing crash issue.\n\nIf we have a large file Droid's file view tool will try to parse it and then crash because the file is to large but to solve the crashing you should add something that detects the size of the file then if its too large it will resort to using a powershell command instead of the built in droid file parser tool to parse a few lines of the file to get the format etc based on whatever the question involving the file is. Simple feature simple fix.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oys5f5/fix_large_file_parsing_crash_issue/",
-    "timestamp": "2025-11-16T17:50:18.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -430,19 +404,6 @@
     }
   },
   {
-    "id": "reddit_1ox98ue",
-    "source": "reddit",
-    "author": "bentossell",
-    "content": "Changelog: v0.26.0\n\n**New features**\n\n• Session Favorites: New /favorite command to pin/unpin sessions, keeping your active projects at the top of the session list\n\n• Enhanced Bug Reporting: The /bug command now zips session context, uploads it to Factory, and returns a shareable report ID automatically\n\n• Cleaner Diff Viewer: Improved UI with horizontal lines instead of borders\n\n\n\n**Bug fixes &amp; smaller items**\n\n• Always prompt to accept or reject generated specs and pass the correct labels to the UI flow\n\n• dr",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ox98ue/changelog_v0260/",
-    "timestamp": "2025-11-14T21:33:18.000Z",
-    "metadata": {
-      "score": 8,
-      "num_comments": 10,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_discussion_361",
     "source": "github",
     "author": "aaronschwartz",
@@ -469,32 +430,6 @@
     }
   },
   {
-    "id": "reddit_1ox6p07",
-    "source": "reddit",
-    "author": "ShipSpecialist6727",
-    "content": "Being charge for all limit overage while having credit balance\n\nhttps://preview.redd.it/apq9eqc22a1g1.png?width=713&amp;format=png&amp;auto=webp&amp;s=b55698314d83f7e933e7c750576ab10285a54f3a\n\nhttps://preview.redd.it/c4n0ms032a1g1.png?width=1088&amp;format=png&amp;auto=webp&amp;s=4c124b65440a28c118b9d8a714f0da7618eaf4aa\n\nhttps://preview.redd.it/h2scb4072a1g1.png?width=1226&amp;format=png&amp;auto=webp&amp;s=7fbc4d224122903a737d9f9b4ed0c2092e03ce72\n\n  \nI'm being charge for 40$ limit overage while having my credit balance from my referral .  \nThe support is to",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ox6p07/being_charge_for_all_limit_overage_while_having/",
-    "timestamp": "2025-11-14T19:54:09.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 2,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1owv5gf",
-    "source": "reddit",
-    "author": "bentossell",
-    "content": "how to set up custom models with Groq in &lt;1 min\n\nhttps://reddit.com/link/1owv5gf/video/vfpxccohu71g1/player\n\nvideo above  \ndocs: [https://docs.factory.ai/cli/byok/groq](https://docs.factory.ai/cli/byok/groq)",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1owv5gf/how_to_set_up_custom_models_with_groq_in_1_min/",
-    "timestamp": "2025-11-14T12:27:05.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 0,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "reddit_1owpdgs",
     "source": "reddit",
     "author": "Informal-Spinach-345",
@@ -515,7 +450,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 6,
+      "score": 7,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
@@ -530,19 +465,6 @@
     "metadata": {
       "score": 2,
       "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1ow0203",
-    "source": "reddit",
-    "author": "vargalas",
-    "content": "It's the worst onboarding experience ever\n\nThe provided cli instruction doesn't work, curl is complaining about self-signed certificate. The support link (after logging in) doesn't work. I tried to contact the sales on the homepage, but you cannot write them, they will contact. if they want. \n\nSo no Droid for me. I cannot see how they get customers. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow0203/its_the_worst_onboarding_experience_ever/",
-    "timestamp": "2025-11-13T12:42:42.000Z",
-    "metadata": {
-      "score": 0,
-      "num_comments": 3,
       "subreddit": "FactoryAi"
     }
   },
@@ -729,6 +651,32 @@
     }
   },
   {
+    "id": "reddit_1op6njm",
+    "source": "reddit",
+    "author": "Sakrilegi0us",
+    "content": "Droid is failing to compress every time and I have to start a new chat.\n\nI keep getting \"Error: stream ended without producing a Message with role=assistant\" when reach my context window and It fails to compress every time. Im using vibeProxy to use my claude code max subscription and switching model, or service (to codex or GLM) I get \"Error: Failed to compress conversation for model switch\"",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
+    "timestamp": "2025-11-05T15:57:27.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 15,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oomptx",
+    "source": "reddit",
+    "author": "samplifyk",
+    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
+    "timestamp": "2025-11-04T23:17:50.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_309",
     "source": "github",
     "author": "msneijders",
@@ -739,6 +687,58 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 309
+    }
+  },
+  {
+    "id": "reddit_1oneja7",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
+    "timestamp": "2025-11-03T15:20:27.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1omlc3f",
+    "source": "reddit",
+    "author": "IslandOceanWater",
+    "content": "Is there any plans to add checkpoints. I would use Factory AI 100% of the time if it had restore points.\n\nAre checkpoints going to be added anytime soon. This is the only thing keeping me using Claude Code for most things because i don't want to have to always use git for each change.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1omlc3f/is_there_any_plans_to_add_checkpoints_i_would_use/",
+    "timestamp": "2025-11-02T16:11:56.000Z",
+    "metadata": {
+      "score": 8,
+      "num_comments": 9,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oipsqf",
+    "source": "reddit",
+    "author": "StrixGGUY",
+    "content": "First impressions\n\nI’m André, a dev with several years of experience. Around two years ago, I started doing vibe coding alongside my regular development work. I’ve used several AI coding tools like Augment, Kilo, Roo, and others.\n\nI’m a heavy user, my projects usually go beyond 50k lines of code. About three weeks ago, I switched from Augment to CC for reasons I won’t mention here, but I think most people in the community already know why. A teammate shared a factory reference code with me, so I decided to test it",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oipsqf/first_impressions/",
+    "timestamp": "2025-10-29T00:01:57.000Z",
+    "metadata": {
+      "score": 7,
+      "num_comments": 23,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1ofmunx",
+    "source": "reddit",
+    "author": "Warm_Sandwich3769",
+    "content": "New updates are forcing me to quit\n\nHey dev team, I am a paid member of Droid. First of all I want to appreciate that you guys were doing really very very well since past month.\n\nWith all due respect your latest updates are fucking up the UI UX unnecessarily \n\nThe screen starts shaking as the code goes up and down continuously \n\nAfter 1-2 prompts - Error Json comes \n\nNow I can't even attach images for my custom GLM4.6 model.\n\nYou guys don't even tell what changes have you made, no changelog at all neither I have a rollback option.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ofmunx/new_updates_are_forcing_me_to_quit/",
+    "timestamp": "2025-10-25T09:01:37.000Z",
+    "metadata": {
+      "score": 12,
+      "num_comments": 11,
+      "subreddit": "FactoryAi"
     }
   },
   {
