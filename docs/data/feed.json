@@ -100,7 +100,7 @@
       "conversation_id": "1990324689840095734",
       "likes": 4,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 1
     }
   },
@@ -203,7 +203,7 @@
     "timestamp": "2025-11-17T04:11:55.000Z",
     "metadata": {
       "conversation_id": "1990271659002204338",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -278,7 +278,7 @@
     "timestamp": "2025-11-17T03:10:19.000Z",
     "metadata": {
       "conversation_id": "1990256155608957338",
-      "likes": 14,
+      "likes": 16,
       "retweets": 2,
       "replies": 4,
       "quotes": 1
@@ -310,45 +310,6 @@
       "type": "discussion",
       "category": "General",
       "number": 374
-    }
-  },
-  {
-    "id": "reddit_1oz18qh",
-    "source": "reddit",
-    "author": "EggNo4904",
-    "content": "not sure if i am the only one getting this, interestingly enough it had my card details saved tho.\n\nImages:\n\thttps://preview.redd.it/uu8xf048jp1g1.png?auto=webp&amp;s=9574291f2513a281eca97c75667653da65da086d\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oz18qh/not_sure_if_i_am_the_only_one_getting_this/",
-    "timestamp": "2025-11-16T23:56:02.000Z",
-    "metadata": {
-      "score": 3,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oys5f5",
-    "source": "reddit",
-    "author": "SensitiveUpstairs803",
-    "content": "Fix large file parsing crash issue.\n\nIf we have a large file Droid's file view tool will try to parse it and then crash because the file is to large but to solve the crashing you should add something that detects the size of the file then if its too large it will resort to using a powershell command instead of the built in droid file parser tool to parse a few lines of the file to get the format etc based on whatever the question involving the file is. Simple feature simple fix.",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oys5f5/fix_large_file_parsing_crash_issue/",
-    "timestamp": "2025-11-16T17:50:18.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 1,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1oydnzt",
-    "source": "reddit",
-    "author": "EggNo4904",
-    "content": "When i put my real number this is what i get ( i moved it out, also the pretty print some vercel blocks heard a lot of droid would love to be able to try it)\n\nImages:\n\thttps://preview.redd.it/huzzfboe3k1g1.png?auto=webp&amp;s=f342b5e1a1ba7e0c301f58a658fd42ac56fe6535\n",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1oydnzt/when_i_put_my_real_number_this_is_what_i_get_i/",
-    "timestamp": "2025-11-16T05:38:43.000Z",
-    "metadata": {
-      "score": 2,
-      "num_comments": 4,
-      "subreddit": "FactoryAi"
     }
   },
   {
@@ -482,41 +443,15 @@
     }
   },
   {
-    "id": "reddit_1owv5gf",
+    "id": "reddit_1ow4spq",
     "source": "reddit",
-    "author": "bentossell",
-    "content": "how to set up custom models with Groq in &lt;1 min\n\nhttps://reddit.com/link/1owv5gf/video/vfpxccohu71g1/player\n\nvideo above  \ndocs: [https://docs.factory.ai/cli/byok/groq](https://docs.factory.ai/cli/byok/groq)",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1owv5gf/how_to_set_up_custom_models_with_groq_in_1_min/",
-    "timestamp": "2025-11-14T12:27:05.000Z",
+    "author": "Rough-Aioli-7829",
+    "content": "Why I can't register my email?\n\nImages:\n\thttps://preview.redd.it/rgbm3fcdr11g1.png?auto=webp&amp;s=b0a9871d3d6836057ca15067a94c8a71463ae5ca\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow4spq/why_i_cant_register_my_email/",
+    "timestamp": "2025-11-13T15:58:33.000Z",
     "metadata": {
-      "score": 1,
-      "num_comments": 0,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1owpdgs",
-    "source": "reddit",
-    "author": "Informal-Spinach-345",
-    "content": "Todo list with minimax m2\n\nAny one else have issues with Minimax M2 on vllm not being able to properly use the todo list? \n\n  \nThis is what the output looks like, it eventually moves on but I never see a todo list:\n\n   Let me create a comprehensive todo list that captures all the remaining work.\n\n   &lt;/think&gt;\n\n\n\n\n\n\n\n\n\n⛬  &lt;think&gt;I need to fix the todo format - the todos parameter should be an array, not an object.\n\n   &lt;/think&gt;\n\n\n\n\n\n\n\n\n\n⛬  &lt;think&gt;Let me check the todo structure more carefully. Looking",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1owpdgs/todo_list_with_minimax_m2/",
-    "timestamp": "2025-11-14T06:41:19.000Z",
-    "metadata": {
-      "score": 1,
-      "num_comments": 8,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
-    "id": "reddit_1owbvoj",
-    "source": "reddit",
-    "author": "bentossell",
-    "content": "How should we post changelogs here?\n\nhey, i'm ben - dev rel at factory. you may have seen me answering comments.\n\nwe have a changelog now but has like 4/5 updates a week. its automated as a bot in our discord channel. \n\nshould we add anything here? if so, what format is best?",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
-    "timestamp": "2025-11-13T20:22:54.000Z",
-    "metadata": {
-      "score": 7,
-      "num_comments": 4,
+      "score": 2,
+      "num_comments": 1,
       "subreddit": "FactoryAi"
     }
   },
@@ -557,6 +492,19 @@
       "type": "issue",
       "labels": [],
       "number": 345
+    }
+  },
+  {
+    "id": "reddit_1ovbn7q",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Anyone having issues with the Bridge?\n\nLast few days bridge has been disconnecting frequently. then it started crashing after opening. Restarting cpu didn't help so I deleted the bridge, downloaded it again, restarted my computer, and now it's no longer crashing, but won't reconnect to any old or new sessions. Anyone else having this issue? ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1ovbn7q/anyone_having_issues_with_the_bridge/",
+    "timestamp": "2025-11-12T17:34:16.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
     }
   },
   {
@@ -651,6 +599,19 @@
     }
   },
   {
+    "id": "reddit_1osf7sj",
+    "source": "reddit",
+    "author": "LittleChallenge8717",
+    "content": "Custom Droid | Web search Task failed\n\nWeb search and calling custom droid feature in Droid not working, I use claude code inside droid (with CLIProxyAPI),\n\n(Neither works on openrouter models)\n\n\"\n\nWEB SEARCH  (\"current bitcoin price BTC USD\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\nWEB SEARCH  (\"ethereum ETH price USD current\")\n\nSearch failed: Error: Error performing web search: Fetch failed\n\n\"\n\n\" TASK  (mermaid-expert: \"Create system architecture diagram\")\n\n⚠ Task failed\n\nTASK  (seo-meta-optimizer: \"Optimi",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1osf7sj/custom_droid_web_search_task_failed/",
+    "timestamp": "2025-11-09T09:35:38.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_329",
     "source": "github",
     "author": "TheSingular",
@@ -690,6 +651,19 @@
     }
   },
   {
+    "id": "reddit_1or5cow",
+    "source": "reddit",
+    "author": "Durst123",
+    "content": "What are the weekly limits in droid CLI?\n\nComparing it to Claude max.\n\nI hit the limits.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1or5cow/what_are_the_weekly_limits_in_droid_cli/",
+    "timestamp": "2025-11-07T20:29:10.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_321",
     "source": "github",
     "author": "nilzzzzzz",
@@ -716,6 +690,32 @@
     }
   },
   {
+    "id": "reddit_1op6njm",
+    "source": "reddit",
+    "author": "Sakrilegi0us",
+    "content": "Droid is failing to compress every time and I have to start a new chat.\n\nI keep getting \"Error: stream ended without producing a Message with role=assistant\" when reach my context window and It fails to compress every time. Im using vibeProxy to use my claude code max subscription and switching model, or service (to codex or GLM) I get \"Error: Failed to compress conversation for model switch\"",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1op6njm/droid_is_failing_to_compress_every_time_and_i/",
+    "timestamp": "2025-11-05T15:57:27.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 15,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1oomptx",
+    "source": "reddit",
+    "author": "samplifyk",
+    "content": "Factory agents running locally or cloud triggered by linear tickets\n\nHas anyone managed to achieve this?",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oomptx/factory_agents_running_locally_or_cloud_triggered/",
+    "timestamp": "2025-11-04T23:17:50.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 2,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_discussion_309",
     "source": "github",
     "author": "msneijders",
@@ -726,6 +726,19 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 309
+    }
+  },
+  {
+    "id": "reddit_1oneja7",
+    "source": "reddit",
+    "author": "UrAn8",
+    "content": "Lost referral credits\n\nI made many referrals to Factory. I earned $400 in credits. Randomly it seemed as if I lost access to my paid account and when I reinstated it my credits (except about $100) were gone. Did I miss something about referral max? Feels unfair to lost the $300 after making all those referrals. I was a Factory evangelist!!",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oneja7/lost_referral_credits/",
+    "timestamp": "2025-11-03T15:20:27.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
     }
   },
   {
