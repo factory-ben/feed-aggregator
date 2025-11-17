@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_discussion_374",
+    "source": "github",
+    "author": "vibl",
+    "content": "[Discussion] 20M tokens promised, 1M tokens received...\n\nThe website https://factorycli.com/ promises free 20M tokens. After clicking on the link and signing up, I only received 1M tokens . \r\n\r\nNot a good first impression...",
+    "url": "https://github.com/Factory-AI/factory/discussions/374",
+    "timestamp": "2025-11-17T00:05:46Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "General",
+      "number": 374
+    }
+  },
+  {
+    "id": "reddit_1oz18qh",
+    "source": "reddit",
+    "author": "EggNo4904",
+    "content": "not sure if i am the only one getting this, interestingly enough it had my card details saved tho.\n\nImages:\n\thttps://preview.redd.it/uu8xf048jp1g1.png?auto=webp&amp;s=9574291f2513a281eca97c75667653da65da086d\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1oz18qh/not_sure_if_i_am_the_only_one_getting_this/",
+    "timestamp": "2025-11-16T23:56:02.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_1990161948869300370",
     "source": "twitter",
     "author": "Mattslayga",
@@ -508,19 +534,6 @@
     }
   },
   {
-    "id": "reddit_1ow0203",
-    "source": "reddit",
-    "author": "vargalas",
-    "content": "It's the worst onboarding experience ever\n\nThe provided cli instruction doesn't work, curl is complaining about self-signed certificate. The support link (after logging in) doesn't work. I tried to contact the sales on the homepage, but you cannot write them, they will contact. if they want. \n\nSo no Droid for me. I cannot see how they get customers. ",
-    "url": "https://www.reddit.com/r/FactoryAi/comments/1ow0203/its_the_worst_onboarding_experience_ever/",
-    "timestamp": "2025-11-13T12:42:42.000Z",
-    "metadata": {
-      "score": 0,
-      "num_comments": 3,
-      "subreddit": "FactoryAi"
-    }
-  },
-  {
     "id": "github_issue_348",
     "source": "github",
     "author": "aranej",
@@ -934,19 +947,6 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 25
-    }
-  },
-  {
-    "id": "github_discussion_20",
-    "source": "github",
-    "author": "factory-ben",
-    "content": "[Discussion] CLI v0.5.0 Release Notes\n\nv0.5 release:\r\n\r\n- Users can now queue messages while the Droid works\r\n- Added clearer autonomy level & mode descriptions\r\n- Fixed many flickering issues\r\n- Revamped `--help` command\r\n- Automatic VSCode / Cursor / Windsurf CLI detection,\r\n- Windows delete key bug fixed\r\n- Lots of small UI improvements\r\n- Lots of quality of life and bug fixes\n\ncoming soon:\n- custom droids/subagents\n- notif sounds\n- much more\n\nany requests? ",
-    "url": "https://github.com/Factory-AI/factory/discussions/20",
-    "timestamp": "2025-09-16T06:27:29Z",
-    "metadata": {
-      "type": "discussion",
-      "category": "Factory Official",
-      "number": 20
     }
   }
 ]
