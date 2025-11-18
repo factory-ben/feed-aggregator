@@ -1,5 +1,305 @@
 [
   {
+    "id": "twitter_1990897734404943973",
+    "source": "twitter",
+    "author": "MedonB082602",
+    "content": "@munoncode @FactoryAI @bentossell I tried it!! It’s sooooo gooooood",
+    "url": "https://x.com/MedonB082602/status/1990897734404943973",
+    "timestamp": "2025-11-18T21:39:43.000Z",
+    "metadata": {
+      "conversation_id": "1990897734404943973",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990897399020335273",
+    "source": "twitter",
+    "author": "martin_ict_algo",
+    "content": "@jcurtis @GoogleAIStudio @FactoryAI How os droid treating/using your droid, better same?",
+    "url": "https://x.com/martin_ict_algo/status/1990897399020335273",
+    "timestamp": "2025-11-18T21:38:23.000Z",
+    "metadata": {
+      "conversation_id": "1990897399020335273",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990896846642843675",
+    "source": "twitter",
+    "author": "abyssbugg",
+    "content": "@FactoryAI Can you please make it possible to install droid thru homebrew",
+    "url": "https://x.com/abyssbugg/status/1990896846642843675",
+    "timestamp": "2025-11-18T21:36:11.000Z",
+    "metadata": {
+      "conversation_id": "1990896846642843675",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990895688276697403",
+    "source": "twitter",
+    "author": "retrovesto",
+    "content": "@Klaudioz @FactoryAI is it free?",
+    "url": "https://x.com/retrovesto/status/1990895688276697403",
+    "timestamp": "2025-11-18T21:31:35.000Z",
+    "metadata": {
+      "conversation_id": "1990895688276697403",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990894765961884137",
+    "source": "twitter",
+    "author": "Alberto8793",
+    "content": "@FactoryAI @googledevs Couldn’t wait to get home to try it—excuse the 9:16 from my iPhone.\n\nThanks @Splashtop for keeping me in the loop and in my local repo. https://t.co/4OAmC6dMU5",
+    "url": "https://x.com/Alberto8793/status/1990894765961884137",
+    "timestamp": "2025-11-18T21:27:55.000Z",
+    "metadata": {
+      "conversation_id": "1990894765961884137",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990892135126553079",
+    "source": "twitter",
+    "author": "Data_ls_Life",
+    "content": "@Klaudioz @FactoryAI you must be a (droid) token burner",
+    "url": "https://x.com/Data_ls_Life/status/1990892135126553079",
+    "timestamp": "2025-11-18T21:17:28.000Z",
+    "metadata": {
+      "conversation_id": "1990892135126553079",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990891773476884562",
+    "source": "twitter",
+    "author": "BobviThomas",
+    "content": "Ok ok I'm going to use @FactoryAI I can't keep switching and I can port my Claude code setup directory to droid",
+    "url": "https://x.com/BobviThomas/status/1990891773476884562",
+    "timestamp": "2025-11-18T21:16:02.000Z",
+    "metadata": {
+      "conversation_id": "1990891773476884562",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990891615653650626",
+    "source": "twitter",
+    "author": "munoncode",
+    "content": "@MedonB082602 @FactoryAI @bentossell Idk i just set up gemini 3.0 for coding in droid and it works amazing and ultra fast.\n\nIt reads files like crazy and implements fast.\n\nFaster and cheaper than sonnet 4.5 i would say.",
+    "url": "https://x.com/munoncode/status/1990891615653650626",
+    "timestamp": "2025-11-18T21:15:24.000Z",
+    "metadata": {
+      "conversation_id": "1990891615653650626",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990887737663397888",
+    "source": "twitter",
+    "author": "PaloAltoNtwks",
+    "content": "Today marks the next wave in secure AI: Prisma AIRS now natively protects @FactoryAI, @glean, @IBM, and @ServiceNow platforms, so AI agents aren’t tricked into leaking sensitive data. Security moves forward with innovation.",
+    "url": "https://x.com/PaloAltoNtwks/status/1990887737663397888",
+    "timestamp": "2025-11-18T21:00:00.000Z",
+    "metadata": {
+      "conversation_id": "1990887737663397888",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990887719501729972",
+    "source": "twitter",
+    "author": "ChaosCruxFL",
+    "content": "@FactoryAI How do we use 3.0?  Don't see it in web or CLI yet",
+    "url": "https://x.com/ChaosCruxFL/status/1990887719501729972",
+    "timestamp": "2025-11-18T20:59:55.000Z",
+    "metadata": {
+      "conversation_id": "1990887719501729972",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990886738986688785",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@CloudTrader4 @FactoryAI 🔥",
+    "url": "https://x.com/bentossell/status/1990886738986688785",
+    "timestamp": "2025-11-18T20:56:02.000Z",
+    "metadata": {
+      "conversation_id": "1990886738986688785",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990886410514022762",
+    "source": "twitter",
+    "author": "imlinosuarez",
+    "content": "@EnoReyes @FactoryAI Thanks 🫡",
+    "url": "https://x.com/imlinosuarez/status/1990886410514022762",
+    "timestamp": "2025-11-18T20:54:43.000Z",
+    "metadata": {
+      "conversation_id": "1990886410514022762",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990885813865845073",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@imlinosuarez @FactoryAI Coming soon!",
+    "url": "https://x.com/EnoReyes/status/1990885813865845073",
+    "timestamp": "2025-11-18T20:52:21.000Z",
+    "metadata": {
+      "conversation_id": "1990885813865845073",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990885632538038739",
+    "source": "twitter",
+    "author": "mikez93",
+    "content": "First impressions of Gemini 3 in @FactoryAI: It's output is sold but VERY curt. \n\nVery short answers and anemic on detail of 'what' and 'why'.  I would even go so far as to say it's a poor communicator.\n\nNot sure if this is result of interaction with Factory harness or inherent to the model...",
+    "url": "https://x.com/mikez93/status/1990885632538038739",
+    "timestamp": "2025-11-18T20:51:38.000Z",
+    "metadata": {
+      "conversation_id": "1990885632538038739",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990885452589514805",
+    "source": "twitter",
+    "author": "MullerNavas",
+    "content": "@nathanpareo @FactoryAI So fast",
+    "url": "https://x.com/MullerNavas/status/1990885452589514805",
+    "timestamp": "2025-11-18T20:50:55.000Z",
+    "metadata": {
+      "conversation_id": "1990885452589514805",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990885377335308727",
+    "source": "twitter",
+    "author": "MullerNavas",
+    "content": "@nathanpareo @FactoryAI Since I got droids I was hooked.",
+    "url": "https://x.com/MullerNavas/status/1990885377335308727",
+    "timestamp": "2025-11-18T20:50:37.000Z",
+    "metadata": {
+      "conversation_id": "1990885377335308727",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990881733718282352",
+    "source": "twitter",
+    "author": "MedonB082602",
+    "content": "@bentossell @FactoryAI Is their benchmarks for how Gemini’s 3.0 performs in Droid Cli?",
+    "url": "https://x.com/MedonB082602/status/1990881733718282352",
+    "timestamp": "2025-11-18T20:36:08.000Z",
+    "metadata": {
+      "conversation_id": "1990881733718282352",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990881222059237529",
+    "source": "twitter",
+    "author": "connortbot",
+    "content": "Tested a 5-line fix to amend our vitests on @FactoryAI Droid.\nI gave it the failure message, the file to fix, and exactly where to fix. I provided no other context.\n\n- GPT-5.1-Codex (success, 5 min)\n- Sonnet 4.5 (success, 1 min)\n- Gemini 3 Pro (failed, 4 min)\n\nfuck",
+    "url": "https://x.com/connortbot/status/1990881222059237529",
+    "timestamp": "2025-11-18T20:34:06.000Z",
+    "metadata": {
+      "conversation_id": "1990881222059237529",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990880065890967707",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@Flup18 @FactoryAI 🔥",
+    "url": "https://x.com/bentossell/status/1990880065890967707",
+    "timestamp": "2025-11-18T20:29:31.000Z",
+    "metadata": {
+      "conversation_id": "1990880065890967707",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990879846679916560",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@MedonB082602 @FactoryAI the cli doesnt have the web droids - you can create custom droids (with droid) though. https://t.co/dSBzbwbX5m",
+    "url": "https://x.com/bentossell/status/1990879846679916560",
+    "timestamp": "2025-11-18T20:28:38.000Z",
+    "metadata": {
+      "conversation_id": "1990879846679916560",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990877412410716516",
     "source": "twitter",
     "author": "Evinst3in",
