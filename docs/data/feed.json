@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_378",
+    "source": "github",
+    "author": "tonidy",
+    "content": "[Issue] EACCES: permission denied, mkdir '/Users/.factory'\n\n I upgraded my Mac from Sequoia to Tahoe, and now Droid isn't working:\n\n```bash\n% droid -v\n{\"level\":\"warn\",\"error\":{\"name\":\"Error\",\"message\":\"EACCES: permission denied, mkdir '/Users/.factory'\",\"stack\":\"Error: EACCES: permission denied, mkdir '/Users/.factory'\\n    at mkdirSync (unknown)\\n    at setupFileWatching (src/tools/managers/skillToolManager.ts:188:14)\\n    at initialize (src/tools/managers/skillToolManager.ts:72:10)\\n    at processTicksAndRejections (native:7:39)\"},\"path\":\"/Users/.facto",
+    "url": "https://github.com/Factory-AI/factory/issues/378",
+    "timestamp": "2025-11-18T10:59:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 378
+    }
+  },
+  {
     "id": "twitter_1990731638196646351",
     "source": "twitter",
     "author": "metaforismoo",
