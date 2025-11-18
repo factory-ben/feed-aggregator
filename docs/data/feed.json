@@ -1,5 +1,48 @@
 [
   {
+    "id": "twitter_1990862162613379084",
+    "source": "twitter",
+    "author": "Ra1kshit",
+    "content": "@saiprasanna26 I am having no trouble with file edits/ file read using @FactoryAI droid + gemini 3. its quick and smooth",
+    "url": "https://x.com/Ra1kshit/status/1990862162613379084",
+    "timestamp": "2025-11-18T19:18:22.000Z",
+    "metadata": {
+      "conversation_id": "1990862162613379084",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990861532654416201",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@stnkvcs @iannuttall @FactoryAI It's in!",
+    "url": "https://x.com/EnoReyes/status/1990861532654416201",
+    "timestamp": "2025-11-18T19:15:52.000Z",
+    "metadata": {
+      "conversation_id": "1990861532654416201",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "reddit_1p0ksg7",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "v0.26.3 changelog - skills, hooks migration, @ mention improvements\n\n    v0.26.3\n\n# New features\n\n* **Skills Enabled by Default** \\- Skills command now enabled for all users\n* **Claude Code Hooks Auto-Migration** \\- Automatically detects and imports hooks from Claude Code CLI with interactive prompts. Smart translation converts `bash_tool` to `Execute` and `CLAUDE_CWD` to `DROID_CWD`, preventing duplicates and tracking migration state\n* **@ Suggestions Improvements** \\- Now includes folders in addition to files with better UI and performance\n\n# Bug fixes\n\n* Fixed",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p0ksg7/v0263_changelog_skills_hooks_migration_mention/",
+    "timestamp": "2025-11-18T19:06:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_1990858324414226882",
     "source": "twitter",
     "author": "stanleyimet",
