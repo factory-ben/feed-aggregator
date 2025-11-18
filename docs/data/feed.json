@@ -1,5 +1,183 @@
 [
   {
+    "id": "twitter_1990824080438599752",
+    "source": "twitter",
+    "author": "jgreen_us",
+    "content": "@HeyFromPeter @danshipper @every @FactoryAI If you'd been following the pelican on a bicycle SVG benchmark, you'd be impressed. This is the best one I've seen.",
+    "url": "https://x.com/jgreen_us/status/1990824080438599752",
+    "timestamp": "2025-11-18T16:47:03.000Z",
+    "metadata": {
+      "conversation_id": "1990824080438599752",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990823728847204587",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "It’s over, @FactoryAI won",
+    "url": "https://x.com/JoelDeTeves/status/1990823728847204587",
+    "timestamp": "2025-11-18T16:45:39.000Z",
+    "metadata": {
+      "conversation_id": "1990823728847204587",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990823047558017526",
+    "source": "twitter",
+    "author": "uxtigersdotcom",
+    "content": "@danshipper @every @FactoryAI Sad that writing didn’t improve. That’s such an important use case. But bravo for the other advances.",
+    "url": "https://x.com/uxtigersdotcom/status/1990823047558017526",
+    "timestamp": "2025-11-18T16:42:56.000Z",
+    "metadata": {
+      "conversation_id": "1990823047558017526",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990822697534722127",
+    "source": "twitter",
+    "author": "HeyFromPeter",
+    "content": "@danshipper @every @FactoryAI No offense, but I would not call that pelican on a bicycle  \"really good\".",
+    "url": "https://x.com/HeyFromPeter/status/1990822697534722127",
+    "timestamp": "2025-11-18T16:41:33.000Z",
+    "metadata": {
+      "conversation_id": "1990822697534722127",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990822416172421149",
+    "source": "twitter",
+    "author": "_junaidkhalid1",
+    "content": "What's interesting is how quickly we've normalized the expectation of instant access to cutting-edge models.\n\nA year ago, getting API access to a new model was a waiting game. Now we're demanding CLI integration on day one. That compression of the feedback loop between release and deployment is changing how teams build.",
+    "url": "https://x.com/_junaidkhalid1/status/1990822416172421149",
+    "timestamp": "2025-11-18T16:40:26.000Z",
+    "metadata": {
+      "conversation_id": "1990822416172421149",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990822107941355646",
+    "source": "twitter",
+    "author": "ccdcdcdcdccdcd",
+    "content": "@explosivesox @FactoryAI @getdomeapi @openservai @Polymarket @hash_dive ca?",
+    "url": "https://x.com/ccdcdcdcdccdcd/status/1990822107941355646",
+    "timestamp": "2025-11-18T16:39:12.000Z",
+    "metadata": {
+      "conversation_id": "1990822107941355646",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990821804588351555",
+    "source": "twitter",
+    "author": "MullerNavas",
+    "content": "@nathanpareo @FactoryAI I am missing alot 🙆‍♂️ need a factory ai subscription",
+    "url": "https://x.com/MullerNavas/status/1990821804588351555",
+    "timestamp": "2025-11-18T16:38:00.000Z",
+    "metadata": {
+      "conversation_id": "1990821804588351555",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990820888783061119",
+    "source": "twitter",
+    "author": "MedonB082602",
+    "content": "Can someone that uses @FactoryAI  help me. With Gemini 3.0 out now which model is best for each droid? For best results? @bentossell \n\nProduct droid-?\nReliablity droid-?\nCode droid-?\nKnowledge droid-?",
+    "url": "https://x.com/MedonB082602/status/1990820888783061119",
+    "timestamp": "2025-11-18T16:34:22.000Z",
+    "metadata": {
+      "conversation_id": "1990820888783061119",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990820869661470848",
+    "source": "twitter",
+    "author": "wesley_zheng",
+    "content": "@jcurtis @FactoryAI That setup sounds insanely smooth!",
+    "url": "https://x.com/wesley_zheng/status/1990820869661470848",
+    "timestamp": "2025-11-18T16:34:17.000Z",
+    "metadata": {
+      "conversation_id": "1990820869661470848",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "reddit_1p0glpz",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "Gemini 3 Pro is now on Droid!\n\nhttps://i.redd.it/705cp945m12g1.gif\n\nposted on x [https://x.com/bentossell/status/1990820278339776843?s=20](https://x.com/bentossell/status/1990820278339776843?s=20) ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p0glpz/gemini_3_pro_is_now_on_droid/",
+    "timestamp": "2025-11-18T16:33:30.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "twitter_1990820637149921354",
+    "source": "twitter",
+    "author": "nathanpareo",
+    "content": "Its here! Thanks @FactoryAI , off to building. https://t.co/0N28v50Vn8",
+    "url": "https://x.com/nathanpareo/status/1990820637149921354",
+    "timestamp": "2025-11-18T16:33:22.000Z",
+    "metadata": {
+      "conversation_id": "1990820637149921354",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990820559706292299",
+    "source": "twitter",
+    "author": "TheRomanFly",
+    "content": "@FactoryAI https://t.co/VYN2jHqPgf",
+    "url": "https://x.com/TheRomanFly/status/1990820559706292299",
+    "timestamp": "2025-11-18T16:33:03.000Z",
+    "metadata": {
+      "conversation_id": "1990820559706292299",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990819817159295475",
     "source": "twitter",
     "author": "anthonyronning_",
