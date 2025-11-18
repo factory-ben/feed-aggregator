@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1990703250497208368",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@MullerNavas @FactoryAI @EnoReyes dope! wdym missing access 😊 - you can sign up for the $20/mo plan or byok on free tier to continue!",
+    "url": "https://x.com/bentossell/status/1990703250497208368",
+    "timestamp": "2025-11-18T08:46:55.000Z",
+    "metadata": {
+      "conversation_id": "1990703250497208368",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990702660014780754",
+    "source": "twitter",
+    "author": "ben_vargas",
+    "content": "@immoinulmoin @FactoryAI Nice, glad you got it working 🙌",
+    "url": "https://x.com/ben_vargas/status/1990702660014780754",
+    "timestamp": "2025-11-18T08:44:34.000Z",
+    "metadata": {
+      "conversation_id": "1990702660014780754",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990702248226160840",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@captaink99 @tomosman @warpdotdev @cursor_ai @FactoryAI to not be scared of the terminal - warp is great. its how i started using the terminal. but factory agent is top tier 😊",
+    "url": "https://x.com/bentossell/status/1990702248226160840",
+    "timestamp": "2025-11-18T08:42:56.000Z",
+    "metadata": {
+      "conversation_id": "1990702248226160840",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990701819232686138",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@erd0xbc @FactoryAI yeh will fix 😊",
+    "url": "https://x.com/bentossell/status/1990701819232686138",
+    "timestamp": "2025-11-18T08:41:13.000Z",
+    "metadata": {
+      "conversation_id": "1990701819232686138",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990701627381285306",
     "source": "twitter",
     "author": "bentossell",
@@ -23,9 +83,9 @@
     "timestamp": "2025-11-18T08:32:21.000Z",
     "metadata": {
       "conversation_id": "1990699585216680029",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0
     }
   },
@@ -55,7 +115,7 @@
       "conversation_id": "1990671815383851458",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -98,7 +158,7 @@
     "timestamp": "2025-11-18T03:12:05.000Z",
     "metadata": {
       "conversation_id": "1990618990247621117",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 1,
       "quotes": 0
@@ -160,7 +220,7 @@
       "conversation_id": "1990610801405628828",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -188,7 +248,7 @@
     "timestamp": "2025-11-18T01:17:04.000Z",
     "metadata": {
       "conversation_id": "1990590044042834415",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0
@@ -220,7 +280,7 @@
       "conversation_id": "1990585140612071715",
       "likes": 2,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0
     }
   },
@@ -233,66 +293,6 @@
     "timestamp": "2025-11-18T00:50:54.000Z",
     "metadata": {
       "conversation_id": "1990583460512055336",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990580288343413195",
-    "source": "twitter",
-    "author": "EnoReyes",
-    "content": "@stanleyimet @FactoryAI Sorry this happened! This is definitely not ideal. The 262k tokens is surprising. Will DM.",
-    "url": "https://x.com/EnoReyes/status/1990580288343413195",
-    "timestamp": "2025-11-18T00:38:18.000Z",
-    "metadata": {
-      "conversation_id": "1990580288343413195",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990574443622445399",
-    "source": "twitter",
-    "author": "nathanpareo",
-    "content": "@francesca_lab @FactoryAI Soon!",
-    "url": "https://x.com/nathanpareo/status/1990574443622445399",
-    "timestamp": "2025-11-18T00:15:05.000Z",
-    "metadata": {
-      "conversation_id": "1990574443622445399",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990572487596519736",
-    "source": "twitter",
-    "author": "MickeyShaughnes",
-    "content": "@JoelDeTeves @bentossell @FactoryAI Plus he's got super cute twins",
-    "url": "https://x.com/MickeyShaughnes/status/1990572487596519736",
-    "timestamp": "2025-11-18T00:07:18.000Z",
-    "metadata": {
-      "conversation_id": "1990572487596519736",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0
-    }
-  },
-  {
-    "id": "twitter_1990569818295246883",
-    "source": "twitter",
-    "author": "RobotServicesX",
-    "content": "I like watching @FactoryAI droid chew through tough engineering problems. https://t.co/vy4i2XR8Bt",
-    "url": "https://x.com/RobotServicesX/status/1990569818295246883",
-    "timestamp": "2025-11-17T23:56:42.000Z",
-    "metadata": {
-      "conversation_id": "1990569818295246883",
       "likes": 2,
       "retweets": 0,
       "replies": 0,
@@ -515,7 +515,7 @@
     "url": "https://www.reddit.com/r/FactoryAi/comments/1owbvoj/how_should_we_post_changelogs_here/",
     "timestamp": "2025-11-13T20:22:54.000Z",
     "metadata": {
-      "score": 7,
+      "score": 6,
       "num_comments": 4,
       "subreddit": "FactoryAi"
     }
