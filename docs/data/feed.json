@@ -1,5 +1,18 @@
 [
   {
+    "id": "reddit_1p0a05d",
+    "source": "reddit",
+    "author": "Mindless_Relation729",
+    "content": "There is no more 20 million token free?\n\nHi everyone,\n\nAfter a long journey with Claude and Claude Code, Anthropic decided to ban me without any other explanation today. \n\nReading on X all this time I've heard about Codex CLI and Droid CLI. After some research online I decided to give Droid CLI a try since I saw it was giving 20mln tokens for free.   \nAnyway, I was surprised to receive only 1mln which for my workflow gets consumed too quick, 2-3 prompts total.  \n  \nBasically, I didn't have a chance to fully test the capabilities of the",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p0a05d/there_is_no_more_20_million_token_free/",
+    "timestamp": "2025-11-18T11:56:43.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_378",
     "source": "github",
     "author": "tonidy",
