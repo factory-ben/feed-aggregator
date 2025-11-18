@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1990845238575796710",
+    "source": "twitter",
+    "author": "_drozdgabriel",
+    "content": "@FactoryAI just compared it to Sonnet 4.5, Haiku 4.5, GPT-5.1 and GPT-5.1-Codex by running the same prompt in 5 terminal instances on same codebase ➡️ Gemini 3.0 Pro is  🔥🔥🔥, did awesome job, found bugs and finished first 🤯",
+    "url": "https://x.com/_drozdgabriel/status/1990845238575796710",
+    "timestamp": "2025-11-18T18:11:07.000Z",
+    "metadata": {
+      "conversation_id": "1990845238575796710",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990845076252049791",
+    "source": "twitter",
+    "author": "day_qqq",
+    "content": "@FactoryAI not seeing it yet on my end pls fix",
+    "url": "https://x.com/day_qqq/status/1990845076252049791",
+    "timestamp": "2025-11-18T18:10:28.000Z",
+    "metadata": {
+      "conversation_id": "1990845076252049791",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990844695480611294",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@nathanpareo @FactoryAI That token cost is insanely cheap holy",
+    "url": "https://x.com/JoelDeTeves/status/1990844695480611294",
+    "timestamp": "2025-11-18T18:08:58.000Z",
+    "metadata": {
+      "conversation_id": "1990844695480611294",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990843956737814756",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@nathanpareo @FactoryAI You can also just type /session and pick it from the list",
+    "url": "https://x.com/JoelDeTeves/status/1990843956737814756",
+    "timestamp": "2025-11-18T18:06:02.000Z",
+    "metadata": {
+      "conversation_id": "1990843956737814756",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990843316443791726",
+    "source": "twitter",
+    "author": "davidrsdlife",
+    "content": "@nathanpareo @bentossell @FactoryAI finding new things after months of usage\n\nit be like that, next up, hooks + skills",
+    "url": "https://x.com/davidrsdlife/status/1990843316443791726",
+    "timestamp": "2025-11-18T18:03:29.000Z",
+    "metadata": {
+      "conversation_id": "1990843316443791726",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990843079826276371",
+    "source": "twitter",
+    "author": "SwayStar123",
+    "content": "@FactoryAI What does Droid + Gemini 3 get on terminal bench? Is it better than googles numbers on their release post?",
+    "url": "https://x.com/SwayStar123/status/1990843079826276371",
+    "timestamp": "2025-11-18T18:02:32.000Z",
+    "metadata": {
+      "conversation_id": "1990843079826276371",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1990841490810040438",
     "source": "twitter",
     "author": "DaveThackeray",
