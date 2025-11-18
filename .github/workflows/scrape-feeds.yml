@@ -42,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add docs/data/feed.json
+          git add docs/data/feed.json docs/data/seen.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

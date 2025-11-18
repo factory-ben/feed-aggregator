@@ -25,8 +25,32 @@ async function main() {
     console.log('[CLI] Starting feed scrape...');
     await initStorage();
 
-    const feed = await loadFeed();
-    const seenData = await loadSeen();
+    // Load from docs/data/feed.json (the committed file) instead of data/feed.json
+    // This ensures continuity between GitHub Actions runs
+    const docsDataDir = path.join(__dirname, '../docs/data');
+    const docsFeedPath = path.join(docsDataDir, 'feed.json');
+    
+    let feed = [];
+    try {
+      await fs.mkdir(docsDataDir, { recursive: true });
+      const data = await fs.readFile(docsFeedPath, 'utf-8');
+      feed = JSON.parse(data);
+      console.log('[CLI] Loaded existing feed from docs/data/feed.json:', feed.length, 'items');
+    } catch (error) {
+      console.log('[CLI] No existing feed found, starting fresh');
+      feed = [];
+    }
+
+    // Load seen IDs from docs/data/seen.json (persists across runs)
+    const docsSeenPath = path.join(docsDataDir, 'seen.json');
+    let seenData = { ids: [], conversations: [] };
+    try {
+      const data = await fs.readFile(docsSeenPath, 'utf-8');
+      seenData = JSON.parse(data);
+      console.log('[CLI] Loaded', seenData.ids.length, 'seen IDs from docs/data/seen.json');
+    } catch (error) {
+      console.log('[CLI] No seen IDs found, starting fresh');
+    }
     
     // Convert seen data to Set for efficient lookups
     const seen = new Set(seenData.ids || []);
@@ -76,20 +100,22 @@ async function main() {
       
       await saveFeed(trimmedFeed);
       
-      // Convert Set back to array for storage
-      await saveSeen({ ids: Array.from(seen), conversations: seenData.conversations || [] });
-      
       console.log(`[CLI] Feed updated: ${trimmedFeed.length} total items`);
     } else {
       console.log('[CLI] No new items');
     }
 
-    // Write to docs/data/feed.json for GitHub Pages
-    const docsDataDir = path.join(__dirname, '../docs/data');
+    // Write to docs/data/ for GitHub Pages (persist feed and seen IDs)
     await fs.mkdir(docsDataDir, { recursive: true });
     
-    const docsFeedPath = path.join(docsDataDir, 'feed.json');
     await fs.writeFile(docsFeedPath, JSON.stringify(feed, null, 2));
+    
+    // Persist seen IDs (trim to last 1000 to prevent file from growing too large)
+    const trimmedSeen = {
+      ids: Array.from(seen).slice(-1000),
+      conversations: (seenData.conversations || []).slice(-1000)
+    };
+    await fs.writeFile(docsSeenPath, JSON.stringify(trimmedSeen, null, 2));
     
     console.log('[CLI] Wrote feed to:', docsFeedPath);
     console.log('[CLI] Scrape complete!');
