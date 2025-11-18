@@ -1,5 +1,110 @@
 [
   {
+    "id": "twitter_1990854251128488064",
+    "source": "twitter",
+    "author": "stnkvcs",
+    "content": "@FactoryAI No Gemini 3 :( https://t.co/lg52tYbwfP",
+    "url": "https://x.com/stnkvcs/status/1990854251128488064",
+    "timestamp": "2025-11-18T18:46:56.000Z",
+    "metadata": {
+      "conversation_id": "1990854251128488064",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990852877665902715",
+    "source": "twitter",
+    "author": "BTConnector_",
+    "content": "@nathanpareo @FactoryAI 🤯",
+    "url": "https://x.com/BTConnector_/status/1990852877665902715",
+    "timestamp": "2025-11-18T18:41:28.000Z",
+    "metadata": {
+      "conversation_id": "1990852877665902715",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990851987240288562",
+    "source": "twitter",
+    "author": "davidrsdlife",
+    "content": "@bentossell @nathanpareo @FactoryAI i have slightly thx to the x account, been up to date now but happened to me initially.\n\non this note, did think a “/changelog” command would be cool and potentially helpful to see the latest update logs in the CLI",
+    "url": "https://x.com/davidrsdlife/status/1990851987240288562",
+    "timestamp": "2025-11-18T18:37:56.000Z",
+    "metadata": {
+      "conversation_id": "1990851987240288562",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990851331699990823",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@Tmeister @FactoryAI one of many great ideas you’ve had this week. plus you can chuck in gemini too for good measure",
+    "url": "https://x.com/bentossell/status/1990851331699990823",
+    "timestamp": "2025-11-18T18:35:20.000Z",
+    "metadata": {
+      "conversation_id": "1990851331699990823",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990851294207074779",
+    "source": "twitter",
+    "author": "MedonB082602",
+    "content": "@bentossell @FactoryAI I use the cli! I just say like each droids name before so it knows which to use? But ur saying it knows automatically?",
+    "url": "https://x.com/MedonB082602/status/1990851294207074779",
+    "timestamp": "2025-11-18T18:35:11.000Z",
+    "metadata": {
+      "conversation_id": "1990851294207074779",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990851135213535698",
+    "source": "twitter",
+    "author": "nathanpareo",
+    "content": "@bentossell @davidrsdlife @FactoryAI My website https://t.co/DvpcVE5ftX keeps a close watch on your changelog.",
+    "url": "https://x.com/nathanpareo/status/1990851135213535698",
+    "timestamp": "2025-11-18T18:34:33.000Z",
+    "metadata": {
+      "conversation_id": "1990851135213535698",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1990850979730768185",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@MedonB082602 @FactoryAI we recommend the cli - you don’t need the different droids in there. and then you can test different models for different tasks! gemini is pretty great across all",
+    "url": "https://x.com/bentossell/status/1990850979730768185",
+    "timestamp": "2025-11-18T18:33:56.000Z",
+    "metadata": {
+      "conversation_id": "1990850979730768185",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_381",
     "source": "github",
     "author": "masakielastic",
