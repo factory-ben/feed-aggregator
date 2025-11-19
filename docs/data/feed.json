@@ -1,5 +1,140 @@
 [
   {
+    "id": "twitter_1991131230662766608",
+    "source": "twitter",
+    "author": "JohnONolan",
+    "content": "@DanielLockyer @FactoryAI it's fine right https://t.co/2MHkMfbj6X",
+    "url": "https://x.com/JohnONolan/status/1991131230662766608",
+    "timestamp": "2025-11-19T13:07:33.000Z",
+    "metadata": {
+      "conversation_id": "1991131230662766608",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991130630726234440",
+    "source": "twitter",
+    "author": "JohnONolan",
+    "content": "@FactoryAI Apparently this will be fixed in the next version of bun, which is what they're all built on\n\nhttps://t.co/ABYmqpjSA8",
+    "url": "https://x.com/JohnONolan/status/1991130630726234440",
+    "timestamp": "2025-11-19T13:05:10.000Z",
+    "metadata": {
+      "conversation_id": "1991130630726234440",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991129908467085491",
+    "source": "twitter",
+    "author": "DanielLockyer",
+    "content": "@JohnONolan @FactoryAI christ",
+    "url": "https://x.com/DanielLockyer/status/1991129908467085491",
+    "timestamp": "2025-11-19T13:02:18.000Z",
+    "metadata": {
+      "conversation_id": "1991129908467085491",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991128921316962813",
+    "source": "twitter",
+    "author": "JohnONolan",
+    "content": "So if you use Claude Code native/bun (not npm) or @FactoryAI Droid, etc - they autoload your .env file (including all your private keys btw) into their shell\n\nIn a Laravel project, that means your shell DB_CONNECTION env var overrides phpunit.xml and now tests (with refreshdatabase trait) run against your development DB rather than test DB → 💥",
+    "url": "https://x.com/JohnONolan/status/1991128921316962813",
+    "timestamp": "2025-11-19T12:58:22.000Z",
+    "metadata": {
+      "conversation_id": "1991128921316962813",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 2,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991128910470504622",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "@captaink99 @FactoryAI Valid concern, like with any big-company project.\nBut does it give you more leverage than the alternatives right now? \nThat's what matters anyway considering how fast the field is moving.",
+    "url": "https://x.com/makerfounder/status/1991128910470504622",
+    "timestamp": "2025-11-19T12:58:20.000Z",
+    "metadata": {
+      "conversation_id": "1991128910470504622",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991128532638945668",
+    "source": "twitter",
+    "author": "FHulayyil",
+    "content": "for an agent, i really like @FactoryAI .. its what i use currently even though I would prefer to use opencode but gemini in it is free atm so there are annoying limits you'll hit. \n\nFor ide, im using @zeddotdev , just cause its so lightweight cause I usually have 4-5 projects opened and all VScode forks (windsurf, cursor, vscode itself) kept lagging on my laptop. if I had only one option for an ide for me i'd go with Windsurf just because of their codemap and deepwiki features: https://t.co/4nVEiDHsWy\n\nbut I use them in @DevinAI now",
+    "url": "https://x.com/FHulayyil/status/1991128532638945668",
+    "timestamp": "2025-11-19T12:56:50.000Z",
+    "metadata": {
+      "conversation_id": "1991128532638945668",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991128353647030475",
+    "source": "twitter",
+    "author": "andupoto",
+    "content": "@hightbunker @FactoryAI * a ton of credits",
+    "url": "https://x.com/andupoto/status/1991128353647030475",
+    "timestamp": "2025-11-19T12:56:07.000Z",
+    "metadata": {
+      "conversation_id": "1991128353647030475",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991128304439513544",
+    "source": "twitter",
+    "author": "andupoto",
+    "content": "It's terrible compared to existing products in terms of on-boarding and clarity in use. If it's meant only for hard code devs, then most likely vibe coding isn't used much.\n\nSigned up with a credits, and still didn't use anything just because it's confusing and never looked at it again.",
+    "url": "https://x.com/andupoto/status/1991128304439513544",
+    "timestamp": "2025-11-19T12:55:55.000Z",
+    "metadata": {
+      "conversation_id": "1991128304439513544",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991127619417387361",
+    "source": "twitter",
+    "author": "hightbunker",
+    "content": "@andupoto @FactoryAI care to elaborate why?",
+    "url": "https://x.com/hightbunker/status/1991127619417387361",
+    "timestamp": "2025-11-19T12:53:12.000Z",
+    "metadata": {
+      "conversation_id": "1991127619417387361",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991125223735787989",
     "source": "twitter",
     "author": "hightbunker",
