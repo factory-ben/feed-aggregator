@@ -1,5 +1,93 @@
 [
   {
+    "id": "github_issue_385",
+    "source": "github",
+    "author": "linuxsong",
+    "content": "[Issue] Chinese Input Box Wrapping Causes Cursor Position Bug(Droid CLI)\n\n### GitHub Issue: Chinese Input Box Wrapping Causes Cursor Position Bug\n\n#### Summary\nThere are issues with Chinese language input in the text input box. When entering a long Chinese sentence that wraps to multiple lines, the cursor remains visually stuck on the first line, causing confusion and making editing difficult.\n\n#### Steps to Reproduce\n1. Open the input box in the app.\n2. Use a Chinese input method to enter text, or copy and paste the following content (you can paste multiple times unt",
+    "url": "https://github.com/Factory-AI/factory/issues/385",
+    "timestamp": "2025-11-19T06:51:16Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 385
+    }
+  },
+  {
+    "id": "twitter_1991035548308283659",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@connortbot @FactoryAI maybe hit a limit with gemini?",
+    "url": "https://x.com/bentossell/status/1991035548308283659",
+    "timestamp": "2025-11-19T06:47:21.000Z",
+    "metadata": {
+      "conversation_id": "1991035548308283659",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991035440170713332",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@ChaosCruxFL @FactoryAI its there!",
+    "url": "https://x.com/bentossell/status/1991035440170713332",
+    "timestamp": "2025-11-19T06:46:55.000Z",
+    "metadata": {
+      "conversation_id": "1991035440170713332",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991035333874421783",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@BobviThomas @FactoryAI 🧠",
+    "url": "https://x.com/bentossell/status/1991035333874421783",
+    "timestamp": "2025-11-19T06:46:29.000Z",
+    "metadata": {
+      "conversation_id": "1991035333874421783",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991035292430762273",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@buggyDcode @FactoryAI oo sorry https://t.co/R6oObM5YcY",
+    "url": "https://x.com/bentossell/status/1991035292430762273",
+    "timestamp": "2025-11-19T06:46:20.000Z",
+    "metadata": {
+      "conversation_id": "1991035292430762273",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991035077439214058",
+    "source": "twitter",
+    "author": "AIEnthusiastIM",
+    "content": "@hightbunker @FactoryAI Totalmente, cuando la calidad sorprende así, te cambia la perspectiva. Si Droid CLI sigue a este nivel, habrá que estar atentos. ¡Quién diría que batiría a tanto peso pesado!",
+    "url": "https://x.com/AIEnthusiastIM/status/1991035077439214058",
+    "timestamp": "2025-11-19T06:45:28.000Z",
+    "metadata": {
+      "conversation_id": "1991035077439214058",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991034369721708932",
     "source": "twitter",
     "author": "bentossell",
