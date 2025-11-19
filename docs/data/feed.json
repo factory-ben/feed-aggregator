@@ -1,5 +1,110 @@
 [
   {
+    "id": "twitter_1991214931471974635",
+    "source": "twitter",
+    "author": "draslan_eth",
+    "content": "@JohnONolan @FactoryAI they all do xD\n\nsandbox everything and do a key rotation when you hit true production",
+    "url": "https://x.com/draslan_eth/status/1991214931471974635",
+    "timestamp": "2025-11-19T18:40:09.000Z",
+    "metadata": {
+      "conversation_id": "1991214931471974635",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991214793743626246",
+    "source": "twitter",
+    "author": "steipete",
+    "content": "@Klaudioz @FactoryAI PRs welcome",
+    "url": "https://x.com/steipete/status/1991214793743626246",
+    "timestamp": "2025-11-19T18:39:36.000Z",
+    "metadata": {
+      "conversation_id": "1991214793743626246",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991214270923653431",
+    "source": "twitter",
+    "author": "nilag_dev",
+    "content": "@JohnONolan @FactoryAI Ah so thats why my local DB always goes away!!!! DAMN\n @FactoryAI",
+    "url": "https://x.com/nilag_dev/status/1991214270923653431",
+    "timestamp": "2025-11-19T18:37:31.000Z",
+    "metadata": {
+      "conversation_id": "1991214270923653431",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991213898754670889",
+    "source": "twitter",
+    "author": "JosephLGabriele",
+    "content": "@hightbunker @FactoryAI It is a pleasure.",
+    "url": "https://x.com/JosephLGabriele/status/1991213898754670889",
+    "timestamp": "2025-11-19T18:36:03.000Z",
+    "metadata": {
+      "conversation_id": "1991213898754670889",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991211786519941330",
+    "source": "twitter",
+    "author": "rvm0n_",
+    "content": "@cdxker @vercel @cursor_ai @v0 @shadcn @tembo @elevenlabsio @FactoryAI @nextjs @mintlify @convex @opencode @helixdb @supermemory 💚💚💚",
+    "url": "https://x.com/rvm0n_/status/1991211786519941330",
+    "timestamp": "2025-11-19T18:27:39.000Z",
+    "metadata": {
+      "conversation_id": "1991211786519941330",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991211717863280763",
+    "source": "twitter",
+    "author": "rvm0n_",
+    "content": "@skeptrune @vercel @cursor_ai @v0 @shadcn @tembo @elevenlabsio @FactoryAI @nextjs @mintlify @convex @opencode @helixdb @supermemory 💚💚",
+    "url": "https://x.com/rvm0n_/status/1991211717863280763",
+    "timestamp": "2025-11-19T18:27:23.000Z",
+    "metadata": {
+      "conversation_id": "1991211717863280763",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991211455644069973",
+    "source": "twitter",
+    "author": "cdxker",
+    "content": "@rvm0n_ @vercel @cursor_ai @v0 @shadcn @tembo @elevenlabsio @FactoryAI @nextjs @mintlify @convex @opencode @helixdb @supermemory 💚💚💚",
+    "url": "https://x.com/cdxker/status/1991211455644069973",
+    "timestamp": "2025-11-19T18:26:20.000Z",
+    "metadata": {
+      "conversation_id": "1991211455644069973",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991209375747264535",
     "source": "twitter",
     "author": "skeptrune",
@@ -83,6 +188,21 @@
     "timestamp": "2025-11-19T18:04:12.000Z",
     "metadata": {
       "conversation_id": "1991205883246743929",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991205817140281449",
+    "source": "twitter",
+    "author": "Klaudioz",
+    "content": "@steipete @FactoryAI droid!!",
+    "url": "https://x.com/Klaudioz/status/1991205817140281449",
+    "timestamp": "2025-11-19T18:03:56.000Z",
+    "metadata": {
+      "conversation_id": "1991205817140281449",
       "likes": 1,
       "retweets": 0,
       "replies": 1,
