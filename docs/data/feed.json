@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1991562128902471890",
+    "source": "twitter",
+    "author": "sporadica",
+    "content": "@FactoryAI wait a minute...i've seen this plot before https://t.co/iQGcJ792g7",
+    "url": "https://x.com/sporadica/status/1991562128902471890",
+    "timestamp": "2025-11-20T17:39:47.000Z",
+    "metadata": {
+      "conversation_id": "1991562128902471890",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991561045941579795",
+    "source": "twitter",
+    "author": "benvargas",
+    "content": "Not enough or nearly as much as ChatGPT Pro or Claude Max - I don't normally exhaust those but had no problem using all my Ultra quota up for the day in a few hours.  Gemini CLI team responded in this x thread, hopefully increased quota will be allocated to Ultra as they said. https://t.co/llbpVPYInX",
+    "url": "https://x.com/benvargas/status/1991561045941579795",
+    "timestamp": "2025-11-20T17:35:29.000Z",
+    "metadata": {
+      "conversation_id": "1991561045941579795",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991560908003520913",
+    "source": "twitter",
+    "author": "orange_boy",
+    "content": "@bentossell @JoelDeTeves @FactoryAI Don't worry. I can stop anytime. It's just 5M a day. Sometimes 20M.\nBut thats fine for a holiday, right?",
+    "url": "https://x.com/orange_boy/status/1991560908003520913",
+    "timestamp": "2025-11-20T17:34:56.000Z",
+    "metadata": {
+      "conversation_id": "1991560908003520913",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991559593537991046",
     "source": "twitter",
     "author": "AIFlow_ML",
