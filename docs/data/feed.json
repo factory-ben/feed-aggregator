@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1991430492441256321",
+    "source": "twitter",
+    "author": "stnkvcs",
+    "content": "So the 40M @FactoryAI trial tokens I had lying around (thanks @RayFernando1337 🙏) came in handy when Gemini 3 launched. Perfect timing to test both.\n\nLong story short, I burned through 1.5M tokens in one sitting. Can't say I felt much of a difference in performance regarding the model (still love Sonnet 4.5).\n\nBut the fact that I didn't have to play the context saving and loading game is next level.  All of the 1.5M tokens were used in ONE SESSION.\n\nNext up: using Droid to plan and execute DB and auth to my main project using Droid.",
+    "url": "https://x.com/stnkvcs/status/1991430492441256321",
+    "timestamp": "2025-11-20T08:56:43.000Z",
+    "metadata": {
+      "conversation_id": "1991430492441256321",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "reddit_1p1y70n",
     "source": "reddit",
     "author": "bentossell",
