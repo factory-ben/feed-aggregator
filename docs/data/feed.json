@@ -1,5 +1,123 @@
 [
   {
+    "id": "twitter_1991598958456762388",
+    "source": "twitter",
+    "author": "munoncode",
+    "content": "@FactoryAI \"deployed ai agents to adapt in real time\" that's crazy. \n\nthe new hackers in the ai era are deploying ai agents to attack",
+    "url": "https://x.com/munoncode/status/1991598958456762388",
+    "timestamp": "2025-11-20T20:06:08.000Z",
+    "metadata": {
+      "conversation_id": "1991598958456762388",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991598773148217459",
+    "source": "twitter",
+    "author": "davidspiff10",
+    "content": "@MedonB082602 @FactoryAI @bentossell What model?",
+    "url": "https://x.com/davidspiff10/status/1991598773148217459",
+    "timestamp": "2025-11-20T20:05:24.000Z",
+    "metadata": {
+      "conversation_id": "1991598773148217459",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991598713681355240",
+    "source": "twitter",
+    "author": "KirkMarple",
+    "content": "+1 for Gemini 3 Pro\n\nInside @FactoryAI Droid, struggled last night to get @tan_stack Table scrolling working, and Sonnet 4.5 couldn’t crack it.  \n\nTried with Gemini 3 Pro this morning and it one-shot solved it, when pasting in the HTML. \n\nPhew!  Scrolling has been a troublespot in models before. \n\nAnd now, @zine_ai has moved over to TanStack Tables which work great!",
+    "url": "https://x.com/KirkMarple/status/1991598713681355240",
+    "timestamp": "2025-11-20T20:05:10.000Z",
+    "metadata": {
+      "conversation_id": "1991598713681355240",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991598354481168620",
+    "source": "twitter",
+    "author": "samuelekpe",
+    "content": "@shaunmmaguire @FactoryAI @AnthropicAI I’m sure this is happening to all the coding agent providers",
+    "url": "https://x.com/samuelekpe/status/1991598354481168620",
+    "timestamp": "2025-11-20T20:03:44.000Z",
+    "metadata": {
+      "conversation_id": "1991598354481168620",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991598327629246861",
+    "source": "twitter",
+    "author": "Will_Hackspeare",
+    "content": "@AnthropicAI @FactoryAI https://t.co/SACHBf37DU",
+    "url": "https://x.com/Will_Hackspeare/status/1991598327629246861",
+    "timestamp": "2025-11-20T20:03:38.000Z",
+    "metadata": {
+      "conversation_id": "1991598327629246861",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_403",
+    "source": "github",
+    "author": "hurajgor",
+    "content": "[Issue] Using my corporate hosted provider for custom models - Receiving Error: 400 status code (no body)\n\nThought of sharing bug report but the command `/bug` is failing with the below \n\n```\nCreating bug report...\n\n●  Session file not found.\n\n```\n\n<img width=\"361\" height=\"65\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d1562ae3-ee5c-4263-93e6-5ecb1e7d4fe2\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/403",
+    "timestamp": "2025-11-20T20:03:09Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 403
+    }
+  },
+  {
+    "id": "twitter_1991597531474854238",
+    "source": "twitter",
+    "author": "_abilshr",
+    "content": "@bentossell @FactoryAI Ty 🫡 \nI'm building a site to share a bunch of skills that will always create 10X better UI and no purple slop gradients.\nStill WIP tho https://t.co/0Mmid8MYMP",
+    "url": "https://x.com/_abilshr/status/1991597531474854238",
+    "timestamp": "2025-11-20T20:00:28.000Z",
+    "metadata": {
+      "conversation_id": "1991597531474854238",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991596265210339773",
+    "source": "twitter",
+    "author": "golferritika",
+    "content": "@FactoryAI Incidents like this make clear why the UAE's focus on secure, innovative AI ecosystems should be the blueprint. Security and responsible progress must go hand in hand as threats evolve.",
+    "url": "https://x.com/golferritika/status/1991596265210339773",
+    "timestamp": "2025-11-20T19:55:26.000Z",
+    "metadata": {
+      "conversation_id": "1991596265210339773",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991595669690404926",
     "source": "twitter",
     "author": "bentossell",
