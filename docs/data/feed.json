@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1991513983577411853",
+    "source": "twitter",
+    "author": "Aymen94Jelassi",
+    "content": "@rafiulm_ @FactoryAI its ugly af",
+    "url": "https://x.com/Aymen94Jelassi/status/1991513983577411853",
+    "timestamp": "2025-11-20T14:28:28.000Z",
+    "metadata": {
+      "conversation_id": "1991513983577411853",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991512053023142208",
+    "source": "twitter",
+    "author": "emicovi",
+    "content": "@JoelDeTeves @FactoryAI Really? I tried it but I find 5.1 high to be better. Gemini 3 does not explore the codebase like 5.1 unfortunately",
+    "url": "https://x.com/emicovi/status/1991512053023142208",
+    "timestamp": "2025-11-20T14:20:48.000Z",
+    "metadata": {
+      "conversation_id": "1991512053023142208",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991510518583161031",
     "source": "twitter",
     "author": "RheaPurohit1",
