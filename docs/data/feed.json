@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1991551172856119631",
+    "source": "twitter",
+    "author": "sunnypause",
+    "content": "@JoelDeTeves @FactoryAI odd... i had trouble it following details to combine content at a web page, meanwhile gpt5.x and sonnet had no issue. for content, i think its behind gpt...",
+    "url": "https://x.com/sunnypause/status/1991551172856119631",
+    "timestamp": "2025-11-20T16:56:15.000Z",
+    "metadata": {
+      "conversation_id": "1991551172856119631",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991551121379467759",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@bradvangelder @FactoryAI 🔥",
+    "url": "https://x.com/bentossell/status/1991551121379467759",
+    "timestamp": "2025-11-20T16:56:03.000Z",
+    "metadata": {
+      "conversation_id": "1991551121379467759",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991550896715755811",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@Flup18 @FactoryAI soon",
+    "url": "https://x.com/bentossell/status/1991550896715755811",
+    "timestamp": "2025-11-20T16:55:09.000Z",
+    "metadata": {
+      "conversation_id": "1991550896715755811",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991549039587066285",
+    "source": "twitter",
+    "author": "tmaiaroto",
+    "content": "Ok, @FactoryAI I've heard this line before... Gonna cross my fingers, but I guess my phone number if phucked anyway. So what the hell. https://t.co/BzONKuqCwY",
+    "url": "https://x.com/tmaiaroto/status/1991549039587066285",
+    "timestamp": "2025-11-20T16:47:46.000Z",
+    "metadata": {
+      "conversation_id": "1991549039587066285",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991547537283772487",
+    "source": "twitter",
+    "author": "alvinsng",
+    "content": "Proud to see our lean but mighty team of 20 engineers from @FactoryAI listed among other giants from the Gemini 3 launch! https://t.co/trWVNd2k2D",
+    "url": "https://x.com/alvinsng/status/1991547537283772487",
+    "timestamp": "2025-11-20T16:41:48.000Z",
+    "metadata": {
+      "conversation_id": "1991547537283772487",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_402",
     "source": "github",
     "author": "ncrimi",
