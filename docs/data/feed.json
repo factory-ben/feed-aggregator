@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1991654044784566613",
+    "source": "twitter",
+    "author": "LyalinDotCom",
+    "content": "@meddi_kada @geminicli @FactoryAI Sorry it's taken us a while, really hope this changes soon 😉",
+    "url": "https://x.com/LyalinDotCom/status/1991654044784566613",
+    "timestamp": "2025-11-20T23:45:02.000Z",
+    "metadata": {
+      "conversation_id": "1991654044784566613",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991653469628051870",
+    "source": "twitter",
+    "author": "Mattslayga",
+    "content": "@alvinsng @FactoryAI Towards the top no less! 🙌",
+    "url": "https://x.com/Mattslayga/status/1991653469628051870",
+    "timestamp": "2025-11-20T23:42:44.000Z",
+    "metadata": {
+      "conversation_id": "1991653469628051870",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991653425302716424",
+    "source": "twitter",
+    "author": "meddi_kada",
+    "content": "@LyalinDotCom @geminicli Still haven't gotten access. Kinda funny that I had to try it through @FactoryAI's free trial even though I'm a Gemini Pro subscriber.",
+    "url": "https://x.com/meddi_kada/status/1991653425302716424",
+    "timestamp": "2025-11-20T23:42:34.000Z",
+    "metadata": {
+      "conversation_id": "1991653425302716424",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991651538641776743",
     "source": "twitter",
     "author": "JustinMar32",
