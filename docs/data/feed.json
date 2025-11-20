@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1991605125077729506",
+    "source": "twitter",
+    "author": "bradvangelder",
+    "content": "Solo founder here. I run my entire startup with @FactoryAI's Droid CLI as my only co-founder.  \n\nThese 5 mcp servers live in my day-to-day workflow and turned Droid CLI into an actual beast that ships QUALITY!👇",
+    "url": "https://x.com/bradvangelder/status/1991605125077729506",
+    "timestamp": "2025-11-20T20:30:38.000Z",
+    "metadata": {
+      "conversation_id": "1991605125077729506",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991604976997781949",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@simontheweb @FactoryAI I would also check for commits, and keep in mind we also have a setting to disable co-commit authorship!",
+    "url": "https://x.com/EnoReyes/status/1991604976997781949",
+    "timestamp": "2025-11-20T20:30:03.000Z",
+    "metadata": {
+      "conversation_id": "1991604976997781949",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991603567652925643",
+    "source": "twitter",
+    "author": "_abilshr",
+    "content": "@bentossell @FactoryAI Yep 100%, I'ma grind hard to get it ready asap now",
+    "url": "https://x.com/_abilshr/status/1991603567652925643",
+    "timestamp": "2025-11-20T20:24:27.000Z",
+    "metadata": {
+      "conversation_id": "1991603567652925643",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991603325993894135",
+    "source": "twitter",
+    "author": "ChickenT1000",
+    "content": "@FactoryAI Please, tell me that this is Stepan's workstation 😅 https://t.co/uNukinCP6r",
+    "url": "https://x.com/ChickenT1000/status/1991603325993894135",
+    "timestamp": "2025-11-20T20:23:29.000Z",
+    "metadata": {
+      "conversation_id": "1991603325993894135",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991602199064170987",
     "source": "twitter",
     "author": "ChickenT1000",
