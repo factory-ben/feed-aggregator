@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.9,
+      "reason": "User references FactoryAI but no action needed - just acknowledging mention",
+      "classifiedAt": "2025-11-21T22:18:52.241Z"
     }
   },
   {
