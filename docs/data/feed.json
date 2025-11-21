@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1992012176379576831",
+    "source": "twitter",
+    "author": "FeifanZ",
+    "content": "@maddiehfaulkner @FactoryAI organic love is the dream",
+    "url": "https://x.com/FeifanZ/status/1992012176379576831",
+    "timestamp": "2025-11-21T23:28:07.000Z",
+    "metadata": {
+      "conversation_id": "1992012176379576831",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992011821373649072",
+    "source": "twitter",
+    "author": "FeifanZ",
+    "content": "@FactoryAI @Mng64218162 who would win in droids v bots?",
+    "url": "https://x.com/FeifanZ/status/1992011821373649072",
+    "timestamp": "2025-11-21T23:26:42.000Z",
+    "metadata": {
+      "conversation_id": "1992011821373649072",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992011582931628301",
+    "source": "twitter",
+    "author": "KirkMarple",
+    "content": "Went back to using Claude Code again, and finding it really clunky. \n\n(Spent a ton on @FactoryAI Droid tokens this month, and needed to use up some of our Anthropic credits.)\n\nBut it really shows the work that Droid put in on the TUI and overall “TX”. \n\nFinding that CC locks itself up more often, and overall feels slower - even tho I’m using an identical Sonnet 4.5 with medium thinking.\n\nMay go back to a custom model with Droid and see how that works again.",
+    "url": "https://x.com/KirkMarple/status/1992011582931628301",
+    "timestamp": "2025-11-21T23:25:45.000Z",
+    "metadata": {
+      "conversation_id": "1992011582931628301",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 1
+    }
+  },
+  {
+    "id": "twitter_1992010460112314536",
+    "source": "twitter",
+    "author": "maddiehfaulkner",
+    "content": "@FeifanZ @FactoryAI factory doesn't have marketing, this is purely organic &lt;3",
+    "url": "https://x.com/maddiehfaulkner/status/1992010460112314536",
+    "timestamp": "2025-11-21T23:21:18.000Z",
+    "metadata": {
+      "conversation_id": "1992010460112314536",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992010268315099419",
+    "source": "twitter",
+    "author": "StressarN",
+    "content": "@FeifanZ @FactoryAI Beacuse it is truly an amazing tool!",
+    "url": "https://x.com/StressarN/status/1992010268315099419",
+    "timestamp": "2025-11-21T23:20:32.000Z",
+    "metadata": {
+      "conversation_id": "1992010268315099419",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992009458625437993",
     "source": "twitter",
     "author": "Tmeister",
