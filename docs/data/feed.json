@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1991904583937933571",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@jcurtis @FactoryAI just realised, safari wont work btw - need to use chrome 🤦",
+    "url": "https://x.com/bentossell/status/1991904583937933571",
+    "timestamp": "2025-11-21T16:20:35.000Z",
+    "metadata": {
+      "conversation_id": "1991904583937933571",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991904423396708726",
+    "source": "twitter",
+    "author": "aeitroc",
+    "content": "@pascallammers_ @FactoryAI are you using https://t.co/TqWwG80FUS ?",
+    "url": "https://x.com/aeitroc/status/1991904423396708726",
+    "timestamp": "2025-11-21T16:19:56.000Z",
+    "metadata": {
+      "conversation_id": "1991904423396708726",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991903847158096350",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@dannyveigatx @FactoryAI @augmentcode let me know how you get on with it 😊",
+    "url": "https://x.com/bentossell/status/1991903847158096350",
+    "timestamp": "2025-11-21T16:17:39.000Z",
+    "metadata": {
+      "conversation_id": "1991903847158096350",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991903622326558856",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@rafiulm_ @GoodFarmingAdam @FactoryAI oh dope haha",
+    "url": "https://x.com/bentossell/status/1991903622326558856",
+    "timestamp": "2025-11-21T16:16:45.000Z",
+    "metadata": {
+      "conversation_id": "1991903622326558856",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1991903570300453068",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@KingBootoshi @FactoryAI model agnostic, great harness across those models, multi-surface (cli, web, linear, ide etc), we handle context management for you too",
+    "url": "https://x.com/bentossell/status/1991903570300453068",
+    "timestamp": "2025-11-21T16:16:33.000Z",
+    "metadata": {
+      "conversation_id": "1991903570300453068",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991885838737977401",
     "source": "twitter",
     "author": "goof",
