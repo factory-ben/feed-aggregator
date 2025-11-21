@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "other",
+      "confidence": 0.95,
+      "reason": "This is a speculative/fictional prediction about future AI market scenarios, not a direct question, bug report, or actionable mention.",
+      "classifiedAt": "2025-11-21T23:06:41.024Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.9,
+      "reason": "User is asking a specific question about Factory AI's product offering - whether it has CLI and VS Code extension options.",
+      "classifiedAt": "2025-11-21T23:06:41.024Z"
     }
   },
   {
