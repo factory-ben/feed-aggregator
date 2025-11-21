@@ -1,5 +1,33 @@
 [
   {
+    "id": "github_issue_411",
+    "source": "github",
+    "author": "jinsley8",
+    "content": "[Issue] Figma MCP 403 during authentication\n\nI'm trying to add the Figma MCP fro the registry. when I authenticate it returns: `HTTP 403: Invalid OAuth error response: SyntaxError: JSON Parse error: Unexpected identifier \"Forbidden\". Raw body: Forbidden`\n\nOther MCP like Linear have worked.",
+    "url": "https://github.com/Factory-AI/factory/issues/411",
+    "timestamp": "2025-11-21T17:58:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 411
+    }
+  },
+  {
+    "id": "twitter_1991928442552824292",
+    "source": "twitter",
+    "author": "pascallammers_",
+    "content": "@aeitroc @FactoryAI Yeah I’m also using Claude a lot but codex max is pretty neat tbh",
+    "url": "https://x.com/pascallammers_/status/1991928442552824292",
+    "timestamp": "2025-11-21T17:55:23.000Z",
+    "metadata": {
+      "conversation_id": "1991928442552824292",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991927625376538901",
     "source": "twitter",
     "author": "bentossell",
