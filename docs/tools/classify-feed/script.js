@@ -14,6 +14,17 @@ function stripAnsi(input = '') {
   return input.replace(/\u001B\[[0-9;?]*[ -\/]*[@-~]/g, '');
 }
 
+function parseJsonEnvelope(raw) {
+  const clean = stripAnsi(raw || '').trim();
+  const start = clean.indexOf('{');
+  const end = clean.lastIndexOf('}');
+  if (start === -1 || end === -1 || end < start) {
+    throw new Error('droid exec output missing JSON data');
+  }
+  const candidate = clean.slice(start, end + 1);
+  return JSON.parse(candidate);
+}
+
 async function readJson(filePath) {
   const raw = await fs.readFile(filePath, 'utf-8');
   return JSON.parse(raw);
@@ -86,8 +97,7 @@ function runDroid(prompt, { model = DEFAULT_MODEL, reasoning = DEFAULT_REASONING
         return;
       }
       try {
-        const cleanStdout = stripAnsi(stdout || '');
-        const envelope = JSON.parse(cleanStdout || '{}');
+        const envelope = parseJsonEnvelope(stdout || '');
         const resultText = stripAnsi((envelope.result || envelope.text || '').trim());
         if (!resultText) {
           reject(new Error('Empty result from droid exec'));
