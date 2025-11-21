@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1991885838737977401",
+    "source": "twitter",
+    "author": "goof",
+    "content": "@KingBootoshi @FactoryAI Different agent harness, so handles context management , prompts and  response logic  differently . \n\nBut LLMs being so non deterministic so many variables at play hard to tell if it's \"better\" or just random sometimes . \n\nBetter context optimizing can makes a huge difference tho",
+    "url": "https://x.com/goof/status/1991885838737977401",
+    "timestamp": "2025-11-21T15:06:06.000Z",
+    "metadata": {
+      "conversation_id": "1991885838737977401",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1991882874493231267",
     "source": "twitter",
     "author": "masfiq018",
