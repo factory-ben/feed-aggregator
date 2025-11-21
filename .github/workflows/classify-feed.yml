@@ -1,0 +1,54 @@
+name: Classify Feed
+
+on:
+  workflow_run:
+    workflows: ["Scrape Feeds"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: classify-feed-${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || 'main' }}
+          fetch-depth: 0
+
+      - name: Install Factory CLI
+        run: |
+          curl -fsSL https://app.factory.ai/cli | sh
+
+      - name: Classify feed items with GLM 4.6
+        env:
+          FACTORY_API_KEY: ${{ secrets.FACTORY_API_KEY }}
+          MODEL_ID: glm-4.6
+          MODEL_REASONING: low
+        run: |
+          export PATH="$HOME/.local/bin:$HOME/.factory/bin:$PATH"
+          node docs/tools/tool-runner.js classify-feed --input docs/data/feed.json --output docs/data/feed.json
+
+      - name: Commit and push classification data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main
+          git add docs/data/feed.json docs/data/classification-stats.json
+          if git diff --staged --quiet; then
+            echo "No classification changes to commit"
+          else
+            git commit -m "Update classifications [skip ci]"
+            git push origin HEAD:main
+          fi

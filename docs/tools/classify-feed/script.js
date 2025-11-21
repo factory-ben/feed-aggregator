@@ -10,6 +10,10 @@ const DEFAULT_MODEL = process.env.MODEL_ID || process.env.GLM_MODEL_ID || 'glm-4
 const DEFAULT_REASONING = process.env.MODEL_REASONING || process.env.GLM_REASONING || 'low';
 const DEFAULT_MAX_BATCH = parseInt(process.env.CLASSIFIER_MAX_BATCH || '10', 10);
 
+function stripAnsi(input = '') {
+  return input.replace(/\u001B\[[0-9;?]*[ -\/]*[@-~]/g, '');
+}
+
 async function readJson(filePath) {
   const raw = await fs.readFile(filePath, 'utf-8');
   return JSON.parse(raw);
@@ -82,8 +86,9 @@ function runDroid(prompt, { model = DEFAULT_MODEL, reasoning = DEFAULT_REASONING
         return;
       }
       try {
-        const envelope = JSON.parse(stdout || '{}');
-        const resultText = (envelope.result || envelope.text || '').trim();
+        const cleanStdout = stripAnsi(stdout || '');
+        const envelope = JSON.parse(cleanStdout || '{}');
+        const resultText = stripAnsi((envelope.result || envelope.text || '').trim());
         if (!resultText) {
           reject(new Error('Empty result from droid exec'));
           return;
