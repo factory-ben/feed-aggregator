@@ -1,6 +1,13 @@
 {
-  "generatedAt": null,
-  "total": 0,
-  "counts": {},
-  "percentOther": 0
+  "generatedAt": "2025-11-21T21:44:11.197Z",
+  "total": 759,
+  "counts": {
+    "mention": 285,
+    "love": 174,
+    "question": 128,
+    "bug": 59,
+    "other": 101,
+    "unlabeled": 12
+  },
+  "percentOther": 13.31
 }
