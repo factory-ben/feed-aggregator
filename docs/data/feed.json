@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.95,
+      "reason": "Strong positive sentiment praising Factory AI as a superior product with better service than providers",
+      "classifiedAt": "2025-11-22T02:44:13.540Z"
     }
   },
   {
