@@ -1,5 +1,110 @@
 [
   {
+    "id": "twitter_1992073575571103934",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "If you’re building agentic coding tools, orchestration is now the only moat that matters.\n\nEverything else is table stakes.\n\n@FactoryAI just raised the bar to the stratosphere.\n\nWho’s next?",
+    "url": "https://x.com/makerfounder/status/1992073575571103934",
+    "timestamp": "2025-11-22T03:32:06.000Z",
+    "metadata": {
+      "conversation_id": "1992073575571103934",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992073571137724927",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "@FactoryAI Droid behaves like the senior dev you pray joins your startup: \n\n→ reads the entire codebase before touching anything → reuses your components \n→ runs the linter/build itself \n→ catches + fixes its own errors \n→ ships production-ready code\n\nEvery. Single. Round.",
+    "url": "https://x.com/makerfounder/status/1992073571137724927",
+    "timestamp": "2025-11-22T03:32:04.000Z",
+    "metadata": {
+      "conversation_id": "1992073571137724927",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992073554872107012",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "Round 2 – Design + Data Awareness\nTask: build organizer dashboard + live stats\n\n@antigravity → UI looked clean but hero query failed → fell back to empty state, showed “No upcoming runs” even though real data existed\n\n@FactoryAI Droid → read the schema → wrote correct queries → pulled the actual next run → hero 100% populated with live event\n\nSmall miss vs. perfect execution. \nThat’s the senior-dev difference.\n\n2–0 Droid",
+    "url": "https://x.com/makerfounder/status/1992073554872107012",
+    "timestamp": "2025-11-22T03:32:01.000Z",
+    "metadata": {
+      "conversation_id": "1992073554872107012",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992073542645469193",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "Round 1 – Integration Test \nTask: add dynamic OG metadata + QR code generator with download button (using a 3rd-party lib)\n\n@antigravity → useState in Server Component → crash → missed download button → I had to step in and fix it manually. \n\n@FactoryAI Droid → clean Client/Server split → ran build → saw TS error → fixed it itself → 100% perfect, zero help\n\n1–0 Droid",
+    "url": "https://x.com/makerfounder/status/1992073542645469193",
+    "timestamp": "2025-11-22T03:31:58.000Z",
+    "metadata": {
+      "conversation_id": "1992073542645469193",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992073530792636876",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "🧵 I just put Google’s fresh-out-the-oven @antigravity up against @FactoryAI’s Droid in a blind, same-LLM deathmatch.\n\nSame prompt. Same repo. Same brain: Gemini 3 Pro.\n\nOnly difference? The orchestration layer.\n\nHypothesis: does the “body” actually matter when the brain is identical?\n\nVerdict: hell yes it does. \nDroid didn’t just win 3–0. \nIt embarrassed the field.\n🔥",
+    "url": "https://x.com/makerfounder/status/1992073530792636876",
+    "timestamp": "2025-11-22T03:31:55.000Z",
+    "metadata": {
+      "conversation_id": "1992073530792636876",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992071730853269541",
+    "source": "twitter",
+    "author": "gorillarobotspy",
+    "content": "@shaunmmaguire @FeifanZ @FactoryAI We will never forget the racist Zionist bullshit you spewed. Great meeting with Trump today btw.",
+    "url": "https://x.com/gorillarobotspy/status/1992071730853269541",
+    "timestamp": "2025-11-22T03:24:46.000Z",
+    "metadata": {
+      "conversation_id": "1992071730853269541",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992071682241261654",
+    "source": "twitter",
+    "author": "yikesawjeez",
+    "content": "@FactoryAI ur slack integration doesnt pick up my username &amp; clicking on 'support' opens a blank page in dia for some reason\n\njsyk, cursor's getting the tokens for this PR lol",
+    "url": "https://x.com/yikesawjeez/status/1992071682241261654",
+    "timestamp": "2025-11-22T03:24:34.000Z",
+    "metadata": {
+      "conversation_id": "1992071682241261654",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992065995624853543",
     "source": "twitter",
     "author": "MihailVarich",
