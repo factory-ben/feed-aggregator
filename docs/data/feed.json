@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.9,
+      "reason": "Positive sentiment with phrase 'It's damn good!' expressing strong approval/praise",
+      "classifiedAt": "2025-11-22T17:39:20.934Z"
     }
   },
   {
