@@ -18,6 +18,9 @@ jobs:
   classify:
     if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      FACTORY_API_KEY: ${{ secrets.FACTORY_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -27,28 +30,106 @@ jobs:
           ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || 'main' }}
           fetch-depth: 0
 
-      - name: Install Factory CLI
+      - name: Validate API key
+        shell: bash
         run: |
-          curl -fsSL https://app.factory.ai/cli | sh
+          set -euo pipefail
+          [ -n "${FACTORY_API_KEY:-}" ] || { echo "❌ FACTORY_API_KEY is missing"; exit 1; }
 
-      - name: Classify feed items with GLM 4.6
-        env:
-          FACTORY_API_KEY: ${{ secrets.FACTORY_API_KEY }}
-          MODEL_ID: glm-4.6
-          MODEL_REASONING: low
+      - name: Install Factory CLI
+        shell: bash
         run: |
-          export PATH="$HOME/.local/bin:$HOME/.factory/bin:$PATH"
-          node docs/tools/tool-runner.js classify-feed --input docs/data/feed.json --output docs/data/feed.json
+          set -euo pipefail
+          curl -fsSL https://app.factory.ai/cli | sh
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/droid" --version
+
+      - name: Classify feed items (droid exec --auto low)
+        timeout-minutes: 40
+        shell: bash
+        run: |
+          set -euo pipefail
+          "$HOME/.local/bin/droid" exec --auto low "
+          Categorize all items in docs/data/feed.json that don't already have a 'category' field.
+          
+          For each feed item, analyze the content and add a 'category' field with one of these values:
+          
+          - 'mention' - Factory is referenced but no action needed
+          - 'bug' - User reports an issue or something broken
+          - 'love' - Positive sentiment or praise
+          - 'question' - Explicit question about the product
+          - 'other' - None of the above
+          
+          Rules:
+          1. Preserve the exact JSON structure and all existing fields
+          2. Only add the 'category' field to items that don't have it
+          3. Don't modify items that already have a category
+          4. Keep all metadata, timestamps, and other fields intact
+          5. Maintain proper JSON formatting
+          
+          After classification, write a summary to classification-summary.md with:
+          - Total items processed
+          - Breakdown by category
+          - Any items that were challenging to categorize
+          "
+
+      - name: Verify feed.json is valid JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! jq empty docs/data/feed.json 2>/dev/null; then
+            echo "❌ feed.json is not valid JSON after classification"
+            exit 1
+          fi
+          echo "✅ feed.json is valid JSON"
+
+      - name: Check for changes
+        id: check_changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "$(git status --porcelain docs/data/feed.json)" ]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+            CLASSIFIED_COUNT=$(git diff docs/data/feed.json | grep -c '+"category"' || echo "0")
+            echo "classified_count=$CLASSIFIED_COUNT" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+            echo "classified_count=0" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit and push classification data
+        if: steps.check_changes.outputs.changes == 'true'
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add docs/data/feed.json docs/data/classification-stats.json
-          if git diff --staged --quiet; then
-            echo "No classification changes to commit"
+          git add docs/data/feed.json
+          [ -f classification-summary.md ] && git add classification-summary.md || true
+          git commit -m "Classify feed items via droid exec
+
+          - Classified: ${{ steps.check_changes.outputs.classified_count }} items
+          - Date: $(date -u +%Y-%m-%d)
+
+          Co-authored-by: factory-droid[bot] <138933559+factory-droid[bot]@users.noreply.github.com>"
+          git push origin HEAD:main
+
+      - name: Post summary
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+            {
+              echo "### ✅ Classification Complete"; echo;
+              echo "- 🏷️ Items classified: ${{ steps.check_changes.outputs.classified_count }}";
+              echo "- 📅 Date: $(date -u +%Y-%m-%d)"; echo;
+            } >> "$GITHUB_STEP_SUMMARY"
+            [ -f classification-summary.md ] && cat classification-summary.md >> "$GITHUB_STEP_SUMMARY" || true
           else
-            git commit -m "Update classifications [skip ci]"
-            git push origin HEAD:main
+            {
+              echo "### ✨ No New Items to Classify"; echo;
+              echo "All items already have categories.";
+            } >> "$GITHUB_STEP_SUMMARY"
           fi
