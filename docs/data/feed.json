@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.8,
+      "reason": "User is asking about a specific feature (prompt enhancement) that Droid doesn't have. This is a feature request/question about product capabilities.",
+      "classifiedAt": "2025-11-22T16:07:01.825Z"
     }
   },
   {
