@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 1,
+      "reason": "FactoryAI is referenced in a tweet about letting games begin, but no specific action or question for Factory is required.",
+      "classifiedAt": "2025-11-22T20:06:55.789Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 1
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.9,
+      "reason": "Contains an explicit question 'Who should @FactoryAI's Droid fight next?' seeking user input/votes about future content.",
+      "classifiedAt": "2025-11-22T20:06:55.789Z"
     }
   },
   {
