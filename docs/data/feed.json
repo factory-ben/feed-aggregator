@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.9,
+      "reason": "Factory AI droid is mentioned as part of engineering stack, no action needed.",
+      "classifiedAt": "2025-11-22T04:11:02.020Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.95,
+      "reason": "Positive sentiment with 'good service sir' showing praise for Factory AI.",
+      "classifiedAt": "2025-11-22T04:11:02.020Z"
     }
   },
   {
