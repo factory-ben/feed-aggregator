@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.9,
+      "reason": "User mentions Factory AI's new CLI feature but doesn't ask a question or action item",
+      "classifiedAt": "2025-11-22T13:32:33.462Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.8,
+      "reason": "User is asking about feature availability on Twitter/X platform",
+      "classifiedAt": "2025-11-22T13:32:33.462Z"
     }
   },
   {
