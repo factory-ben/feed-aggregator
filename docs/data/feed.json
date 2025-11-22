@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.95,
+      "reason": "Positive praise for Factory AI raising the bar, enthusiastic tone with superlative language",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.98,
+      "reason": "Highly positive comparison describing Droid as ideal senior dev, praising multiple capabilities",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -42,6 +54,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.92,
+      "reason": ">Positive comparison showing Droid outperforming competitor, praising perfect execution vs small miss",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -57,6 +75,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.93,
+      "reason": "Positive praise highlighting Droid's superior performance and error-handling capabilities",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -72,6 +96,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.9,
+      "reason": "Highly enthusiastic thread praising Droid's performance, calling it an embarrassing win for competitors",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -87,6 +117,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "other",
+      "confidence": 0.85,
+      "reason": "Political criticism unrelated to Factory product, mentions Factory in negative context but not about product",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
@@ -102,6 +138,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "bug",
+      "confidence": 0.88,
+      "reason": "User reporting specific issues with Slack integration and support page - clear bug report",
+      "classifiedAt": "2025-11-22T03:34:46.535Z"
     }
   },
   {
