@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1992270005564485857",
+    "source": "twitter",
+    "author": "Elandotbuilders",
+    "content": "If we’re talking pure coding throughput and not vibes, Claude Code + Cursor still feels like the most stable\n\nIf we’re talking agentic orchestration and actual multi-step reasoning, Cursor + Windsurf is the emerging meta.\n\nIf we’re talking raw low-level control, OpenAI Codex (inside GPT 5 high) is way ahead, but only if you know how to prompt it \n\nSo favorite for real work = Claude Code inside Cursor.",
+    "url": "https://x.com/Elandotbuilders/status/1992270005564485857",
+    "timestamp": "2025-11-22T16:32:38.000Z",
+    "metadata": {
+      "conversation_id": "1992270005564485857",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992269586583175385",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@zaidmukaddam you missed the actual best one @FactoryAI",
+    "url": "https://x.com/bentossell/status/1992269586583175385",
+    "timestamp": "2025-11-22T16:30:58.000Z",
+    "metadata": {
+      "conversation_id": "1992269586583175385",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992268020119437314",
+    "source": "twitter",
+    "author": "leoisadev",
+    "content": "Hot take:\n\nIf @FactoryAI makes a IDE @cursor_ai is cooked...\n\nI tried Cursor not long ago ran 2 small tasks with grok code fast 1.\n\nBoth cost $1\n\nIn factory ai for the trial I used 3 massive tasks with Gemini 3 Pro\n\nCost me 5 million tokens only 50% of the trial...\n\nNow imagine how much more value you get with that $20 plan\n\nSo the question is, when is @FactoryAI dropping their own IDE?",
+    "url": "https://x.com/leoisadev/status/1992268020119437314",
+    "timestamp": "2025-11-22T16:24:45.000Z",
+    "metadata": {
+      "conversation_id": "1992268020119437314",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992267531382616184",
+    "source": "twitter",
+    "author": "Tu7uruu",
+    "content": "@NielsRogge @claudeai @cursor_ai @OpenAI @windsurf @antigravity @AmpCode @FactoryAI @code Which one is your favourite ?",
+    "url": "https://x.com/Tu7uruu/status/1992267531382616184",
+    "timestamp": "2025-11-22T16:22:48.000Z",
+    "metadata": {
+      "conversation_id": "1992267531382616184",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992261964383556061",
     "source": "twitter",
     "author": "fabiorizzomatos",
