@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.8,
+      "reason": "User is asking for troubleshooting guidance on AI model performance comparison",
+      "classifiedAt": "2025-11-22T06:08:31.749Z"
     }
   },
   {
