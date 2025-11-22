@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "other",
+      "confidence": 0.8,
+      "reason": "User expressing excitement about testing DROID but no explicit question, bug report, or praise directed at Factory",
+      "classifiedAt": "2025-11-22T15:38:38.822Z"
     }
   },
   {
