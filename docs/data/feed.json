@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "bug",
+      "confidence": 0.9,
+      "reason": "User reports CPU spike and performance issues with droid instance, describing technical problem that needs resolution.",
+      "classifiedAt": "2025-11-22T07:18:42.592Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "bug",
+      "confidence": 0.95,
+      "reason": "User reports CPU and temperature spikes when launching droid, plus issues with background process pop-up not responding to Esc key - clear technical bug report.",
+      "classifiedAt": "2025-11-22T07:18:42.592Z"
     }
   },
   {
