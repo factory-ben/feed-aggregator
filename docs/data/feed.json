@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_1992334545895719392",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@leoisadev @FactoryAI @cursor_ai A native application for building software with agents would be great ;)",
+    "url": "https://x.com/EnoReyes/status/1992334545895719392",
+    "timestamp": "2025-11-22T20:49:06.000Z",
+    "metadata": {
+      "conversation_id": "1992334545895719392",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992334353452732679",
+    "source": "twitter",
+    "author": "AquariusBlake",
+    "content": "@leoisadev @FactoryAI @cursor_ai Me who is stuck with good ol' VSCode https://t.co/YJfy3XcicG",
+    "url": "https://x.com/AquariusBlake/status/1992334353452732679",
+    "timestamp": "2025-11-22T20:48:20.000Z",
+    "metadata": {
+      "conversation_id": "1992334353452732679",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992333879299256629",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@raposafut @makerfounder @antigravity @FactoryAI total cost for this: $0",
+    "url": "https://x.com/bentossell/status/1992333879299256629",
+    "timestamp": "2025-11-22T20:46:27.000Z",
+    "metadata": {
+      "conversation_id": "1992333879299256629",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992333748554321984",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@Alex_m @makerfounder @antigravity @FactoryAI hackers love signing up for things and trying to steal tokens im afraid!",
+    "url": "https://x.com/bentossell/status/1992333748554321984",
+    "timestamp": "2025-11-22T20:45:56.000Z",
+    "metadata": {
+      "conversation_id": "1992333748554321984",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992333718133080252",
+    "source": "twitter",
+    "author": "makerfounder",
+    "content": "@antigravity @FactoryAI Enjoyed the deathmatch?\n\nCome vote on the next victim 🤖🥊\n\nhttps://t.co/UtKbBXJLkI",
+    "url": "https://x.com/makerfounder/status/1992333718133080252",
+    "timestamp": "2025-11-22T20:45:48.000Z",
+    "metadata": {
+      "conversation_id": "1992333718133080252",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992333166707921052",
     "source": "twitter",
     "author": "ayman_alderson",
@@ -3996,6 +4071,19 @@
     }
   },
   {
+    "id": "github_issue_369",
+    "source": "github",
+    "author": "BlackCatCmx",
+    "content": "[Issue] The .factory/skills directory is created even when \"enableSkills\": false is set\n\nI have set \"enableSkills\": false in the settings.json, but every time droid starts it still automatically creates the .factory/skills directory.\n\nIs this expected behavior (e.g. I misunderstood how to configure it), or is this setting not intended to prevent the creation of the skills directory, or could this be a bug?",
+    "url": "https://github.com/Factory-AI/factory/issues/369",
+    "timestamp": "2025-11-15T14:38:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 369
+    }
+  },
+  {
     "id": "github_discussion_361",
     "source": "github",
     "author": "aaronschwartz",
@@ -4006,6 +4094,45 @@
       "type": "discussion",
       "category": "Questions",
       "number": 361
+    }
+  },
+  {
+    "id": "github_issue_360",
+    "source": "github",
+    "author": "hanlin-luo",
+    "content": "[Issue] CJK double-width characters problem\n\nChinese input (CJK double-width characters) causes cursor misalignment once the input spans more than two lines.\nThis is due to the line editor not correctly implementing Unicode East Asian Width, resulting in incorrect wcwidth calculations，（maybe）.\nIt’s recommended to enable or fix proper wide-character support in the TUI/line editor being used.\n\nhttps://github.com/user-attachments/assets/7be46a43-0fe3-4e76-98c0-bea3727137e3",
+    "url": "https://github.com/Factory-AI/factory/issues/360",
+    "timestamp": "2025-11-14T20:31:10Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 360
+    }
+  },
+  {
+    "id": "github_issue_348",
+    "source": "github",
+    "author": "aranej",
+    "content": "[Issue] 🚀 Feature Request: Native Task Queue Support for Interactive Mode\n\n## 📋 Summary\n\nRequest for **native task queuing functionality** in Droid CLI interactive mode, allowing users to queue multiple prompts for sequential or parallel processing without waiting for each task to complete before submitting the next one.\n\n## 🎯 Problem Statement\n\n### Current User Experience (Frustrating)\n\n```bash\n> /sys-info is running...\n[User types: /init-prompt]\n❌ Command doesn't register - must wait for completion\n\n[After 30 seconds...]\n✅ /sys-info completed\n\n[User must now re-typ",
+    "url": "https://github.com/Factory-AI/factory/issues/348",
+    "timestamp": "2025-11-13T09:01:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 348
+    }
+  },
+  {
+    "id": "github_issue_345",
+    "source": "github",
+    "author": "xianzou",
+    "content": "[Issue] Running dorid in PowerShell produces no output\n\n<img width=\"1113\" height=\"626\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0bddc80a-404e-4fee-9575-96c0cdc89b94\" />\n\nRunning dorid in PowerShell produces no output，I have already installed dorid.",
+    "url": "https://github.com/Factory-AI/factory/issues/345",
+    "timestamp": "2025-11-13T01:46:56Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 345
     }
   },
   {
