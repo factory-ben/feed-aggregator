@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.9,
+      "reason": "User mentions FactoryAI in casual conversation about timeline, no specific action needed",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -27,6 +33,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.85,
+      "reason": "Response to conversation mentioning FactoryAI, no specific issue or question",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -40,6 +52,12 @@
       "type": "issue",
       "labels": [],
       "number": 415
+    },
+    "classification": {
+      "label": "bug",
+      "confidence": 1,
+      "reason": "Explicit bug report about inability to paste images as attachments after update",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -55,6 +73,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "love",
+      "confidence": 0.95,
+      "reason": "Positive sentiment with 'gooooood' indicating praise for FactoryAI",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -70,6 +94,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.85,
+      "reason": "Explicit question asking for comparison between Factory and Amp",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -85,6 +115,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.8,
+      "reason": "Questioning where someone has been, directed at FactoryAI context",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
@@ -100,6 +136,12 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.9,
+      "reason": "Describing FactoryAI as 'better Claude Code with multiple models' - informational reference",
+      "classifiedAt": "2025-11-22T00:23:30.387Z"
     }
   },
   {
