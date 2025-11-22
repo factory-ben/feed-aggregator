@@ -863,19 +863,17 @@
     function attachCardListeners() {
         document.querySelectorAll('.card').forEach(card => {
           card.addEventListener('click', (e) => {
+             // Avoid double actions if clicking interactive elements
              if (e.target.closest('.action-pill')) return;
              if (e.target.closest('.card-checkbox')) return;
+             if (e.target.tagName === 'A') return;
              
              const id = card.dataset.id;
              focusCard(id);
              
-             // If clicking content link
-             if (e.target.tagName === 'A') return;
-             
-             // Open URL on click (since we have checkbox for selection now)
-             // But maybe user wants to select by clicking? 
-             // Default: Click -> Focus. Enter -> Open. 
-             // Let's keep click -> focus.
+             // Click body now opens the URL
+             const url = card.dataset.url;
+             if (url) window.open(url, '_blank');
           });
       });
       
@@ -892,6 +890,14 @@
               e.stopPropagation();
               const id = btn.dataset.id;
               toggleArchive(id);
+          });
+      });
+
+      document.querySelectorAll('.action-open').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const url = btn.dataset.url;
+              if (url) window.open(url, '_blank');
           });
       });
     }
@@ -929,6 +935,9 @@
               ${category ? `<span class="tag tag-${category}">${category}</span>` : ''}
             </div>
             <div class="card-actions">
+              <button class="action-pill action-open" data-id="${item.id}" data-url="${item.url}" title="Open Link (Enter)">
+                Open
+              </button>
               <button class="action-pill action-archive" data-id="${item.id}">
                 ${isArchived ? 'Unarchive' : 'Archive'}
               </button>
