@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "mention",
+      "confidence": 0.85,
+      "reason": "Factory AI is mentioned in a technical discussion about model speeds but no action is required",
+      "classifiedAt": "2025-11-22T04:25:13.074Z"
     }
   },
   {
