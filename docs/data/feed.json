@@ -12,6 +12,12 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
+    },
+    "classification": {
+      "label": "question",
+      "confidence": 0.8,
+      "reason": "Author is asking for feedback on how Factory can improve, which is an explicit question seeking input.",
+      "classifiedAt": "2025-11-22T01:24:33.146Z"
     }
   },
   {
