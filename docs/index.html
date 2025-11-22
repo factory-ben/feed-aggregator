@@ -3,119 +3,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Factory Social Feed</title>
+  <title>Factory Feed</title>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     :root {
-      --bg: #ffffff;
-      --card: #ffffff;
-      --border: #e5e7eb;
-      --text: #0a0a0a;
-      --text-muted: #737373;
+      --bg: #fafafa;
+      --card-bg: #ffffff;
+      --border: #eaeaea;
+      --text: #000000;
+      --text-secondary: #666666;
+      --text-tertiary: #888888;
+      --accent: #000000;
+      --accent-fg: #ffffff;
       --hover: #f5f5f5;
+      --selection: #e6f7ff;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      
+      --twitter-color: #1d9bf0;
+      --reddit-color: #ff4500;
+      --github-color: #24292f;
     }
 
     [data-theme="dark"] {
-      --bg: #0a0a0a;
-      --card: #171717;
-      --border: #262626;
-      --text: #fafafa;
-      --text-muted: #a3a3a3;
-      --hover: #262626;
+      --bg: #000000;
+      --card-bg: #0a0a0a;
+      --border: #333333;
+      --text: #ffffff;
+      --text-secondary: #a1a1a1;
+      --text-tertiary: #666666;
+      --accent: #ffffff;
+      --accent-fg: #000000;
+      --hover: #111111;
+      --selection: #1a1a1a;
+      --github-color: #ffffff;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.6;
-      transition: background-color 0.2s, color 0.2s;
-      padding: 2rem 1rem;
+      line-height: 1.5;
+      font-size: 14px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
     }
 
-
-    .top-controls {
-      max-width: 800px;
-      margin: 0 auto 2rem;
+    /* Layout */
+    .app-header {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      height: 60px;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .selection-bar {
-      max-width: 800px;
-      margin: 0 auto 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
       align-items: center;
       justify-content: space-between;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 9999px;
-      padding: 0.75rem 1rem;
-      position: sticky;
-      top: 0;
+      padding: 0 24px;
+      flex-shrink: 0;
       z-index: 20;
     }
 
-    .selection-info {
-      font-size: 0.875rem;
-      color: var(--text-muted);
+    .main-wrapper {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
     }
 
-    .selection-actions {
+    .sidebar {
+      width: 240px;
+      background: var(--bg);
+      border-right: 1px solid var(--border);
+      padding: 20px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+
+    .main-container {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+      position: relative;
+      background: var(--bg);
+    }
+
+    /* Sidebar Categories */
+    .category-item {
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      color: var(--text-secondary);
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      justify-content: space-between;
+      transition: all 0.15s;
+      border: none;
+      background: transparent;
+      width: 100%;
+      text-align: left;
     }
 
-    .action-btn {
+    .category-item:hover {
+      background: var(--hover);
+      color: var(--text);
+    }
+
+    .category-item.active {
+      background: var(--card-bg);
+      color: var(--text);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      font-weight: 600;
+    }
+    
+    .category-item .count {
+        background: var(--border);
+        padding: 2px 6px;
+        border-radius: 99px;
+        font-size: 10px;
+        min-width: 20px;
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    /* Hide card actions as requested */
+    .card-actions {
+      display: none !important;
+    }
+
+    .app-logo {
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .app-filters {
+      display: flex;
+      gap: 4px;
+      background: var(--bg);
+      padding: 4px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    .filter-tab {
+      padding: 4px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: none;
+      background: transparent;
+    }
+
+    .filter-tab:hover {
+      color: var(--text);
+      background: var(--card-bg);
+    }
+
+    .filter-tab.active {
+      background: var(--card-bg);
+      color: var(--text);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+
+    .filter-tab .badge {
+      background: var(--border);
+      color: var(--text-secondary);
+      font-size: 10px;
+      padding: 0 4px;
+      border-radius: 99px;
+      min-width: 16px;
+      text-align: center;
+    }
+
+    /* Category Pills */
+    .category-pill {
+      padding: 4px 12px;
+      border-radius: 99px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .category-pill:hover {
+      background: var(--hover);
+      color: var(--text);
+    }
+
+    .category-pill.active {
       background: var(--text);
       color: var(--bg);
-      border: none;
-      border-radius: 9999px;
-      padding: 0.45rem 0.9rem;
-      font-size: 0.8125rem;
-      cursor: pointer;
-      transition: opacity 0.2s, transform 0.2s;
+      border-color: var(--text);
+    }
+    
+    .category-pill .count {
+        opacity: 0.7;
+        font-size: 10px;
     }
 
-    .action-btn:disabled {
-      opacity: 0.4;
-      cursor: not-allowed;
+    .app-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
 
     .icon-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      border-radius: 6px;
+      width: 32px;
+      height: 32px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0.35rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      border-radius: 9999px;
-      padding: 0.45rem 0.75rem;
-      font-size: 0.8125rem;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: all 0.15s;
     }
 
     .icon-btn:hover {
       background: var(--hover);
-    }
-
-    .icon-btn.active {
-      background: var(--text);
-      color: var(--bg);
+      color: var(--text);
+      border-color: var(--text-secondary);
     }
 
     .icon-btn svg {
@@ -123,2256 +256,1070 @@
       height: 16px;
     }
 
-    .icon-btn.icon-only {
-      padding: 0.45rem;
-      width: 36px;
-      height: 36px;
-    }
-
-    .hidden-handles-container {
+    /* Main Content */
+    .main-container {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
       position: relative;
     }
 
-    .hidden-handles-dropdown, .time-filter-dropdown {
-      display: none;
-      position: absolute;
-      top: calc(100% + 0.5rem);
-      right: 0;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      width: 250px;
-      z-index: 50;
-      overflow: hidden;
-      flex-direction: column;
-    }
-
-    .hidden-handles-dropdown.open, .time-filter-dropdown.open {
-      display: flex;
-    }
-
-    .time-filter-option:hover {
-      background: var(--hover) !important;
-    }
-
-    [data-theme="dark"] .hidden-handles-dropdown {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    }
-
-    .hidden-handles-input {
-      padding: 0.75rem;
-      border: none;
-      border-bottom: 1px solid var(--border);
-      background: transparent;
-      color: var(--text);
-      font-size: 0.875rem;
-      outline: none;
-    }
-
-    .hidden-handles-list {
-      max-height: 200px;
+    .feed-container {
+      flex: 1;
       overflow-y: auto;
-      flex: 1;
+      padding: 20px;
+      scroll-behavior: smooth;
     }
 
-    .hidden-handle-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.5rem 0.75rem;
-      border-bottom: 1px solid var(--border);
-      font-size: 0.875rem;
-      transition: background 0.2s;
-    }
-
-    .hidden-handle-item:last-child {
-      border-bottom: none;
-    }
-
-    .hidden-handle-item:hover {
-      background: var(--hover);
-    }
-
-    .hidden-handle-item-name {
-      color: var(--text);
-    }
-
-    .hidden-handle-remove-btn {
-      background: transparent;
-      border: none;
-      color: var(--text-muted);
-      cursor: pointer;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 20px;
-      height: 20px;
-      transition: color 0.2s;
-    }
-
-    .hidden-handle-remove-btn:hover {
-      color: var(--text);
-    }
-
-    .hidden-handles-empty {
-      padding: 1rem;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 0.875rem;
-    }
-
-    .controls-group {
-      display: flex;
-      gap: 0.5rem;
-      align-items: center;
-    }
-
-    .view-toggle {
-      display: flex;
-      border: 1px solid var(--border);
-      border-radius: 9999px;
-      overflow: hidden;
-    }
-
-    .view-btn {
-      background: var(--card);
-      border: none;
-      color: var(--text);
-      padding: 0.5rem 0.75rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .view-btn:not(:last-child) {
-      border-right: 1px solid var(--border);
-    }
-
-    .view-btn:hover {
-      background: var(--hover);
-    }
-
-    .view-btn.active {
-      background: var(--text);
-      color: var(--bg);
-    }
-
-    .view-btn svg {
-      width: 16px;
-      height: 16px;
-    }
-
-    .filter-pills {
-      display: flex;
-      gap: 0.375rem;
-    }
-
-    .filter-pill, .sort-dropdown, .theme-btn {
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.5rem 0.75rem;
-      border-radius: 9999px;
-      cursor: pointer;
-      font-size: 0.875rem;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 0.375rem;
-    }
-
-    .filter-pill:hover, .sort-dropdown:hover, .theme-btn:hover {
-      background: var(--hover);
-    }
-
-    .filter-pill.active {
-      background: var(--text);
-      color: var(--bg);
-    }
-
-    .filter-pill svg {
-      width: 16px;
-      height: 16px;
-    }
-
-    .filter-pill {
-      position: relative;
-    }
-
-    .new-badge {
-      position: absolute;
-      top: -6px;
-      right: -6px;
-      background: #ef4444;
-      color: white;
-      font-size: 0.625rem;
-      font-weight: 600;
-      padding: 0.125rem 0.375rem;
-      border-radius: 9999px;
-      min-width: 18px;
-      text-align: center;
-      line-height: 1.2;
-    }
-
-    .sort-dropdown {
-      position: relative;
-      padding-right: 2rem;
-    }
-
-    .sort-dropdown svg {
-      position: absolute;
-      right: 0.5rem;
-      width: 16px;
-      height: 16px;
-    }
-
-    .theme-btn {
-      width: 40px;
-      height: 40px;
-      padding: 0;
-      justify-content: center;
-    }
-
-    .theme-btn svg {
-      width: 18px;
-      height: 18px;
-    }
-
-    #refreshBtn:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    #refreshBtn.loading svg {
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
-    select {
-      background: transparent;
-      border: none;
-      color: var(--text);
-      cursor: pointer;
-      font-size: 0.875rem;
-      outline: none;
-      appearance: none;
-      padding-right: 1.25rem;
-    }
-
-    .username-filter-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.35rem;
-      min-width: 220px;
-    }
-
-    .username-filter-label {
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .username-filter-hint {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-
-    .container {
-      max-width: 800px;
+    .feed-list {
+      max-width: 700px;
       margin: 0 auto;
-    }
-
-    .feed {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 12px;
+      padding-bottom: 100px;
     }
 
-    .feed.columns {
-      flex-direction: row;
-      align-items: flex-start;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
-      gap: 1rem;
-    }
-
-    .feed-column {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      min-width: 0;
-    }
-
-    @media (max-width: 640px) {
-      .feed.columns {
-        padding-bottom: 1rem;
-      }
-
-      .feed-column {
-        flex: 0 0 85%;
-        scroll-snap-align: start;
-      }
-    }
-
-    .feed-column-header {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.75rem 1rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.875rem;
-      font-weight: 500;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    .feed-column-header svg {
-      width: 18px;
-      height: 18px;
-    }
-
+    /* Cards */
     .card {
-      background: var(--card);
+      background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 1rem;
+      padding: 16px;
+      padding-left: 44px; /* Space for checkbox */
       cursor: pointer;
-      transition: all 0.2s;
-      overflow: hidden;
+      transition: all 0.15s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
     .card:hover {
-      border-color: var(--text-muted);
-    }
-
-    .card.selected {
-      border-color: var(--text);
-      box-shadow: 0 0 0 2px rgba(10, 10, 10, 0.2);
-    }
-
-    .card.selected:hover {
-      border-color: var(--text);
-      box-shadow: 0 0 0 3px rgba(10, 10, 10, 0.35);
-      background: var(--hover);
+      border-color: var(--text-secondary);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
     .card.focused {
-      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.35);
+      border-color: var(--text);
+      box-shadow: 0 0 0 2px var(--text);
+      z-index: 10;
     }
-
-    [data-theme="dark"] .card.selected {
-      box-shadow: 0 0 0 2px rgba(250, 250, 250, 0.2);
-    }
-
-    [data-theme="dark"] .card.selected:hover {
-      box-shadow: 0 0 0 3px rgba(250, 250, 250, 0.35);
-      background: var(--hover);
-    }
-
-    [data-theme="dark"] .card.focused {
-      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.45);
+    
+    .card.selected {
+      background: var(--selection);
+      border-color: var(--text);
     }
 
     .card.archived {
-      opacity: 0.55;
+      opacity: 0.5;
+      filter: grayscale(100%);
+    }
+
+    /* Checkbox */
+    .card-checkbox {
+      position: absolute;
+      left: 12px;
+      top: 16px;
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: transparent;
+    }
+    
+    .card.selected .card-checkbox, .card-checkbox:hover {
+        border-color: var(--text);
+    }
+    
+    .card.selected .card-checkbox {
+        background: var(--text);
+        color: var(--bg);
+    }
+    
+    .card-checkbox svg {
+        width: 14px;
+        height: 14px;
     }
 
     .card-header {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
+      justify-content: space-between;
+      margin-bottom: 4px;
     }
 
-    .source-icon {
-      font-size: 1.25rem;
+    .card-meta {
       display: flex;
       align-items: center;
-      gap: 0.375rem;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-secondary);
     }
 
-    .type-tag {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      font-family: 'Courier New', monospace;
+    .source-badge {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 11px;
     }
+    
+    .source-twitter { color: var(--twitter-color); background: rgba(29, 155, 240, 0.1); }
+    .source-reddit { color: var(--reddit-color); background: rgba(255, 69, 0, 0.1); }
+    .source-github { color: var(--github-color); background: rgba(128, 128, 128, 0.1); }
+    
+    [data-theme="dark"] .source-github { background: rgba(255, 255, 255, 0.1); }
 
-    .status-badge {
-      margin-left: auto;
-      font-size: 0.7rem;
-      padding: 0.15rem 0.5rem;
-      border-radius: 9999px;
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-    }
-
-    .category-badge {
-      font-size: 0.7rem;
-      padding: 0.15rem 0.5rem;
-      border-radius: 9999px;
-      border: 1px solid var(--border);
+    .card-author {
       font-weight: 500;
-    }
-
-    .category-badge.mention {
-      background: #e0e7ff;
-      color: #4338ca;
-      border-color: #c7d2fe;
-    }
-
-    .category-badge.bug {
-      background: #fee2e2;
-      color: #dc2626;
-      border-color: #fecaca;
-    }
-
-    .category-badge.love {
-      background: #dcfce7;
-      color: #16a34a;
-      border-color: #bbf7d0;
-    }
-
-    .category-badge.question {
-      background: #fef3c7;
-      color: #d97706;
-      border-color: #fde68a;
-    }
-
-    .category-badge.other {
-      background: #f3f4f6;
-      color: #6b7280;
-      border-color: #e5e7eb;
-    }
-
-    [data-theme="dark"] .category-badge.mention {
-      background: #312e81;
-      color: #c7d2fe;
-      border-color: #4338ca;
-    }
-
-    [data-theme="dark"] .category-badge.bug {
-      background: #7f1d1d;
-      color: #fecaca;
-      border-color: #dc2626;
-    }
-
-    [data-theme="dark"] .category-badge.love {
-      background: #14532d;
-      color: #bbf7d0;
-      border-color: #16a34a;
-    }
-
-    [data-theme="dark"] .category-badge.question {
-      background: #78350f;
-      color: #fde68a;
-      border-color: #d97706;
-    }
-
-    [data-theme="dark"] .category-badge.other {
-      background: #374151;
-      color: #d1d5db;
-      border-color: #6b7280;
-    }
-
-    .filter-pill .count {
-      font-size: 0.75rem;
-      opacity: 0.7;
-    }
-
-    .author {
-      color: var(--text-muted);
-      font-size: 0.875rem;
-      margin-left: auto;
-    }
-
-    .content {
       color: var(--text);
-      font-size: 0.9375rem;
-      margin-bottom: 0.75rem;
+    }
+
+    .card-time {
+      color: var(--text-tertiary);
+    }
+
+    .card-content {
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
       word-break: break-word;
       white-space: pre-wrap;
-      text-align: left;
-      direction: ltr;
     }
 
-    .content.collapsed {
-      display: -webkit-box !important;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-align: start;
-    }
-
-    .expand-btn {
-      color: var(--text-muted);
-      font-size: 0.875rem;
-      cursor: pointer;
-      user-select: none;
-      margin-top: 0.5rem;
-    }
-
-    .expand-btn:hover {
-      color: var(--text);
+    .card-content a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     .card-footer {
       display: flex;
       align-items: center;
-      gap: 1rem;
-      font-size: 0.8125rem;
-      color: var(--text-muted);
+      gap: 16px;
+      margin-top: 8px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-tertiary);
     }
 
-    .mobile-link {
-      display: none;
-      margin-top: 0.75rem;
-      padding: 0.5rem 0.75rem;
-      background: var(--text);
-      color: var(--bg);
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 0.8125rem;
-      font-weight: 500;
-      text-align: center;
-      transition: opacity 0.2s;
+    .metric {
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
 
-    .mobile-link:active {
-      opacity: 0.8;
-    }
-
-    @media (max-width: 640px) {
-      .mobile-link {
-        display: block;
-      }
-    }
-
-    .timestamp {
-      margin-left: auto;
+    .metric svg {
+      width: 14px;
+      height: 14px;
     }
 
     .card-actions {
-      margin-top: 0.75rem;
+      margin-left: auto;
       display: flex;
-      gap: 0.5rem;
-      justify-content: flex-end;
+      gap: 8px;
+      opacity: 0;
+      transition: opacity 0.15s;
     }
 
-    .secondary-btn {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text);
-      border-radius: 9999px;
-      padding: 0.35rem 0.75rem;
-      font-size: 0.75rem;
+    .card:hover .card-actions, .card.focused .card-actions {
+      opacity: 1;
+    }
+
+    .action-pill {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
       cursor: pointer;
-      transition: background 0.2s;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text-secondary);
+    }
+    
+    .action-pill:hover {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
     }
 
-    .secondary-btn:hover {
-      background: var(--hover);
+    /* Labels/Tags */
+    .tag {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 99px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
-    .loading {
-      text-align: center;
-      padding: 3rem;
-      color: var(--text-muted);
+    .tag-mention { background: #e0e7ff; color: #4338ca; }
+    .tag-bug { background: #fee2e2; color: #dc2626; }
+    .tag-love { background: #dcfce7; color: #16a34a; }
+    .tag-question { background: #fef3c7; color: #d97706; }
+
+    [data-theme="dark"] .tag-mention { background: #312e81; color: #c7d2fe; }
+    [data-theme="dark"] .tag-bug { background: #7f1d1d; color: #fecaca; }
+    [data-theme="dark"] .tag-love { background: #14532d; color: #bbf7d0; }
+    [data-theme="dark"] .tag-question { background: #78350f; color: #fde68a; }
+
+    /* Bulk Actions Bar */
+    .bulk-actions-bar {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--text);
+      color: var(--bg);
+      padding: 12px 24px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      z-index: 50;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .bulk-actions-bar.visible {
+      transform: translateX(-50%) translateY(0);
+    }
+    
+    .bulk-count {
+      font-weight: 600;
+      font-size: 14px;
+      padding-right: 16px;
+      border-right: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .bulk-btn {
+      background: transparent;
+      border: none;
+      color: var(--bg);
+      font-weight: 500;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .bulk-btn:hover {
+      opacity: 0.8;
     }
 
-    .error {
-      background: #fee;
-      color: #c33;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-    }
-
-    .status-message {
-      max-width: 800px;
-      margin: 0 auto 1rem;
-      border-radius: 8px;
-      padding: 0.75rem 1rem;
-      font-size: 0.875rem;
-      display: none;
-    }
-
-    .status-message.info {
-      background: #eef2ff;
-      color: #1d4ed8;
-    }
-
-    .status-message.error {
-      background: #fee2e2;
-      color: #b91c1c;
-    }
-
-    [data-theme="dark"] .status-message.info {
-      background: rgba(59, 130, 246, 0.15);
-      color: #bfdbfe;
-    }
-
-    [data-theme="dark"] .status-message.error {
-      background: rgba(239, 68, 68, 0.2);
-      color: #fecaca;
-    }
-
-    .modal-overlay {
+    /* Modals & Overlays */
+    .overlay {
       position: fixed;
       inset: 0;
-      background: rgba(10, 10, 10, 0.75);
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(2px);
+      z-index: 100;
       display: none;
       align-items: center;
       justify-content: center;
-      z-index: 100;
-      backdrop-filter: blur(4px);
     }
 
-    .modal-overlay.open {
-      display: flex;
-    }
+    .overlay.open { display: flex; }
 
-    .access-modal, .settings-modal {
-      background: var(--card);
+    .modal {
+      background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 2rem;
+      padding: 24px;
+      width: 100%;
       max-width: 400px;
-      width: 90%;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.2);
     }
 
-    .access-modal h2, .settings-modal h2 {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-    }
-
-    .access-modal p, .settings-modal p {
-      color: var(--text-muted);
-      margin-bottom: 1.5rem;
-      font-size: 0.875rem;
-    }
-
-    .access-modal input, .settings-modal input, .settings-modal textarea {
+    .modal h2 { font-size: 18px; margin-bottom: 16px; }
+    .modal p { color: var(--text-secondary); margin-bottom: 20px; }
+    
+    .modal input, .modal textarea {
       width: 100%;
-      padding: 0.75rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
+      padding: 10px;
       background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
       color: var(--text);
-      font-size: 0.9375rem;
-      margin-bottom: 1rem;
+      margin-bottom: 12px;
+      font-family: inherit;
     }
 
-    .settings-modal textarea {
-      min-height: 200px;
-      font-family: 'Courier New', monospace;
-      font-size: 0.8125rem;
-    }
-
-    .access-modal button, .settings-modal button {
+    .modal button {
       width: 100%;
-      padding: 0.75rem;
+      padding: 10px;
       background: var(--text);
       color: var(--bg);
       border: none;
-      border-radius: 8px;
-      font-size: 0.9375rem;
-      font-weight: 500;
+      border-radius: 6px;
+      font-weight: 600;
       cursor: pointer;
-      transition: opacity 0.2s;
     }
 
-    .access-modal button:hover, .settings-modal button:hover {
-      opacity: 0.9;
+    /* Utilities */
+    .loading-state {
+      padding: 40px;
+      text-align: center;
+      color: var(--text-secondary);
     }
 
-    .access-modal .error-msg {
-      color: #ef4444;
-      font-size: 0.8125rem;
-      margin-top: -0.5rem;
-      margin-bottom: 1rem;
-      display: none;
-    }
-
-    .command-palette {
+    .status-toast {
       position: fixed;
-      inset: 0;
-      background: rgba(10, 10, 10, 0.45);
-      display: none;
-      align-items: flex-start;
-      justify-content: center;
-      padding-top: 10vh;
-      z-index: 100;
+      bottom: 24px;
+      right: 24px;
+      background: var(--text);
+      color: var(--bg);
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transform: translateY(100px);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 200;
     }
 
-    .command-palette.open {
-      display: flex;
+    .status-toast.visible {
+      transform: translateY(0);
     }
-
-    .command-panel {
-      width: min(600px, 90vw);
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-      overflow: hidden;
+    
+    .shortcuts-help {
+        position: fixed;
+        bottom: 24px;
+        left: 24px;
+        font-size: 12px;
+        color: var(--text-tertiary);
+        pointer-events: none;
+        opacity: 0.6;
     }
-
-    .command-search {
-      width: 100%;
-      padding: 0.9rem 1rem;
-      border: none;
-      border-bottom: 1px solid var(--border);
-      background: transparent;
-      color: var(--text);
-      font-size: 0.95rem;
-      outline: none;
-    }
-
-    .command-list {
-      max-height: 280px;
-      overflow-y: auto;
-      list-style: none;
-    }
-
-    .command-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--border);
-      cursor: pointer;
-      transition: background 0.15s;
-      font-size: 0.9rem;
-    }
-
-    .command-item:last-child {
-      border-bottom: none;
-    }
-
-    .command-item.disabled {
-      opacity: 0.4;
-      cursor: not-allowed;
-    }
-
-    .command-item.active:not(.disabled) {
-      background: var(--hover);
-    }
-
-    .command-shortcut {
-      font-size: 0.75rem;
-      color: var(--text-muted);
+    
+    kbd {
+        background: var(--border);
+        padding: 2px 4px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 10px;
+        color: var(--text);
     }
 
     @media (max-width: 640px) {
-      body {
-        padding: 1rem 0.5rem;
-      }
+      .app-header { padding: 0 16px; height: auto; flex-wrap: wrap; gap: 12px; py: 12px; }
+      .app-filters { overflow-x: auto; max-width: 100%; }
+      .shortcuts-help { display: none; }
+      .card { padding-left: 16px; padding-top: 44px; }
+      .card-checkbox { top: 16px; left: 16px; }
       
-      .top-controls {
-        flex-direction: column;
-        align-items: stretch;
-      }
-
-      .selection-bar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .selection-actions {
+      /* Mobile layout adjustments */
+      .main-wrapper { flex-direction: column; }
+      .sidebar {
         width: 100%;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 12px;
+        height: auto;
+        gap: 12px;
       }
-
-      .username-filter-group {
-        width: 100%;
+      .category-item {
+        min-width: auto;
+        width: auto;
+        white-space: nowrap;
+        padding: 6px 12px;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+      }
+      .category-item.active {
+        border-color: var(--text);
+        background: var(--text);
+        color: var(--bg);
+      }
+      .category-item.active i {
+        stroke: var(--bg);
+      }
+      .category-item .count {
+        margin-left: 8px;
       }
     }
   </style>
 </head>
 <body>
-  <div class="top-controls">
-    <div class="controls-group">
-      <div class="filter-pills">
-        <button class="filter-pill active" data-source="twitter" title="Twitter">
-          <i data-lucide="twitter"></i>
-        </button>
-        <button class="filter-pill active" data-source="reddit" title="Reddit">
-          <i data-lucide="message-square"></i>
-        </button>
-        <button class="filter-pill active" data-source="github" title="GitHub">
-          <i data-lucide="github"></i>
-        </button>
-      </div>
-      <div class="filter-pills">
-        <button class="filter-pill active" data-category="mention" title="Mentions">
-          <i data-lucide="message-circle"></i>
-          <span class="count">0</span>
-        </button>
-        <button class="filter-pill active" data-category="bug" title="Bugs">
-          <i data-lucide="bug"></i>
-          <span class="count">0</span>
-        </button>
-        <button class="filter-pill active" data-category="love" title="Love">
-          <i data-lucide="heart"></i>
-          <span class="count">0</span>
-        </button>
-        <button class="filter-pill active" data-category="question" title="Questions">
-          <i data-lucide="help-circle"></i>
-          <span class="count">0</span>
-        </button>
-        <button class="filter-pill active" data-category="other" title="Other">
-          <i data-lucide="circle"></i>
-          <span class="count">0</span>
-        </button>
-      </div>
-      <div class="time-filter-container" style="position: relative;">
-        <button class="icon-btn" id="timeFilterBtn" title="Time filter">
-          <i data-lucide="clock"></i>
-          <span class="btn-text">24h</span>
-        </button>
-        <div id="timeFilterDropdown" class="hidden-handles-dropdown" style="min-width: 150px;">
-          <button class="time-filter-option" data-time-filter="1h" style="width: 100%; text-align: left; padding: 0.5rem 0.75rem; background: transparent; border: none; border-bottom: 1px solid var(--border); color: var(--text); cursor: pointer; transition: background 0.2s;">
-            Last 1 hour
-          </button>
-          <button class="time-filter-option" data-time-filter="12h" style="width: 100%; text-align: left; padding: 0.5rem 0.75rem; background: transparent; border: none; border-bottom: 1px solid var(--border); color: var(--text); cursor: pointer; transition: background 0.2s;">
-            Last 12 hours
-          </button>
-          <button class="time-filter-option" data-time-filter="24h" style="width: 100%; text-align: left; padding: 0.5rem 0.75rem; background: transparent; border: none; border-bottom: 1px solid var(--border); color: var(--text); cursor: pointer; transition: background 0.2s;">
-            Last 24 hours
-          </button>
-          <button class="time-filter-option" data-time-filter="custom" style="width: 100%; text-align: left; padding: 0.5rem 0.75rem; background: transparent; border: none; color: var(--text); cursor: pointer; transition: background 0.2s;">
-            Custom...
-          </button>
-        </div>
-      </div>
-      <button class="icon-btn icon-only" id="sortBtn" title="Sort: Newest first">
-        <i data-lucide="arrow-down"></i>
-      </button>
-    </div>
-    <div class="controls-group">
-      <div class="hidden-handles-container">
-        <button class="icon-btn icon-only" id="hiddenHandlesBtn" title="Hidden handles">
-          <i data-lucide="eye-off"></i>
-        </button>
-        <div id="hiddenHandlesDropdown" class="hidden-handles-dropdown">
-          <input 
-            type="text" 
-            id="hiddenHandlesInput" 
-            class="hidden-handles-input"
-            placeholder="Type handle and press Enter"
-            autocomplete="off"
-          />
-          <div id="hiddenHandlesList" class="hidden-handles-list"></div>
-        </div>
-      </div>
-      <div class="view-toggle">
-        <button class="view-btn" data-view="list" title="List view">
-          <i data-lucide="list"></i>
-        </button>
-        <button class="view-btn active" data-view="columns" title="Column view">
-          <i data-lucide="columns"></i>
-        </button>
-      </div>
-      <button class="icon-btn icon-only" id="settingsBtn" title="Settings">
-        <i data-lucide="settings"></i>
-      </button>
-      <button class="theme-btn" id="themeToggle" title="Toggle theme">
-        <i data-lucide="moon"></i>
-      </button>
+
+  <!-- Access Gate -->
+  <div id="accessOverlay" class="overlay open">
+    <div class="modal">
+      <h2>🔐 Access Required</h2>
+      <p>Please enter your access token to view the feed.</p>
+      <input type="password" id="tokenInput" placeholder="Access Token" />
+      <div id="tokenError" style="color: var(--error); font-size: 12px; margin-bottom: 10px; display: none;">Invalid token</div>
+      <button id="tokenSubmit">Enter</button>
     </div>
   </div>
 
-  <div class="selection-bar">
-    <div class="selection-info" id="selectionStatus">No posts selected</div>
-    <div class="selection-actions">
-      <button class="secondary-btn" id="selectAllFilterBtn">Select all in filter</button>
-      <button class="action-btn" id="archiveSelectedBtn" disabled>Archive selected</button>
-      <button class="action-btn" id="sendToSlackBtn" disabled>Send to Slack</button>
-      <button class="icon-btn icon-only" id="toggleArchivedBtn" title="Toggle archived posts">
+  <!-- App Layout -->
+  <header class="app-header">
+    <div class="app-logo">
+      <i data-lucide="zap" style="width: 18px; height: 18px;"></i>
+      Factory Feed
+    </div>
+    
+    <div class="app-filters">
+      <button class="filter-tab active" data-filter="all">
+        All <span class="badge" id="count-all">0</span>
+      </button>
+      <button class="filter-tab" data-filter="twitter">
+        <i data-lucide="twitter" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-twitter">0</span>
+      </button>
+      <button class="filter-tab" data-filter="reddit">
+        <i data-lucide="message-square" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-reddit">0</span>
+      </button>
+      <button class="filter-tab" data-filter="github">
+        <i data-lucide="github" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-github">0</span>
+      </button>
+    </div>
+
+    <div class="app-controls">
+      <button class="icon-btn" id="refreshBtn" title="Refresh (R)">
+        <i data-lucide="refresh-cw"></i>
+      </button>
+      <button class="icon-btn" id="archiveToggleBtn" title="View Archived">
         <i data-lucide="archive"></i>
       </button>
-      <button class="icon-btn icon-only" id="commandCenterBtn" title="Command center (⌘/Ctrl + K)">
-        <i data-lucide="command"></i>
+      <button class="icon-btn" id="themeBtn" title="Toggle Theme">
+        <i data-lucide="moon"></i>
+      </button>
+      <button class="icon-btn" id="settingsBtn" title="Settings">
+        <i data-lucide="settings"></i>
       </button>
     </div>
+  </header>
+
+  <div class="main-wrapper">
+    <aside class="sidebar">
+        <button class="category-item active" data-category="all">
+            <i data-lucide="layers" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>All</span>
+        </button>
+        <button class="category-item" data-category="mention">
+            <i data-lucide="at-sign" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>Mentions</span> <span class="count" id="cat-count-mention">0</span>
+        </button>
+        <button class="category-item" data-category="bug">
+            <i data-lucide="bug" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>Bugs</span> <span class="count" id="cat-count-bug">0</span>
+        </button>
+        <button class="category-item" data-category="love">
+            <i data-lucide="heart" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>Love</span> <span class="count" id="cat-count-love">0</span>
+        </button>
+        <button class="category-item" data-category="question">
+            <i data-lucide="help-circle" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>Questions</span> <span class="count" id="cat-count-question">0</span>
+        </button>
+        <button class="category-item" data-category="other">
+            <i data-lucide="archive" style="width: 16px; height: 16px; margin-right: 8px;"></i>
+            <span>Other</span> <span class="count" id="cat-count-other">0</span>
+        </button>
+    </aside>
+
+    <main class="main-container">
+      <div class="feed-container" id="scrollContainer">
+        <div id="feedList" class="feed-list">
+          <div class="loading-state">Loading feed...</div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <div class="bulk-actions-bar" id="bulkBar">
+      <div class="bulk-count" id="bulkCount">0 selected</div>
+      <button class="bulk-btn" id="archiveSelectedBtn">
+          <i data-lucide="archive"></i> Archive
+      </button>
+      <button class="bulk-btn" id="selectAllBtn">
+          <i data-lucide="check-square"></i> Select All
+      </button>
+      <button class="bulk-btn" id="clearSelectionBtn" style="opacity: 0.7">
+          Cancel
+      </button>
+  </div>
+  
+  <div class="shortcuts-help">
+    <p><strong>J/K</strong> Nav • <strong>X</strong> Select • <strong>E</strong> Archive • <strong>Shift+A</strong> Select All</p>
   </div>
 
-  <div class="container">
-    <div id="statusMessage" class="status-message info"></div>
-    <div id="error" class="error" style="display: none;"></div>
-    <div id="loading" class="loading">Loading feed...</div>
-    <div id="feed" class="feed"></div>
-  </div>
+  <div id="statusToast" class="status-toast">Action completed</div>
 
-  <div id="commandPalette" class="command-palette" aria-hidden="true">
-    <div class="command-panel">
-      <input id="commandPaletteInput" class="command-search" type="text" placeholder="Search commands..." autocomplete="off" />
-      <ul id="commandPaletteList" class="command-list"></ul>
-    </div>
-  </div>
-
-  <div id="accessModal" class="modal-overlay open">
-    <div class="access-modal">
-      <h2>🔐 Access Required</h2>
-      <p>Enter your access token to view the feed</p>
-      <input type="password" id="accessTokenInput" placeholder="Enter token..." autocomplete="off" />
-      <div class="error-msg" id="accessError">Invalid token. Please try again.</div>
-      <button id="accessSubmitBtn">Continue</button>
-    </div>
-  </div>
-
-  <div id="settingsModal" class="modal-overlay">
-    <div class="settings-modal">
-      <h2>⚙️ Settings</h2>
-      <p>Configure feed sources (changes saved to localStorage)</p>
-      <textarea id="configTextarea" placeholder="Loading configuration..."></textarea>
-      <button id="saveConfigBtn">Save Configuration</button>
-      <button id="closeSettingsBtn" style="margin-top: 0.5rem; background: transparent; color: var(--text); border: 1px solid var(--border);">Cancel</button>
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="overlay">
+    <div class="modal" style="max-width: 600px;">
+      <h2>Configuration</h2>
+      <textarea id="configInput" style="height: 300px; font-family: monospace; font-size: 12px;"></textarea>
+      <div style="display: flex; gap: 10px;">
+        <button id="saveConfigBtn">Save Changes</button>
+        <button id="closeSettingsBtn" style="background: transparent; color: var(--text); border: 1px solid var(--border);">Cancel</button>
+      </div>
     </div>
   </div>
 
   <script>
-    // Access token hash (SHA-256 of your chosen password)
-    // IMPORTANT: Change this before deploying! This is a hash of "CHANGE_THIS_PASSWORD"
-    // Generate new hash with: echo -n "your_password" | shasum -a 256
-    const ACCESS_TOKEN_HASH = '528c291e315592e6c54795d834f5cd08a45f46249fae5eb5ce2ee976485e9edf'; // PLACEHOLDER - CHANGE THIS!
-    const ACCESS_TOKEN_KEY = 'factoryAccessToken';
-    
-    const ARCHIVE_STORAGE_KEY = 'factoryArchivedIds';
-    const HIDDEN_USERS_STORAGE_KEY = 'hiddenUsernames';
-    const LAST_SEEN_STORAGE_KEY = 'lastSeenTimestamps';
-    const THEME_STORAGE_KEY = 'theme';
-    const CONFIG_STORAGE_KEY = 'factoryFeedConfig';
-
-    const sourceNames = {
-      twitter: 'Twitter',
-      reddit: 'Reddit',
-      github: 'GitHub'
+    // Config & Constants
+    const ACCESS_TOKEN_HASH = '63fc567c78f3056569ecfdf2ba53cf1955ff86d34d2ab05a3683899e5c642dfe';
+    const STORAGE_KEYS = {
+      TOKEN: 'factoryAccessToken',
+      ARCHIVED: 'factoryArchivedIds',
+      CONFIG: 'factoryFeedConfig',
+      THEME: 'theme'
     };
 
-    const sourceIcons = {
-      twitter: 'twitter',
-      reddit: 'message-square',
-      github: 'github'
+    // State
+    let state = {
+      items: [],
+      filteredItems: [],
+      archivedIds: new Set(),
+      selectedIds: new Set(),
+      activeFilter: 'all', // all, twitter, reddit, github
+      activeCategory: 'all', // all, mention, bug, love, question, other
+      showArchived: false,
+      focusedId: null,
+      config: {}
     };
 
-    let allItems = [];
-    let itemMap = new Map();
-    let currentTimeFilter = '24h';
-    let customDays = null;
-    let currentSortOrder = 'newest';
-    let activeFilters = new Set(['twitter', 'reddit', 'github']);
-    let activeCategoryFilters = new Set(['mention', 'bug', 'love', 'question', 'other']);
-    let currentView = 'columns';
-    let hiddenUsernames = new Set();
-    let lastSeenTimestamps = {};
-    let selectedIds = new Set();
-    let archivedIds = new Set();
-    let showArchived = false;
-    let activeCardId = null;
+    // DOM Elements
+    const elements = {
+      feedList: document.getElementById('feedList'),
+      accessOverlay: document.getElementById('accessOverlay'),
+      tokenInput: document.getElementById('tokenInput'),
+      tokenSubmit: document.getElementById('tokenSubmit'),
+      tokenError: document.getElementById('tokenError'),
+      filterTabs: document.querySelectorAll('.filter-tab'),
+      categoryItems: document.querySelectorAll('.category-item'),
+      bulkBar: document.getElementById('bulkBar'),
+      bulkCount: document.getElementById('bulkCount'),
+      counts: {
+        all: document.getElementById('count-all'),
+        twitter: document.getElementById('count-twitter'),
+        reddit: document.getElementById('count-reddit'),
+        github: document.getElementById('count-github')
+      },
+      catCounts: {
+          mention: document.getElementById('cat-count-mention'),
+          bug: document.getElementById('cat-count-bug'),
+          love: document.getElementById('cat-count-love'),
+          question: document.getElementById('cat-count-question'),
+          other: document.getElementById('cat-count-other')
+      },
+      toast: document.getElementById('statusToast'),
+      settingsModal: document.getElementById('settingsModal'),
+      configInput: document.getElementById('configInput'),
+      scrollContainer: document.getElementById('scrollContainer')
+    };
 
-    function getCategory(item) {
-      // Support new 'category' field or old 'classification.label' field
-      return item.category || item.classification?.label || null;
+    // --- Initialization ---
+    async function init() {
+      loadPersistedState();
+      setupTheme();
+      setupEventListeners();
+      
+      if (await checkAccess()) {
+        startApp();
+      }
     }
-    let visibleItems = [];
-    let commandPaletteOpen = false;
-    let commandPaletteItems = [];
-    let commandPaletteIndex = 0;
-    let statusTimeoutId = null;
-    let filterTimeout;
 
-    const feedContainer = document.getElementById('feed');
-    const loadingContainer = document.getElementById('loading');
-    const errorContainer = document.getElementById('error');
-    const statusMessage = document.getElementById('statusMessage');
-    const selectionStatus = document.getElementById('selectionStatus');
-    const selectAllFilterBtn = document.getElementById('selectAllFilterBtn');
-    const archiveSelectedBtn = document.getElementById('archiveSelectedBtn');
-    const sendToSlackBtn = document.getElementById('sendToSlackBtn');
-    const toggleArchivedBtn = document.getElementById('toggleArchivedBtn');
-    const commandCenterBtn = document.getElementById('commandCenterBtn');
-    const commandPalette = document.getElementById('commandPalette');
-    const commandPaletteInput = document.getElementById('commandPaletteInput');
-    const commandPaletteList = document.getElementById('commandPaletteList');
-    const themeToggle = document.getElementById('themeToggle');
-    const settingsBtn = document.getElementById('settingsBtn');
-    const accessModal = document.getElementById('accessModal');
-    const accessTokenInput = document.getElementById('accessTokenInput');
-    const accessSubmitBtn = document.getElementById('accessSubmitBtn');
-    const accessError = document.getElementById('accessError');
-    const settingsModal = document.getElementById('settingsModal');
-    const configTextarea = document.getElementById('configTextarea');
-    const saveConfigBtn = document.getElementById('saveConfigBtn');
-    const closeSettingsBtn = document.getElementById('closeSettingsBtn');
-    const hiddenHandlesBtn = document.getElementById('hiddenHandlesBtn');
-    const hiddenHandlesDropdown = document.getElementById('hiddenHandlesDropdown');
-    const hiddenHandlesInput = document.getElementById('hiddenHandlesInput');
-    const hiddenHandlesList = document.getElementById('hiddenHandlesList');
-    const timeFilterBtn = document.getElementById('timeFilterBtn');
-    const timeFilterDropdown = document.getElementById('timeFilterDropdown');
-    const sortBtn = document.getElementById('sortBtn');
-    const viewButtons = document.querySelectorAll('.view-btn');
+    function loadPersistedState() {
+      try {
+        const archived = JSON.parse(localStorage.getItem(STORAGE_KEYS.ARCHIVED) || '[]');
+        state.archivedIds = new Set(archived);
+      } catch (e) { console.error(e); }
+      
+      state.config = getConfig();
+    }
 
-    lucide.createIcons();
+    async function startApp() {
+      elements.accessOverlay.classList.remove('open');
+      await fetchFeed();
+      setInterval(fetchFeed, 60000);
+    }
 
-    // Access Control
+    // --- Auth ---
     async function hashToken(token) {
       const encoder = new TextEncoder();
       const data = encoder.encode(token);
       const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    }
-
-    async function validateAccess() {
-      const storedToken = localStorage.getItem(ACCESS_TOKEN_KEY);
-      if (!storedToken) return false;
-      const hash = await hashToken(storedToken);
-      return hash === ACCESS_TOKEN_HASH;
+      return Array.from(new Uint8Array(hashBuffer))
+        .map(b => b.toString(16).padStart(2, '0')).join('');
     }
 
     async function checkAccess() {
-      const valid = await validateAccess();
-      if (valid) {
-        accessModal.classList.remove('open');
-        initApp();
-      }
+      const token = localStorage.getItem(STORAGE_KEYS.TOKEN);
+      if (!token) return false;
+      return (await hashToken(token)) === ACCESS_TOKEN_HASH;
     }
 
-    accessSubmitBtn.addEventListener('click', async () => {
-      const token = accessTokenInput.value.trim();
-      if (!token) return;
-      
-      const hash = await hashToken(token);
-      if (hash === ACCESS_TOKEN_HASH) {
-        localStorage.setItem(ACCESS_TOKEN_KEY, token);
-        accessModal.classList.remove('open');
-        accessError.style.display = 'none';
-        initApp();
+    elements.tokenSubmit.addEventListener('click', async () => {
+      const token = elements.tokenInput.value.trim();
+      if ((await hashToken(token)) === ACCESS_TOKEN_HASH) {
+        localStorage.setItem(STORAGE_KEYS.TOKEN, token);
+        startApp();
       } else {
-        accessError.style.display = 'block';
-        accessTokenInput.value = '';
+        elements.tokenError.style.display = 'block';
       }
     });
 
-    accessTokenInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        accessSubmitBtn.click();
-      }
+    elements.tokenInput.addEventListener('keypress', e => {
+      if (e.key === 'Enter') elements.tokenSubmit.click();
     });
 
-    checkAccess();
-
-    function initApp() {
-      fetchFeed();
-      setInterval(fetchFeed, 60000); // Refresh every minute
-    }
-
-    const savedHidden = localStorage.getItem(HIDDEN_USERS_STORAGE_KEY);
-    if (savedHidden) {
+    // --- Data ---
+    async function fetchFeed() {
       try {
-        hiddenUsernames = new Set(JSON.parse(savedHidden));
-      } catch (error) {
-        console.error('Failed to load hidden usernames:', error);
-        hiddenUsernames = new Set();
-      }
-    }
-
-    const savedTimestamps = localStorage.getItem(LAST_SEEN_STORAGE_KEY);
-    if (savedTimestamps) {
-      try {
-        lastSeenTimestamps = JSON.parse(savedTimestamps);
-      } catch (error) {
-        console.error('Failed to load last seen timestamps:', error);
-        lastSeenTimestamps = {};
-      }
-    }
-
-    const savedArchived = localStorage.getItem(ARCHIVE_STORAGE_KEY);
-    if (savedArchived) {
-      try {
-        archivedIds = new Set(JSON.parse(savedArchived));
-      } catch (error) {
-        console.error('Failed to load archived IDs:', error);
-        archivedIds = new Set();
-      }
-    }
-
-    const savedTheme = localStorage.getItem(THEME_STORAGE_KEY) || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    updateThemeIcon(savedTheme);
-
-    updateTimeFilterButton();
-    updateSortButton();
-
-    themeToggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem(THEME_STORAGE_KEY, next);
-      updateThemeIcon(next);
-    });
-
-    document.querySelectorAll('.filter-pill[data-source]').forEach(pill => {
-      pill.addEventListener('click', () => {
-        const source = pill.dataset.source;
-        if (activeFilters.has(source)) {
-          activeFilters.delete(source);
-          pill.classList.remove('active');
-        } else {
-          activeFilters.add(source);
-          pill.classList.add('active');
-          markSourceAsSeen(source);
-        }
-        renderFeed(allItems);
-      });
-    });
-
-    document.querySelectorAll('.filter-pill[data-category]').forEach(pill => {
-      pill.addEventListener('click', () => {
-        const category = pill.dataset.category;
-        if (activeCategoryFilters.has(category)) {
-          activeCategoryFilters.delete(category);
-          pill.classList.remove('active');
-        } else {
-          activeCategoryFilters.add(category);
-          pill.classList.add('active');
-        }
-        renderFeed(allItems);
-      });
-    });
-
-    timeFilterBtn.addEventListener('click', () => {
-      timeFilterDropdown.classList.toggle('open');
-    });
-
-    document.addEventListener('click', (event) => {
-      if (!timeFilterBtn.contains(event.target) && !timeFilterDropdown.contains(event.target)) {
-        timeFilterDropdown.classList.remove('open');
-      }
-      if (!hiddenHandlesBtn.contains(event.target) && !hiddenHandlesDropdown.contains(event.target)) {
-        hiddenHandlesDropdown.classList.remove('open');
-      }
-    });
-
-    document.querySelectorAll('[data-time-filter]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const filter = btn.dataset.timeFilter;
-        if (filter === 'custom') {
-          const days = prompt('Enter number of days (e.g., 7):');
-          if (days !== null && !isNaN(days) && days > 0) {
-            customDays = parseInt(days);
-            currentTimeFilter = 'custom';
-            updateTimeFilterButton();
-            timeFilterDropdown.classList.remove('open');
-            renderFeed(allItems);
-          }
-        } else {
-          currentTimeFilter = filter;
-          customDays = null;
-          updateTimeFilterButton();
-          timeFilterDropdown.classList.remove('open');
-          renderFeed(allItems);
-        }
-      });
-    });
-
-    sortBtn.addEventListener('click', () => {
-      currentSortOrder = currentSortOrder === 'newest' ? 'oldest' : 'newest';
-      updateSortButton();
-      renderFeed(allItems);
-    });
-
-    viewButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        viewButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentView = btn.dataset.view;
-        renderFeed(allItems);
-      });
-    });
-
-    hiddenHandlesBtn.addEventListener('click', () => {
-      hiddenHandlesDropdown.classList.toggle('open');
-      if (hiddenHandlesDropdown.classList.contains('open')) {
-        hiddenHandlesInput.focus();
-      }
-    });
-
-    hiddenHandlesInput.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter') {
-        const handle = event.target.value.trim().toLowerCase();
-        if (handle && !hiddenUsernames.has(handle)) {
-          hiddenUsernames.add(handle);
-          saveHiddenHandles();
-          renderHiddenHandlesList();
-          renderFeed(allItems);
-          event.target.value = '';
-        }
-      }
-    });
-
-    selectAllFilterBtn.addEventListener('click', () => {
-      const toSelect = visibleItems.filter(item => !archivedIds.has(item.id));
-      if (toSelect.length === 0) return;
-      toSelect.forEach(item => selectedIds.add(item.id));
-      renderFeed(allItems);
-      showStatusMessage(`Selected ${toSelect.length} post${toSelect.length === 1 ? '' : 's'}`, 'info');
-    });
-
-    archiveSelectedBtn.addEventListener('click', () => {
-      archiveSelected();
-    });
-
-    sendToSlackBtn.addEventListener('click', () => {
-      sendSelectedToSlackFlow();
-    });
-
-    toggleArchivedBtn.addEventListener('click', () => {
-      toggleShowArchived();
-    });
-
-    commandCenterBtn.addEventListener('click', () => {
-      openCommandPalette();
-    });
-
-    settingsBtn.addEventListener('click', () => {
-      openSettings();
-    });
-
-    saveConfigBtn.addEventListener('click', () => {
-      saveConfig();
-    });
-
-    closeSettingsBtn.addEventListener('click', () => {
-      settingsModal.classList.remove('open');
-    });
-
-    async function openSettings() {
-      const config = getConfig();
-      configTextarea.value = JSON.stringify(config, null, 2);
-      settingsModal.classList.add('open');
-    }
-
-    function saveConfig() {
-      try {
-        const config = JSON.parse(configTextarea.value);
-        localStorage.setItem(CONFIG_STORAGE_KEY, JSON.stringify(config));
-        settingsModal.classList.remove('open');
-        showStatusMessage('Configuration saved', 'info');
-      } catch (error) {
-        showStatusMessage('Invalid JSON configuration', 'error');
+        const res = await fetch('./data/feed.json');
+        if (!res.ok) throw new Error('Failed to fetch');
+        state.items = await res.json();
+        
+        // Sort by date desc
+        state.items.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+        
+        render();
+      } catch (err) {
+        console.error(err);
+        showToast('Failed to refresh feed', 'error');
       }
     }
 
     function getConfig() {
-      const saved = localStorage.getItem(CONFIG_STORAGE_KEY);
-      if (saved) {
-        try {
-          return JSON.parse(saved);
-        } catch (error) {
-          console.error('Failed to parse saved config:', error);
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEYS.CONFIG) || '{}') || {};
+      } catch { return {}; }
+    }
+
+    // --- Rendering ---
+    function render() {
+      // Filter items
+      state.filteredItems = state.items.filter(item => {
+        const isArchived = state.archivedIds.has(item.id);
+        if (state.showArchived !== isArchived) return false;
+        
+        // Source filter
+        if (state.activeFilter !== 'all' && item.source !== state.activeFilter) return false;
+        
+        // Category filter
+        if (state.activeCategory !== 'all') {
+            const cat = item.category || item.classification?.label || 'other';
+            if (cat !== state.activeCategory) return false;
         }
-      }
-      // Default config
-      return {
-        twitter: {
-          searchTerms: ["example"],
-          excludeUsernames: ["ExampleBot"]
-        },
-        reddit: {
-          urls: [
-            "https://www.reddit.com/search/?q=example&type=link&sort=new"
-          ]
-        },
-        github: {
-          usernames: ["octocat"],
-          topics: ["open-source"]
-        }
-      };
-    }
-
-    commandPalette.addEventListener('click', (event) => {
-      if (event.target === commandPalette) {
-        closeCommandPalette();
-      }
-    });
-
-    commandPaletteInput.addEventListener('input', () => {
-      updateCommandPaletteList();
-    });
-
-    commandPaletteInput.addEventListener('keydown', (event) => {
-      handleCommandPaletteKeydown(event);
-    });
-
-    commandPaletteList.addEventListener('click', (event) => {
-      handleCommandPaletteClick(event);
-    });
-
-    document.addEventListener('keydown', (event) => {
-      handleGlobalKeydown(event);
-    });
-
-    updateSelectionStatus();
-    updateArchivedToggleButton();
-    hideStatusMessage();
-    renderHiddenHandlesList();
-
-    function updateThemeIcon(theme) {
-      const icon = findIconElement(themeToggle);
-      if (icon) {
-        icon.setAttribute('data-lucide', theme === 'dark' ? 'sun' : 'moon');
-        refreshIcons();
-      }
-    }
-
-    function refreshIcons() {
-      lucide.createIcons();
-    }
-
-    function findIconElement(root) {
-      if (!root) return null;
-      return root.querySelector('[data-lucide]') || root.querySelector('svg');
-    }
-
-    function markSourceAsSeen(source) {
-      const now = new Date().toISOString();
-      lastSeenTimestamps[source] = now;
-      localStorage.setItem(LAST_SEEN_STORAGE_KEY, JSON.stringify(lastSeenTimestamps));
-      updateNewBadges();
-    }
-
-    function getNewCounts() {
-      const counts = { twitter: 0, reddit: 0, github: 0 };
-      allItems.forEach(item => {
-        if (archivedIds.has(item.id)) return;
-        const lastSeen = lastSeenTimestamps[item.source];
-        if (!lastSeen || new Date(item.timestamp) > new Date(lastSeen)) {
-          counts[item.source]++;
-        }
-      });
-      return counts;
-    }
-
-    function updateNewBadges() {
-      const counts = getNewCounts();
-      document.querySelectorAll('.filter-pill').forEach(pill => {
-        const source = pill.dataset.source;
-        const count = counts[source] || 0;
-        const existingBadge = pill.querySelector('.new-badge');
-        if (existingBadge) {
-          existingBadge.remove();
-        }
-        if (count > 0) {
-          const badge = document.createElement('span');
-          badge.className = 'new-badge';
-          badge.textContent = count;
-          pill.appendChild(badge);
-        }
-      });
-    }
-
-    function updateCategoryCounts() {
-      const categoryCounts = { mention: 0, bug: 0, love: 0, question: 0, other: 0 };
-      allItems.forEach(item => {
-        if (archivedIds.has(item.id)) return;
-        if (!activeFilters.has(item.source)) return;
-        const category = getCategory(item);
-        if (category && categoryCounts.hasOwnProperty(category)) {
-          categoryCounts[category]++;
-        }
-      });
-      document.querySelectorAll('.filter-pill[data-category]').forEach(pill => {
-        const category = pill.dataset.category;
-        const count = categoryCounts[category] || 0;
-        const countSpan = pill.querySelector('.count');
-        if (countSpan) {
-          countSpan.textContent = count;
-        }
-      });
-    }
-
-    function getSourceIcon(source, metadata) {
-      let icon = `<span class="source-icon"><i data-lucide="${sourceIcons[source] || 'circle'}"></i>`;
-      if (source === 'github' && metadata?.type === 'issue') {
-        icon += `<span class="type-tag">[issue]</span>`;
-      }
-      icon += '</span>';
-      return icon;
-    }
-
-    function isWithinTimeRange(itemTimestamp) {
-      const itemDate = new Date(itemTimestamp);
-      const now = new Date();
-      const diffMs = now - itemDate;
-
-      if (currentTimeFilter === '1h') {
-        return diffMs <= 60 * 60 * 1000;
-      } else if (currentTimeFilter === '12h') {
-        return diffMs <= 12 * 60 * 60 * 1000;
-      } else if (currentTimeFilter === '24h') {
-        return diffMs <= 24 * 60 * 60 * 1000;
-      } else if (currentTimeFilter === 'custom' && customDays) {
-        return diffMs <= customDays * 24 * 60 * 60 * 1000;
-      }
-      return true;
-    }
-
-    function saveHiddenHandles() {
-      localStorage.setItem(HIDDEN_USERS_STORAGE_KEY, JSON.stringify(Array.from(hiddenUsernames)));
-    }
-
-    function renderHiddenHandlesList() {
-      if (hiddenUsernames.size === 0) {
-        hiddenHandlesList.innerHTML = '<div class="hidden-handles-empty">No hidden handles</div>';
-        return;
-      }
-      hiddenHandlesList.innerHTML = Array.from(hiddenUsernames).map(handle => `
-        <div class="hidden-handle-item">
-          <span class="hidden-handle-item-name">@${handle}</span>
-          <button class="hidden-handle-remove-btn" data-handle="${handle}" title="Remove">
-            <i data-lucide="x"></i>
-          </button>
-        </div>
-      `).join('');
-
-      hiddenHandlesList.querySelectorAll('.hidden-handle-remove-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const handle = btn.dataset.handle;
-          hiddenUsernames.delete(handle);
-          saveHiddenHandles();
-          renderHiddenHandlesList();
-          renderFeed(allItems);
-        });
-      });
-      lucide.createIcons();
-    }
-
-    function formatTimestamp(isoString) {
-      const date = new Date(isoString);
-      const now = new Date();
-      const diffMs = now - date;
-      const diffMins = Math.floor(diffMs / 60000);
-      const diffHours = Math.floor(diffMs / 3600000);
-      const diffDays = Math.floor(diffMs / 86400000);
-      if (diffMins < 1) return 'now';
-      if (diffMins < 60) return `${diffMins}m`;
-      if (diffHours < 24) return `${diffHours}h`;
-      if (diffDays < 7) return `${diffDays}d`;
-      return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-    }
-
-    function truncateContent(content) {
-      return content.length > 240 ? content.substring(0, 240) : content;
-    }
-
-    function escapeSelector(value) {
-      if (window.CSS && typeof window.CSS.escape === 'function') {
-        return window.CSS.escape(value);
-      }
-      return value.replace(/"/g, '\\"');
-    }
-
-    function findItemById(id) {
-      return itemMap.get(id);
-    }
-
-    function scrollCardIntoView(id) {
-      if (!id) return;
-      const selector = `.card[data-id="${escapeSelector(id)}"]`;
-      const card = document.querySelector(selector);
-      if (card) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }
-
-    function renderFeed(items, options = {}) {
-      const { forceActiveId } = options;
-
-      if (!items || items.length === 0) {
-        feedContainer.className = 'feed';
-        feedContainer.innerHTML = '<div class="loading">No items yet. Waiting for first poll...</div>';
-        visibleItems = [];
-        activeCardId = null;
-        updateSelectionStatus();
-        updateArchivedToggleButton();
-        if (commandPaletteOpen) {
-          updateCommandPaletteList();
-        }
-        refreshIcons();
-        return;
-      }
-
-      const filtered = items.filter(item => {
-        if (!activeFilters.has(item.source)) return false;
-        const category = getCategory(item);
-        if (category && !activeCategoryFilters.has(category)) return false;
-        if (!showArchived && archivedIds.has(item.id)) return false;
-        if (hiddenUsernames.size > 0 && hiddenUsernames.has(item.author.toLowerCase())) return false;
-        if (!isWithinTimeRange(item.timestamp)) return false;
+        
         return true;
       });
 
-      if (filtered.length === 0) {
-        feedContainer.className = 'feed';
-        feedContainer.innerHTML = '<div class="loading">No items match your filters</div>';
-        visibleItems = [];
-        activeCardId = null;
-        selectedIds = new Set();
-        updateSelectionStatus();
-        updateArchivedToggleButton();
-        if (commandPaletteOpen) {
-          updateCommandPaletteList();
-        }
-        refreshIcons();
+      // Update counts
+      updateCounts();
+      updateBulkBar();
+
+      // Render list
+      if (state.filteredItems.length === 0) {
+        elements.feedList.innerHTML = '<div class="loading-state">No items found</div>';
         return;
       }
 
-      const filteredIds = new Set(filtered.map(item => item.id));
-      if (selectedIds.size > 0) {
-        selectedIds = new Set(Array.from(selectedIds).filter(id => filteredIds.has(id)));
+      const html = state.filteredItems.map(item => createCardHTML(item)).join('');
+      elements.feedList.innerHTML = html;
+      
+      // Restore focus
+      if (state.focusedId) {
+        const el = document.getElementById(`card-${state.focusedId}`);
+        if (el) {
+            el.classList.add('focused');
+        } else {
+            state.focusedId = null; 
+        }
       }
-
-      const sorted = [...filtered].sort((a, b) => {
-        const dateA = new Date(a.timestamp);
-        const dateB = new Date(b.timestamp);
-        return currentSortOrder === 'newest' ? dateB - dateA : dateA - dateB;
-      });
-
-      let grouped = null;
-      let flattened = [];
-
-      if (currentView === 'columns') {
-        const sources = [...activeFilters];
-        grouped = sources.reduce((acc, source) => {
-          acc[source] = sorted.filter(item => item.source === source);
-          return acc;
-        }, {});
-        flattened = sources.reduce((acc, source) => acc.concat(grouped[source] || []), []);
-      } else {
-        flattened = sorted;
-      }
-
-      if (forceActiveId && flattened.some(item => item.id === forceActiveId)) {
-        activeCardId = forceActiveId;
-      } else if (!activeCardId || !flattened.some(item => item.id === activeCardId)) {
-        activeCardId = flattened[0]?.id || null;
-      }
-
-      visibleItems = flattened;
-
-      if (currentView === 'columns') {
-        renderColumnsView(grouped);
-      } else {
-        renderListView(flattened);
-      }
-
+      
+      lucide.createIcons();
+      
+      // Listeners
       attachCardListeners();
-      updateSelectionStatus();
-      updateArchivedToggleButton();
-      updateNewBadges();
-      updateCategoryCounts();
-      if (commandPaletteOpen) {
-        updateCommandPaletteList();
-      }
-      refreshIcons();
     }
-
-    function renderListView(items) {
-      feedContainer.className = 'feed';
-      feedContainer.innerHTML = items.map(item => {
-        const contentText = (item.content || '').trim();
-        const needsExpand = contentText.length > 240;
-        const truncated = truncateContent(contentText);
-        const classes = ['card'];
-        if (selectedIds.has(item.id)) classes.push('selected');
-        if (archivedIds.has(item.id)) classes.push('archived');
-        if (item.id === activeCardId) classes.push('focused');
-        const statusBadge = archivedIds.has(item.id) ? '<span class="status-badge">Archived</span>' : '';
-        const category = getCategory(item);
-        const categoryBadge = category ? `<span class="category-badge ${category}">${category}</span>` : '';
-        return `
-          <div class="${classes.join(' ')}" data-id="${item.id}" data-url="${item.url}" data-source="${item.source}">
-            <div class="card-header">
-              ${getSourceIcon(item.source, item.metadata)}
-              <span class="author">${item.author}</span>
-              ${categoryBadge}
-              ${statusBadge}
-            </div>
-            <div class="content ${needsExpand ? 'collapsed' : ''}">${needsExpand ? truncated + '...' : contentText}</div>
-            ${needsExpand ? '<div class="expand-btn" data-expanded="false">Show more</div>' : ''}
-            <div class="card-footer">
-              ${item.metadata?.likes ? `<span>♥ ${item.metadata.likes}</span>` : ''}
-              ${item.metadata?.retweets ? `<span>↻ ${item.metadata.retweets}</span>` : ''}
-              ${item.metadata?.replies ? `<span>💬 ${item.metadata.replies}</span>` : ''}
-              ${item.metadata?.score ? `<span>⬆ ${item.metadata.score}</span>` : ''}
-              <span class="timestamp">${formatTimestamp(item.timestamp)}</span>
-            </div>
-            ${archivedIds.has(item.id) ? '<div class="card-actions"><button class="secondary-btn unarchive-btn" type="button">Restore</button></div>' : ''}
-          </div>
-        `;
-      }).join('');
-    }
-
-    function renderColumnsView(grouped) {
-      feedContainer.className = 'feed columns';
-      const sources = [...activeFilters];
-      feedContainer.innerHTML = sources.map(source => {
-        const items = grouped[source] || [];
-        const cards = items.map(item => {
-          const contentText = (item.content || '').trim();
-          const needsExpand = contentText.length > 240;
-          const truncated = truncateContent(contentText);
-          const classes = ['card'];
-          if (selectedIds.has(item.id)) classes.push('selected');
-          if (archivedIds.has(item.id)) classes.push('archived');
-          if (item.id === activeCardId) classes.push('focused');
-          const category = getCategory(item);
-          const categoryBadge = category ? `<span class="category-badge ${category}">${category}</span>` : '';
-          return `
-            <div class="${classes.join(' ')}" data-id="${item.id}" data-url="${item.url}" data-source="${item.source}">
-              <div class="card-header">
-                <span class="author">${item.author}</span>
-                ${item.source === 'github' && item.metadata?.type === 'issue' ? '<span class="type-tag">[issue]</span>' : ''}
-                ${categoryBadge}
-                ${archivedIds.has(item.id) ? '<span class="status-badge">Archived</span>' : ''}
-              </div>
-              <div class="content ${needsExpand ? 'collapsed' : ''}">${needsExpand ? truncated + '...' : contentText}</div>
-              ${needsExpand ? '<div class="expand-btn" data-expanded="false">Show more</div>' : ''}
-              <div class="card-footer">
-                ${item.metadata?.likes ? `<span>♥ ${item.metadata.likes}</span>` : ''}
-                ${item.metadata?.retweets ? `<span>↻ ${item.metadata.retweets}</span>` : ''}
-                ${item.metadata?.replies ? `<span>💬 ${item.metadata.replies}</span>` : ''}
-                ${item.metadata?.score ? `<span>⬆ ${item.metadata.score}</span>` : ''}
-                <span class="timestamp">${formatTimestamp(item.timestamp)}</span>
-              </div>
-              <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="mobile-link">View Post →</a>
-              ${archivedIds.has(item.id) ? '<div class="card-actions"><button class="secondary-btn unarchive-btn" type="button">Restore</button></div>' : ''}
-            </div>
-          `;
-        }).join('');
-        return `
-          <div class="feed-column">
-            <div class="feed-column-header">
-              <i data-lucide="${sourceIcons[source] || 'circle'}"></i>
-              ${sourceNames[source] || source}
-            </div>
-            ${cards || ''}
-          </div>
-        `;
-      }).join('');
-    }
-
+    
     function attachCardListeners() {
-      document.querySelectorAll('.card').forEach(card => {
-        card.addEventListener('click', (event) => {
-          handleCardClick(event, card);
-        });
+        document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('click', (e) => {
+             // Avoid double actions if clicking interactive elements
+             if (e.target.closest('.action-pill')) return;
+             if (e.target.closest('.card-checkbox')) return;
+             if (e.target.tagName === 'A') return;
+             
+             const id = card.dataset.id;
+             focusCard(id);
+             
+             // Click body now opens the URL
+             const url = card.dataset.url;
+             if (url) window.open(url, '_blank');
+          });
+      });
+      
+      document.querySelectorAll('.card-checkbox').forEach(box => {
+          box.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const id = box.dataset.id;
+              toggleSelection(id);
+          });
+      });
+      
+      document.querySelectorAll('.action-archive').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const id = btn.dataset.id;
+              toggleArchive(id);
+          });
+      });
+
+      document.querySelectorAll('.action-open').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const url = btn.dataset.url;
+              if (url) window.open(url, '_blank');
+          });
       });
     }
 
-    function handleCardClick(event, card) {
-      const id = card.dataset.id;
-      const item = findItemById(id);
-      if (!item) return;
+    function createCardHTML(item) {
+      const isArchived = state.archivedIds.has(item.id);
+      const isSelected = state.selectedIds.has(item.id);
+      const date = new Date(item.timestamp);
+      const timeAgo = getTimeAgo(date);
+      const category = item.category || item.classification?.label;
+      
+      let sourceIcon = 'circle';
+      if (item.source === 'twitter') sourceIcon = 'twitter';
+      if (item.source === 'reddit') sourceIcon = 'message-square';
+      if (item.source === 'github') sourceIcon = 'github';
 
-      const expandBtn = event.target.closest('.expand-btn');
-      if (expandBtn) {
-        event.stopPropagation();
-        toggleExpand(expandBtn, card, item);
-        return;
-      }
+      return `
+        <div class="card ${isArchived ? 'archived' : ''} ${isSelected ? 'selected' : ''}" 
+             id="card-${item.id}" 
+             data-id="${item.id}" 
+             data-url="${item.url}">
+          
+          <div class="card-checkbox" data-id="${item.id}">
+              ${isSelected ? '<i data-lucide="check"></i>' : ''}
+          </div>
 
-      const restoreBtn = event.target.closest('.unarchive-btn');
-      if (restoreBtn) {
-        event.stopPropagation();
-        unarchiveItems([id]);
-        return;
-      }
-
-      if (event.metaKey || event.ctrlKey) {
-        event.preventDefault();
-        activeCardId = id;
-        setTimeout(() => {
-          renderFeed(allItems, { forceActiveId: id });
-        }, 0);
-        window.open(card.dataset.url, '_blank', 'noopener,noreferrer');
-        return;
-      }
-
-      event.preventDefault();
-      toggleSelection(id);
+          <div class="card-header">
+            <div class="card-meta">
+              <span class="source-badge source-${item.source}" title="${item.source}">
+                <i data-lucide="${sourceIcon}" style="width: 12px; height: 12px;"></i>
+              </span>
+              <span class="card-author">${item.author}</span>
+              <span class="card-time">• ${timeAgo}</span>
+              ${category ? `<span class="tag tag-${category}">${category}</span>` : ''}
+            </div>
+            <div class="card-actions">
+              <!-- Hidden by CSS as requested, but kept for logic if needed later -->
+              <button class="action-pill action-open" data-id="${item.id}" data-url="${item.url}" title="Open Link (Enter)">Open</button>
+              <button class="action-pill action-archive" data-id="${item.id}">${isArchived ? 'Unarchive' : 'Archive'}</button>
+            </div>
+          </div>
+          
+          <div class="card-content">${formatContent(item.content)}</div>
+          
+          <div class="card-footer">
+             ${item.metadata?.likes ? `<span class="metric"><i data-lucide="heart"></i> ${formatNumber(item.metadata.likes)}</span>` : ''}
+             ${item.metadata?.retweets ? `<span class="metric"><i data-lucide="repeat"></i> ${formatNumber(item.metadata.retweets)}</span>` : ''}
+             ${item.metadata?.replies ? `<span class="metric"><i data-lucide="message-circle"></i> ${formatNumber(item.metadata.replies)}</span>` : ''}
+             ${item.metadata?.stars ? `<span class="metric"><i data-lucide="star"></i> ${formatNumber(item.metadata.stars)}</span>` : ''}
+          </div>
+        </div>
+      `;
+    }
+    
+    function updateCounts() {
+        const counts = { all: 0, twitter: 0, reddit: 0, github: 0 };
+        const catCounts = { mention: 0, bug: 0, love: 0, question: 0, other: 0 };
+        
+        state.items.forEach(item => {
+            if (state.archivedIds.has(item.id)) return;
+            
+            // Source counts
+            counts.all++;
+            if (counts[item.source] !== undefined) counts[item.source]++;
+            
+            // Category counts (filtered by active source)
+            if (state.activeFilter === 'all' || item.source === state.activeFilter) {
+                 const cat = item.category || item.classification?.label || 'other';
+                 if (catCounts[cat] !== undefined) catCounts[cat]++;
+                 else catCounts.other++;
+            }
+        });
+        
+        for (const key in counts) {
+            if (elements.counts[key]) elements.counts[key].textContent = counts[key];
+        }
+        
+        for (const key in catCounts) {
+            if (elements.catCounts[key]) elements.catCounts[key].textContent = catCounts[key];
+        }
+    }
+    
+    function updateBulkBar() {
+        const count = state.selectedIds.size;
+        if (count > 0) {
+            elements.bulkBar.classList.add('visible');
+            elements.bulkCount.textContent = `${count} selected`;
+        } else {
+            elements.bulkBar.classList.remove('visible');
+        }
     }
 
-    function toggleExpand(button, card, item) {
-      const content = card.querySelector('.content');
-      const full = (item.content || '').trim();
-      if (button.dataset.expanded === 'false') {
-        content.textContent = full;
-        content.classList.remove('collapsed');
-        button.textContent = 'Show less';
-        button.dataset.expanded = 'true';
-      } else {
-        content.textContent = truncateContent(full) + '...';
-        content.classList.add('collapsed');
-        button.textContent = 'Show more';
-        button.dataset.expanded = 'false';
-      }
-    }
-
+    // --- Actions ---
     function toggleSelection(id) {
-      if (!id) return;
-      if (selectedIds.has(id)) {
-        selectedIds.delete(id);
-      } else {
-        selectedIds.add(id);
-      }
-      renderFeed(allItems, { forceActiveId: id });
-    }
-
-    function clearSelection() {
-      if (selectedIds.size === 0) return;
-      selectedIds.clear();
-      renderFeed(allItems);
-    }
-
-    function archiveSelected() {
-      if (selectedIds.size === 0) return;
-      let changed = false;
-      selectedIds.forEach(id => {
-        if (!archivedIds.has(id)) {
-          archivedIds.add(id);
-          changed = true;
-        }
-      });
-      if (changed) {
-        saveArchived();
-      }
-      const count = selectedIds.size;
-      selectedIds.clear();
-      renderFeed(allItems);
-      if (changed) {
-        showStatusMessage(`${count} post${count === 1 ? '' : 's'} archived`, 'info');
-      }
-    }
-
-    function unarchiveItems(ids) {
-      let changed = false;
-      ids.forEach(id => {
-        if (archivedIds.delete(id)) {
-          changed = true;
-        }
-      });
-      if (changed) {
-        saveArchived();
-      }
-      selectedIds = new Set(Array.from(selectedIds).filter(id => !archivedIds.has(id)));
-      renderFeed(allItems, { forceActiveId: ids[0] });
-      if (changed) {
-        showStatusMessage('Post restored', 'info');
-      }
-    }
-
-    function saveArchived() {
-      localStorage.setItem(ARCHIVE_STORAGE_KEY, JSON.stringify(Array.from(archivedIds)));
-    }
-
-    function toggleShowArchived() {
-      showArchived = !showArchived;
-      renderFeed(allItems);
-      showStatusMessage(showArchived ? 'Showing archived posts' : 'Hiding archived posts', 'info');
-    }
-
-    function sendSelectedToSlackFlow() {
-      if (selectedIds.size === 0) return;
-      const channelInput = prompt('Send to Slack channel (optional)');
-      if (channelInput === null) {
-        return;
-      }
-      const channel = channelInput.trim();
-      sendSelectedToSlack(Array.from(selectedIds), channel);
-    }
-
-    async function sendSelectedToSlack(ids, channel) {
-      if (ids.length === 0) return;
-      try {
-        const payload = { itemIds: ids };
-        if (channel) {
-          payload.channel = channel;
-        }
-        const response = await fetch('/api/slack/send', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        if (!response.ok) {
-          throw new Error('Failed to send to Slack');
-        }
-        const count = ids.length;
-        selectedIds.clear();
-        renderFeed(allItems);
-        showStatusMessage(`Sent ${count} post${count === 1 ? '' : 's'} to Slack${channel ? ` (${channel})` : ''}`, 'info');
-      } catch (error) {
-        console.error('Slack send error:', error);
-        showStatusMessage('Failed to send to Slack', 'error');
-      }
-    }
-
-    function openCommandPalette() {
-      commandPaletteOpen = true;
-      commandPalette.classList.add('open');
-      commandPalette.setAttribute('aria-hidden', 'false');
-      commandPaletteInput.value = '';
-      commandPaletteIndex = 0;
-      updateCommandPaletteList();
-      setTimeout(() => commandPaletteInput.focus(), 0);
-    }
-
-    function closeCommandPalette() {
-      commandPaletteOpen = false;
-      commandPalette.classList.remove('open');
-      commandPalette.setAttribute('aria-hidden', 'true');
-      commandPaletteInput.value = '';
-    }
-
-    function getCommandActions() {
-      const selectedCount = selectedIds.size;
-      const hasArchivedSelected = Array.from(selectedIds).some(id => archivedIds.has(id));
-      const visibleCount = visibleItems.filter(item => !archivedIds.has(item.id)).length;
-      const sources = [...activeFilters];
-      const commands = [
-        {
-          id: 'archive',
-          label: selectedCount ? `Archive selected (${selectedCount})` : 'Archive selected',
-          shortcut: 'A',
-          enabled: selectedCount > 0,
-          handler: () => archiveSelected()
-        },
-        {
-          id: 'archive-all',
-          label: `Archive all visible (${visibleCount})`,
-          shortcut: 'Shift+A',
-          enabled: visibleCount > 0,
-          handler: () => archiveAllVisible()
-        },
-        {
-          id: 'unarchive',
-          label: 'Restore selected',
-          shortcut: 'U',
-          enabled: selectedCount > 0 && hasArchivedSelected,
-          handler: () => unarchiveItems(Array.from(selectedIds))
-        },
-        {
-          id: 'send-slack',
-          label: 'Send selected to Slack',
-          shortcut: 'S',
-          enabled: selectedCount > 0,
-          handler: () => sendSelectedToSlackFlow()
-        },
-        {
-          id: 'toggle-archived',
-          label: showArchived ? 'Hide archived posts' : 'Show archived posts',
-          shortcut: 'H',
-          enabled: true,
-          handler: () => toggleShowArchived()
-        },
-        {
-          id: 'select-all',
-          label: `Select all visible (${visibleCount})`,
-          shortcut: 'Cmd/Ctrl+A',
-          enabled: visibleCount > 0,
-          handler: () => selectAllVisible()
-        },
-        {
-          id: 'clear-selection',
-          label: 'Clear selection',
-          shortcut: 'Esc',
-          enabled: selectedCount > 0,
-          handler: () => clearSelection()
-        },
-        {
-          id: 'jump-next',
-          label: 'Jump to next selected (Shift+J)',
-          shortcut: 'Shift+J',
-          enabled: selectedIds.size > 1,
-          handler: () => focusNextSelected()
-        },
-        {
-          id: 'jump-prev',
-          label: 'Jump to previous selected (Shift+K)',
-          shortcut: 'Shift+K',
-          enabled: selectedIds.size > 1,
-          handler: () => focusPreviousSelected()
-        }
-      ];
-      sources.forEach(source => {
-        const sourceItems = visibleItems.filter(item => item.source === source && !archivedIds.has(item.id));
-        if (sourceItems.length > 0) {
-          commands.push({
-            id: `archive-${source}`,
-            label: `Archive all ${sourceNames[source]} posts (${sourceItems.length})`,
-            shortcut: '',
-            enabled: true,
-            handler: () => archiveBySource(source)
-          });
-          commands.push({
-            id: `select-${source}`,
-            label: `Select all ${sourceNames[source]} posts (${sourceItems.length})`,
-            shortcut: '',
-            enabled: true,
-            handler: () => selectBySource(source)
-          });
-        }
-      });
-      return commands;
-    }
-
-    function updateCommandPaletteList() {
-      const search = commandPaletteInput.value.trim().toLowerCase();
-      const actions = getCommandActions().filter(action => action.label.toLowerCase().includes(search));
-      commandPaletteItems = actions;
-      if (commandPaletteIndex >= actions.length) {
-        commandPaletteIndex = actions.length ? 0 : -1;
-      }
-      if (actions.length === 0) {
-        commandPaletteList.innerHTML = '<li class="command-item disabled">No commands</li>';
-        return;
-      }
-      commandPaletteList.innerHTML = actions.map((action, index) => {
-        const classes = ['command-item'];
-        if (!action.enabled) classes.push('disabled');
-        if (index === commandPaletteIndex) classes.push('active');
-        return `
-          <li class="${classes.join(' ')}" data-id="${action.id}">
-            <span>${action.label}</span>
-            <span class="command-shortcut">${action.shortcut}</span>
-          </li>
-        `;
-      }).join('');
-    }
-
-    function handleCommandPaletteKeydown(event) {
-      if (!commandPaletteOpen) return;
-      if (event.key === 'ArrowDown') {
-        event.preventDefault();
-        if (commandPaletteItems.length > 0) {
-          commandPaletteIndex = (commandPaletteIndex + 1) % commandPaletteItems.length;
-          updateCommandPaletteList();
-        }
-      } else if (event.key === 'ArrowUp') {
-        event.preventDefault();
-        if (commandPaletteItems.length > 0) {
-          commandPaletteIndex = (commandPaletteIndex - 1 + commandPaletteItems.length) % commandPaletteItems.length;
-          updateCommandPaletteList();
-        }
-      } else if (event.key === 'Enter') {
-        event.preventDefault();
-        const action = commandPaletteItems[commandPaletteIndex];
-        if (action && action.enabled) {
-          closeCommandPalette();
-          action.handler();
-        }
-      } else if (event.key === 'Escape') {
-        event.preventDefault();
-        closeCommandPalette();
-      }
-    }
-
-    function handleCommandPaletteClick(event) {
-      const item = event.target.closest('.command-item');
-      if (!item || item.classList.contains('disabled')) return;
-      const action = commandPaletteItems.find(action => action.id === item.dataset.id);
-      if (action && action.enabled) {
-        closeCommandPalette();
-        action.handler();
-      }
-    }
-
-    function handleGlobalKeydown(event) {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
-        event.preventDefault();
-        if (!commandPaletteOpen) {
-          openCommandPalette();
+        if (state.selectedIds.has(id)) {
+            state.selectedIds.delete(id);
         } else {
-          closeCommandPalette();
+            state.selectedIds.add(id);
         }
-        return;
-      }
-
-      if (commandPaletteOpen) {
-        return;
-      }
-
-      const target = event.target;
-      if (isTypingIntoField(target)) {
-        return;
-      }
-
-      const key = event.key.toLowerCase();
-
-      if (key === 'j' && !event.metaKey && !event.ctrlKey && !event.altKey) {
-        event.preventDefault();
-        if (event.shiftKey) {
-          focusNextSelected();
-        } else {
-          focusNextCard();
-        }
-      } else if (key === 'k' && !event.metaKey && !event.ctrlKey && !event.altKey) {
-        event.preventDefault();
-        if (event.shiftKey) {
-          focusPreviousSelected();
-        } else {
-          focusPreviousCard();
-        }
-      } else if (key === 'a' && !event.metaKey && !event.ctrlKey && !event.altKey) {
-        event.preventDefault();
-        if (event.shiftKey) {
-          archiveAllVisible();
-        } else {
-          archiveSelected();
-        }
-      } else if (key === 'a' && (event.metaKey || event.ctrlKey) && !event.altKey && !event.shiftKey) {
-        event.preventDefault();
-        selectAllVisible();
-      } else if (key === 's' && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        sendSelectedToSlackFlow();
-      } else if (key === 'h' && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        toggleShowArchived();
-      } else if (event.key === 'Enter' && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        if (activeCardId) {
-          toggleSelection(activeCardId);
-        }
-      } else if (event.key === 'Escape') {
-        event.preventDefault();
-        clearSelection();
-      } else if (event.key === 'ArrowDown' && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        focusNextCard();
-      } else if (event.key === 'ArrowUp' && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        focusPreviousCard();
-      }
+        render();
     }
-
-    function isTypingIntoField(element) {
-      if (!element) return false;
-      const tag = element.tagName;
-      const editable = element.getAttribute && element.getAttribute('contenteditable');
-      return tag === 'INPUT' || tag === 'TEXTAREA' || editable === 'true';
-    }
-
-    function focusNextCard() {
-      if (!visibleItems.length) return;
-      const index = visibleItems.findIndex(item => item.id === activeCardId);
-      const nextIndex = Math.min(index + 1, visibleItems.length - 1);
-      const next = visibleItems[nextIndex];
-      if (next) {
-        setActiveCard(next.id);
-      }
-    }
-
-    function focusPreviousCard() {
-      if (!visibleItems.length) return;
-      const index = visibleItems.findIndex(item => item.id === activeCardId);
-      const prevIndex = Math.max(index - 1, 0);
-      const prev = visibleItems[prevIndex];
-      if (prev) {
-        setActiveCard(prev.id);
-      }
-    }
-
-    function focusNextSelected() {
-      const selectedVisible = visibleItems.filter(item => selectedIds.has(item.id));
-      if (selectedVisible.length === 0) return;
-      const index = selectedVisible.findIndex(item => item.id === activeCardId);
-      const nextIndex = (index + 1) % selectedVisible.length;
-      setActiveCard(selectedVisible[nextIndex].id);
-    }
-
-    function focusPreviousSelected() {
-      const selectedVisible = visibleItems.filter(item => selectedIds.has(item.id));
-      if (selectedVisible.length === 0) return;
-      const index = selectedVisible.findIndex(item => item.id === activeCardId);
-      const prevIndex = (index - 1 + selectedVisible.length) % selectedVisible.length;
-      setActiveCard(selectedVisible[prevIndex].id);
-    }
-
-    function setActiveCard(id, options = {}) {
-      if (!id) return;
-      const scroll = options.scroll !== false;
-      renderFeed(allItems, { forceActiveId: id });
-      if (scroll) {
-        scrollCardIntoView(id);
-      }
-    }
-
-    function updateSelectionStatus() {
-      const count = selectedIds.size;
-      selectionStatus.textContent = count === 0 ? 'No posts selected' : `${count} selected`;
-      archiveSelectedBtn.disabled = count === 0;
-      sendToSlackBtn.disabled = count === 0;
-      if (commandPaletteOpen) {
-        updateCommandPaletteList();
-      }
-    }
-
-    function updateArchivedToggleButton() {
-      const icon = findIconElement(toggleArchivedBtn);
-      toggleArchivedBtn.classList.toggle('active', showArchived);
-      toggleArchivedBtn.setAttribute('title', showArchived ? 'Hide archived posts' : 'Show archived posts');
-      toggleArchivedBtn.setAttribute('aria-pressed', showArchived ? 'true' : 'false');
-      if (icon) {
-        icon.setAttribute('data-lucide', showArchived ? 'archive-restore' : 'archive');
-      }
-    }
-
-    function updateTimeFilterButton() {
-      let label = '24h';
-      if (currentTimeFilter === 'custom' && customDays) {
-        label = `${customDays}d`;
-      } else if (currentTimeFilter === '1h') {
-        label = '1h';
-      } else if (currentTimeFilter === '12h') {
-        label = '12h';
-      } else if (currentTimeFilter === '24h') {
-        label = '24h';
-      }
-      const btnText = timeFilterBtn.querySelector('.btn-text');
-      if (btnText) {
-        btnText.textContent = label;
-      }
-    }
-
-    function updateSortButton() {
-      const icon = findIconElement(sortBtn);
-      sortBtn.setAttribute('title', currentSortOrder === 'newest' ? 'Sort: Newest first' : 'Sort: Oldest first');
-      if (icon) {
-        icon.setAttribute('data-lucide', currentSortOrder === 'newest' ? 'arrow-down' : 'arrow-up');
-        refreshIcons();
-      }
-    }
-
-    function archiveAllVisible() {
-      const toArchive = visibleItems.filter(item => !archivedIds.has(item.id));
-      if (toArchive.length === 0) return;
-      const confirm = window.confirm(`Archive all ${toArchive.length} visible posts?`);
-      if (!confirm) return;
-      let changed = false;
-      toArchive.forEach(item => {
-        if (!archivedIds.has(item.id)) {
-          archivedIds.add(item.id);
-          changed = true;
-        }
-      });
-      if (changed) {
-        saveArchived();
-      }
-      selectedIds.clear();
-      renderFeed(allItems);
-      if (changed) {
-        showStatusMessage(`Archived ${toArchive.length} post${toArchive.length === 1 ? '' : 's'}`, 'info');
-      }
-    }
-
-    function archiveBySource(source) {
-      const toArchive = visibleItems.filter(item => item.source === source && !archivedIds.has(item.id));
-      if (toArchive.length === 0) return;
-      const confirm = window.confirm(`Archive all ${toArchive.length} ${sourceNames[source]} posts?`);
-      if (!confirm) return;
-      let changed = false;
-      toArchive.forEach(item => {
-        if (!archivedIds.has(item.id)) {
-          archivedIds.add(item.id);
-          changed = true;
-        }
-      });
-      if (changed) {
-        saveArchived();
-      }
-      selectedIds.clear();
-      renderFeed(allItems);
-      if (changed) {
-        showStatusMessage(`Archived ${toArchive.length} ${sourceNames[source]} post${toArchive.length === 1 ? '' : 's'}`, 'info');
-      }
-    }
-
+    
     function selectAllVisible() {
-      const toSelect = visibleItems.filter(item => !archivedIds.has(item.id));
-      if (toSelect.length === 0) return;
-      toSelect.forEach(item => selectedIds.add(item.id));
-      renderFeed(allItems);
-      showStatusMessage(`Selected ${toSelect.length} post${toSelect.length === 1 ? '' : 's'}`, 'info');
+        state.filteredItems.forEach(item => {
+            state.selectedIds.add(item.id);
+        });
+        render();
+    }
+    
+    function clearSelection() {
+        state.selectedIds.clear();
+        render();
+    }
+    
+    function archiveSelected() {
+        const count = state.selectedIds.size;
+        if (count === 0) return;
+        
+        state.selectedIds.forEach(id => {
+            state.archivedIds.add(id);
+        });
+        state.selectedIds.clear();
+        localStorage.setItem(STORAGE_KEYS.ARCHIVED, JSON.stringify([...state.archivedIds]));
+        
+        showToast(`Archived ${count} items`);
+        render();
     }
 
-    function selectBySource(source) {
-      const toSelect = visibleItems.filter(item => item.source === source && !archivedIds.has(item.id));
-      if (toSelect.length === 0) return;
-      toSelect.forEach(item => selectedIds.add(item.id));
-      renderFeed(allItems);
-      showStatusMessage(`Selected ${toSelect.length} ${sourceNames[source]} post${toSelect.length === 1 ? '' : 's'}`, 'info');
-    }
-
-    function showStatusMessage(text, type = 'info') {
-      if (!text) return;
-      statusMessage.className = `status-message ${type}`;
-      statusMessage.textContent = text;
-      statusMessage.style.display = 'block';
-      if (statusTimeoutId) {
-        clearTimeout(statusTimeoutId);
+    function toggleArchive(id) {
+      if (state.archivedIds.has(id)) {
+        state.archivedIds.delete(id);
+        showToast('Post unarchived');
+      } else {
+        state.archivedIds.add(id);
+        showToast('Post archived');
+        if (state.focusedId === id) moveFocus(1);
       }
-      statusTimeoutId = setTimeout(() => {
-        hideStatusMessage();
-      }, 3500);
+      
+      localStorage.setItem(STORAGE_KEYS.ARCHIVED, JSON.stringify([...state.archivedIds]));
+      render();
     }
 
-    function hideStatusMessage() {
-      statusMessage.style.display = 'none';
+    function focusCard(id) {
+       if (state.focusedId) {
+           document.getElementById(`card-${state.focusedId}`)?.classList.remove('focused');
+       }
+       state.focusedId = id;
+       const el = document.getElementById(`card-${id}`);
+       if (el) {
+           el.classList.add('focused');
+           el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+       }
     }
 
-    async function fetchFeed() {
-      try {
-        const response = await fetch('./data/feed.json');
-        if (!response.ok) throw new Error('Failed to fetch feed');
-        const data = await response.json();
-        allItems = Array.isArray(data) ? data : [];
-        itemMap = new Map(allItems.map(item => [item.id, item]));
-        selectedIds = new Set(Array.from(selectedIds).filter(id => itemMap.has(id)));
-        loadingContainer.style.display = 'none';
-        errorContainer.style.display = 'none';
-        renderFeed(allItems);
-      } catch (error) {
-        console.error('Error fetching feed:', error);
-        loadingContainer.style.display = 'none';
-        errorContainer.textContent = 'Failed to load feed. Will retry...';
-        errorContainer.style.display = 'block';
-      }
+    function moveFocus(direction) {
+        if (state.filteredItems.length === 0) return;
+        
+        let currentIndex = state.filteredItems.findIndex(i => i.id === state.focusedId);
+        if (currentIndex === -1) {
+            currentIndex = 0;
+        } else {
+            currentIndex += direction;
+        }
+        
+        if (currentIndex < 0) currentIndex = 0;
+        if (currentIndex >= state.filteredItems.length) currentIndex = state.filteredItems.length - 1;
+        
+        const item = state.filteredItems[currentIndex];
+        if (item) focusCard(item.id);
     }
+
+    function openFocused() {
+        if (!state.focusedId) return;
+        const item = state.items.find(i => i.id === state.focusedId);
+        if (item && item.url) window.open(item.url, '_blank');
+    }
+
+    // --- Helpers ---
+    function formatContent(text) {
+       if (!text) return '';
+       return text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" onClick="event.stopPropagation()">$1</a>');
+    }
+
+    function formatNumber(num) {
+        if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+        return num;
+    }
+
+    function getTimeAgo(date) {
+        const seconds = Math.floor((new Date() - date) / 1000);
+        if (seconds < 60) return 'just now';
+        const minutes = Math.floor(seconds / 60);
+        if (minutes < 60) return `${minutes}m`;
+        const hours = Math.floor(minutes / 60);
+        if (hours < 24) return `${hours}h`;
+        const days = Math.floor(hours / 24);
+        return `${days}d`;
+    }
+
+    function showToast(msg, type = 'info') {
+        elements.toast.textContent = msg;
+        elements.toast.classList.add('visible');
+        setTimeout(() => elements.toast.classList.remove('visible'), 3000);
+    }
+
+    // --- Event Listeners ---
+    function setupEventListeners() {
+        // Filter Tabs
+        elements.filterTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                elements.filterTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                state.activeFilter = tab.dataset.filter;
+                state.selectedIds.clear();
+                render();
+                elements.scrollContainer.scrollTop = 0;
+            });
+        });
+        
+        // Category Items
+        elements.categoryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                elements.categoryItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                state.activeCategory = item.dataset.category;
+                state.selectedIds.clear();
+                render();
+                elements.scrollContainer.scrollTop = 0;
+            });
+        });
+        
+        // Bulk Actions
+        document.getElementById('archiveSelectedBtn').addEventListener('click', archiveSelected);
+        document.getElementById('selectAllBtn').addEventListener('click', selectAllVisible);
+        document.getElementById('clearSelectionBtn').addEventListener('click', clearSelection);
+
+        // Controls
+        document.getElementById('refreshBtn').addEventListener('click', fetchFeed);
+        
+        document.getElementById('archiveToggleBtn').addEventListener('click', () => {
+            state.showArchived = !state.showArchived;
+            document.getElementById('archiveToggleBtn').classList.toggle('active');
+            render();
+        });
+
+        document.getElementById('settingsBtn').addEventListener('click', () => {
+            elements.configInput.value = JSON.stringify(state.config, null, 2);
+            elements.settingsModal.classList.add('open');
+        });
+
+        document.getElementById('closeSettingsBtn').addEventListener('click', () => {
+            elements.settingsModal.classList.remove('open');
+        });
+
+        document.getElementById('saveConfigBtn').addEventListener('click', () => {
+            try {
+                const newConfig = JSON.parse(elements.configInput.value);
+                localStorage.setItem(STORAGE_KEYS.CONFIG, JSON.stringify(newConfig));
+                state.config = newConfig;
+                elements.settingsModal.classList.remove('open');
+                showToast('Configuration saved');
+            } catch {
+                alert('Invalid JSON');
+            }
+        });
+
+        // Keyboard
+        document.addEventListener('keydown', e => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+            switch(e.key.toLowerCase()) {
+                case 'j': moveFocus(1); break;
+                case 'k': moveFocus(-1); break;
+                case 'e': 
+                    if (state.selectedIds.size > 0) {
+                        archiveSelected();
+                    } else if (state.focusedId) {
+                        toggleArchive(state.focusedId); 
+                    }
+                    break;
+                case 'x':
+                    if (state.focusedId) toggleSelection(state.focusedId);
+                    break;
+                case 'a':
+                    if (e.shiftKey) {
+                        e.preventDefault();
+                        selectAllVisible();
+                    }
+                    break;
+                case 'escape':
+                    clearSelection();
+                    break;
+                case 'enter':
+                    openFocused();
+                    break;
+                case 'r':
+                    fetchFeed();
+                    break;
+                case 'arrowdown':
+                    e.preventDefault();
+                    moveFocus(1);
+                    break;
+                case 'arrowup':
+                    e.preventDefault();
+                    moveFocus(-1);
+                    break;
+            }
+        });
+    }
+
+    function setupTheme() {
+        const themeBtn = document.getElementById('themeBtn');
+        const stored = localStorage.getItem(STORAGE_KEYS.THEME);
+        if (stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+
+        themeBtn.addEventListener('click', () => {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem(STORAGE_KEYS.THEME, next);
+            
+            const icon = next === 'dark' ? 'sun' : 'moon';
+            themeBtn.innerHTML = `<i data-lucide="${icon}"></i>`;
+            lucide.createIcons();
+        });
+    }
+
+    init();
   </script>
 </body>
 </html>
