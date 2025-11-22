@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1992371219384156472",
+    "source": "twitter",
+    "author": "simomilan96",
+    "content": "@leoisadev @FactoryAI @cursor_ai 20 dollar plans give you 20 million toke so it drain very fast...",
+    "url": "https://x.com/simomilan96/status/1992371219384156472",
+    "timestamp": "2025-11-22T23:14:49.000Z",
+    "metadata": {
+      "conversation_id": "1992371219384156472",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992370524702585170",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@_BrianKimball @SvenMeyer @FactoryAI i’ll add a front end design one this week",
+    "url": "https://x.com/bentossell/status/1992370524702585170",
+    "timestamp": "2025-11-22T23:12:04.000Z",
+    "metadata": {
+      "conversation_id": "1992370524702585170",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992369489648976021",
+    "source": "twitter",
+    "author": "_BrianKimball",
+    "content": "@SvenMeyer @bentossell @FactoryAI Factory has a skills cookbook in their docs. I used some of their skills and I created the custom skill for frontend-design https://t.co/hLg46gN67O",
+    "url": "https://x.com/_BrianKimball/status/1992369489648976021",
+    "timestamp": "2025-11-22T23:07:57.000Z",
+    "metadata": {
+      "conversation_id": "1992369489648976021",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992369376931271136",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@_BrianKimball @FactoryAI niceeeee",
+    "url": "https://x.com/bentossell/status/1992369376931271136",
+    "timestamp": "2025-11-22T23:07:30.000Z",
+    "metadata": {
+      "conversation_id": "1992369376931271136",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992368617632247935",
     "source": "twitter",
     "author": "SvenMeyer",
