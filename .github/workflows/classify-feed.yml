@@ -102,8 +102,8 @@ jobs:
           set -euo pipefail
           if [ -n "$(git status --porcelain docs/data/feed.json)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
-            CLASSIFIED_COUNT=$(git diff docs/data/feed.json | grep -c '+"category"' || echo "0")
-            echo "classified_count=$CLASSIFIED_COUNT" >> "$GITHUB_OUTPUT"
+            CLASSIFIED_COUNT=$(git diff docs/data/feed.json | grep '+"category"' | wc -l | tr -d ' ')
+            echo "classified_count=${CLASSIFIED_COUNT}" >> "$GITHUB_OUTPUT"
           else
             echo "changes=false" >> "$GITHUB_OUTPUT"
             echo "classified_count=0" >> "$GITHUB_OUTPUT"
