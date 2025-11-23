@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1992635765805981833",
+    "source": "twitter",
+    "author": "iamRamavar",
+    "content": "@benvargas @TSpencer260 @dannyveigatx @FactoryAI Getting hang on auth part, first I sign in like in docs readme then set env variable still ask for auth by local host redirect and it's not working and error out with 404",
+    "url": "https://x.com/iamRamavar/status/1992635765805981833",
+    "timestamp": "2025-11-23T16:46:02.000Z",
+    "metadata": {
+      "conversation_id": "1992635765805981833",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992635518354596267",
+    "source": "twitter",
+    "author": "benvargas",
+    "content": "@iamRamavar @TSpencer260 @dannyveigatx @FactoryAI What instructions are you following (link?) and any suggestions on what is unclear or area of setup specifically that you’re getting hung up on?",
+    "url": "https://x.com/benvargas/status/1992635518354596267",
+    "timestamp": "2025-11-23T16:45:03.000Z",
+    "metadata": {
+      "conversation_id": "1992635518354596267",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992628997197611014",
     "source": "twitter",
     "author": "JayaGup10",
