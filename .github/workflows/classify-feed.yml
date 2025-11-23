@@ -44,12 +44,12 @@ jobs:
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/droid" --version
 
-      - name: Classify feed items (droid exec --auto medium)
+      - name: Classify feed items (droid exec --auto high)
         timeout-minutes: 40
         shell: bash
         run: |
           set -euo pipefail
-          "$HOME/.local/bin/droid" exec --auto medium "
+          "$HOME/.local/bin/droid" exec --auto high "
           Categorize all items in docs/data/feed.json that don't already have a 'category' field.
           
           For each feed item, analyze the content and add a 'category' field with one of these values:
