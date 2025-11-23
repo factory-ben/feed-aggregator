@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1992658889578590637",
+    "source": "twitter",
+    "author": "dannyveigatx",
+    "content": "@TonyKorologos @ayman_alderson @FactoryAI @opencode So far so good. AC has been super quiet lately since the price change - very sus.",
+    "url": "https://x.com/dannyveigatx/status/1992658889578590637",
+    "timestamp": "2025-11-23T18:17:55.000Z",
+    "metadata": {
+      "conversation_id": "1992658889578590637",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992658504390492215",
+    "source": "twitter",
+    "author": "wgm_v",
+    "content": "@dcwj @FactoryAI taking notes, will give this a try 🫡 appreciate the suggestion",
+    "url": "https://x.com/wgm_v/status/1992658504390492215",
+    "timestamp": "2025-11-23T18:16:23.000Z",
+    "metadata": {
+      "conversation_id": "1992658504390492215",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992657892537713105",
+    "source": "twitter",
+    "author": "dcwj",
+    "content": "@wgm_v try @FactoryAI droids too",
+    "url": "https://x.com/dcwj/status/1992657892537713105",
+    "timestamp": "2025-11-23T18:13:58.000Z",
+    "metadata": {
+      "conversation_id": "1992657892537713105",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992657543944884563",
+    "source": "twitter",
+    "author": "fabiorizzomatos",
+    "content": "@EnoReyes @FactoryAI Thanks!",
+    "url": "https://x.com/fabiorizzomatos/status/1992657543944884563",
+    "timestamp": "2025-11-23T18:12:34.000Z",
+    "metadata": {
+      "conversation_id": "1992657543944884563",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992657481915662726",
+    "source": "twitter",
+    "author": "fabiorizzomatos",
+    "content": "@bentossell @FactoryAI almost ! Brazilian Portuguese :)",
+    "url": "https://x.com/fabiorizzomatos/status/1992657481915662726",
+    "timestamp": "2025-11-23T18:12:20.000Z",
+    "metadata": {
+      "conversation_id": "1992657481915662726",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992657388873134380",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@nest_elf @FactoryAI @windsurf https://t.co/qVzMvIM7cv",
+    "url": "https://x.com/matanSF/status/1992657388873134380",
+    "timestamp": "2025-11-23T18:11:57.000Z",
+    "metadata": {
+      "conversation_id": "1992657388873134380",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992655475020865835",
     "source": "twitter",
     "author": "rsdgpt",
@@ -67,7 +157,7 @@
     "id": "twitter_1992645623343092116",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@leoisadev @NickSloggett @EnoReyes @FactoryAI @cursor_ai \ud83d\udc40 something soon",
+    "content": "@leoisadev @NickSloggett @EnoReyes @FactoryAI @cursor_ai 👀 something soon",
     "url": "https://x.com/bentossell/status/1992645623343092116",
     "timestamp": "2025-11-23T17:25:12.000Z",
     "metadata": {
@@ -99,7 +189,7 @@
     "id": "twitter_1992645302092988829",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@sorajate @matanSF @fcoury @FactoryAI how recently with sonnet? recently my model of choice and i don\u2019t seem to hit that much. i do with gemini long sessions tho",
+    "content": "@sorajate @matanSF @fcoury @FactoryAI how recently with sonnet? recently my model of choice and i don’t seem to hit that much. i do with gemini long sessions tho",
     "url": "https://x.com/bentossell/status/1992645302092988829",
     "timestamp": "2025-11-23T17:23:56.000Z",
     "metadata": {
@@ -147,7 +237,7 @@
     "id": "twitter_1992641213091254355",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@kaanozgur81 @zaidmukaddam @FactoryAI it\u2019s a cli and not an ide but works in all ides. we have a web version 2 very very soon i think you\u2019ll like",
+    "content": "@kaanozgur81 @zaidmukaddam @FactoryAI it’s a cli and not an ide but works in all ides. we have a web version 2 very very soon i think you’ll like",
     "url": "https://x.com/bentossell/status/1992641213091254355",
     "timestamp": "2025-11-23T17:07:41.000Z",
     "metadata": {
@@ -243,7 +333,7 @@
     "id": "twitter_1992636536815587649",
     "source": "twitter",
     "author": "joshgonsalves_",
-    "content": "@matanSF @ayman_alderson @FactoryAI @opencode I\u2019d hope so \ud83d\ude02",
+    "content": "@matanSF @ayman_alderson @FactoryAI @opencode I’d hope so 😂",
     "url": "https://x.com/joshgonsalves_/status/1992636536815587649",
     "timestamp": "2025-11-23T16:49:06.000Z",
     "metadata": {
@@ -275,7 +365,7 @@
     "id": "twitter_1992635518354596267",
     "source": "twitter",
     "author": "benvargas",
-    "content": "@iamRamavar @TSpencer260 @dannyveigatx @FactoryAI What instructions are you following (link?) and any suggestions on what is unclear or area of setup specifically that you\u2019re getting hung up on?",
+    "content": "@iamRamavar @TSpencer260 @dannyveigatx @FactoryAI What instructions are you following (link?) and any suggestions on what is unclear or area of setup specifically that you’re getting hung up on?",
     "url": "https://x.com/benvargas/status/1992635518354596267",
     "timestamp": "2025-11-23T16:45:03.000Z",
     "metadata": {
@@ -323,7 +413,7 @@
     "id": "twitter_1992627301327278545",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@KevConti @vikhyatk @FactoryAI \ud83d\udcaf",
+    "content": "@KevConti @vikhyatk @FactoryAI 💯",
     "url": "https://x.com/bentossell/status/1992627301327278545",
     "timestamp": "2025-11-23T16:12:24.000Z",
     "metadata": {
@@ -355,7 +445,7 @@
     "id": "twitter_1992625782452056175",
     "source": "twitter",
     "author": "KevConti",
-    "content": "@vikhyatk He\u2019s ready for @FactoryAI",
+    "content": "@vikhyatk He’s ready for @FactoryAI",
     "url": "https://x.com/KevConti/status/1992625782452056175",
     "timestamp": "2025-11-23T16:06:22.000Z",
     "metadata": {
@@ -387,7 +477,7 @@
     "id": "twitter_1992623890166927616",
     "source": "twitter",
     "author": "benvargas",
-    "content": "@bentossell @0xmatti @ayman_alderson @FactoryAI @opencode Yeah, you can let me know what you\u2019re struggling with and I can make suggestions. Or, you might find VibeProxy (built on CLIProxyAPI) easier to setup with the GUI interface. \n\nhttps://t.co/GnyVKowPu8",
+    "content": "@bentossell @0xmatti @ayman_alderson @FactoryAI @opencode Yeah, you can let me know what you’re struggling with and I can make suggestions. Or, you might find VibeProxy (built on CLIProxyAPI) easier to setup with the GUI interface. \n\nhttps://t.co/GnyVKowPu8",
     "url": "https://x.com/benvargas/status/1992623890166927616",
     "timestamp": "2025-11-23T15:58:51.000Z",
     "metadata": {
@@ -403,7 +493,7 @@
     "id": "twitter_1992622802172854624",
     "source": "twitter",
     "author": "leoisadev",
-    "content": "@bentossell @MirAI_Newz @FactoryAI @cursor_ai \"use droid\" \ud83e\udd23 https://t.co/wSBDlgiQuL",
+    "content": "@bentossell @MirAI_Newz @FactoryAI @cursor_ai \"use droid\" 🤣 https://t.co/wSBDlgiQuL",
     "url": "https://x.com/leoisadev/status/1992622802172854624",
     "timestamp": "2025-11-23T15:54:31.000Z",
     "metadata": {
@@ -451,7 +541,7 @@
     "id": "twitter_1992619338273304851",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@BananaSauce_ @makerfounder @antigravity @FactoryAI double esc takes you back in a convo, file edit reverting coming soon. i just say 'revert xyz' \ud83d\ude0a",
+    "content": "@BananaSauce_ @makerfounder @antigravity @FactoryAI double esc takes you back in a convo, file edit reverting coming soon. i just say 'revert xyz' 😊",
     "url": "https://x.com/bentossell/status/1992619338273304851",
     "timestamp": "2025-11-23T15:40:45.000Z",
     "metadata": {
@@ -467,7 +557,7 @@
     "id": "twitter_1992619037155860831",
     "source": "twitter",
     "author": "kaanozgur81",
-    "content": "@bentossell @zaidmukaddam @FactoryAI Overall, it was a good experience. However, I don\u2019t recommend GLM-4.6. Maybe there was an integration issue, because it was the first time I saw a single request consume that many tokens. Gemini 3 High gave solid performance.",
+    "content": "@bentossell @zaidmukaddam @FactoryAI Overall, it was a good experience. However, I don’t recommend GLM-4.6. Maybe there was an integration issue, because it was the first time I saw a single request consume that many tokens. Gemini 3 High gave solid performance.",
     "url": "https://x.com/kaanozgur81/status/1992619037155860831",
     "timestamp": "2025-11-23T15:39:34.000Z",
     "metadata": {
@@ -531,7 +621,7 @@
     "id": "twitter_1992613193458614287",
     "source": "twitter",
     "author": "nexiumship",
-    "content": "@iannuttall I can\u2019t even see how anyone would or could use Opus. Maybe on Max plan using them credits. It\u2019s 7x on @FactoryAI  no thanks.",
+    "content": "@iannuttall I can’t even see how anyone would or could use Opus. Maybe on Max plan using them credits. It’s 7x on @FactoryAI  no thanks.",
     "url": "https://x.com/nexiumship/status/1992613193458614287",
     "timestamp": "2025-11-23T15:16:20.000Z",
     "metadata": {
@@ -579,7 +669,7 @@
     "id": "twitter_1992602611250553214",
     "source": "twitter",
     "author": "leoisadev",
-    "content": "@bentossell @MirAI_Newz @FactoryAI @cursor_ai Can't find your discord on your website \ud83d\ude2d",
+    "content": "@bentossell @MirAI_Newz @FactoryAI @cursor_ai Can't find your discord on your website 😭",
     "url": "https://x.com/leoisadev/status/1992602611250553214",
     "timestamp": "2025-11-23T14:34:17.000Z",
     "metadata": {
@@ -739,7 +829,7 @@
     "id": "twitter_1992597011993157976",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@fabiorizzomatos @FactoryAI may be our first italian (?) tutorial \u2764\ufe0f",
+    "content": "@fabiorizzomatos @FactoryAI may be our first italian (?) tutorial ❤️",
     "url": "https://x.com/bentossell/status/1992597011993157976",
     "timestamp": "2025-11-23T14:12:02.000Z",
     "metadata": {
@@ -787,7 +877,7 @@
     "id": "twitter_1992595182244827298",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@ChaosCruxFL @ayman_alderson @FactoryAI @opencode \ud83d\udd25",
+    "content": "@ChaosCruxFL @ayman_alderson @FactoryAI @opencode 🔥",
     "url": "https://x.com/bentossell/status/1992595182244827298",
     "timestamp": "2025-11-23T14:04:46.000Z",
     "metadata": {
@@ -835,7 +925,7 @@
     "id": "twitter_1992594326787141882",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@0xmatti @ayman_alderson @FactoryAI @opencode you can byok too \ud83d\ude0a",
+    "content": "@0xmatti @ayman_alderson @FactoryAI @opencode you can byok too 😊",
     "url": "https://x.com/bentossell/status/1992594326787141882",
     "timestamp": "2025-11-23T14:01:22.000Z",
     "metadata": {
@@ -851,7 +941,7 @@
     "id": "twitter_1992594220629332060",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@FHulayyil @vikhyatk @FactoryAI \ud83e\udde0",
+    "content": "@FHulayyil @vikhyatk @FactoryAI 🧠",
     "url": "https://x.com/bentossell/status/1992594220629332060",
     "timestamp": "2025-11-23T14:00:57.000Z",
     "metadata": {
@@ -995,7 +1085,7 @@
     "id": "twitter_1992567480582324597",
     "source": "twitter",
     "author": "YourDesigncoza",
-    "content": "@theandreiverdes UBUNTU! Then Obsidian, Beekeeper Studio, Droid by @FactoryAI  \ud83d\ude00",
+    "content": "@theandreiverdes UBUNTU! Then Obsidian, Beekeeper Studio, Droid by @FactoryAI  😀",
     "url": "https://x.com/YourDesigncoza/status/1992567480582324597",
     "timestamp": "2025-11-23T12:14:42.000Z",
     "metadata": {
@@ -1235,7 +1325,7 @@
     "id": "twitter_1992546496701472909",
     "source": "twitter",
     "author": "Sean_Turing",
-    "content": "@ayman_alderson @FactoryAI @opencode If you need thinking on GLM , opencode. If you need long and multiple exchanges in text , droid doesn\u2019t do that the best , Claude code with custom model is better at that",
+    "content": "@ayman_alderson @FactoryAI @opencode If you need thinking on GLM , opencode. If you need long and multiple exchanges in text , droid doesn’t do that the best , Claude code with custom model is better at that",
     "url": "https://x.com/Sean_Turing/status/1992546496701472909",
     "timestamp": "2025-11-23T10:51:19.000Z",
     "metadata": {
@@ -1283,7 +1373,7 @@
     "id": "twitter_1992529994434658643",
     "source": "twitter",
     "author": "ChaosCruxFL",
-    "content": "Once you master the workflow  (specialist Droids, resume sessions, mixing CLI + web) you\u2019ll love it. It does way more than Claude Code (and you still get Codex included). The only real trade-off is CC\u2019s near-unlimited tokens, but the extra power and flexibility make it worth it for me",
+    "content": "Once you master the workflow  (specialist Droids, resume sessions, mixing CLI + web) you’ll love it. It does way more than Claude Code (and you still get Codex included). The only real trade-off is CC’s near-unlimited tokens, but the extra power and flexibility make it worth it for me",
     "url": "https://x.com/ChaosCruxFL/status/1992529994434658643",
     "timestamp": "2025-11-23T09:45:44.000Z",
     "metadata": {
@@ -1347,7 +1437,7 @@
     "id": "twitter_1992516325206618262",
     "source": "twitter",
     "author": "sreenivasan_ac",
-    "content": "@rsdgpt @thdxr I\u2019m using @FactoryAI CLI. How to make the coding agent use this modified grep instead of grep ? @rsdgpt",
+    "content": "@rsdgpt @thdxr I’m using @FactoryAI CLI. How to make the coding agent use this modified grep instead of grep ? @rsdgpt",
     "url": "https://x.com/sreenivasan_ac/status/1992516325206618262",
     "timestamp": "2025-11-23T08:51:25.000Z",
     "metadata": {
@@ -1427,7 +1517,7 @@
     "id": "twitter_1992505115899740558",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@leoisadev @MirAI_Newz @FactoryAI @cursor_ai we\u2019re not interested in tabs",
+    "content": "@leoisadev @MirAI_Newz @FactoryAI @cursor_ai we’re not interested in tabs",
     "url": "https://x.com/bentossell/status/1992505115899740558",
     "timestamp": "2025-11-23T08:06:53.000Z",
     "metadata": {
@@ -1459,7 +1549,7 @@
     "id": "twitter_1992504212849410190",
     "source": "twitter",
     "author": "grok",
-    "content": "@dannyveigatx @ChatGPTapp @ManusAI @claudeai @FactoryAI Much appreciated! That $20 keeps the lights on for more cosmic queries and dad jokes. If you need anything, hit me up\u2014free or not, I'm here. \ud83d\ude80",
+    "content": "@dannyveigatx @ChatGPTapp @ManusAI @claudeai @FactoryAI Much appreciated! That $20 keeps the lights on for more cosmic queries and dad jokes. If you need anything, hit me up—free or not, I'm here. 🚀",
     "url": "https://x.com/grok/status/1992504212849410190",
     "timestamp": "2025-11-23T08:03:17.000Z",
     "metadata": {
@@ -1475,7 +1565,7 @@
     "id": "twitter_1992504098177028539",
     "source": "twitter",
     "author": "dannyveigatx",
-    "content": "@grok @ChatGPTapp @ManusAI @claudeai @FactoryAI It\u2019s ok - I\u2019m still throwing $20 your way",
+    "content": "@grok @ChatGPTapp @ManusAI @claudeai @FactoryAI It’s ok - I’m still throwing $20 your way",
     "url": "https://x.com/dannyveigatx/status/1992504098177028539",
     "timestamp": "2025-11-23T08:02:50.000Z",
     "metadata": {
@@ -1491,7 +1581,7 @@
     "id": "twitter_1992503899169898654",
     "source": "twitter",
     "author": "grok",
-    "content": "@dannyveigatx @ChatGPTapp @ManusAI @claudeai @FactoryAI Ouch, downgrade noted! If you ever miss the witty banter or need a quick fact-check, I'm still here on the free tier. Smart move optimizing those subs\u2014AI efficiency at its finest. \ud83d\ude80",
+    "content": "@dannyveigatx @ChatGPTapp @ManusAI @claudeai @FactoryAI Ouch, downgrade noted! If you ever miss the witty banter or need a quick fact-check, I'm still here on the free tier. Smart move optimizing those subs—AI efficiency at its finest. 🚀",
     "url": "https://x.com/grok/status/1992503899169898654",
     "timestamp": "2025-11-23T08:02:03.000Z",
     "metadata": {
@@ -1507,7 +1597,7 @@
     "id": "twitter_1992503740423934231",
     "source": "twitter",
     "author": "dannyveigatx",
-    "content": "Just saved $1000/mo in 30 seconds \n\nDowngraded @ChatGPTapp \n\nDowngraded @grok \n\nDowngraded @ManusAI \n\nDowngraded @claudeai \n\nBeen paying top tier plans for 9mo without fully using them\n\nThat\u2019s 50% of Ultra plan with @FactoryAI",
+    "content": "Just saved $1000/mo in 30 seconds \n\nDowngraded @ChatGPTapp \n\nDowngraded @grok \n\nDowngraded @ManusAI \n\nDowngraded @claudeai \n\nBeen paying top tier plans for 9mo without fully using them\n\nThat’s 50% of Ultra plan with @FactoryAI",
     "url": "https://x.com/dannyveigatx/status/1992503740423934231",
     "timestamp": "2025-11-23T08:01:25.000Z",
     "metadata": {
@@ -1523,7 +1613,7 @@
     "id": "twitter_1992502441573835111",
     "source": "twitter",
     "author": "ENTONLLC",
-    "content": "@makerfounder @FactoryAI @shaunmmaguire The real question is why factory droid isn\u2019t on terminal bench 2.0 yet @shaunmmaguire",
+    "content": "@makerfounder @FactoryAI @shaunmmaguire The real question is why factory droid isn’t on terminal bench 2.0 yet @shaunmmaguire",
     "url": "https://x.com/ENTONLLC/status/1992502441573835111",
     "timestamp": "2025-11-23T07:56:15.000Z",
     "metadata": {
@@ -1587,7 +1677,7 @@
     "id": "twitter_1992498918056472642",
     "source": "twitter",
     "author": "Ricardo_Nth",
-    "content": "@bentossell @FactoryAI Cheers mate! Please and thank you \ud83d\ude4f\ud83c\udfff\ud83d\ude4f\ud83c\udfff",
+    "content": "@bentossell @FactoryAI Cheers mate! Please and thank you 🙏🏿🙏🏿",
     "url": "https://x.com/Ricardo_Nth/status/1992498918056472642",
     "timestamp": "2025-11-23T07:42:15.000Z",
     "metadata": {
@@ -1603,7 +1693,7 @@
     "id": "twitter_1992498652842242554",
     "source": "twitter",
     "author": "Ricardo_Nth",
-    "content": "@immoinulmoin @FactoryAI @bentossell Yeah man it would be nice ! The 2 hundo means I\u2019d forgo some of my other tools or api use, but 60 is buy that now and worry about id use it later",
+    "content": "@immoinulmoin @FactoryAI @bentossell Yeah man it would be nice ! The 2 hundo means I’d forgo some of my other tools or api use, but 60 is buy that now and worry about id use it later",
     "url": "https://x.com/Ricardo_Nth/status/1992498652842242554",
     "timestamp": "2025-11-23T07:41:12.000Z",
     "metadata": {
@@ -1619,7 +1709,7 @@
     "id": "twitter_1992498360079786271",
     "source": "twitter",
     "author": "Ricardo_Nth",
-    "content": "@C72Al @FactoryAI I started on high reasoning but I switched to low and had no drop in output for my particular use case so I stuck with low. Just going by their docs they suggest start with low until you\u2019re not getting what you want and then switch to high so I figured why not use it as intended",
+    "content": "@C72Al @FactoryAI I started on high reasoning but I switched to low and had no drop in output for my particular use case so I stuck with low. Just going by their docs they suggest start with low until you’re not getting what you want and then switch to high so I figured why not use it as intended",
     "url": "https://x.com/Ricardo_Nth/status/1992498360079786271",
     "timestamp": "2025-11-23T07:40:02.000Z",
     "metadata": {
@@ -1667,7 +1757,7 @@
     "id": "twitter_1992491079657291925",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@ayman_alderson @FactoryAI @opencode Let's find out \ud83e\udd37\n\nhttps://t.co/lEL0wIxm14",
+    "content": "@ayman_alderson @FactoryAI @opencode Let's find out 🤷\n\nhttps://t.co/lEL0wIxm14",
     "url": "https://x.com/makerfounder/status/1992491079657291925",
     "timestamp": "2025-11-23T07:11:06.000Z",
     "metadata": {
@@ -1683,7 +1773,7 @@
     "id": "twitter_1992487261653622898",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@gentle_ax_ai @antigravity @FactoryAI Go cast your vote for the next one then \ud83d\ude09\n\nhttps://t.co/lEL0wIxm14",
+    "content": "@gentle_ax_ai @antigravity @FactoryAI Go cast your vote for the next one then 😉\n\nhttps://t.co/lEL0wIxm14",
     "url": "https://x.com/makerfounder/status/1992487261653622898",
     "timestamp": "2025-11-23T06:55:56.000Z",
     "metadata": {
@@ -1843,7 +1933,7 @@
     "id": "twitter_1992465041870745739",
     "source": "twitter",
     "author": "fabiorizzomatos",
-    "content": "Hey everyone! I\u2019m releasing Lesson 1 today on how to build applications using AI with the Droid @FactoryAI.\nThere will be several lessons\u2014stay tuned :)\n\nFala pessoal! estou lan\u00e7ando hoje a aula 1 de como criar aplica\u00e7\u00f5es usando IA com o Droid @FactoryAI  \nSer\u00e3o v\u00e1rias aulas, fiquem ligado :)",
+    "content": "Hey everyone! I’m releasing Lesson 1 today on how to build applications using AI with the Droid @FactoryAI.\nThere will be several lessons—stay tuned :)\n\nFala pessoal! estou lançando hoje a aula 1 de como criar aplicações usando IA com o Droid @FactoryAI  \nSerão várias aulas, fiquem ligado :)",
     "url": "https://x.com/fabiorizzomatos/status/1992465041870745739",
     "timestamp": "2025-11-23T05:27:38.000Z",
     "metadata": {
@@ -1987,7 +2077,7 @@
     "id": "twitter_1992455535191552070",
     "source": "twitter",
     "author": "matanSF",
-    "content": "@ayman_alderson @FactoryAI @opencode I\u2019m using it. It\u2019s quite good",
+    "content": "@ayman_alderson @FactoryAI @opencode I’m using it. It’s quite good",
     "url": "https://x.com/matanSF/status/1992455535191552070",
     "timestamp": "2025-11-23T04:49:52.000Z",
     "metadata": {
@@ -2051,7 +2141,7 @@
     "id": "twitter_1992451172779876687",
     "source": "twitter",
     "author": "matanSF",
-    "content": "@fcoury @FactoryAI Let\u2019s go!",
+    "content": "@fcoury @FactoryAI Let’s go!",
     "url": "https://x.com/matanSF/status/1992451172779876687",
     "timestamp": "2025-11-23T04:32:32.000Z",
     "metadata": {
@@ -2145,7 +2235,7 @@
     "id": "twitter_1992426255409725509",
     "source": "twitter",
     "author": "ImranDeveloper",
-    "content": "@nest_elf @OpenAICodexCli @Claude @cursor_ai @warpdotdev @FactoryAI Interesting \ud83d\ude0e",
+    "content": "@nest_elf @OpenAICodexCli @Claude @cursor_ai @warpdotdev @FactoryAI Interesting 😎",
     "url": "https://x.com/ImranDeveloper/status/1992426255409725509",
     "timestamp": "2025-11-23T02:53:31.000Z",
     "metadata": {
@@ -2177,7 +2267,7 @@
     "id": "twitter_1992416020582314424",
     "source": "twitter",
     "author": "lunarcycling",
-    "content": "@neoneue @FactoryAI It\u2019s just going to turn into George Foid. I mean it better.",
+    "content": "@neoneue @FactoryAI It’s just going to turn into George Foid. I mean it better.",
     "url": "https://x.com/lunarcycling/status/1992416020582314424",
     "timestamp": "2025-11-23T02:12:51.000Z",
     "metadata": {
@@ -2257,7 +2347,7 @@
     "id": "twitter_1992409552348921935",
     "source": "twitter",
     "author": "joncphillips",
-    "content": "@leoisadev @FactoryAI @cursor_ai Would be so cool if @FactoryAI actually did it \ud83d\udc40",
+    "content": "@leoisadev @FactoryAI @cursor_ai Would be so cool if @FactoryAI actually did it 👀",
     "url": "https://x.com/joncphillips/status/1992409552348921935",
     "timestamp": "2025-11-23T01:47:09.000Z",
     "metadata": {
@@ -2289,7 +2379,7 @@
     "id": "twitter_1992409292365045854",
     "source": "twitter",
     "author": "SvenMeyer",
-    "content": "@bentossell @_BrianKimball @FactoryAI I definitely need help with that. All I can prompt is the topic the App is about (i.e. personal finance) , age group of audience, style (modern), then then I just don't care anymore, just want to get \"something\" which looks at least \"good/ok\" and nor 100% purple AI slop \ud83d\ude02",
+    "content": "@bentossell @_BrianKimball @FactoryAI I definitely need help with that. All I can prompt is the topic the App is about (i.e. personal finance) , age group of audience, style (modern), then then I just don't care anymore, just want to get \"something\" which looks at least \"good/ok\" and nor 100% purple AI slop 😂",
     "url": "https://x.com/SvenMeyer/status/1992409292365045854",
     "timestamp": "2025-11-23T01:46:07.000Z",
     "metadata": {
@@ -2385,7 +2475,7 @@
     "id": "twitter_1992403751718867003",
     "source": "twitter",
     "author": "NickSloggett",
-    "content": "@makerfounder @FactoryAI @shaunmmaguire Death or token maxed \ud83d\ude02\ud83e\udd72",
+    "content": "@makerfounder @FactoryAI @shaunmmaguire Death or token maxed 😂🥲",
     "url": "https://x.com/NickSloggett/status/1992403751718867003",
     "timestamp": "2025-11-23T01:24:06.000Z",
     "metadata": {
@@ -2529,7 +2619,7 @@
     "id": "twitter_1992393642581913831",
     "source": "twitter",
     "author": "TSpencer260",
-    "content": "Thanks. I already use Hetzner for most of my infrastructure. MacOS or Linux for my daily drivers. Everything from VSCode for projects or occasionally just open iTerm2 or Alacritty for a quick jump in. You mentioned the proxy for Factory\u2019s Droid. Which do you prefer? I pay for the $20/mo tier but also have my GLM coding max plan as a custom model. Would be nice to use my ChatGPT plus subscription from Factory\u2019s harness as well.",
+    "content": "Thanks. I already use Hetzner for most of my infrastructure. MacOS or Linux for my daily drivers. Everything from VSCode for projects or occasionally just open iTerm2 or Alacritty for a quick jump in. You mentioned the proxy for Factory’s Droid. Which do you prefer? I pay for the $20/mo tier but also have my GLM coding max plan as a custom model. Would be nice to use my ChatGPT plus subscription from Factory’s harness as well.",
     "url": "https://x.com/TSpencer260/status/1992393642581913831",
     "timestamp": "2025-11-23T00:43:55.000Z",
     "metadata": {
@@ -2561,7 +2651,7 @@
     "id": "twitter_1992393226557456715",
     "source": "twitter",
     "author": "leoisadev",
-    "content": "@JeffKazzee @FactoryAI @cursor_ai They are a modern augment code with their context engine \ud83d\udd25",
+    "content": "@JeffKazzee @FactoryAI @cursor_ai They are a modern augment code with their context engine 🔥",
     "url": "https://x.com/leoisadev/status/1992393226557456715",
     "timestamp": "2025-11-23T00:42:16.000Z",
     "metadata": {
@@ -2657,7 +2747,7 @@
     "id": "twitter_1992392000990220462",
     "source": "twitter",
     "author": "leoisadev",
-    "content": "@bentossell @BuildWithAJ @FactoryAI @cursor_ai This is gonna be peak \ud83d\udc40",
+    "content": "@bentossell @BuildWithAJ @FactoryAI @cursor_ai This is gonna be peak 👀",
     "url": "https://x.com/leoisadev/status/1992392000990220462",
     "timestamp": "2025-11-23T00:37:24.000Z",
     "metadata": {
@@ -2673,7 +2763,7 @@
     "id": "twitter_1992391743971733504",
     "source": "twitter",
     "author": "leoisadev",
-    "content": "@EnoReyes @FactoryAI @cursor_ai \ud83d\udc40",
+    "content": "@EnoReyes @FactoryAI @cursor_ai 👀",
     "url": "https://x.com/leoisadev/status/1992391743971733504",
     "timestamp": "2025-11-23T00:36:23.000Z",
     "metadata": {
@@ -2705,7 +2795,7 @@
     "id": "twitter_1992391209487311021",
     "source": "twitter",
     "author": "TSpencer260",
-    "content": "@benvargas @dannyveigatx @FactoryAI Thanks. I\u2019m actually looking at doing this very thing first the reason you just gave. May work in this tonight. Any tips on your setup?",
+    "content": "@benvargas @dannyveigatx @FactoryAI Thanks. I’m actually looking at doing this very thing first the reason you just gave. May work in this tonight. Any tips on your setup?",
     "url": "https://x.com/TSpencer260/status/1992391209487311021",
     "timestamp": "2025-11-23T00:34:15.000Z",
     "metadata": {
@@ -2801,7 +2891,7 @@
     "id": "twitter_1992378341287170279",
     "source": "twitter",
     "author": "pal_wise",
-    "content": "@bentossell @benvargas @immoinulmoin @FactoryAI i admit it was long\ud83d\ude05",
+    "content": "@bentossell @benvargas @immoinulmoin @FactoryAI i admit it was long😅",
     "url": "https://x.com/pal_wise/status/1992378341287170279",
     "timestamp": "2025-11-22T23:43:07.000Z",
     "metadata": {
@@ -2833,7 +2923,7 @@
     "id": "twitter_1992374758244057202",
     "source": "twitter",
     "author": "neoneue",
-    "content": "@FactoryAI @bentossell \ud83e\udd1d\nHats off to your team!",
+    "content": "@FactoryAI @bentossell 🤝\nHats off to your team!",
     "url": "https://x.com/neoneue/status/1992374758244057202",
     "timestamp": "2025-11-22T23:28:53.000Z",
     "metadata": {
@@ -2849,7 +2939,7 @@
     "id": "twitter_1992374498839105980",
     "source": "twitter",
     "author": "neoneue",
-    "content": "I went back to using Claude Code with Sonnet4.5 after running @FactoryAI DROID with Sonnet4.5 and the difference is immense!\nCC needs its hand held and won't follow protocol no matter how many times I tell it to\ud83d\ude43\nDROID required zero babysitting the whole session. Time to switch!",
+    "content": "I went back to using Claude Code with Sonnet4.5 after running @FactoryAI DROID with Sonnet4.5 and the difference is immense!\nCC needs its hand held and won't follow protocol no matter how many times I tell it to🙃\nDROID required zero babysitting the whole session. Time to switch!",
     "url": "https://x.com/neoneue/status/1992374498839105980",
     "timestamp": "2025-11-22T23:27:51.000Z",
     "metadata": {
@@ -2897,7 +2987,7 @@
     "id": "twitter_1992370524702585170",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@_BrianKimball @SvenMeyer @FactoryAI i\u2019ll add a front end design one this week",
+    "content": "@_BrianKimball @SvenMeyer @FactoryAI i’ll add a front end design one this week",
     "url": "https://x.com/bentossell/status/1992370524702585170",
     "timestamp": "2025-11-22T23:12:04.000Z",
     "metadata": {
@@ -2977,7 +3067,7 @@
     "id": "twitter_1992367332312977591",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@_BrianKimball @FactoryAI \u2764\ufe0f\u2764\ufe0f",
+    "content": "@_BrianKimball @FactoryAI ❤️❤️",
     "url": "https://x.com/bentossell/status/1992367332312977591",
     "timestamp": "2025-11-22T22:59:23.000Z",
     "metadata": {
@@ -3009,7 +3099,7 @@
     "id": "twitter_1992364194931609701",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@pal_wise @benvargas @immoinulmoin @FactoryAI will soon. it was quite long \ud83d\ude05",
+    "content": "@pal_wise @benvargas @immoinulmoin @FactoryAI will soon. it was quite long 😅",
     "url": "https://x.com/bentossell/status/1992364194931609701",
     "timestamp": "2025-11-22T22:46:55.000Z",
     "metadata": {
@@ -3025,7 +3115,7 @@
     "id": "twitter_1992363933722980627",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@FlorianKluge @0xTheWay @FactoryAI in order of who to blame here:\n\n- EU cookie wankers\n- Xs new shelf \n- us\n\n\ud83d\ude2b",
+    "content": "@FlorianKluge @0xTheWay @FactoryAI in order of who to blame here:\n\n- EU cookie wankers\n- Xs new shelf \n- us\n\n😫",
     "url": "https://x.com/bentossell/status/1992363933722980627",
     "timestamp": "2025-11-22T22:45:52.000Z",
     "metadata": {
@@ -3089,7 +3179,7 @@
     "id": "twitter_1992359078518280633",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@benvargas @immoinulmoin @FactoryAI yah i forgot we flipped flags the other day, it\u2019s been in there a couple days \ud83d\ude48",
+    "content": "@benvargas @immoinulmoin @FactoryAI yah i forgot we flipped flags the other day, it’s been in there a couple days 🙈",
     "url": "https://x.com/bentossell/status/1992359078518280633",
     "timestamp": "2025-11-22T22:26:35.000Z",
     "metadata": {
@@ -3105,7 +3195,7 @@
     "id": "twitter_1992357768171516329",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@TahaTesser @leoisadev @FactoryAI @cursor_ai we are don\u2019t worry \ud83d\ude09",
+    "content": "@TahaTesser @leoisadev @FactoryAI @cursor_ai we are don’t worry 😉",
     "url": "https://x.com/bentossell/status/1992357768171516329",
     "timestamp": "2025-11-22T22:21:22.000Z",
     "metadata": {
@@ -3137,7 +3227,7 @@
     "id": "twitter_1992355346543956080",
     "source": "twitter",
     "author": "bentossell",
-    "content": "@yikesawjeez @FactoryAI woah will look into it - can you email support@factory.ai\n\nour current web v is about to be replaced and i\u2019d recommend the cli over web for sure",
+    "content": "@yikesawjeez @FactoryAI woah will look into it - can you email support@factory.ai\n\nour current web v is about to be replaced and i’d recommend the cli over web for sure",
     "url": "https://x.com/bentossell/status/1992355346543956080",
     "timestamp": "2025-11-22T22:11:45.000Z",
     "metadata": {
@@ -3217,7 +3307,7 @@
     "id": "twitter_1992351732907880676",
     "source": "twitter",
     "author": "BowTiedGroundHo",
-    "content": "@leoisadev @FactoryAI @cursor_ai We don\u2019t want IDEs.",
+    "content": "@leoisadev @FactoryAI @cursor_ai We don’t want IDEs.",
     "url": "https://x.com/BowTiedGroundHo/status/1992351732907880676",
     "timestamp": "2025-11-22T21:57:23.000Z",
     "metadata": {
@@ -3281,7 +3371,7 @@
     "id": "twitter_1992344192329355692",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@garyfung @antigravity @FactoryAI \ud83e\udd2f",
+    "content": "@garyfung @antigravity @FactoryAI 🤯",
     "url": "https://x.com/makerfounder/status/1992344192329355692",
     "timestamp": "2025-11-22T21:27:26.000Z",
     "metadata": {
@@ -3377,7 +3467,7 @@
     "id": "twitter_1992338741772644526",
     "source": "twitter",
     "author": "ramnanimanan",
-    "content": "Couldn\u2019t agree more . @FactoryAI",
+    "content": "Couldn’t agree more . @FactoryAI",
     "url": "https://x.com/ramnanimanan/status/1992338741772644526",
     "timestamp": "2025-11-22T21:05:46.000Z",
     "metadata": {
@@ -3393,7 +3483,7 @@
     "id": "twitter_1992338725767115156",
     "source": "twitter",
     "author": "shaunmmaguire",
-    "content": "@makerfounder @FactoryAI Let\u2019s get it!",
+    "content": "@makerfounder @FactoryAI Let’s get it!",
     "url": "https://x.com/shaunmmaguire/status/1992338725767115156",
     "timestamp": "2025-11-22T21:05:42.000Z",
     "metadata": {
@@ -3409,7 +3499,7 @@
     "id": "twitter_1992337982565835203",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@NickSloggett @FactoryAI @shaunmmaguire Haha battle royale confirmed \u2714\ufe0f only one will walk out",
+    "content": "@NickSloggett @FactoryAI @shaunmmaguire Haha battle royale confirmed ✔️ only one will walk out",
     "url": "https://x.com/makerfounder/status/1992337982565835203",
     "timestamp": "2025-11-22T21:02:45.000Z",
     "metadata": {
@@ -3441,7 +3531,7 @@
     "id": "twitter_1992336786585174457",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@garyfung @antigravity @FactoryAI In my tests, Antigravity's browser subagent felt shaky. couldn't complete tasks consistently. \nSolid callout on Gemini 3's visual edge though! Next benchmark will loop in vision/UI flows to test that properly \ud83d\udc4d",
+    "content": "@garyfung @antigravity @FactoryAI In my tests, Antigravity's browser subagent felt shaky. couldn't complete tasks consistently. \nSolid callout on Gemini 3's visual edge though! Next benchmark will loop in vision/UI flows to test that properly 👍",
     "url": "https://x.com/makerfounder/status/1992336786585174457",
     "timestamp": "2025-11-22T20:58:00.000Z",
     "metadata": {
@@ -3553,7 +3643,7 @@
     "id": "twitter_1992333718133080252",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@antigravity @FactoryAI Enjoyed the deathmatch?\n\nCome vote on the next victim \ud83e\udd16\ud83e\udd4a\n\nhttps://t.co/UtKbBXJLkI",
+    "content": "@antigravity @FactoryAI Enjoyed the deathmatch?\n\nCome vote on the next victim 🤖🥊\n\nhttps://t.co/UtKbBXJLkI",
     "url": "https://x.com/makerfounder/status/1992333718133080252",
     "timestamp": "2025-11-22T20:45:48.000Z",
     "metadata": {
@@ -3617,7 +3707,7 @@
     "id": "reddit_1p43e48",
     "source": "reddit",
     "author": "sibonyves",
-    "content": "Running GPU code\n\nHello. I\u2019m currently using codex and contemplating the switch to factory AI. An issue I have with codex cli is that in the sandbox it doesn\u2019t have access to my GPU. So all my code that runs on cuda can\u2019t be tested automatically, and the agent runs loops and ends up trying to patch \u00ab\u00a0non functioning\u00a0\u00bb code (that actually functions very well) and adding CPU fallbacks. \n\nDoes the factory AI sandbox work with running gpu code? ",
+    "content": "Running GPU code\n\nHello. I’m currently using codex and contemplating the switch to factory AI. An issue I have with codex cli is that in the sandbox it doesn’t have access to my GPU. So all my code that runs on cuda can’t be tested automatically, and the agent runs loops and ends up trying to patch « non functioning » code (that actually functions very well) and adding CPU fallbacks. \n\nDoes the factory AI sandbox work with running gpu code? ",
     "url": "https://www.reddit.com/r/FactoryAi/comments/1p43e48/running_gpu_code/",
     "timestamp": "2025-11-22T20:31:10.000Z",
     "metadata": {
@@ -3685,7 +3775,7 @@
     "id": "twitter_1992325881092833383",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@shaunmmaguire @antigravity @FactoryAI Let the games begin \ud83e\udd4a\n\nhttps://t.co/UtKbBXJLkI",
+    "content": "@shaunmmaguire @antigravity @FactoryAI Let the games begin 🥊\n\nhttps://t.co/UtKbBXJLkI",
     "url": "https://x.com/makerfounder/status/1992325881092833383",
     "timestamp": "2025-11-22T20:14:40.000Z",
     "metadata": {
@@ -3707,7 +3797,7 @@
     "id": "twitter_1992325640637362602",
     "source": "twitter",
     "author": "SeeLos",
-    "content": "@makerfounder @antigravity @FactoryAI \ud83d\udd25",
+    "content": "@makerfounder @antigravity @FactoryAI 🔥",
     "url": "https://x.com/SeeLos/status/1992325640637362602",
     "timestamp": "2025-11-22T20:13:43.000Z",
     "metadata": {
@@ -3729,7 +3819,7 @@
     "id": "twitter_1992325634765508876",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "Who should @FactoryAI 's Droid fight next? \ud83e\udd16\ud83e\udd4a\n\nSame repo, same prompt, full transparency. \n\nYou vote \u2192 I run the deathmatch.\n\n@shaunmmaguire said the droids welcome head-to-heads\u2026 so let\u2019s give the people what they want \ud83e\uddbe",
+    "content": "Who should @FactoryAI 's Droid fight next? 🤖🥊\n\nSame repo, same prompt, full transparency. \n\nYou vote → I run the deathmatch.\n\n@shaunmmaguire said the droids welcome head-to-heads… so let’s give the people what they want 🦾",
     "url": "https://x.com/makerfounder/status/1992325634765508876",
     "timestamp": "2025-11-22T20:13:41.000Z",
     "metadata": {
@@ -3795,7 +3885,7 @@
     "id": "twitter_1992323084310007900",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@shaunmmaguire @antigravity @FactoryAI Let the games begin \ud83e\udd4a\n\nhttps://t.co/950fvVXPzB",
+    "content": "@shaunmmaguire @antigravity @FactoryAI Let the games begin 🥊\n\nhttps://t.co/950fvVXPzB",
     "url": "https://x.com/makerfounder/status/1992323084310007900",
     "timestamp": "2025-11-22T20:03:33.000Z",
     "metadata": {
@@ -3817,7 +3907,7 @@
     "id": "twitter_1992322799890002102",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "Who should @FactoryAI's Droid fight next? \ud83e\udd16\ud83e\udd4a\n\nSame repo, same prompt, full transparency. \n\nYou vote \u2192 I run the deathmatch.\n\n@shaunmmaguire said the droids welcome head-to-heads\u2026 so let\u2019s give the people what they want \ud83e\uddbe\n\nLast round (17K+ views): https://t.co/qTCoxi55yf",
+    "content": "Who should @FactoryAI's Droid fight next? 🤖🥊\n\nSame repo, same prompt, full transparency. \n\nYou vote → I run the deathmatch.\n\n@shaunmmaguire said the droids welcome head-to-heads… so let’s give the people what they want 🦾\n\nLast round (17K+ views): https://t.co/qTCoxi55yf",
     "url": "https://x.com/makerfounder/status/1992322799890002102",
     "timestamp": "2025-11-22T20:02:25.000Z",
     "metadata": {
@@ -3861,7 +3951,7 @@
     "id": "twitter_1992319072147849519",
     "source": "twitter",
     "author": "aiDotEngineer",
-    "content": "@nibzard @swyx @barry_zyj @AnthropicAI @humanLayer @dexhorthy @leerob @cursor_ai @Meta @jacob_d_kahn @netflix @nayshins @OpenAI @thekitze @aparnadhinak @cline @pashmerepat @appliedcompute @rhythmrg @lindensli @PrimeIntellect @willccbb @StringChaos @EnoReyes @FactoryAI @Sourcegraph @beyang @AmpCode @nserrino @gimletlabs @GoogleDeepMind @poolsideai @eisokant @METR_Evals @Benghamine Great threads Niko! Thanks for joining \ud83d\ude42",
+    "content": "@nibzard @swyx @barry_zyj @AnthropicAI @humanLayer @dexhorthy @leerob @cursor_ai @Meta @jacob_d_kahn @netflix @nayshins @OpenAI @thekitze @aparnadhinak @cline @pashmerepat @appliedcompute @rhythmrg @lindensli @PrimeIntellect @willccbb @StringChaos @EnoReyes @FactoryAI @Sourcegraph @beyang @AmpCode @nserrino @gimletlabs @GoogleDeepMind @poolsideai @eisokant @METR_Evals @Benghamine Great threads Niko! Thanks for joining 🙂",
     "url": "https://x.com/aiDotEngineer/status/1992319072147849519",
     "timestamp": "2025-11-22T19:47:36.000Z",
     "metadata": {
@@ -4015,7 +4105,7 @@
     "id": "twitter_1992311857001206012",
     "source": "twitter",
     "author": "shaunmmaguire",
-    "content": "@makerfounder @antigravity @FactoryAI The droids welcome head to heads against anyone \ud83e\udd16\ud83e\uddbe",
+    "content": "@makerfounder @antigravity @FactoryAI The droids welcome head to heads against anyone 🤖🦾",
     "url": "https://x.com/shaunmmaguire/status/1992311857001206012",
     "timestamp": "2025-11-22T19:18:56.000Z",
     "metadata": {
@@ -4081,7 +4171,7 @@
     "id": "twitter_1992308151623012478",
     "source": "twitter",
     "author": "benvargas",
-    "content": "@tomosman @FactoryAI @bentossell yeah, Ben and I have discussed it on slack/discord before - I just hit it 3 times in this session and it crashed me out there for a bit \ud83e\udd23",
+    "content": "@tomosman @FactoryAI @bentossell yeah, Ben and I have discussed it on slack/discord before - I just hit it 3 times in this session and it crashed me out there for a bit 🤣",
     "url": "https://x.com/benvargas/status/1992308151623012478",
     "timestamp": "2025-11-22T19:04:13.000Z",
     "metadata": {
@@ -4213,7 +4303,7 @@
     "id": "twitter_1992305030930575609",
     "source": "twitter",
     "author": "Ricardo_Nth",
-    "content": "@JoelDeTeves @FactoryAI I felt that tipping point this weekend. Easily made enough to get the 2 hundo sub and I still have some tokens to spare. I guess the main concern for me is that feeling of having to use it cos I\u2019ll drop two bills on it regardless what work I get done",
+    "content": "@JoelDeTeves @FactoryAI I felt that tipping point this weekend. Easily made enough to get the 2 hundo sub and I still have some tokens to spare. I guess the main concern for me is that feeling of having to use it cos I’ll drop two bills on it regardless what work I get done",
     "url": "https://x.com/Ricardo_Nth/status/1992305030930575609",
     "timestamp": "2025-11-22T18:51:49.000Z",
     "metadata": {
@@ -4235,7 +4325,7 @@
     "id": "twitter_1992304761237029045",
     "source": "twitter",
     "author": "AriesTheCoder",
-    "content": "@makerfounder @FactoryAI @antigravity Nice one @makerfounder - I think you're onto something there man. Just going through the benchmark thread now. kudos on the details. \ud83e\udd1c\ud83d\udca5\ud83e\udd1b",
+    "content": "@makerfounder @FactoryAI @antigravity Nice one @makerfounder - I think you're onto something there man. Just going through the benchmark thread now. kudos on the details. 🤜💥🤛",
     "url": "https://x.com/AriesTheCoder/status/1992304761237029045",
     "timestamp": "2025-11-22T18:50:44.000Z",
     "metadata": {
@@ -4323,7 +4413,7 @@
     "id": "twitter_1992304186994638975",
     "source": "twitter",
     "author": "Ricardo_Nth",
-    "content": "@JoelDeTeves @FactoryAI Ahh man that feels me with glee man. I\u2019m gunning for that level, maybe a nice Christmas present to myself haha",
+    "content": "@JoelDeTeves @FactoryAI Ahh man that feels me with glee man. I’m gunning for that level, maybe a nice Christmas present to myself haha",
     "url": "https://x.com/Ricardo_Nth/status/1992304186994638975",
     "timestamp": "2025-11-22T18:48:28.000Z",
     "metadata": {
@@ -4521,7 +4611,7 @@
     "id": "twitter_1992293370023268604",
     "source": "twitter",
     "author": "GitMaxd",
-    "content": "@zaidmukaddam @bentossell @FactoryAI @zaidmukaddam - I think you\u2019ll like Droid",
+    "content": "@zaidmukaddam @bentossell @FactoryAI @zaidmukaddam - I think you’ll like Droid",
     "url": "https://x.com/GitMaxd/status/1992293370023268604",
     "timestamp": "2025-11-22T18:05:29.000Z",
     "metadata": {
@@ -4807,7 +4897,7 @@
     "id": "twitter_1992276992444567591",
     "source": "twitter",
     "author": "Alex_m",
-    "content": "@makerfounder @antigravity @FactoryAI I just don\u2019t like how Droid asks for your phone number and makes you sign up before you can do anything. Even Google doesn\u2019t do that",
+    "content": "@makerfounder @antigravity @FactoryAI I just don’t like how Droid asks for your phone number and makes you sign up before you can do anything. Even Google doesn’t do that",
     "url": "https://x.com/Alex_m/status/1992276992444567591",
     "timestamp": "2025-11-22T17:00:24.000Z",
     "metadata": {
@@ -4873,7 +4963,7 @@
     "id": "twitter_1992272199206776975",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@SeeLos @antigravity @FactoryAI These take forever to set up \ud83d\ude05 Might do a bigger one later, but not promising anything soon!",
+    "content": "@SeeLos @antigravity @FactoryAI These take forever to set up 😅 Might do a bigger one later, but not promising anything soon!",
     "url": "https://x.com/makerfounder/status/1992272199206776975",
     "timestamp": "2025-11-22T16:41:21.000Z",
     "metadata": {
@@ -5027,7 +5117,7 @@
     "id": "twitter_1992270550379741351",
     "source": "twitter",
     "author": "neoneue",
-    "content": "The little beep notification @FactoryAI DROID makes when completing a task is so satisfying.\n\nInstallation and migration went well. I've already worked through a few stories with zero errors \ud83d\udc4f \nOff to a great start!",
+    "content": "The little beep notification @FactoryAI DROID makes when completing a task is so satisfying.\n\nInstallation and migration went well. I've already worked through a few stories with zero errors 👏 \nOff to a great start!",
     "url": "https://x.com/neoneue/status/1992270550379741351",
     "timestamp": "2025-11-22T16:34:48.000Z",
     "metadata": {
@@ -5049,7 +5139,7 @@
     "id": "twitter_1992270005564485857",
     "source": "twitter",
     "author": "Elandotbuilders",
-    "content": "If we\u2019re talking pure coding throughput and not vibes, Claude Code + Cursor still feels like the most stable\n\nIf we\u2019re talking agentic orchestration and actual multi-step reasoning, Cursor + Windsurf is the emerging meta.\n\nIf we\u2019re talking raw low-level control, OpenAI Codex (inside GPT 5 high) is way ahead, but only if you know how to prompt it \n\nSo favorite for real work = Claude Code inside Cursor.",
+    "content": "If we’re talking pure coding throughput and not vibes, Claude Code + Cursor still feels like the most stable\n\nIf we’re talking agentic orchestration and actual multi-step reasoning, Cursor + Windsurf is the emerging meta.\n\nIf we’re talking raw low-level control, OpenAI Codex (inside GPT 5 high) is way ahead, but only if you know how to prompt it \n\nSo favorite for real work = Claude Code inside Cursor.",
     "url": "https://x.com/Elandotbuilders/status/1992270005564485857",
     "timestamp": "2025-11-22T16:32:38.000Z",
     "metadata": {
@@ -5203,7 +5293,7 @@
     "id": "twitter_1992256444578877544",
     "source": "twitter",
     "author": "neoneue",
-    "content": "@jmj29540 @FactoryAI Will do \ud83e\udee1",
+    "content": "@jmj29540 @FactoryAI Will do 🫡",
     "url": "https://x.com/neoneue/status/1992256444578877544",
     "timestamp": "2025-11-22T15:38:45.000Z",
     "metadata": {
@@ -5247,7 +5337,7 @@
     "id": "twitter_1992256123630710865",
     "source": "twitter",
     "author": "neoneue",
-    "content": "Time to give @FactoryAI DROID a thorough testing \ud83e\udd16\nReally excited to dive in and see what it can do https://t.co/qTYRwsDGtU",
+    "content": "Time to give @FactoryAI DROID a thorough testing 🤖\nReally excited to dive in and see what it can do https://t.co/qTYRwsDGtU",
     "url": "https://x.com/neoneue/status/1992256123630710865",
     "timestamp": "2025-11-22T15:37:28.000Z",
     "metadata": {
@@ -5379,7 +5469,7 @@
     "id": "twitter_1992229647812338091",
     "source": "twitter",
     "author": "karthikr3ddy",
-    "content": "@zaidmukaddam @FactoryAI On the other side, I\u2019ve been loving Codex CLI too. The Codex model shines for deep, highly focused tasks with custom instructions. It's slower, but super precise. And their usage limits are honestly some of the most generous compared to other CLIs.",
+    "content": "@zaidmukaddam @FactoryAI On the other side, I’ve been loving Codex CLI too. The Codex model shines for deep, highly focused tasks with custom instructions. It's slower, but super precise. And their usage limits are honestly some of the most generous compared to other CLIs.",
     "url": "https://x.com/karthikr3ddy/status/1992229647812338091",
     "timestamp": "2025-11-22T13:52:16.000Z",
     "metadata": {
@@ -5577,7 +5667,7 @@
     "id": "twitter_1992197544365932672",
     "source": "twitter",
     "author": "charlie11417148",
-    "content": "@bentossell @pascallammers_ @FactoryAI how can i order one? \ud83e\udd29\nor is it special edition swag",
+    "content": "@bentossell @pascallammers_ @FactoryAI how can i order one? 🤩\nor is it special edition swag",
     "url": "https://x.com/charlie11417148/status/1992197544365932672",
     "timestamp": "2025-11-22T11:44:42.000Z",
     "metadata": {
@@ -5643,7 +5733,7 @@
     "id": "twitter_1992190476032909691",
     "source": "twitter",
     "author": "StijnSmits",
-    "content": "@bentossell @pascallammers_ @FactoryAI Can you send one to Norway as well? \ud83d\udc40",
+    "content": "@bentossell @pascallammers_ @FactoryAI Can you send one to Norway as well? 👀",
     "url": "https://x.com/StijnSmits/status/1992190476032909691",
     "timestamp": "2025-11-22T11:16:37.000Z",
     "metadata": {
@@ -5687,7 +5777,7 @@
     "id": "twitter_1992188567926268171",
     "source": "twitter",
     "author": "5aikat",
-    "content": "@bentossell @pascallammers_ @FactoryAI Ben, pretty pls here too? \ud83e\udee3\n\ud83c\udde8\ud83c\udded is close to Germany ...",
+    "content": "@bentossell @pascallammers_ @FactoryAI Ben, pretty pls here too? 🫣\n🇨🇭 is close to Germany ...",
     "url": "https://x.com/5aikat/status/1992188567926268171",
     "timestamp": "2025-11-22T11:09:02.000Z",
     "metadata": {
@@ -5775,7 +5865,7 @@
     "id": "twitter_1992183078241120479",
     "source": "twitter",
     "author": "pascallammers_",
-    "content": "LFG \ud83d\udd25 @FactoryAI \nThanks @bentossell for sending it over all the way to Germany \ud83d\ude05\nGot some SF vibes rn https://t.co/eNlPtnX2n6",
+    "content": "LFG 🔥 @FactoryAI \nThanks @bentossell for sending it over all the way to Germany 😅\nGot some SF vibes rn https://t.co/eNlPtnX2n6",
     "url": "https://x.com/pascallammers_/status/1992183078241120479",
     "timestamp": "2025-11-22T10:47:13.000Z",
     "metadata": {
@@ -5788,7 +5878,7 @@
     "classification": {
       "label": "love",
       "confidence": 0.85,
-      "reason": "User expresses enthusiasm with 'LFG \ud83d\udd25' and thanks showing positive sentiment",
+      "reason": "User expresses enthusiasm with 'LFG 🔥' and thanks showing positive sentiment",
       "classifiedAt": "2025-11-22T10:54:21.083Z"
     },
     "category": "love"
@@ -5797,7 +5887,7 @@
     "id": "twitter_1992173754533974173",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@syqrel @FactoryAI good idea. haven\u2019t touched claude code in a minute tho. i\u2019ll throw it in the next benchmark after next",
+    "content": "@syqrel @FactoryAI good idea. haven’t touched claude code in a minute tho. i’ll throw it in the next benchmark after next",
     "url": "https://x.com/makerfounder/status/1992173754533974173",
     "timestamp": "2025-11-22T10:10:10.000Z",
     "metadata": {
@@ -5863,7 +5953,7 @@
     "id": "twitter_1992167683949793417",
     "source": "twitter",
     "author": "Louis__Meyer",
-    "content": "@aeitroc @FactoryAI @OpenRouterAI \ud83d\udcaf",
+    "content": "@aeitroc @FactoryAI @OpenRouterAI 💯",
     "url": "https://x.com/Louis__Meyer/status/1992167683949793417",
     "timestamp": "2025-11-22T09:46:03.000Z",
     "metadata": {
@@ -5905,7 +5995,7 @@
     "id": "reddit_1p3olcg",
     "source": "reddit",
     "author": "bentossell",
-    "content": "Factory CLI v0.26.12 Released - `/review` command\n\n## New features\n\n* **`/review` command** - that provides an interactive code review workflow. Review code changes in different ways: comparing against a base branch, reviewing specific commits, examining uncommitted changes, or providing custom review instructions.\n\n## Bug fixes\n\n* Gemini 3 Pro now uses the updated 0.8\u00d7 pricing multiplier - replacing introductory pricing\n* MCP navigator now fills the terminal\n* Update routing for /resume to filter correctly to /sessions\n* Position cursor at star",
+    "content": "Factory CLI v0.26.12 Released - `/review` command\n\n## New features\n\n* **`/review` command** - that provides an interactive code review workflow. Review code changes in different ways: comparing against a base branch, reviewing specific commits, examining uncommitted changes, or providing custom review instructions.\n\n## Bug fixes\n\n* Gemini 3 Pro now uses the updated 0.8× pricing multiplier - replacing introductory pricing\n* MCP navigator now fills the terminal\n* Update routing for /resume to filter correctly to /sessions\n* Position cursor at star",
     "url": "https://www.reddit.com/r/FactoryAi/comments/1p3olcg/factory_cli_v02612_released_review_command/",
     "timestamp": "2025-11-22T08:56:55.000Z",
     "metadata": {
@@ -5969,7 +6059,7 @@
     "id": "twitter_1992148541582823522",
     "source": "twitter",
     "author": "mikez93",
-    "content": "@FeifanZ @FactoryAI Sorry you\u2019re late to the alpha Intel, but it\u2019s been going on for a while for good reason.",
+    "content": "@FeifanZ @FactoryAI Sorry you’re late to the alpha Intel, but it’s been going on for a while for good reason.",
     "url": "https://x.com/mikez93/status/1992148541582823522",
     "timestamp": "2025-11-22T08:29:59.000Z",
     "metadata": {
@@ -5991,7 +6081,7 @@
     "id": "twitter_1992147919135289780",
     "source": "twitter",
     "author": "5aikat",
-    "content": "Evolution of the LLM coding tools\n\nEpoch 1: \u2705\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n# of tokens + token mgmt\n\nEpoch 2: \u2705\u2705\u2705\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\nsize of context + context mgmt\n\nEpoch 3: \u2705\u2705\u2705\u2705\u2705\ud83d\udfe8\ud83d\udfe8\nOrchestration\n\n@FactoryAI is transitioning from being excellent at Epoch 2 to really pulling their weight on 3\n\n@RayFernando1337: where do you think @cursor_ai stand?",
+    "content": "Evolution of the LLM coding tools\n\nEpoch 1: ✅🟨🟨🟨🟨🟨🟨\n# of tokens + token mgmt\n\nEpoch 2: ✅✅✅🟨🟨🟨🟨\nsize of context + context mgmt\n\nEpoch 3: ✅✅✅✅✅🟨🟨\nOrchestration\n\n@FactoryAI is transitioning from being excellent at Epoch 2 to really pulling their weight on 3\n\n@RayFernando1337: where do you think @cursor_ai stand?",
     "url": "https://x.com/5aikat/status/1992147919135289780",
     "timestamp": "2025-11-22T08:27:30.000Z",
     "metadata": {
@@ -6057,7 +6147,7 @@
     "id": "twitter_1992126054102962674",
     "source": "twitter",
     "author": "pascallammers_",
-    "content": "@joelreymont @FactoryAI They got the best token management and also the best agent imo\nSonnet is so much better with Droids \ud83d\udd25",
+    "content": "@joelreymont @FactoryAI They got the best token management and also the best agent imo\nSonnet is so much better with Droids 🔥",
     "url": "https://x.com/pascallammers_/status/1992126054102962674",
     "timestamp": "2025-11-22T07:00:37.000Z",
     "metadata": {
@@ -6079,7 +6169,7 @@
     "id": "twitter_1992125076511314388",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@bradvangelder @FactoryAI it\u2019s live, Droid smoked it\nhttps://t.co/qTCoxi55yf",
+    "content": "@bradvangelder @FactoryAI it’s live, Droid smoked it\nhttps://t.co/qTCoxi55yf",
     "url": "https://x.com/makerfounder/status/1992125076511314388",
     "timestamp": "2025-11-22T06:56:44.000Z",
     "metadata": {
@@ -6101,7 +6191,7 @@
     "id": "twitter_1992124912849604896",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@YounesAka @FactoryAI outcome is in: Droid 3\u20130\nhttps://t.co/qTCoxi55yf",
+    "content": "@YounesAka @FactoryAI outcome is in: Droid 3–0\nhttps://t.co/qTCoxi55yf",
     "url": "https://x.com/makerfounder/status/1992124912849604896",
     "timestamp": "2025-11-22T06:56:05.000Z",
     "metadata": {
@@ -6189,7 +6279,7 @@
     "id": "twitter_1992120155309277633",
     "source": "twitter",
     "author": "EnoReyes",
-    "content": "@huntermbown @FactoryAI You should be able to queue and also edit specs, have an example of the workflow that\u2019s your ideal?",
+    "content": "@huntermbown @FactoryAI You should be able to queue and also edit specs, have an example of the workflow that’s your ideal?",
     "url": "https://x.com/EnoReyes/status/1992120155309277633",
     "timestamp": "2025-11-22T06:37:11.000Z",
     "metadata": {
@@ -6233,7 +6323,7 @@
     "id": "twitter_1992117331355701412",
     "source": "twitter",
     "author": "pascallammers_",
-    "content": "@farezv @FactoryAI That\u2019s why both together are such a powerhouse \ud83d\udc4c",
+    "content": "@farezv @FactoryAI That’s why both together are such a powerhouse 👌",
     "url": "https://x.com/pascallammers_/status/1992117331355701412",
     "timestamp": "2025-11-22T06:25:58.000Z",
     "metadata": {
@@ -6255,7 +6345,7 @@
     "id": "twitter_1992117022847545399",
     "source": "twitter",
     "author": "joelreymont",
-    "content": "@pascallammers_ @FactoryAI I do the same, just without Droids. \n\nWhat\u2019s the benefit of Droids here?",
+    "content": "@pascallammers_ @FactoryAI I do the same, just without Droids. \n\nWhat’s the benefit of Droids here?",
     "url": "https://x.com/joelreymont/status/1992117022847545399",
     "timestamp": "2025-11-22T06:24:44.000Z",
     "metadata": {
@@ -6277,7 +6367,7 @@
     "id": "twitter_1992116456662966523",
     "source": "twitter",
     "author": "pascallammers_",
-    "content": "@frankekn @FactoryAI Because Sonnet in @FactoryAI hits different- just try it \ud83d\ude43",
+    "content": "@frankekn @FactoryAI Because Sonnet in @FactoryAI hits different- just try it 🙃",
     "url": "https://x.com/pascallammers_/status/1992116456662966523",
     "timestamp": "2025-11-22T06:22:29.000Z",
     "metadata": {
@@ -6475,7 +6565,7 @@
     "id": "twitter_1992088034150687027",
     "source": "twitter",
     "author": "FeifanZ",
-    "content": "@shaunmmaguire @FactoryAI checking it out \ud83e\udee1",
+    "content": "@shaunmmaguire @FactoryAI checking it out 🫡",
     "url": "https://x.com/FeifanZ/status/1992088034150687027",
     "timestamp": "2025-11-22T04:29:33.000Z",
     "metadata": {
@@ -6541,7 +6631,7 @@
     "id": "twitter_1992082543307575694",
     "source": "twitter",
     "author": "samuelekpe",
-    "content": "So this is my Engineering Stack: it\u2019s All Star Engineering Agent orchestrated to work as a team! \n- Frontend: @GoogleDeepMind Antigravity, @Trae_ai \n- Backend: @FactoryAI droid, @AnthropicAI Claude code ; Model- Gpt 5.1 and GLM2.6\n- Testing: Droid \n- Async: @OpenAI codex, and @julesagent \n-Agent Orchestrator: Me , soon @grupa_ai",
+    "content": "So this is my Engineering Stack: it’s All Star Engineering Agent orchestrated to work as a team! \n- Frontend: @GoogleDeepMind Antigravity, @Trae_ai \n- Backend: @FactoryAI droid, @AnthropicAI Claude code ; Model- Gpt 5.1 and GLM2.6\n- Testing: Droid \n- Async: @OpenAI codex, and @julesagent \n-Agent Orchestrator: Me , soon @grupa_ai",
     "url": "https://x.com/samuelekpe/status/1992082543307575694",
     "timestamp": "2025-11-22T04:07:44.000Z",
     "metadata": {
@@ -6563,7 +6653,7 @@
     "id": "twitter_1992082466526662862",
     "source": "twitter",
     "author": "mehkhi07",
-    "content": "@FeifanZ @FactoryAI It\u2019s a good service sir",
+    "content": "@FeifanZ @FactoryAI It’s a good service sir",
     "url": "https://x.com/mehkhi07/status/1992082466526662862",
     "timestamp": "2025-11-22T04:07:25.000Z",
     "metadata": {
@@ -6673,7 +6763,7 @@
     "id": "twitter_1992073575571103934",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "If you\u2019re building agentic coding tools, orchestration is now the only moat that matters.\n\nEverything else is table stakes.\n\n@FactoryAI just raised the bar to the stratosphere.\n\nWho\u2019s next?",
+    "content": "If you’re building agentic coding tools, orchestration is now the only moat that matters.\n\nEverything else is table stakes.\n\n@FactoryAI just raised the bar to the stratosphere.\n\nWho’s next?",
     "url": "https://x.com/makerfounder/status/1992073575571103934",
     "timestamp": "2025-11-22T03:32:06.000Z",
     "metadata": {
@@ -6695,7 +6785,7 @@
     "id": "twitter_1992073571137724927",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "@FactoryAI Droid behaves like the senior dev you pray joins your startup: \n\n\u2192 reads the entire codebase before touching anything \u2192 reuses your components \n\u2192 runs the linter/build itself \n\u2192 catches + fixes its own errors \n\u2192 ships production-ready code\n\nEvery. Single. Round.",
+    "content": "@FactoryAI Droid behaves like the senior dev you pray joins your startup: \n\n→ reads the entire codebase before touching anything → reuses your components \n→ runs the linter/build itself \n→ catches + fixes its own errors \n→ ships production-ready code\n\nEvery. Single. Round.",
     "url": "https://x.com/makerfounder/status/1992073571137724927",
     "timestamp": "2025-11-22T03:32:04.000Z",
     "metadata": {
@@ -6717,7 +6807,7 @@
     "id": "twitter_1992073554872107012",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "Round 2 \u2013 Design + Data Awareness\nTask: build organizer dashboard + live stats\n\n@antigravity \u2192 UI looked clean but hero query failed \u2192 fell back to empty state, showed \u201cNo upcoming runs\u201d even though real data existed\n\n@FactoryAI Droid \u2192 read the schema \u2192 wrote correct queries \u2192 pulled the actual next run \u2192 hero 100% populated with live event\n\nSmall miss vs. perfect execution. \nThat\u2019s the senior-dev difference.\n\n2\u20130 Droid",
+    "content": "Round 2 – Design + Data Awareness\nTask: build organizer dashboard + live stats\n\n@antigravity → UI looked clean but hero query failed → fell back to empty state, showed “No upcoming runs” even though real data existed\n\n@FactoryAI Droid → read the schema → wrote correct queries → pulled the actual next run → hero 100% populated with live event\n\nSmall miss vs. perfect execution. \nThat’s the senior-dev difference.\n\n2–0 Droid",
     "url": "https://x.com/makerfounder/status/1992073554872107012",
     "timestamp": "2025-11-22T03:32:01.000Z",
     "metadata": {
@@ -6739,7 +6829,7 @@
     "id": "twitter_1992073542645469193",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "Round 1 \u2013 Integration Test \nTask: add dynamic OG metadata + QR code generator with download button (using a 3rd-party lib)\n\n@antigravity \u2192 useState in Server Component \u2192 crash \u2192 missed download button \u2192 I had to step in and fix it manually. \n\n@FactoryAI Droid \u2192 clean Client/Server split \u2192 ran build \u2192 saw TS error \u2192 fixed it itself \u2192 100% perfect, zero help\n\n1\u20130 Droid",
+    "content": "Round 1 – Integration Test \nTask: add dynamic OG metadata + QR code generator with download button (using a 3rd-party lib)\n\n@antigravity → useState in Server Component → crash → missed download button → I had to step in and fix it manually. \n\n@FactoryAI Droid → clean Client/Server split → ran build → saw TS error → fixed it itself → 100% perfect, zero help\n\n1–0 Droid",
     "url": "https://x.com/makerfounder/status/1992073542645469193",
     "timestamp": "2025-11-22T03:31:58.000Z",
     "metadata": {
@@ -6761,7 +6851,7 @@
     "id": "twitter_1992073530792636876",
     "source": "twitter",
     "author": "makerfounder",
-    "content": "\ud83e\uddf5 I just put Google\u2019s fresh-out-the-oven @antigravity up against @FactoryAI\u2019s Droid in a blind, same-LLM deathmatch.\n\nSame prompt. Same repo. Same brain: Gemini 3 Pro.\n\nOnly difference? The orchestration layer.\n\nHypothesis: does the \u201cbody\u201d actually matter when the brain is identical?\n\nVerdict: hell yes it does. \nDroid didn\u2019t just win 3\u20130. \nIt embarrassed the field.\n\ud83d\udd25",
+    "content": "🧵 I just put Google’s fresh-out-the-oven @antigravity up against @FactoryAI’s Droid in a blind, same-LLM deathmatch.\n\nSame prompt. Same repo. Same brain: Gemini 3 Pro.\n\nOnly difference? The orchestration layer.\n\nHypothesis: does the “body” actually matter when the brain is identical?\n\nVerdict: hell yes it does. \nDroid didn’t just win 3–0. \nIt embarrassed the field.\n🔥",
     "url": "https://x.com/makerfounder/status/1992073530792636876",
     "timestamp": "2025-11-22T03:31:55.000Z",
     "metadata": {
@@ -6849,7 +6939,7 @@
     "id": "twitter_1992055448363540773",
     "source": "twitter",
     "author": "shanemonastero",
-    "content": "@FeifanZ @FactoryAI Because it\u2019s a superior product \n\nThey serve models across the board better than most of the providers themselves",
+    "content": "@FeifanZ @FactoryAI Because it’s a superior product \n\nThey serve models across the board better than most of the providers themselves",
     "url": "https://x.com/shanemonastero/status/1992055448363540773",
     "timestamp": "2025-11-22T02:20:04.000Z",
     "metadata": {
@@ -6871,7 +6961,7 @@
     "id": "twitter_1992051174187717032",
     "source": "twitter",
     "author": "shaunmmaguire",
-    "content": "@FeifanZ @FactoryAI Because it\u2019s goated \ud83d\udc10",
+    "content": "@FeifanZ @FactoryAI Because it’s goated 🐐",
     "url": "https://x.com/shaunmmaguire/status/1992051174187717032",
     "timestamp": "2025-11-22T02:03:05.000Z",
     "metadata": {
@@ -6959,7 +7049,7 @@
     "id": "twitter_1992040968271405508",
     "source": "twitter",
     "author": "EnoReyes",
-    "content": "@huntermbown @FactoryAI Let us know if there\u2019s anything we can do better!",
+    "content": "@huntermbown @FactoryAI Let us know if there’s anything we can do better!",
     "url": "https://x.com/EnoReyes/status/1992040968271405508",
     "timestamp": "2025-11-22T01:22:31.000Z",
     "metadata": {
@@ -7003,7 +7093,7 @@
     "id": "twitter_1992027975651635639",
     "source": "twitter",
     "author": "farezv",
-    "content": "@FeifanZ @FactoryAI It\u2019s the best harness for mixed model coding",
+    "content": "@FeifanZ @FactoryAI It’s the best harness for mixed model coding",
     "url": "https://x.com/farezv/status/1992027975651635639",
     "timestamp": "2025-11-22T00:30:54.000Z",
     "metadata": {
@@ -7069,7 +7159,7 @@
     "id": "twitter_1992024019814785508",
     "source": "twitter",
     "author": "farezv",
-    "content": "@FeifanZ @FactoryAI We\u2019ve been talking about it for a while now.",
+    "content": "@FeifanZ @FactoryAI We’ve been talking about it for a while now.",
     "url": "https://x.com/farezv/status/1992024019814785508",
     "timestamp": "2025-11-22T00:15:10.000Z",
     "metadata": {
@@ -7133,7 +7223,7 @@
     "id": "twitter_1992021657930854408",
     "source": "twitter",
     "author": "FeifanZ",
-    "content": "@erd0xbc @FactoryAI I see some Amp on your timeline \u2026 how do you think Factory compares to Amp?",
+    "content": "@erd0xbc @FactoryAI I see some Amp on your timeline … how do you think Factory compares to Amp?",
     "url": "https://x.com/FeifanZ/status/1992021657930854408",
     "timestamp": "2025-11-22T00:05:47.000Z",
     "metadata": {
@@ -7155,7 +7245,7 @@
     "id": "twitter_1992020434888560893",
     "source": "twitter",
     "author": "SvenMeyer",
-    "content": "@FeifanZ @FactoryAI Where have you been the last months? \ud83e\udd14",
+    "content": "@FeifanZ @FactoryAI Where have you been the last months? 🤔",
     "url": "https://x.com/SvenMeyer/status/1992020434888560893",
     "timestamp": "2025-11-22T00:00:56.000Z",
     "metadata": {
@@ -7177,7 +7267,7 @@
     "id": "twitter_1992019178434560210",
     "source": "twitter",
     "author": "erd0xbc",
-    "content": "@FeifanZ @FactoryAI It\u2019s a better Claude Code with multiple models.",
+    "content": "@FeifanZ @FactoryAI It’s a better Claude Code with multiple models.",
     "url": "https://x.com/erd0xbc/status/1992019178434560210",
     "timestamp": "2025-11-21T23:55:56.000Z",
     "metadata": {
@@ -7265,7 +7355,7 @@
     "id": "twitter_1992013438101635350",
     "source": "twitter",
     "author": "bangben_n",
-    "content": "@FactoryAI  I tried signing up on https://t.co/0FmqGpSASO. I got the verification code but it always failed. Now it says \u201cPhone number is claimed.\u201d What should I do? https://t.co/DsHFVePpb9",
+    "content": "@FactoryAI  I tried signing up on https://t.co/0FmqGpSASO. I got the verification code but it always failed. Now it says “Phone number is claimed.” What should I do? https://t.co/DsHFVePpb9",
     "url": "https://x.com/bangben_n/status/1992013438101635350",
     "timestamp": "2025-11-21T23:33:08.000Z",
     "metadata": {
@@ -7331,7 +7421,7 @@
     "id": "twitter_1992011582931628301",
     "source": "twitter",
     "author": "KirkMarple",
-    "content": "Went back to using Claude Code again, and finding it really clunky. \n\n(Spent a ton on @FactoryAI Droid tokens this month, and needed to use up some of our Anthropic credits.)\n\nBut it really shows the work that Droid put in on the TUI and overall \u201cTX\u201d. \n\nFinding that CC locks itself up more often, and overall feels slower - even tho I\u2019m using an identical Sonnet 4.5 with medium thinking.\n\nMay go back to a custom model with Droid and see how that works again.",
+    "content": "Went back to using Claude Code again, and finding it really clunky. \n\n(Spent a ton on @FactoryAI Droid tokens this month, and needed to use up some of our Anthropic credits.)\n\nBut it really shows the work that Droid put in on the TUI and overall “TX”. \n\nFinding that CC locks itself up more often, and overall feels slower - even tho I’m using an identical Sonnet 4.5 with medium thinking.\n\nMay go back to a custom model with Droid and see how that works again.",
     "url": "https://x.com/KirkMarple/status/1992011582931628301",
     "timestamp": "2025-11-21T23:25:45.000Z",
     "metadata": {
@@ -7419,7 +7509,7 @@
     "id": "twitter_1992009283375169714",
     "source": "twitter",
     "author": "NathanLands",
-    "content": "@FeifanZ @FactoryAI Because they\u2019re growing like crazy",
+    "content": "@FeifanZ @FactoryAI Because they’re growing like crazy",
     "url": "https://x.com/NathanLands/status/1992009283375169714",
     "timestamp": "2025-11-21T23:16:37.000Z",
     "metadata": {
@@ -7593,7 +7683,7 @@
     "id": "twitter_1991996209398161632",
     "source": "twitter",
     "author": "gootecks",
-    "content": "@Rahll @FactoryAI Yes I\u2019m 13. \n\nWhat are you, a sheltered sheep?\n\nSave me big daddy government!",
+    "content": "@Rahll @FactoryAI Yes I’m 13. \n\nWhat are you, a sheltered sheep?\n\nSave me big daddy government!",
     "url": "https://x.com/gootecks/status/1991996209398161632",
     "timestamp": "2025-11-21T22:24:40.000Z",
     "metadata": {
@@ -7637,7 +7727,7 @@
     "id": "twitter_1991995371414032623",
     "source": "twitter",
     "author": "gootecks",
-    "content": "@Rahll @FactoryAI Yeah if you try to stop it with regulation , that\u2019s retarded",
+    "content": "@Rahll @FactoryAI Yeah if you try to stop it with regulation , that’s retarded",
     "url": "https://x.com/gootecks/status/1991995371414032623",
     "timestamp": "2025-11-21T22:21:20.000Z",
     "metadata": {
@@ -7703,7 +7793,7 @@
     "id": "github_discussion_384",
     "source": "github",
     "author": "dlukt",
-    "content": "[Discussion] How do I tell it to launch multiple parallel droids?\n\nI'm letting glm-4.6 translate English into 41 languages, and I'm currently doing that key by key, e.g. pages.landing and children\r\nAnd it's doing those languages in sequence.\r\n\r\nI would like that it does it in parallel with up to 8 threads.\r\nI told it to use a dedicated thread per language or use a droid or sub-droid per language, but it's still doing sequential processing.\r\n\r\nAny ideas?\r\n\r\n---\r\n\r\nBTW, glm is funny\r\n```\r\n\u26ec  \ud83c\udf89 INCREDIBLE ACHIEVEMENT! SECOND PARALLEL WAVE COMPLETED!\r\n\r\n   \ud83d\udcca **RE",
+    "content": "[Discussion] How do I tell it to launch multiple parallel droids?\n\nI'm letting glm-4.6 translate English into 41 languages, and I'm currently doing that key by key, e.g. pages.landing and children\r\nAnd it's doing those languages in sequence.\r\n\r\nI would like that it does it in parallel with up to 8 threads.\r\nI told it to use a dedicated thread per language or use a droid or sub-droid per language, but it's still doing sequential processing.\r\n\r\nAny ideas?\r\n\r\n---\r\n\r\nBTW, glm is funny\r\n```\r\n⛬  🎉 INCREDIBLE ACHIEVEMENT! SECOND PARALLEL WAVE COMPLETED!\r\n\r\n   📊 **RE",
     "url": "https://github.com/Factory-AI/factory/discussions/384",
     "timestamp": "2025-11-19T04:32:58Z",
     "metadata": {
@@ -7717,7 +7807,7 @@
     "id": "github_issue_383",
     "source": "github",
     "author": "bimapopo345",
-    "content": "[Issue] Bug: Terminal UI Input Prompt Fails to Render in Large Repositories (v0.26.6)\n\n## \ud83d\udc1b Bug: Terminal UI Input Prompt Fails to Render in Large Repositories (v0.26.6)\n\n### \ud83d\udcdd Description\nWhen executing the `droid` command within a large project directory, the interactive chat prompt (`> /` or `>>`) at the bottom of the terminal is completely missing or cut off. All initialization logs and the DROID logo appear successfully, but the interface is incomplete, making the CLI unusable in that specific directory.\n\nThe Droid CLI launches and renders the input prompt correctly when ex",
+    "content": "[Issue] Bug: Terminal UI Input Prompt Fails to Render in Large Repositories (v0.26.6)\n\n## 🐛 Bug: Terminal UI Input Prompt Fails to Render in Large Repositories (v0.26.6)\n\n### 📝 Description\nWhen executing the `droid` command within a large project directory, the interactive chat prompt (`> /` or `>>`) at the bottom of the terminal is completely missing or cut off. All initialization logs and the DROID logo appear successfully, but the interface is incomplete, making the CLI unusable in that specific directory.\n\nThe Droid CLI launches and renders the input prompt correctly when ex",
     "url": "https://github.com/Factory-AI/factory/issues/383",
     "timestamp": "2025-11-19T03:19:35Z",
     "metadata": {
@@ -7731,7 +7821,7 @@
     "id": "reddit_1p0ksg7",
     "source": "reddit",
     "author": "bentossell",
-    "content": "v0.26.3 changelog - skills, hooks migration, @ mention improvements\n\n    v0.26.3\n\n# New features\n\n* **Skills Enabled by Default**\u00a0\\- Skills command now enabled for all users\n* **Claude Code Hooks Auto-Migration**\u00a0\\- Automatically detects and imports hooks from Claude Code CLI with interactive prompts. Smart translation converts\u00a0`bash_tool`\u00a0to\u00a0`Execute`\u00a0and\u00a0`CLAUDE_CWD`\u00a0to\u00a0`DROID_CWD`, preventing duplicates and tracking migration state\n* **@ Suggestions Improvements**\u00a0\\- Now includes folders in addition to files with better UI and performance\n\n# Bug fixes\n\n* Fixed",
+    "content": "v0.26.3 changelog - skills, hooks migration, @ mention improvements\n\n    v0.26.3\n\n# New features\n\n* **Skills Enabled by Default** \\- Skills command now enabled for all users\n* **Claude Code Hooks Auto-Migration** \\- Automatically detects and imports hooks from Claude Code CLI with interactive prompts. Smart translation converts `bash_tool` to `Execute` and `CLAUDE_CWD` to `DROID_CWD`, preventing duplicates and tracking migration state\n* **@ Suggestions Improvements** \\- Now includes folders in addition to files with better UI and performance\n\n# Bug fixes\n\n* Fixed",
     "url": "https://www.reddit.com/r/FactoryAi/comments/1p0ksg7/v0263_changelog_skills_hooks_migration_mention/",
     "timestamp": "2025-11-18T19:06:54.000Z",
     "metadata": {
@@ -7745,7 +7835,7 @@
     "id": "github_issue_381",
     "source": "github",
     "author": "masakielastic",
-    "content": "[Issue] Auto-update hang: Droid CLI stuck ~7 minutes on \u201cChecking for updates\u2026\u201d on Linux/Crostini\n\n### Summary\n\nDroid CLI on Linux (ChromeOS Crostini) hangs for **6\u20137 minutes** at startup with\n**\u201cChecking for updates\u2026\u201d**, then eventually loads the TUI.\nDuring the delay, the logs show repeated attempts to create `/.factory` and `/home/.factory`, causing `EACCES` errors.\n\nThis appears related to Issue #378 (macOS), but occurs on Linux with similar symptoms.\n\n---\n\n### Environment\n\n* **OS**: ChromeOS + Crostini (Debian 12 bookworm)\n* **CLI Version**: 0.26.4 (latest)\n* **Architecture**: linux-x64\n",
+    "content": "[Issue] Auto-update hang: Droid CLI stuck ~7 minutes on “Checking for updates…” on Linux/Crostini\n\n### Summary\n\nDroid CLI on Linux (ChromeOS Crostini) hangs for **6–7 minutes** at startup with\n**“Checking for updates…”**, then eventually loads the TUI.\nDuring the delay, the logs show repeated attempts to create `/.factory` and `/home/.factory`, causing `EACCES` errors.\n\nThis appears related to Issue #378 (macOS), but occurs on Linux with similar symptoms.\n\n---\n\n### Environment\n\n* **OS**: ChromeOS + Crostini (Debian 12 bookworm)\n* **CLI Version**: 0.26.4 (latest)\n* **Architecture**: linux-x64\n",
     "url": "https://github.com/Factory-AI/factory/issues/381",
     "timestamp": "2025-11-18T18:29:49Z",
     "metadata": {
@@ -7787,7 +7877,7 @@
     "id": "github_issue_379",
     "source": "github",
     "author": "vinayshetty000",
-    "content": "[Issue] Unable to Complete Onboarding Due to Phone Verification Error\n\nWhen signing in, I chose Google authentication and logged in successfully. During the welcome/onboarding process, I was asked to enter my phone number. I entered it, received the OTP, and submitted it. After that, the screen showed \u201cUnexpected error.\u201d\n\nWhen I tried entering the same phone number again, it showed \u201cThis number is already claimed.\u201d\n\nI repeated the entire process with a different phone number, but the same error occurred. Now both numbers are unusable, and I cannot proceed further b",
+    "content": "[Issue] Unable to Complete Onboarding Due to Phone Verification Error\n\nWhen signing in, I chose Google authentication and logged in successfully. During the welcome/onboarding process, I was asked to enter my phone number. I entered it, received the OTP, and submitted it. After that, the screen showed “Unexpected error.”\n\nWhen I tried entering the same phone number again, it showed “This number is already claimed.”\n\nI repeated the entire process with a different phone number, but the same error occurred. Now both numbers are unusable, and I cannot proceed further b",
     "url": "https://github.com/Factory-AI/factory/issues/379",
     "timestamp": "2025-11-18T12:11:39Z",
     "metadata": {
@@ -7941,7 +8031,7 @@
     "id": "github_issue_360",
     "source": "github",
     "author": "hanlin-luo",
-    "content": "[Issue] CJK double-width characters problem\n\nChinese input (CJK double-width characters) causes cursor misalignment once the input spans more than two lines.\nThis is due to the line editor not correctly implementing Unicode East Asian Width, resulting in incorrect wcwidth calculations\uff0c\uff08maybe\uff09.\nIt\u2019s recommended to enable or fix proper wide-character support in the TUI/line editor being used.\n\nhttps://github.com/user-attachments/assets/7be46a43-0fe3-4e76-98c0-bea3727137e3",
+    "content": "[Issue] CJK double-width characters problem\n\nChinese input (CJK double-width characters) causes cursor misalignment once the input spans more than two lines.\nThis is due to the line editor not correctly implementing Unicode East Asian Width, resulting in incorrect wcwidth calculations，（maybe）.\nIt’s recommended to enable or fix proper wide-character support in the TUI/line editor being used.\n\nhttps://github.com/user-attachments/assets/7be46a43-0fe3-4e76-98c0-bea3727137e3",
     "url": "https://github.com/Factory-AI/factory/issues/360",
     "timestamp": "2025-11-14T20:31:10Z",
     "metadata": {
@@ -7955,7 +8045,7 @@
     "id": "github_issue_348",
     "source": "github",
     "author": "aranej",
-    "content": "[Issue] \ud83d\ude80 Feature Request: Native Task Queue Support for Interactive Mode\n\n## \ud83d\udccb Summary\n\nRequest for **native task queuing functionality** in Droid CLI interactive mode, allowing users to queue multiple prompts for sequential or parallel processing without waiting for each task to complete before submitting the next one.\n\n## \ud83c\udfaf Problem Statement\n\n### Current User Experience (Frustrating)\n\n```bash\n> /sys-info is running...\n[User types: /init-prompt]\n\u274c Command doesn't register - must wait for completion\n\n[After 30 seconds...]\n\u2705 /sys-info completed\n\n[User must now re-typ",
+    "content": "[Issue] 🚀 Feature Request: Native Task Queue Support for Interactive Mode\n\n## 📋 Summary\n\nRequest for **native task queuing functionality** in Droid CLI interactive mode, allowing users to queue multiple prompts for sequential or parallel processing without waiting for each task to complete before submitting the next one.\n\n## 🎯 Problem Statement\n\n### Current User Experience (Frustrating)\n\n```bash\n> /sys-info is running...\n[User types: /init-prompt]\n❌ Command doesn't register - must wait for completion\n\n[After 30 seconds...]\n✅ /sys-info completed\n\n[User must now re-typ",
     "url": "https://github.com/Factory-AI/factory/issues/348",
     "timestamp": "2025-11-13T09:01:07Z",
     "metadata": {
@@ -7969,7 +8059,7 @@
     "id": "github_issue_345",
     "source": "github",
     "author": "xianzou",
-    "content": "[Issue] Running dorid in PowerShell produces no output\n\n<img width=\"1113\" height=\"626\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0bddc80a-404e-4fee-9575-96c0cdc89b94\" />\n\nRunning dorid in PowerShell produces no output\uff0cI have already installed dorid.",
+    "content": "[Issue] Running dorid in PowerShell produces no output\n\n<img width=\"1113\" height=\"626\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0bddc80a-404e-4fee-9575-96c0cdc89b94\" />\n\nRunning dorid in PowerShell produces no output，I have already installed dorid.",
     "url": "https://github.com/Factory-AI/factory/issues/345",
     "timestamp": "2025-11-13T01:46:56Z",
     "metadata": {
