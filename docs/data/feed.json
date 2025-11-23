@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1992453462496596111",
+    "source": "twitter",
+    "author": "Solaawodiya",
+    "content": "@_BrianKimball @FactoryAI This is a nice stack of of AI models to build apps with.",
+    "url": "https://x.com/Solaawodiya/status/1992453462496596111",
+    "timestamp": "2025-11-23T04:41:38.000Z",
+    "metadata": {
+      "conversation_id": "1992453462496596111",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992451678982029454",
+    "source": "twitter",
+    "author": "nest_elf",
+    "content": "@FactoryAI droid finishes first try without being lazy. @windsurf is to lazy to do anything https://t.co/EBUfnFCqdr",
+    "url": "https://x.com/nest_elf/status/1992451678982029454",
+    "timestamp": "2025-11-23T04:34:32.000Z",
+    "metadata": {
+      "conversation_id": "1992451678982029454",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992451172779876687",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@fcoury @FactoryAI Let’s go!",
+    "url": "https://x.com/matanSF/status/1992451172779876687",
+    "timestamp": "2025-11-23T04:32:32.000Z",
+    "metadata": {
+      "conversation_id": "1992451172779876687",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992437964690129344",
     "source": "twitter",
     "author": "martin_ict_algo",
