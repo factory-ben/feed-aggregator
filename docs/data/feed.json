@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_1992602774744559732",
+    "source": "twitter",
+    "author": "itsmolaboune",
+    "content": "@ayman_alderson @FactoryAI @opencode This guy on YouTube he has try them all\nhttps://t.co/WRyxGvJMup",
+    "url": "https://x.com/itsmolaboune/status/1992602774744559732",
+    "timestamp": "2025-11-23T14:34:56.000Z",
+    "metadata": {
+      "conversation_id": "1992602774744559732",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992602611250553214",
+    "source": "twitter",
+    "author": "leoisadev",
+    "content": "@bentossell @MirAI_Newz @FactoryAI @cursor_ai Can't find your discord on your website 😭",
+    "url": "https://x.com/leoisadev/status/1992602611250553214",
+    "timestamp": "2025-11-23T14:34:17.000Z",
+    "metadata": {
+      "conversation_id": "1992602611250553214",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992602101252526477",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@0xmatti @ayman_alderson @FactoryAI @opencode i haven't done it tbh, but im sure @benvargas may be able to help or point you to how.",
+    "url": "https://x.com/bentossell/status/1992602101252526477",
+    "timestamp": "2025-11-23T14:32:16.000Z",
+    "metadata": {
+      "conversation_id": "1992602101252526477",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992601953667522916",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@leoisadev @MirAI_Newz @FactoryAI @cursor_ai bingo - join the discord and i'll be opening early access soon",
+    "url": "https://x.com/bentossell/status/1992601953667522916",
+    "timestamp": "2025-11-23T14:31:41.000Z",
+    "metadata": {
+      "conversation_id": "1992601953667522916",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992601834062840267",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@fabiorizzomatos @FactoryAI This is awesome!",
+    "url": "https://x.com/EnoReyes/status/1992601834062840267",
+    "timestamp": "2025-11-23T14:31:12.000Z",
+    "metadata": {
+      "conversation_id": "1992601834062840267",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992601772431737102",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@sreenivasan_ac @rsdgpt @thdxr @FactoryAI You can add into your https://t.co/pQDJA7yWvM that tells droid to only call that grep instead of the built in grep!",
+    "url": "https://x.com/EnoReyes/status/1992601772431737102",
+    "timestamp": "2025-11-23T14:30:57.000Z",
+    "metadata": {
+      "conversation_id": "1992601772431737102",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992600481634644147",
     "source": "twitter",
     "author": "0xmatti",
@@ -6669,6 +6759,19 @@
       "confidence": 0.9,
       "reason": "FactoryAI is referenced in a quote but no specific action or sentiment is directed at Factory",
       "classifiedAt": "2025-11-21T21:47:31.286Z"
+    }
+  },
+  {
+    "id": "reddit_1p0ksg7",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "v0.26.3 changelog - skills, hooks migration, @ mention improvements\n\n    v0.26.3\n\n# New features\n\n* **Skills Enabled by Default** \\- Skills command now enabled for all users\n* **Claude Code Hooks Auto-Migration** \\- Automatically detects and imports hooks from Claude Code CLI with interactive prompts. Smart translation converts `bash_tool` to `Execute` and `CLAUDE_CWD` to `DROID_CWD`, preventing duplicates and tracking migration state\n* **@ Suggestions Improvements** \\- Now includes folders in addition to files with better UI and performance\n\n# Bug fixes\n\n* Fixed",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p0ksg7/v0263_changelog_skills_hooks_migration_mention/",
+    "timestamp": "2025-11-18T19:06:54.000Z",
+    "metadata": {
+      "score": 5,
+      "num_comments": 6,
+      "subreddit": "FactoryAi"
     }
   },
   {
