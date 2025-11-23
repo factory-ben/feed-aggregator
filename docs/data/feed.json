@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1992619338273304851",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@BananaSauce_ @makerfounder @antigravity @FactoryAI double esc takes you back in a convo, file edit reverting coming soon. i just say 'revert xyz' 😊",
+    "url": "https://x.com/bentossell/status/1992619338273304851",
+    "timestamp": "2025-11-23T15:40:45.000Z",
+    "metadata": {
+      "conversation_id": "1992619338273304851",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992619037155860831",
+    "source": "twitter",
+    "author": "kaanozgur81",
+    "content": "@bentossell @zaidmukaddam @FactoryAI Overall, it was a good experience. However, I don’t recommend GLM-4.6. Maybe there was an integration issue, because it was the first time I saw a single request consume that many tokens. Gemini 3 High gave solid performance.",
+    "url": "https://x.com/kaanozgur81/status/1992619037155860831",
+    "timestamp": "2025-11-23T15:39:34.000Z",
+    "metadata": {
+      "conversation_id": "1992619037155860831",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992618398996443625",
     "source": "twitter",
     "author": "bentossell",
