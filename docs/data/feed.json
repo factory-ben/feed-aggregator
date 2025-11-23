@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1992597520179200334",
+    "source": "twitter",
+    "author": "MihailVarich",
+    "content": "@ayman_alderson @FactoryAI @opencode Very good. Use it in VScode and directly on server wen deploy project",
+    "url": "https://x.com/MihailVarich/status/1992597520179200334",
+    "timestamp": "2025-11-23T14:14:04.000Z",
+    "metadata": {
+      "conversation_id": "1992597520179200334",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992597011993157976",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@fabiorizzomatos @FactoryAI may be our first italian (?) tutorial ❤️",
+    "url": "https://x.com/bentossell/status/1992597011993157976",
+    "timestamp": "2025-11-23T14:12:02.000Z",
+    "metadata": {
+      "conversation_id": "1992597011993157976",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992596475868860569",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@ImranDeveloper @matanSF @ayman_alderson @FactoryAI you can hop in discord or ping here and can investigate for you - feel free to dm your email and i'll check it out asap. \n\nwe are low on email support (and A LOT of users so struggling but will get it fixed)",
+    "url": "https://x.com/bentossell/status/1992596475868860569",
+    "timestamp": "2025-11-23T14:09:55.000Z",
+    "metadata": {
+      "conversation_id": "1992596475868860569",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992596116488245700",
+    "source": "twitter",
+    "author": "Ricardo_Nth",
+    "content": "@makerfounder @FactoryAI @shaunmmaguire Auggie cli, crush, codebuff, amp, pi",
+    "url": "https://x.com/Ricardo_Nth/status/1992596116488245700",
+    "timestamp": "2025-11-23T14:08:29.000Z",
+    "metadata": {
+      "conversation_id": "1992596116488245700",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992595182244827298",
     "source": "twitter",
     "author": "bentossell",
