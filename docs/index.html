@@ -58,31 +58,36 @@
     .app-header {
       background: var(--card-bg);
       border-bottom: 1px solid var(--border);
-      height: 60px;
+      padding: 12px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex-shrink: 0;
+      z-index: 20;
+    }
+    
+    .header-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 24px;
-      flex-shrink: 0;
-      z-index: 20;
+    }
+    
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    
+    .header-filters {
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
     .main-wrapper {
       display: flex;
       flex: 1;
       overflow: hidden;
-    }
-
-    .sidebar {
-      width: 240px;
-      background: var(--bg);
-      border-right: 1px solid var(--border);
-      padding: 20px 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      overflow-y: auto;
-      flex-shrink: 0;
     }
 
     .main-container {
@@ -93,44 +98,84 @@
       background: var(--bg);
     }
 
-    /* Sidebar Categories */
-    .category-item {
-      padding: 8px 12px;
+    /* Source Dropdown */
+    .source-dropdown {
+      position: relative;
+    }
+    
+    .dropdown-trigger {
+      padding: 6px 12px;
       border-radius: 6px;
       font-size: 13px;
       font-weight: 500;
       cursor: pointer;
-      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s;
+    }
+    
+    .dropdown-trigger:hover {
+      background: var(--hover);
+    }
+    
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px;
+      min-width: 200px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      display: none;
+      z-index: 100;
+    }
+    
+    .dropdown-menu.open {
+      display: block;
+    }
+    
+    .dropdown-item {
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      color: var(--text);
       transition: all 0.15s;
-      border: none;
-      background: transparent;
-      width: 100%;
-      text-align: left;
-    }
-
-    .category-item:hover {
-      background: var(--hover);
-      color: var(--text);
-    }
-
-    .category-item.active {
-      background: var(--card-bg);
-      color: var(--text);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-      font-weight: 600;
     }
     
-    .category-item .count {
-        background: var(--border);
-        padding: 2px 6px;
-        border-radius: 99px;
-        font-size: 10px;
-        min-width: 20px;
-        text-align: center;
-        opacity: 0.8;
+    .dropdown-item:hover {
+      background: var(--hover);
+    }
+    
+    .dropdown-item-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .dropdown-checkbox {
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .dropdown-item.selected .dropdown-checkbox {
+      background: var(--text);
+      border-color: var(--text);
+      color: var(--bg);
     }
 
     /* Hide card actions as requested */
@@ -147,49 +192,42 @@
       gap: 8px;
     }
 
-    .app-filters {
+    /* Category Filter Pills */
+    .category-filters {
       display: flex;
-      gap: 4px;
-      background: var(--bg);
-      padding: 4px;
-      border-radius: 6px;
-      border: 1px solid var(--border);
+      gap: 6px;
+      flex-wrap: wrap;
     }
-
-    .filter-tab {
-      padding: 4px 12px;
-      border-radius: 4px;
-      cursor: pointer;
-      font-weight: 500;
-      color: var(--text-secondary);
-      transition: all 0.15s ease;
+    
+    .category-filter-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
       font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text-secondary);
       display: flex;
       align-items: center;
       gap: 6px;
-      border: none;
-      background: transparent;
+      transition: all 0.15s;
     }
-
-    .filter-tab:hover {
+    
+    .category-filter-btn:hover {
+      background: var(--hover);
       color: var(--text);
-      background: var(--card-bg);
     }
-
-    .filter-tab.active {
-      background: var(--card-bg);
-      color: var(--text);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    
+    .category-filter-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
     }
-
-    .filter-tab .badge {
-      background: var(--border);
-      color: var(--text-secondary);
-      font-size: 10px;
-      padding: 0 4px;
-      border-radius: 99px;
-      min-width: 16px;
-      text-align: center;
+    
+    .category-filter-btn svg {
+      width: 14px;
+      height: 14px;
     }
 
     /* Category Pills */
@@ -272,44 +310,40 @@
     }
 
     .feed-list {
-      max-width: 700px;
-      margin: 0 auto;
+      max-width: 100%;
+      margin: 0;
       display: flex;
       flex-direction: column;
-      gap: 12px;
       padding-bottom: 100px;
     }
 
     /* Cards */
     .card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-      padding-right: 44px; /* Space for checkbox */
+      background: transparent;
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px;
+      padding-left: 50px; /* Space for checkbox */
       cursor: pointer;
       transition: all 0.15s ease;
       position: relative;
       display: flex;
-      flex-direction: column;
-      gap: 8px;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+      min-height: 52px;
     }
 
     .card:hover {
-      border-color: var(--text-secondary);
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      background: var(--hover);
     }
 
     .card.focused {
-      border-color: var(--text);
-      box-shadow: 0 0 0 2px var(--text);
+      background: var(--hover);
       z-index: 10;
     }
     
     .card.selected {
       background: var(--selection);
-      border-color: var(--text);
     }
 
     .card.archived {
@@ -320,8 +354,9 @@
     /* Checkbox */
     .card-checkbox {
       position: absolute;
-      right: 12px;
-      top: 16px;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
       width: 20px;
       height: 20px;
       border: 2px solid var(--border);
@@ -348,29 +383,45 @@
         height: 14px;
     }
 
-    .card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 4px;
+    .card-source {
+      flex-shrink: 0;
+    }
+
+    .card-content-wrapper {
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
     }
 
     .card-meta {
       display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 12px;
+      gap: 12px;
+      flex-shrink: 0;
+      font-size: 13px;
       color: var(--text-secondary);
+      margin-left: auto;
+    }
+    
+    .card-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
     }
 
     .source-badge {
       display: flex;
       align-items: center;
-      gap: 4px;
-      font-weight: 600;
-      padding: 2px 6px;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
       border-radius: 4px;
-      font-size: 11px;
+    }
+    
+    .source-badge svg {
+      width: 14px;
+      height: 14px;
     }
     
     .source-twitter { color: var(--twitter-color); background: rgba(29, 155, 240, 0.1); }
@@ -391,9 +442,13 @@
     .card-content {
       color: var(--text);
       font-size: 14px;
-      line-height: 1.6;
-      word-break: break-word;
-      white-space: pre-wrap;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      white-space: normal;
     }
 
     .card-content a {
@@ -407,25 +462,7 @@
     }
     
     .card-footer {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-top: 8px;
-      padding-top: 12px;
-      border-top: 1px solid var(--border);
-      font-size: 12px;
-      color: var(--text-tertiary);
-    }
-
-    .metric {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .metric svg {
-      width: 14px;
-      height: 14px;
+      display: none;
     }
 
     .card-actions {
@@ -457,25 +494,31 @@
       border-color: var(--text);
     }
 
-    /* Labels/Tags */
-    .tag {
-      font-size: 10px;
-      padding: 2px 6px;
-      border-radius: 99px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+    /* Category Icons */
+    .category-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+    }
+    
+    .category-icon svg {
+      width: 14px;
+      height: 14px;
     }
 
-    .tag-mention { background: #e0e7ff; color: #4338ca; }
-    .tag-bug { background: #fee2e2; color: #dc2626; }
-    .tag-love { background: #dcfce7; color: #16a34a; }
-    .tag-question { background: #fef3c7; color: #d97706; }
+    .category-mention { background: #e0e7ff; color: #4338ca; }
+    .category-bug { background: #fee2e2; color: #dc2626; }
+    .category-love { background: #dcfce7; color: #16a34a; }
+    .category-question { background: #fef3c7; color: #d97706; }
+    .category-other { background: var(--border); color: var(--text-secondary); }
 
-    [data-theme="dark"] .tag-mention { background: #312e81; color: #c7d2fe; }
-    [data-theme="dark"] .tag-bug { background: #7f1d1d; color: #fecaca; }
-    [data-theme="dark"] .tag-love { background: #14532d; color: #bbf7d0; }
-    [data-theme="dark"] .tag-question { background: #78350f; color: #fde68a; }
+    [data-theme="dark"] .category-mention { background: #312e81; color: #c7d2fe; }
+    [data-theme="dark"] .category-bug { background: #7f1d1d; color: #fecaca; }
+    [data-theme="dark"] .category-love { background: #14532d; color: #bbf7d0; }
+    [data-theme="dark"] .category-question { background: #78350f; color: #fde68a; }
 
     /* Bulk Actions Bar */
     .bulk-actions-bar {
@@ -626,73 +669,69 @@
         color: var(--text);
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       .app-header { 
-          padding: 12px 16px; 
-          height: auto; 
-          flex-direction: column;
-          align-items: stretch;
+          padding: 12px 16px;
           gap: 12px;
       }
       
-      .mobile-top-row {
-          display: flex;
-          align-items: center;
+      .header-top {
+          flex-wrap: wrap;
+          gap: 12px;
+      }
+      
+      .header-left {
+          width: 100%;
+          flex-wrap: wrap;
+      }
+      
+      .header-filters {
+          width: 100%;
+          flex-direction: column;
+          align-items: stretch;
+      }
+      
+      .source-dropdown {
+          width: 100%;
+      }
+      
+      .dropdown-trigger {
+          width: 100%;
           justify-content: space-between;
-          width: 100%;
       }
       
-      .app-logo {
-          font-size: 18px;
+      .category-filters {
+          overflow-x: auto;
+          flex-wrap: nowrap;
+          gap: 6px;
+          padding-bottom: 4px;
       }
       
-      .app-filters { 
-          overflow-x: auto; 
-          max-width: 100%; 
-          width: 100%;
-          justify-content: flex-start;
-          padding-bottom: 4px; /* Scrollbar space */
-      }
-      
-      /* Hide scrollbar */
-      .app-filters::-webkit-scrollbar {
+      .category-filters::-webkit-scrollbar {
           display: none;
       }
       
-      .shortcuts-help { display: none; }
-      .card { padding-left: 16px; padding-right: 16px; padding-top: 44px; }
-      .card-checkbox { top: 16px; left: 16px; right: auto; }
+      .category-filter-btn {
+          white-space: nowrap;
+      }
       
-      /* Mobile layout adjustments */
-      .main-wrapper { flex-direction: column; }
-      .sidebar {
+      .app-controls {
+          width: 100%;
+          justify-content: flex-end;
+      }
+      
+      .shortcuts-help { display: none; }
+      .card { 
+        padding: 12px 16px; 
+        padding-left: 44px;
+        flex-wrap: wrap;
+      }
+      .card-checkbox { top: 50%; left: 12px; transform: translateY(-50%); }
+      .card-meta {
         width: 100%;
-        border-right: none;
-        border-bottom: 1px solid var(--border);
-        flex-direction: row;
-        overflow-x: auto;
-        padding: 12px;
-        height: auto;
-        gap: 12px;
-      }
-      .category-item {
-        min-width: auto;
-        width: auto;
-        white-space: nowrap;
-        padding: 6px 12px;
-        background: var(--card-bg);
-        border: 1px solid var(--border);
-      }
-      .category-item.active {
-        border-color: var(--text);
-        background: var(--text);
-        color: var(--bg);
-      }
-      .category-item.active i {
-        stroke: var(--bg);
-      }
-      .category-item .count {
-        margin-left: 8px;
+        margin-left: 0;
+        margin-top: 8px;
+        font-size: 12px;
       }
     }
   </style>
@@ -712,72 +751,99 @@
 
   <!-- App Layout -->
   <header class="app-header">
-    <div class="mobile-top-row">
+    <div class="header-top">
+      <div class="header-left">
         <div class="app-logo">
           <i data-lucide="zap" style="width: 18px; height: 18px;"></i>
           Factory Feed
         </div>
         
-        <div class="app-controls">
-          <button class="icon-btn" id="refreshBtn" title="Refresh (R)">
-            <i data-lucide="refresh-cw"></i>
-          </button>
-          <button class="icon-btn" id="archiveToggleBtn" title="View Archived">
-            <i data-lucide="archive"></i>
-          </button>
-          <button class="icon-btn" id="themeBtn" title="Toggle Theme">
-            <i data-lucide="moon"></i>
-          </button>
-          <button class="icon-btn" id="settingsBtn" title="Settings">
-            <i data-lucide="settings"></i>
-          </button>
+        <div class="header-filters">
+          <div class="source-dropdown">
+            <button class="dropdown-trigger" id="sourceDropdownBtn">
+              <span id="sourceDropdownLabel">All sources</span>
+              <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
+            </button>
+            <div class="dropdown-menu" id="sourceDropdownMenu">
+              <div class="dropdown-item selected" data-source="all">
+                <div class="dropdown-item-left">
+                  <div class="dropdown-checkbox">
+                    <i data-lucide="check" style="width: 12px; height: 12px;"></i>
+                  </div>
+                  <span>All sources</span>
+                </div>
+                <span class="badge" id="count-all">0</span>
+              </div>
+              <div class="dropdown-item" data-source="twitter">
+                <div class="dropdown-item-left">
+                  <div class="dropdown-checkbox"></div>
+                  <i data-lucide="twitter" style="width: 14px; height: 14px;"></i>
+                  <span>Twitter</span>
+                </div>
+                <span class="badge" id="count-twitter">0</span>
+              </div>
+              <div class="dropdown-item" data-source="reddit">
+                <div class="dropdown-item-left">
+                  <div class="dropdown-checkbox"></div>
+                  <i data-lucide="message-square" style="width: 14px; height: 14px;"></i>
+                  <span>Reddit</span>
+                </div>
+                <span class="badge" id="count-reddit">0</span>
+              </div>
+              <div class="dropdown-item" data-source="github">
+                <div class="dropdown-item-left">
+                  <div class="dropdown-checkbox"></div>
+                  <i data-lucide="github" style="width: 14px; height: 14px;"></i>
+                  <span>GitHub</span>
+                </div>
+                <span class="badge" id="count-github">0</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="category-filters">
+            <button class="category-filter-btn active" data-category="all" title="All">
+              <i data-lucide="layers"></i>
+              All
+            </button>
+            <button class="category-filter-btn" data-category="mention" title="Mentions">
+              <i data-lucide="at-sign"></i>
+              Mentions
+            </button>
+            <button class="category-filter-btn" data-category="bug" title="Bugs">
+              <i data-lucide="bug"></i>
+              Bugs
+            </button>
+            <button class="category-filter-btn" data-category="love" title="Love">
+              <i data-lucide="heart"></i>
+              Love
+            </button>
+            <button class="category-filter-btn" data-category="question" title="Questions">
+              <i data-lucide="help-circle"></i>
+              Questions
+            </button>
+          </div>
         </div>
-    </div>
-    
-    <div class="app-filters">
-      <button class="filter-tab active" data-filter="all">
-        All <span class="badge" id="count-all">0</span>
-      </button>
-      <button class="filter-tab" data-filter="twitter">
-        <i data-lucide="twitter" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-twitter">0</span>
-      </button>
-      <button class="filter-tab" data-filter="reddit">
-        <i data-lucide="message-square" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-reddit">0</span>
-      </button>
-      <button class="filter-tab" data-filter="github">
-        <i data-lucide="github" style="width: 12px; height: 12px;"></i> <span class="badge" id="count-github">0</span>
-      </button>
+      </div>
+      
+      <div class="app-controls">
+        <button class="icon-btn" id="refreshBtn" title="Refresh (R)">
+          <i data-lucide="refresh-cw"></i>
+        </button>
+        <button class="icon-btn" id="archiveToggleBtn" title="View Archived">
+          <i data-lucide="archive"></i>
+        </button>
+        <button class="icon-btn" id="themeBtn" title="Toggle Theme">
+          <i data-lucide="moon"></i>
+        </button>
+        <button class="icon-btn" id="settingsBtn" title="Settings">
+          <i data-lucide="settings"></i>
+        </button>
+      </div>
     </div>
   </header>
 
   <div class="main-wrapper">
-    <aside class="sidebar">
-        <button class="category-item active" data-category="all">
-            <i data-lucide="layers" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>All</span>
-        </button>
-        <button class="category-item" data-category="mention">
-            <i data-lucide="at-sign" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>Mentions</span> <span class="count" id="cat-count-mention">0</span>
-        </button>
-        <button class="category-item" data-category="bug">
-            <i data-lucide="bug" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>Bugs</span> <span class="count" id="cat-count-bug">0</span>
-        </button>
-        <button class="category-item" data-category="love">
-            <i data-lucide="heart" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>Love</span> <span class="count" id="cat-count-love">0</span>
-        </button>
-        <button class="category-item" data-category="question">
-            <i data-lucide="help-circle" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>Questions</span> <span class="count" id="cat-count-question">0</span>
-        </button>
-        <button class="category-item" data-category="other">
-            <i data-lucide="archive" style="width: 16px; height: 16px; margin-right: 8px;"></i>
-            <span>Other</span> <span class="count" id="cat-count-other">0</span>
-        </button>
-    </aside>
-
     <main class="main-container">
       <div class="feed-container" id="scrollContainer">
         <div id="feedList" class="feed-list">
@@ -849,8 +915,10 @@
       tokenInput: document.getElementById('tokenInput'),
       tokenSubmit: document.getElementById('tokenSubmit'),
       tokenError: document.getElementById('tokenError'),
-      filterTabs: document.querySelectorAll('.filter-tab'),
-      categoryItems: document.querySelectorAll('.category-item'),
+      sourceDropdownBtn: document.getElementById('sourceDropdownBtn'),
+      sourceDropdownMenu: document.getElementById('sourceDropdownMenu'),
+      sourceDropdownLabel: document.getElementById('sourceDropdownLabel'),
+      categoryFilterBtns: document.querySelectorAll('.category-filter-btn'),
       bulkBar: document.getElementById('bulkBar'),
       bulkCount: document.getElementById('bulkCount'),
       counts: {
@@ -858,13 +926,6 @@
         twitter: document.getElementById('count-twitter'),
         reddit: document.getElementById('count-reddit'),
         github: document.getElementById('count-github')
-      },
-      catCounts: {
-          mention: document.getElementById('cat-count-mention'),
-          bug: document.getElementById('cat-count-bug'),
-          love: document.getElementById('cat-count-love'),
-          question: document.getElementById('cat-count-question'),
-          other: document.getElementById('cat-count-other')
       },
       toast: document.getElementById('statusToast'),
       settingsModal: document.getElementById('settingsModal'),
@@ -878,9 +939,9 @@
       setupTheme();
       setupEventListeners();
       
-      if (await checkAccess()) {
-        startApp();
-      }
+      // Skip access check for local development
+      elements.accessOverlay.classList.remove('open');
+      startApp();
     }
 
     function loadPersistedState() {
@@ -1045,7 +1106,7 @@
       const isSelected = state.selectedIds.has(item.id);
       const date = new Date(item.timestamp);
       const timeAgo = getTimeAgo(date);
-      const category = item.category || item.classification?.label;
+      const category = item.category || item.classification?.label || 'other';
       
       let sourceIcon = 'circle';
       if (item.source === 'twitter') sourceIcon = 'twitter';
@@ -1062,29 +1123,31 @@
               ${isSelected ? '<i data-lucide="check"></i>' : ''}
           </div>
 
-          <div class="card-header">
-            <div class="card-meta">
-              <span class="source-badge source-${item.source}" title="${item.source}">
+          <div class="card-source">
+            <span class="source-badge source-${item.source}" title="${item.source}">
+              <i data-lucide="${sourceIcon}"></i>
+            </span>
+          </div>
+          
+          <div class="card-content-wrapper">
+            <div class="card-content">${formatContent(item.content)}</div>
+          </div>
+          
+          <div class="card-meta">
+            <div class="card-meta-item">
+              <span class="source-badge source-${item.source}" style="width: 16px; height: 16px;">
                 <i data-lucide="${sourceIcon}" style="width: 12px; height: 12px;"></i>
               </span>
               <span class="card-author">${item.author}</span>
-              <span class="card-time">• ${timeAgo}</span>
-              ${category ? `<span class="tag tag-${category}"><i data-lucide="${getCategoryIcon(category)}" style="width: 10px; height: 10px;"></i></span>` : ''}
             </div>
-            <div class="card-actions">
-              <!-- Hidden by CSS as requested, but kept for logic if needed later -->
-              <button class="action-pill action-open" data-id="${item.id}" data-url="${item.url}" title="Open Link (Enter)">Open</button>
-              <button class="action-pill action-archive" data-id="${item.id}">${isArchived ? 'Unarchive' : 'Archive'}</button>
+            <div class="card-meta-item">
+              <span class="category-icon category-${category}" style="width: 16px; height: 16px;" title="${category}">
+                <i data-lucide="${getCategoryIcon(category)}" style="width: 12px; height: 12px;"></i>
+              </span>
             </div>
-          </div>
-          
-          <div class="card-content">${formatContent(item.content)}</div>
-          
-          <div class="card-footer">
-             ${item.metadata?.likes ? `<span class="metric"><i data-lucide="heart"></i> ${formatNumber(item.metadata.likes)}</span>` : ''}
-             ${item.metadata?.retweets ? `<span class="metric"><i data-lucide="repeat"></i> ${formatNumber(item.metadata.retweets)}</span>` : ''}
-             ${item.metadata?.replies ? `<span class="metric"><i data-lucide="message-circle"></i> ${formatNumber(item.metadata.replies)}</span>` : ''}
-             ${item.metadata?.stars ? `<span class="metric"><i data-lucide="star"></i> ${formatNumber(item.metadata.stars)}</span>` : ''}
+            <div class="card-meta-item">
+              <span class="card-time">${timeAgo}</span>
+            </div>
           </div>
         </div>
       `;
@@ -1092,29 +1155,16 @@
     
     function updateCounts() {
         const counts = { all: 0, twitter: 0, reddit: 0, github: 0 };
-        const catCounts = { mention: 0, bug: 0, love: 0, question: 0, other: 0 };
         
         state.items.forEach(item => {
             if (state.archivedIds.has(item.id)) return;
             
-            // Source counts
             counts.all++;
             if (counts[item.source] !== undefined) counts[item.source]++;
-            
-            // Category counts (filtered by active source)
-            if (state.activeFilter === 'all' || item.source === state.activeFilter) {
-                 const cat = item.category || item.classification?.label || 'other';
-                 if (catCounts[cat] !== undefined) catCounts[cat]++;
-                 else catCounts.other++;
-            }
         });
         
         for (const key in counts) {
             if (elements.counts[key]) elements.counts[key].textContent = counts[key];
-        }
-        
-        for (const key in catCounts) {
-            if (elements.catCounts[key]) elements.catCounts[key].textContent = catCounts[key];
         }
     }
     
@@ -1253,24 +1303,48 @@
 
     // --- Event Listeners ---
     function setupEventListeners() {
-        // Filter Tabs
-        elements.filterTabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                elements.filterTabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                state.activeFilter = tab.dataset.filter;
+        // Source Dropdown
+        elements.sourceDropdownBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            elements.sourceDropdownMenu.classList.toggle('open');
+        });
+        
+        document.addEventListener('click', () => {
+            elements.sourceDropdownMenu.classList.remove('open');
+        });
+        
+        elements.sourceDropdownMenu.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+        
+        document.querySelectorAll('.dropdown-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelectorAll('.dropdown-item').forEach(i => i.classList.remove('selected'));
+                item.classList.add('selected');
+                
+                state.activeFilter = item.dataset.source;
+                const source = item.dataset.source;
+                
+                if (source === 'all') {
+                    elements.sourceDropdownLabel.textContent = 'All sources';
+                } else {
+                    elements.sourceDropdownLabel.textContent = source.charAt(0).toUpperCase() + source.slice(1);
+                }
+                
                 state.selectedIds.clear();
                 render();
                 elements.scrollContainer.scrollTop = 0;
+                elements.sourceDropdownMenu.classList.remove('open');
+                lucide.createIcons();
             });
         });
         
-        // Category Items
-        elements.categoryItems.forEach(item => {
-            item.addEventListener('click', () => {
-                elements.categoryItems.forEach(i => i.classList.remove('active'));
-                item.classList.add('active');
-                state.activeCategory = item.dataset.category;
+        // Category Filter Buttons
+        elements.categoryFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                elements.categoryFilterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                state.activeCategory = btn.dataset.category;
                 state.selectedIds.clear();
                 render();
                 elements.scrollContainer.scrollTop = 0;
