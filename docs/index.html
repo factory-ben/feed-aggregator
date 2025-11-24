@@ -1537,7 +1537,7 @@
       
       try {
         // Get current file SHA
-        const repoInfo = await fetch('https://api.github.com/repos/bentossell/feed/contents/docs/data/archived.json', {
+        const repoInfo = await fetch('https://api.github.com/repos/factory-ben/feed/contents/docs/data/archived.json', {
           headers: { 'Authorization': `token ${token}` }
         });
         
@@ -1548,7 +1548,7 @@
         }
 
         // Update file
-        const updateRes = await fetch('https://api.github.com/repos/bentossell/feed/contents/docs/data/archived.json', {
+        const updateRes = await fetch('https://api.github.com/repos/factory-ben/feed/contents/docs/data/archived.json', {
           method: 'PUT',
           headers: {
             'Authorization': `token ${token}`,
