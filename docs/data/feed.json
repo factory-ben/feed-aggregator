@@ -1,5 +1,110 @@
 [
   {
+    "id": "twitter_1992915271334715566",
+    "source": "twitter",
+    "author": "fire",
+    "content": "@sasuke___420 I like @FactoryAI's droid cli; @cursor_ai's cli breaks a lot, &amp; I haven't played with @AmpCode or @opencode enough yet to have an opinion, but they exist\n\nall do more or less in the way of constraining models and maintaining their context, but are still mostly tooling atop loops",
+    "url": "https://x.com/fire/status/1992915271334715566",
+    "timestamp": "2025-11-24T11:16:41.000Z",
+    "metadata": {
+      "conversation_id": "1992915271334715566",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992915166229647544",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@klyndrud1 @thedanifrim @FactoryAI i know this isnt the solve, but i assume you're on the latest version - it may be worth re-installing to see if that fixes anything",
+    "url": "https://x.com/bentossell/status/1992915166229647544",
+    "timestamp": "2025-11-24T11:16:16.000Z",
+    "metadata": {
+      "conversation_id": "1992915166229647544",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992915022788562980",
+    "source": "twitter",
+    "author": "Bishopu15",
+    "content": "@CloudTrader4 @FactoryAI Good morning Cloud. Be stronger than your excuses and more powerful than your fears, so conquer this day with confidence. 🥰",
+    "url": "https://x.com/Bishopu15/status/1992915022788562980",
+    "timestamp": "2025-11-24T11:15:42.000Z",
+    "metadata": {
+      "conversation_id": "1992915022788562980",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992914462584758630",
+    "source": "twitter",
+    "author": "leveragge_",
+    "content": "@CloudTrader4 @FactoryAI gmgm fren",
+    "url": "https://x.com/leveragge_/status/1992914462584758630",
+    "timestamp": "2025-11-24T11:13:29.000Z",
+    "metadata": {
+      "conversation_id": "1992914462584758630",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992914110946910530",
+    "source": "twitter",
+    "author": "OldCheetah1",
+    "content": "@CloudTrader4 @FactoryAI good morning, cloud",
+    "url": "https://x.com/OldCheetah1/status/1992914110946910530",
+    "timestamp": "2025-11-24T11:12:05.000Z",
+    "metadata": {
+      "conversation_id": "1992914110946910530",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992913882466443278",
+    "source": "twitter",
+    "author": "CloudTrader4",
+    "content": "GM\n\nOut in the arena, trying things\n(I will regret though)\n\nCreating a comprehensive and detailed frontend designer skill. I know this is going to be overwhelming for the model but lets just test it. Using @FactoryAI https://t.co/BUPCQHCKLJ",
+    "url": "https://x.com/CloudTrader4/status/1992913882466443278",
+    "timestamp": "2025-11-24T11:11:10.000Z",
+    "metadata": {
+      "conversation_id": "1992913882466443278",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 4,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992913718360019326",
+    "source": "twitter",
+    "author": "klyndrud1",
+    "content": "@bentossell @thedanifrim @FactoryAI that would be great. here is what happens: First prompt, droid works for 3min and finish the task, second prompt works for another 3 minutes and we hit this issue. codex cli crunches on without issues https://t.co/SGG1DjDan8",
+    "url": "https://x.com/klyndrud1/status/1992913718360019326",
+    "timestamp": "2025-11-24T11:10:31.000Z",
+    "metadata": {
+      "conversation_id": "1992913718360019326",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992910437881700569",
     "source": "twitter",
     "author": "bentossell",
