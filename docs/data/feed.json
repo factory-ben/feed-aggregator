@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1992773841383477387",
+    "source": "twitter",
+    "author": "BobMcElrath",
+    "content": "@FactoryAI WHY the F would I want another F-ing account on your damn website.\n\nLet's try Project Goose instead.",
+    "url": "https://x.com/BobMcElrath/status/1992773841383477387",
+    "timestamp": "2025-11-24T01:54:42.000Z",
+    "metadata": {
+      "conversation_id": "1992773841383477387",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992768228473663850",
+    "source": "twitter",
+    "author": "VikiVirgon",
+    "content": "@FactoryAI Will the skills feature on Droid still work properly if I don't use the  default model from Droid? For example, using Ollama:cloud?",
+    "url": "https://x.com/VikiVirgon/status/1992768228473663850",
+    "timestamp": "2025-11-24T01:32:24.000Z",
+    "metadata": {
+      "conversation_id": "1992768228473663850",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992765987871993936",
     "source": "twitter",
     "author": "deliprao",
@@ -8098,6 +8128,19 @@
       "classifiedAt": "2025-11-21T21:47:31.286Z"
     },
     "category": "mention"
+  },
+  {
+    "id": "github_issue_386",
+    "source": "github",
+    "author": "etwk",
+    "content": "[Issue] Option to Disable Auto Update\n\nSuggest add one setting to disable auto-update completely and one option to skip it during `droid exec`:\n  - Avoid unnecessary latency and requests.\n  - Prevent bug causing Droid stuck at startup on `Checking for updates...`\n  - Sometimes we may use `droid exec` high frequency on one same machine, not efficient to check update every time",
+    "url": "https://github.com/Factory-AI/factory/issues/386",
+    "timestamp": "2025-11-19T08:23:32Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 386
+    }
   },
   {
     "id": "github_issue_385",
