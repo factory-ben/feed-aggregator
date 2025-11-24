@@ -419,85 +419,7 @@
       background: var(--card-bg);
     }
 
-    /* Source Dropdown */
-    .source-dropdown {
-      position: relative;
-    }
-    
-    .dropdown-trigger {
-      padding: 6px 12px;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 500;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      background: var(--card-bg);
-      color: var(--text);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.15s;
-    }
-    
-    .dropdown-trigger:hover {
-      background: var(--hover);
-    }
-    
-    .dropdown-menu {
-      position: absolute;
-      top: calc(100% + 4px);
-      left: 0;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 4px;
-      min-width: 200px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-      display: none;
-      z-index: 100;
-    }
-    
-    .dropdown-menu.open {
-      display: block;
-    }
-    
-    .dropdown-item {
-      padding: 8px 12px;
-      border-radius: 4px;
-      font-size: 13px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: var(--text);
-      transition: all 0.15s;
-    }
-    
-    .dropdown-item:hover {
-      background: var(--hover);
-    }
-    
-    .dropdown-item-left {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    
-    .dropdown-checkbox {
-      width: 16px;
-      height: 16px;
-      border: 2px solid var(--border);
-      border-radius: 3px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .dropdown-item.selected .dropdown-checkbox {
-      background: var(--text);
-      border-color: var(--text);
-      color: var(--bg);
-    }
+
 
     /* Hide card actions as requested */
     .card-actions {
@@ -1190,17 +1112,6 @@
       
       .header-filters {
           width: 100%;
-          flex-direction: column;
-          align-items: stretch;
-      }
-      
-      .source-dropdown {
-          width: 100%;
-      }
-      
-      .dropdown-trigger {
-          width: 100%;
-          justify-content: space-between;
       }
       
       .category-filters {
@@ -1295,51 +1206,6 @@
         </a>
         
         <div class="header-filters">
-          <div class="source-dropdown">
-            <button class="dropdown-trigger" id="sourceDropdownBtn">
-              <span id="sourceDropdownLabel">All sources</span>
-              <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
-            </button>
-            <div class="dropdown-menu" id="sourceDropdownMenu">
-              <div class="dropdown-item selected" data-source="all">
-                <div class="dropdown-item-left">
-                  <div class="dropdown-checkbox">
-                    <i data-lucide="check" style="width: 12px; height: 12px;"></i>
-                  </div>
-                  <span>All sources</span>
-                </div>
-                <span class="badge" id="count-all">0</span>
-              </div>
-              <div class="dropdown-item" data-source="twitter">
-                <div class="dropdown-item-left">
-                  <div class="dropdown-checkbox"></div>
-                  <i data-lucide="twitter" style="width: 14px; height: 14px;"></i>
-                  <span>Twitter</span>
-                </div>
-                <span class="badge" id="count-twitter">0</span>
-              </div>
-              <div class="dropdown-item" data-source="reddit">
-                <div class="dropdown-item-left">
-                  <div class="dropdown-checkbox"></div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z"/>
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165"/>
-                  </svg>
-                  <span>Reddit</span>
-                </div>
-                <span class="badge" id="count-reddit">0</span>
-              </div>
-              <div class="dropdown-item" data-source="github">
-                <div class="dropdown-item-left">
-                  <div class="dropdown-checkbox"></div>
-                  <i data-lucide="github" style="width: 14px; height: 14px;"></i>
-                  <span>GitHub</span>
-                </div>
-                <span class="badge" id="count-github">0</span>
-              </div>
-            </div>
-          </div>
-          
           <div class="category-filters">
             <button class="category-filter-btn active" data-category="all" title="All">
               <i data-lucide="layers"></i>
@@ -1605,18 +1471,9 @@
       tokenInput: document.getElementById('tokenInput'),
       tokenSubmit: document.getElementById('tokenSubmit'),
       tokenError: document.getElementById('tokenError'),
-      sourceDropdownBtn: document.getElementById('sourceDropdownBtn'),
-      sourceDropdownMenu: document.getElementById('sourceDropdownMenu'),
-      sourceDropdownLabel: document.getElementById('sourceDropdownLabel'),
       categoryFilterBtns: document.querySelectorAll('.category-filter-btn'),
       bulkBar: document.getElementById('bulkBar'),
       bulkCount: document.getElementById('bulkCount'),
-      counts: {
-        all: document.getElementById('count-all'),
-        twitter: document.getElementById('count-twitter'),
-        reddit: document.getElementById('count-reddit'),
-        github: document.getElementById('count-github')
-      },
       toast: document.getElementById('statusToast'),
       settingsModal: document.getElementById('settingsModal'),
       configInput: document.getElementById('configInput'),
@@ -1905,18 +1762,8 @@
     }
     
     function updateCounts() {
-        const counts = { all: 0, twitter: 0, reddit: 0, github: 0 };
-        
-        state.items.forEach(item => {
-            if (state.archivedIds.has(item.id)) return;
-            
-            counts.all++;
-            if (counts[item.source] !== undefined) counts[item.source]++;
-        });
-        
-        for (const key in counts) {
-            if (elements.counts[key]) elements.counts[key].textContent = counts[key];
-        }
+        // Count functionality removed since source dropdown is removed
+        // Source filtering now handled by secondary nav pills
     }
     
     function updateBulkBar() {
@@ -2217,42 +2064,6 @@
                 state.selectedIds.clear();
                 render();
                 elements.scrollContainer.scrollTop = 0;
-            });
-        });
-        
-        // Source Dropdown
-        elements.sourceDropdownBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            elements.sourceDropdownMenu.classList.toggle('open');
-        });
-        
-        document.addEventListener('click', () => {
-            elements.sourceDropdownMenu.classList.remove('open');
-        });
-        
-        elements.sourceDropdownMenu.addEventListener('click', (e) => {
-            e.stopPropagation();
-        });
-        
-        document.querySelectorAll('.dropdown-item').forEach(item => {
-            item.addEventListener('click', () => {
-                document.querySelectorAll('.dropdown-item').forEach(i => i.classList.remove('selected'));
-                item.classList.add('selected');
-                
-                state.activeFilter = item.dataset.source;
-                const source = item.dataset.source;
-                
-                if (source === 'all') {
-                    elements.sourceDropdownLabel.textContent = 'All sources';
-                } else {
-                    elements.sourceDropdownLabel.textContent = source.charAt(0).toUpperCase() + source.slice(1);
-                }
-                
-                state.selectedIds.clear();
-                render();
-                elements.scrollContainer.scrollTop = 0;
-                elements.sourceDropdownMenu.classList.remove('open');
-                lucide.createIcons();
             });
         });
         
