@@ -1,7 +1,5 @@
 [
   {
-<<<<<<< Updated upstream
-=======
     "id": "twitter_1992970369976721865",
     "source": "twitter",
     "author": "meTheKarthik",
@@ -14,10 +12,10 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "question"
   },
   {
->>>>>>> Stashed changes
     "id": "twitter_1992969959543054475",
     "source": "twitter",
     "author": "realkieranlewis",
