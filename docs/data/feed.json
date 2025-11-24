@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1993027615515722121",
+    "source": "twitter",
+    "author": "brexton",
+    "content": "We updated our Slack integration so you can run tasks across as many agents (amp, codex, claude code, etc.) as you want in parallel with your team with proper provenance &amp; automated PRs\n\nIt's made me lazy and now I just pick the successful one-shot (this time it was @FactoryAI) https://t.co/KG4dJEyuI1",
+    "url": "https://x.com/brexton/status/1993027615515722121",
+    "timestamp": "2025-11-24T18:43:06.000Z",
+    "metadata": {
+      "conversation_id": "1993027615515722121",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993024175364280380",
+    "source": "twitter",
+    "author": "ImranDeveloper",
+    "content": "@bentossell @matanSF @ayman_alderson @FactoryAI I have attached screenshot in discord and twitter DM",
+    "url": "https://x.com/ImranDeveloper/status/1993024175364280380",
+    "timestamp": "2025-11-24T18:29:26.000Z",
+    "metadata": {
+      "conversation_id": "1993024175364280380",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993019099614773341",
     "source": "twitter",
     "author": "bentossell",
