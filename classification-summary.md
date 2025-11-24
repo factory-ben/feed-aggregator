@@ -1,9 +1,9 @@
 # Classification Summary
 
-**Date:** 2025-11-24 20:47 UTC
+**Date:** 2025-11-24 20:55 UTC
 
-**Total items classified:** 8
+**Total items classified:** 1
 
-**Category breakdown:**
-- mention: 6 (75%)
-- question: 2 (25%)
+## Category Breakdown
+
+- **question**: 1 (100.0%)
