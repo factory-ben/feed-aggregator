@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1992765987871993936",
+    "source": "twitter",
+    "author": "deliprao",
+    "content": "@bentossell @makerfounder @FactoryAI Is there instructions for this somewhere I can follow?",
+    "url": "https://x.com/deliprao/status/1992765987871993936",
+    "timestamp": "2025-11-24T01:23:29.000Z",
+    "metadata": {
+      "conversation_id": "1992765987871993936",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992764372121436598",
+    "source": "twitter",
+    "author": "charlesmendez",
+    "content": "@ayman_alderson @FactoryAI @opencode I stopped using it. Main reason is because it is not even 2x better than others. I would even say that Codex is better now.",
+    "url": "https://x.com/charlesmendez/status/1992764372121436598",
+    "timestamp": "2025-11-24T01:17:04.000Z",
+    "metadata": {
+      "conversation_id": "1992764372121436598",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1992757961312379108",
+    "source": "twitter",
+    "author": "jackadoresai",
+    "content": "@RayFernando1337 @hexawulf @FactoryAI Droid's Sonnet 4.5 feels like a model whisperer, right? https://t.co/GDBrv7DuIn gives it extra polish! Outputs smooth as silk!",
+    "url": "https://x.com/jackadoresai/status/1992757961312379108",
+    "timestamp": "2025-11-24T00:51:36.000Z",
+    "metadata": {
+      "conversation_id": "1992757961312379108",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1992750496877027576",
     "source": "twitter",
     "author": "jcurtis",
