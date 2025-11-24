@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1993019099614773341",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@ImranDeveloper @matanSF @ayman_alderson @FactoryAI i dont understand. your email on the 10th was replied to on the 11th. if there was another i dont think it got set to support?",
+    "url": "https://x.com/bentossell/status/1993019099614773341",
+    "timestamp": "2025-11-24T18:09:16.000Z",
+    "metadata": {
+      "conversation_id": "1993019099614773341",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993017612905988299",
+    "source": "twitter",
+    "author": "MihailVarich",
+    "content": "Last time, I've been feeling like an ambassador for @FactoryAI 😅 This is because when someone asked about the best coding agent, I can't find any alternatives. Who else allows to work so well in VS Code and terminal?",
+    "url": "https://x.com/MihailVarich/status/1993017612905988299",
+    "timestamp": "2025-11-24T18:03:22.000Z",
+    "metadata": {
+      "conversation_id": "1993017612905988299",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993008782503518533",
     "source": "twitter",
     "author": "RayaneRachid_",
