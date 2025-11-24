@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1993093159790977370",
+    "source": "twitter",
+    "author": "SyedFahimAnwer1",
+    "content": "@benvargas @FactoryAI Dumb question, using via proxy is there any limit different based on how anthropic calculates usage? Like if I use it via proxy in factory vs directly using in Claude code?",
+    "url": "https://x.com/SyedFahimAnwer1/status/1993093159790977370",
+    "timestamp": "2025-11-24T23:03:33.000Z",
+    "metadata": {
+      "conversation_id": "1993093159790977370",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993092089488306673",
+    "source": "twitter",
+    "author": "bentossell",
+    "content": "@JohnONolan @FactoryAI sorry for delay - was checking if in today’s release and it will be!",
+    "url": "https://x.com/bentossell/status/1993092089488306673",
+    "timestamp": "2025-11-24T22:59:18.000Z",
+    "metadata": {
+      "conversation_id": "1993092089488306673",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993089655668142487",
     "source": "twitter",
     "author": "martin_ict_algo",
