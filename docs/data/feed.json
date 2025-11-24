@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1993046222756888612",
+    "source": "twitter",
+    "author": "hugo_oliveira_d",
+    "content": "@FactoryAI please render the content I sent as argument to a slash command. Would be helpful to ensure that was received by the agent.",
+    "url": "https://x.com/hugo_oliveira_d/status/1993046222756888612",
+    "timestamp": "2025-11-24T19:57:03.000Z",
+    "metadata": {
+      "conversation_id": "1993046222756888612",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993045541312512481",
+    "source": "twitter",
+    "author": "Mind9Excel",
+    "content": "ok i admit that despite only a 3% increase on SWEbench,\n\nopus4.5 in @FactoryAI is insane..",
+    "url": "https://x.com/Mind9Excel/status/1993045541312512481",
+    "timestamp": "2025-11-24T19:54:20.000Z",
+    "metadata": {
+      "conversation_id": "1993045541312512481",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993045422063976537",
+    "source": "twitter",
+    "author": "peterdedene",
+    "content": "@SalzmannOnX Yes. Or choose a provider where you can use them all, like @FactoryAI or @GitHubCopilot",
+    "url": "https://x.com/peterdedene/status/1993045422063976537",
+    "timestamp": "2025-11-24T19:53:52.000Z",
+    "metadata": {
+      "conversation_id": "1993045422063976537",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993044879468024194",
     "source": "twitter",
     "author": "benvargas",
