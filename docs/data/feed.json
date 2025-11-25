@@ -1,5 +1,18 @@
 [
   {
+    "id": "reddit_1p66lry",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "Factory CLI v0.27.1 Released - Improved rewind functionality and more\n\n## New features\n\n* **Improved rewind functionality** - new `/rewind` command, plus speed and UX improvements.\n* **`/install-github-app` command** - New command to install the Factory GitHub app directly from the CLI.\n* **Images in MCP tool responses** - MCP tools can now return images that are properly sent to the LLM.\n\n## Bug fixes\n\n* Upgraded to bun 1.3.3\n* Safer mechanism to check if ripgrep is installed\n* Fixed gpt-5.1-codex reasoning\n* Shift+Backspace deletes single characters like Backspac",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p66lry/factory_cli_v0271_released_improved_rewind/",
+    "timestamp": "2025-11-25T07:48:14.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_1993192516901060718",
     "source": "twitter",
     "author": "steipete",
