@@ -12,7 +12,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "question"
   },
   {
     "id": "twitter_1993386782264901895",
@@ -13257,7 +13258,8 @@
       "score": 1,
       "num_comments": 0,
       "subreddit": "FactoryAi"
-    }
+    },
+    "category": "mention"
   },
   {
     "id": "reddit_1owpdgs",
@@ -13270,7 +13272,8 @@
       "score": 1,
       "num_comments": 8,
       "subreddit": "FactoryAi"
-    }
+    },
+    "category": "bug"
   },
   {
     "id": "github_issue_348",
