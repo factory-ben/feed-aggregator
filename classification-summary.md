@@ -1,10 +1,9 @@
 # Classification Summary
 
-**Date:** 2025-11-25 21:40 UTC
+**Date:** 2025-11-25 21:51 UTC
 
-**Items Classified:** 2 (new only)
+**Items Classified:** 1 (new only)
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| love     | 1     | 50%        |
-| bug      | 1     | 50%        |
+| question | 1     | 100%       |
