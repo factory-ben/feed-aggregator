@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1993391931498676278",
+    "source": "twitter",
+    "author": "DCasota",
+    "content": "@pascallammers_ @FactoryAI and those 150m tokens were used in 24/7 mode for 30 days, or what was the consumption time?",
+    "url": "https://x.com/DCasota/status/1993391931498676278",
+    "timestamp": "2025-11-25T18:50:46.000Z",
+    "metadata": {
+      "conversation_id": "1993391931498676278",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993386782264901895",
     "source": "twitter",
     "author": "Negusnati",
@@ -13230,6 +13245,32 @@
       "number": 360
     },
     "category": "other"
+  },
+  {
+    "id": "reddit_1owv5gf",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "how to set up custom models with Groq in &lt;1 min\n\nhttps://reddit.com/link/1owv5gf/video/vfpxccohu71g1/player\n\nvideo above  \ndocs: [https://docs.factory.ai/cli/byok/groq](https://docs.factory.ai/cli/byok/groq)",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1owv5gf/how_to_set_up_custom_models_with_groq_in_1_min/",
+    "timestamp": "2025-11-14T12:27:05.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
+    "id": "reddit_1owpdgs",
+    "source": "reddit",
+    "author": "Informal-Spinach-345",
+    "content": "Todo list with minimax m2\n\nAny one else have issues with Minimax M2 on vllm not being able to properly use the todo list? \n\n  \nThis is what the output looks like, it eventually moves on but I never see a todo list:\n\n   Let me create a comprehensive todo list that captures all the remaining work.\n\n   &lt;/think&gt;\n\n\n\n\n\n\n\n\n\n⛬  &lt;think&gt;I need to fix the todo format - the todos parameter should be an array, not an object.\n\n   &lt;/think&gt;\n\n\n\n\n\n\n\n\n\n⛬  &lt;think&gt;Let me check the todo structure more carefully. Looking",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1owpdgs/todo_list_with_minimax_m2/",
+    "timestamp": "2025-11-14T06:41:19.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 8,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "github_issue_348",
