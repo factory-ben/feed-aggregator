@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_439",
+    "source": "github",
+    "author": "edlsh",
+    "content": "[Issue] 🚀 Feature Request: Support BYOK Custom Models in Spec Mode (Configure Separate Spec Mode Model)\n\n# Feature Request: Custom Models in Spec Mode\n\n## Background\n- Droid already supports **Mixed Models** so spec planning can use a different model than build mode.\n- The **BYOK** flow lets us register custom providers in `~/.factory/config.json` and pick them from `/model` for normal sessions.\n- Spec Mode currently only lists Factory-provided models, so BYOK entries are invisible even though they work fine elsewhere.\n- Workaround: set the custom model as the default, toggle Spec Mode, wait for pl",
+    "url": "https://github.com/Factory-AI/factory/issues/439",
+    "timestamp": "2025-11-26T19:39:02Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 439
+    }
+  },
+  {
     "id": "twitter_1993758839955505554",
     "source": "twitter",
     "author": "geo_anima",
