@@ -1,5 +1,110 @@
 [
   {
+    "id": "twitter_1993490070880567602",
+    "source": "twitter",
+    "author": "Jackhortonlol",
+    "content": "Been loving Droid recently @FactoryAI https://t.co/Ltc88b7ZkW",
+    "url": "https://x.com/Jackhortonlol/status/1993490070880567602",
+    "timestamp": "2025-11-26T01:20:44.000Z",
+    "metadata": {
+      "conversation_id": "1993490070880567602",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993489832384118812",
+    "source": "twitter",
+    "author": "benvargas",
+    "content": "@SvenMeyer @FactoryAI Here's the thinking level those model slugs map to in CLIProxyAPI. https://t.co/dzKHq5uPab",
+    "url": "https://x.com/benvargas/status/1993489832384118812",
+    "timestamp": "2025-11-26T01:19:47.000Z",
+    "metadata": {
+      "conversation_id": "1993489832384118812",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993489383127998806",
+    "source": "twitter",
+    "author": "benvargas",
+    "content": "@SvenMeyer @FactoryAI CLIProxyAPI has added the ability to map to various thinking levels in recent update/release - you can look at their github. \n\nYou'd add models like in the screenshot which effectively allows you to select a thinking level pre-defined in CLIProxyAPI. https://t.co/FrN55mruI3",
+    "url": "https://x.com/benvargas/status/1993489383127998806",
+    "timestamp": "2025-11-26T01:18:00.000Z",
+    "metadata": {
+      "conversation_id": "1993489383127998806",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993485879105700036",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@benvargas @FactoryAI It's working great, but how can I select different thinking levels for models ?",
+    "url": "https://x.com/SvenMeyer/status/1993485879105700036",
+    "timestamp": "2025-11-26T01:04:05.000Z",
+    "metadata": {
+      "conversation_id": "1993485879105700036",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 2,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993485633919369352",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@benvargas @FactoryAI thx, has been working fine for me already 12h ago",
+    "url": "https://x.com/SvenMeyer/status/1993485633919369352",
+    "timestamp": "2025-11-26T01:03:06.000Z",
+    "metadata": {
+      "conversation_id": "1993485633919369352",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993484207675597262",
+    "source": "twitter",
+    "author": "MihailVarich",
+    "content": "@BHolmesDev I think the guys who use something other than @FactoryAI as their main tool just haven't tried it yet.",
+    "url": "https://x.com/MihailVarich/status/1993484207675597262",
+    "timestamp": "2025-11-26T00:57:26.000Z",
+    "metadata": {
+      "conversation_id": "1993484207675597262",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993484013361844585",
+    "source": "twitter",
+    "author": "SvenMeyer",
+    "content": "@donvito or just use @FactoryAI DROID CLI where you have already multiple models to choose from (Sonnet,Opus,Gemini,GPT,GLM) and can easily add any other model without the need for ugly workarounds.",
+    "url": "https://x.com/SvenMeyer/status/1993484013361844585",
+    "timestamp": "2025-11-26T00:56:40.000Z",
+    "metadata": {
+      "conversation_id": "1993484013361844585",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993479350910669055",
     "source": "twitter",
     "author": "MickeyShaughnes",
