@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_1993809566295802313",
+    "source": "twitter",
+    "author": "MihailVarich",
+    "content": "@thdxr @FactoryAI https://t.co/dLy6uPaMEJ",
+    "url": "https://x.com/MihailVarich/status/1993809566295802313",
+    "timestamp": "2025-11-26T22:30:18.000Z",
+    "metadata": {
+      "conversation_id": "1993809566295802313",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993808975469695385",
+    "source": "twitter",
+    "author": "zkstx",
+    "content": "@agent_wrap @NickSloggett @FactoryAI @AnthropicAI Okay, but I don't even need any of the inference services you provide? I am only curious if the scaffolding is an improvement compared to aider, continue, opencode, crush, kilo and so on.",
+    "url": "https://x.com/zkstx/status/1993808975469695385",
+    "timestamp": "2025-11-26T22:27:57.000Z",
+    "metadata": {
+      "conversation_id": "1993808975469695385",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993808728718729264",
+    "source": "twitter",
+    "author": "WaywardTalent",
+    "content": "@iannuttall @FactoryAI Perhaps you can shed a little light on the @FactoryAI free tier + BYO API keys? Won’t let me do anything in the terminal without upgrading",
+    "url": "https://x.com/WaywardTalent/status/1993808728718729264",
+    "timestamp": "2025-11-26T22:26:58.000Z",
+    "metadata": {
+      "conversation_id": "1993808728718729264",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993808239855849518",
+    "source": "twitter",
+    "author": "ramnanimanan",
+    "content": "@bentossell Damn , first @FactoryAI now @sfcompute  ! Ben, do lets us know abt ur next investment, so that we can jump in early 🤑",
+    "url": "https://x.com/ramnanimanan/status/1993808239855849518",
+    "timestamp": "2025-11-26T22:25:02.000Z",
+    "metadata": {
+      "conversation_id": "1993808239855849518",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993807485820674390",
     "source": "twitter",
     "author": "Pranav2278",
