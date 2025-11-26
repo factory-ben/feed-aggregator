@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1993541095146283495",
+    "source": "twitter",
+    "author": "orange_boy",
+    "content": "Am I tripping or is #gemini3pro bugged out in #cursor currently? Right now it's don't use to-do, switch off plan mode, stream thinking into chat, lack of thinking at the same time. \nSwitched to @FactoryAI and Gemini3.0pro is working brilliant and come up with a decent plan. It was few hours of unnecessary struggle.",
+    "url": "https://x.com/orange_boy/status/1993541095146283495",
+    "timestamp": "2025-11-26T04:43:29.000Z",
+    "metadata": {
+      "conversation_id": "1993541095146283495",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_435",
     "source": "github",
     "author": "stone100010",
