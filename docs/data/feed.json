@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1994162233689928188",
+    "source": "twitter",
+    "author": "hudson_gri",
+    "content": "@iannuttall @FactoryAI Opus 4.5 has crushed 90% of everything I've gave it. Really exciting to see this progress",
+    "url": "https://x.com/hudson_gri/status/1994162233689928188",
+    "timestamp": "2025-11-27T21:51:40.000Z",
+    "metadata": {
+      "conversation_id": "1994162233689928188",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1994161708735275276",
+    "source": "twitter",
+    "author": "AriesTheCoder",
+    "content": "@faizintfd @bheemreddy181 @FactoryAI What's Proofing?",
+    "url": "https://x.com/AriesTheCoder/status/1994161708735275276",
+    "timestamp": "2025-11-27T21:49:35.000Z",
+    "metadata": {
+      "conversation_id": "1994161708735275276",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994153363487805524",
     "source": "twitter",
     "author": "bentossell",
