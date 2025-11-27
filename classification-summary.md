@@ -1,10 +1,9 @@
 # Classification Summary
 
-**Date:** 2025-11-27 19:24 UTC
+**Date:** 2025-11-27 19:55 UTC
 
-**Items Classified:** 3
+**Items classified:** 1
 
-| Category | Count | % |
-|----------|-------|---|
-| love | 2 | 66.7% |
-| question | 1 | 33.3% |
+| Category | Count | Percentage |
+|----------|-------|------------|
+| love     | 1     | 100%       |
