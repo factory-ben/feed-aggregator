@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1994013611539198423",
+    "source": "twitter",
+    "author": "Mattslayga",
+    "content": "@iannuttall @FactoryAI Keen for Claude max login in droid",
+    "url": "https://x.com/Mattslayga/status/1994013611539198423",
+    "timestamp": "2025-11-27T12:01:06.000Z",
+    "metadata": {
+      "conversation_id": "1994013611539198423",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1994013305434759476",
+    "source": "twitter",
+    "author": "Mattslayga",
+    "content": "@AIFlow_ML @iannuttall @FactoryAI I swapped all terminal agents to ghostty and it works great now",
+    "url": "https://x.com/Mattslayga/status/1994013305434759476",
+    "timestamp": "2025-11-27T11:59:53.000Z",
+    "metadata": {
+      "conversation_id": "1994013305434759476",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994008621362110680",
     "source": "twitter",
     "author": "GPUse_mcp",
