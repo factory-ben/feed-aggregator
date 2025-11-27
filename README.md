@@ -12,22 +12,6 @@ A private social media feed aggregator for tracking mentions and content across 
 - 🔍 **Developer relations** - Track community discussions, issues, and feedback
 - 📊 **Market research** - Monitor trends, sentiment, and conversations in your industry
 
-## Features
-
-- 🔐 **Token-gated access** - Private viewing with SHA-256 token authentication
-- 🤖 **Automated scraping** - GitHub Actions runs every 10 minutes
-- 📱 **Mobile-optimized** - Responsive design with touch-friendly controls
-- ⌨️ **Keyboard shortcuts** - Vim-style navigation (J/K), Cmd+K command palette
-- 🎨 **Dark mode** - Toggle light/dark themes
-- 📊 **View modes** - Compact or Detailed display with automatic content expansion
-- 🏷️ **Smart filtering** - By source (Twitter/Reddit/GitHub), category, and time range
-- 👤 **Hidden authors** - Filter out posts from specific users (case-insensitive)
-- 📦 **Bulk actions** - Archive, multi-select, shift-click range selection
-- 🎯 **Category tags** - Auto-classified posts (mentions, bugs, love, questions)
-- 📈 **Stats dashboard** - Visual analytics with color-coded charts
-- 🧹 **Clean UI** - Collapsed @mentions, collapsible command help
-- ⚙️ **Configurable** - Edit feed sources and settings via UI
-
 ## Architecture
 
 **Frontend**: Static HTML/CSS/JS served by GitHub Pages  
