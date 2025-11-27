@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_1994092369914814677",
+    "source": "twitter",
+    "author": "pvncher",
+    "content": "Repo Prompt is great at the beginning and at the end of the task. I'm uploading a video shortly that shows this.\n\n1. Use context builder to find context and write a great prompt \n2. Pass the prompt to a reasoning model like 5 Pro\n3. Pass plan to droid to implement\n4. Have droid consult the chat with RP Mcp for a review and things that could be better",
+    "url": "https://x.com/pvncher/status/1994092369914814677",
+    "timestamp": "2025-11-27T17:14:04.000Z",
+    "metadata": {
+      "conversation_id": "1994092369914814677",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1994091925700300982",
+    "source": "twitter",
+    "author": "5aikat",
+    "content": "i will give it a try, but just i read a lot of \"pasting\" 😅\n\nmy workflow now is super optimised\n> create/open nextjs project in ghostty (h/t @mitchellh )\n> explain my idea/feature into @WisprFlow and ask @FactoryAI using Opus4.5 to create a spec in /docs/specs folder (start simple and build in steps)\n> spec is feature in Droid already, so it already does a lot of hand-holding to guide requirements\n> use https://t.co/ub3b6ue6ua to create PRD and Tasks using Opus4.5\n> open another droid instance, switch model to Codex5.1 and proceed to complete the tasks\n> i've added a roadmap 'skills' to @ryancarson 's files which tracks my progress\n\nI am 90% on Ghostty/CLI with an IDE to check the code, files & structure from time to time\n\nWondering where can I fit in RepoPrompt - genuine question 🙃 i would do it only because I love @pvncher videos & commitment to RePrompt",
+    "url": "https://x.com/5aikat/status/1994091925700300982",
+    "timestamp": "2025-11-27T17:12:18.000Z",
+    "metadata": {
+      "conversation_id": "1994091925700300982",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994089453011521872",
     "source": "twitter",
     "author": "garyfung",
