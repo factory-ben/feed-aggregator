@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_1993994675741716890",
+    "source": "twitter",
+    "author": "iannuttall",
+    "content": "@5aikat @FactoryAI My prediction is this will be 2x factor eventually. it's 1/3 the cost of previous opus which is at a 6x",
+    "url": "https://x.com/iannuttall/status/1993994675741716890",
+    "timestamp": "2025-11-27T10:45:51.000Z",
+    "metadata": {
+      "conversation_id": "1993994675741716890",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993994110034903194",
+    "source": "twitter",
+    "author": "Skafisk",
+    "content": "@iannuttall @FactoryAI And it worked? :)\nThat usualy ends with '...and none of it worked'",
+    "url": "https://x.com/Skafisk/status/1993994110034903194",
+    "timestamp": "2025-11-27T10:43:37.000Z",
+    "metadata": {
+      "conversation_id": "1993994110034903194",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_1993992330131750958",
+    "source": "twitter",
+    "author": "Viswana34226652",
+    "content": "@bentossell @wolfaidev @neki_tech @FactoryAI is referral program presntly is there or not",
+    "url": "https://x.com/Viswana34226652/status/1993992330131750958",
+    "timestamp": "2025-11-27T10:36:32.000Z",
+    "metadata": {
+      "conversation_id": "1993992330131750958",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1993991912349643101",
     "source": "twitter",
     "author": "Viswana34226652",
@@ -30,6 +75,19 @@
       "quotes": 0
     },
     "category": "bug"
+  },
+  {
+    "id": "reddit_1p7yzks",
+    "source": "reddit",
+    "author": "PriorGeneral8166",
+    "content": "Alt V to paste images in droid CLI not working, used to work, not sure why. help.\n\nAlt V to paste images in droid CLI not working, used to work, not sure why. help.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p7yzks/alt_v_to_paste_images_in_droid_cli_not_working/",
+    "timestamp": "2025-11-27T10:30:16.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_1993990034404389048",
@@ -15946,6 +16004,19 @@
       "classifiedAt": "2025-11-22T00:23:30.387Z"
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_415",
+    "source": "github",
+    "author": "latiefahmad",
+    "content": "[Issue] can't paste image as file attach\n\nAfter the latest update, I can't paste images as attachments. \nID bug report: 3ad55dea-825c-4beb-bf84-cad68e91bc2a",
+    "url": "https://github.com/Factory-AI/factory/issues/415",
+    "timestamp": "2025-11-22T00:09:18Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 415
+    }
   },
   {
     "id": "twitter_1992022451317047617",
