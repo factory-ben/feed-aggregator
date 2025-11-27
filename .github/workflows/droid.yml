@@ -68,14 +68,17 @@ jobs:
         env:
           FACTORY_API_KEY: ${{ secrets.FACTORY_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          PR_BODY: ${{ github.event.pull_request.body }}
         run: |
-          # Extract the text containing @droid
-          if [ -n "${{ github.event.comment.body }}" ]; then
-            TEXT='${{ github.event.comment.body }}'
-          elif [ -n "${{ github.event.issue.body }}" ]; then
-            TEXT='${{ github.event.issue.body }}'
+          # Extract the text containing @droid from environment variables
+          if [ -n "$COMMENT_BODY" ]; then
+            TEXT="$COMMENT_BODY"
+          elif [ -n "$ISSUE_BODY" ]; then
+            TEXT="$ISSUE_BODY"
           else
-            TEXT='${{ github.event.pull_request.body }}'
+            TEXT="$PR_BODY"
           fi
           
           PROMPT=$(echo "$TEXT" | sed 's/.*@droid//')
