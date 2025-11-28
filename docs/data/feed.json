@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1994528040098173421",
+    "source": "twitter",
+    "author": "nathanpareo",
+    "content": "https://t.co/DYRYRdtp7D landing page will be 🔥\n\nDay 3 of building: ~60% done 🚀  \n\nStarted with a Framer template for inspiration. \nBuilt everything with Opus 4.5 on @FactoryAI Droid.  \nAuth/DB - Supabase ✅\nObject storage R2 cloudflare ✅\nLanding Page / UI ✅\nVideo processing ✅ \nVideo clipping needs work ❌  \n\nAnyone know a solid open-source video editor I can integrate? Trying to avoid reinventing the wheel. 👇\n\nhttps://t.co/9EzsPwVJa2",
+    "url": "https://x.com/nathanpareo/status/1994528040098173421",
+    "timestamp": "2025-11-28T22:05:15.000Z",
+    "metadata": {
+      "conversation_id": "1994528040098173421",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994521850668617766",
     "source": "twitter",
     "author": "Berezin12345",
