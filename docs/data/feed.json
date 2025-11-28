@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1994209012066201716",
+    "source": "twitter",
+    "author": "jhicks154",
+    "content": "Had to use those @FactoryAI tokens before they reset so got opus/ Gemini to build a Rust terminal Epub reader with vim key support and Sqlite backend for reading progress, only for me but random project to read through and learn about Rust https://t.co/Aqt5ten0cn",
+    "url": "https://x.com/jhicks154/status/1994209012066201716",
+    "timestamp": "2025-11-28T00:57:33.000Z",
+    "metadata": {
+      "conversation_id": "1994209012066201716",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994199081892164089",
     "source": "twitter",
     "author": "mhadtk",
