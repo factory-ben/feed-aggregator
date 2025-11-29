@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1994874607170719770",
+    "source": "twitter",
+    "author": "php100",
+    "content": "@aeitroc @FactoryAI You can't expect a good design not to be replicated",
+    "url": "https://x.com/php100/status/1994874607170719770",
+    "timestamp": "2025-11-29T21:02:23.000Z",
+    "metadata": {
+      "conversation_id": "1994874607170719770",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1994863857341489542",
     "source": "twitter",
     "author": "AnkMister",
