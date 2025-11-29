@@ -1,12 +1,10 @@
 # Classification Summary
 
-**Date:** 2025-11-29 04:40 UTC
+**Date**: 2025-11-29 07:39 UTC
 
-## Results
-- **Total items classified:** 2
-- **Category breakdown:**
-  - bug: 1 (50%)
-  - question: 1 (50%)
-  - mention: 0 (0%)
-  - love: 0 (0%)
-  - other: 0 (0%)
+## New Items Classified: 2
+
+| Category | Count | Percentage |
+|----------|-------|------------|
+| bug | 1 | 50.0% |
+| question | 1 | 50.0% |
