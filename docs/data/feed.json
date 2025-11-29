@@ -1,5 +1,33 @@
 [
   {
+    "id": "twitter_1994670568873054700",
+    "source": "twitter",
+    "author": "KirkMarple",
+    "content": "Opus 4.5 is awesome with @FactoryAI Droid. \n\nNo major complaints with the model.\n\nSo smooth, it never gets frustrating like Sonnet did. \n\nBut one thing that’s been maddening is Droid forgetting where files live or grepping in the wrong location. \n\nOften I have to find the path myself just to speed things up. \n\nThere’s such a need for a basic index, just class to file.  Or any kind of “grep cache” so it doesn’t have to go down the rabbit hole again. \n\nThis is where a real search index for the code would help so much.",
+    "url": "https://x.com/KirkMarple/status/1994670568873054700",
+    "timestamp": "2025-11-29T07:31:37.000Z",
+    "metadata": {
+      "conversation_id": "1994670568873054700",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "reddit_1p9ivtj",
+    "source": "reddit",
+    "author": "Numerous_File_9927",
+    "content": "How to HIDE HOOKS output in TUI?\n\nIs there any way we can hide the hook execution progress from the main TUI? Im using WSL btw",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1p9ivtj/how_to_hide_hooks_output_in_tui/",
+    "timestamp": "2025-11-29T07:30:47.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "github_issue_452",
     "source": "github",
     "author": "ShubDVS",
