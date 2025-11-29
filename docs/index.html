@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Factory Feed</title>
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
     :root {
       --bg: #fafafa;
@@ -1185,16 +1186,7 @@
 </head>
 <body>
 
-  <!-- Access Gate -->
-  <div id="accessOverlay" class="overlay open">
-    <div class="modal">
-      <h2>🔐 Access Required</h2>
-      <p>Please enter your access token to view the feed.</p>
-      <input type="password" id="tokenInput" placeholder="Access Token" />
-      <div id="tokenError" style="color: var(--error); font-size: 12px; margin-bottom: 10px; display: none;">Invalid token</div>
-      <button id="tokenSubmit">Enter</button>
-    </div>
-  </div>
+  
 
   <!-- App Layout -->
   <header class="app-header">
@@ -1249,6 +1241,9 @@
         </button>
         <button class="icon-btn" id="settingsBtn" title="Settings">
           <i data-lucide="settings"></i>
+        </button>
+        <button class="icon-btn" id="logoutBtn" title="Sign Out" style="display: none;">
+          <i data-lucide="log-out"></i>
         </button>
       </div>
     </div>
@@ -1327,6 +1322,10 @@
             <a href="stats.html" class="sidebar-item">
               <i data-lucide="bar-chart-3"></i>
               <span>Stats</span>
+            </a>
+            <a href="love.html" class="sidebar-item">
+              <i data-lucide="heart"></i>
+              <span>Wall of Love</span>
             </a>
           </div>
         </div>
@@ -1446,20 +1445,26 @@
   </div>
 
   <script>
+    // Supabase Configuration
+    const SUPABASE_URL = 'https://dfdvcbtncyjomprozodv.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmZHZjYnRuY3lqb21wcm96b2R2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ0MzMzMDQsImV4cCI6MjA4MDAwOTMwNH0.MFnP-3oX8ElThnrKZvla60ddw4HFnkwlN67D3gUQCAo';
+    
+    // Initialize Supabase client
+    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    
     // Config & Constants
-    const ACCESS_TOKEN_HASH = '63fc567c78f3056569ecfdf2ba53cf1955ff86d34d2ab05a3683899e5c642dfe';
     const STORAGE_KEYS = {
-      TOKEN: 'factoryAccessToken',
-      ARCHIVED: 'factoryArchivedIds',
       CONFIG: 'factoryFeedConfig',
       THEME: 'theme'
     };
 
     // State
     let state = {
+      user: null,
       items: [],
       filteredItems: [],
       archivedIds: new Set(),
+      bookmarkedIds: new Set(),
       selectedIds: new Set(),
       activeFilter: 'all', // all, twitter, reddit, github
       activeCategory: 'all', // all, mention, bug, love, question, other
@@ -1468,16 +1473,14 @@
       config: {},
       multiSelectMode: false,
       displayMode: 'compact', // compact, detailed
-      lastSelectedIndex: -1 // for shift-click range selection
+      lastSelectedIndex: -1, // for shift-click range selection
+      supabaseReady: false
     };
 
     // DOM Elements
     const elements = {
       feedList: document.getElementById('feedList'),
-      accessOverlay: document.getElementById('accessOverlay'),
-      tokenInput: document.getElementById('tokenInput'),
-      tokenSubmit: document.getElementById('tokenSubmit'),
-      tokenError: document.getElementById('tokenError'),
+      logoutBtn: document.getElementById('logoutBtn'),
       categoryFilterBtns: document.querySelectorAll('.category-filter-btn'),
       bulkBar: document.getElementById('bulkBar'),
       bulkCount: document.getElementById('bulkCount'),
@@ -1489,129 +1492,146 @@
 
     // --- Initialization ---
     async function init() {
-      loadPersistedState();
       setupTheme();
       setupEventListeners();
-      
-      // Skip access check for local development
-      elements.accessOverlay.classList.remove('open');
-      startApp();
-    }
-
-    function loadPersistedState() {
-      try {
-        const archived = JSON.parse(localStorage.getItem(STORAGE_KEYS.ARCHIVED) || '[]');
-        state.archivedIds = new Set(archived);
-      } catch (e) { console.error(e); }
-      
       state.config = getConfig();
+      
+      // Check for existing Supabase session
+      const { data: { session } } = await supabase.auth.getSession();
+      
+      if (session) {
+        state.user = session.user;
+        await startApp();
+      } else {
+        // No session, redirect to login
+        window.location.href = './login.html';
+        return;
+      }
+      
+      // Listen for auth state changes
+      supabase.auth.onAuthStateChange(async (event, session) => {
+        if (event === 'SIGNED_IN' && session) {
+          state.user = session.user;
+          await startApp();
+        } else if (event === 'SIGNED_OUT') {
+          window.location.href = './login.html';
+        }
+      });
     }
 
-    // Load archived IDs from server and merge with localStorage
-    async function loadServerArchived() {
-      try {
-        const res = await fetch('./data/archived.json?t=' + Date.now());
-        if (!res.ok) return;
-        const serverArchived = await res.json();
-        
-        // Merge server archived with local
-        serverArchived.forEach(id => state.archivedIds.add(id));
-        
-        // Save merged state back to localStorage
-        localStorage.setItem(STORAGE_KEYS.ARCHIVED, JSON.stringify([...state.archivedIds]));
-      } catch (e) {
-        console.error('[Archive] Failed to load server archived:', e);
-      }
-    }
-
-    // Sync archived IDs to server via GitHub API
-    async function syncArchivedToServer() {
-      const token = localStorage.getItem(STORAGE_KEYS.TOKEN);
-      if (!token) {
-        showToast('Access token required to sync', 'error');
-        return false;
-      }
-
-      const archivedArray = [...state.archivedIds];
-      const content = btoa(JSON.stringify(archivedArray, null, 2));
+    // Load post states from Supabase
+    async function loadPostStates() {
+      if (!state.user) return;
       
       try {
-        // Get current file SHA
-        const repoInfo = await fetch('https://api.github.com/repos/factory-ben/feed/contents/docs/data/archived.json', {
-          headers: { 'Authorization': `token ${token}` }
+        const { data, error } = await supabase
+          .from('post_states')
+          .select('post_id, is_archived, is_bookmarked')
+          .eq('user_id', state.user.id);
+        
+        if (error) {
+          console.error('[Supabase] Error loading post states:', error);
+          return;
+        }
+        
+        state.archivedIds.clear();
+        state.bookmarkedIds.clear();
+        
+        data?.forEach(row => {
+          if (row.is_archived) state.archivedIds.add(row.post_id);
+          if (row.is_bookmarked) state.bookmarkedIds.add(row.post_id);
         });
         
-        let sha = null;
-        if (repoInfo.ok) {
-          const fileData = await repoInfo.json();
-          sha = fileData.sha;
-        }
+        state.supabaseReady = true;
+      } catch (e) {
+        console.error('[Supabase] Exception loading post states:', e);
+      }
+    }
 
-        // Update file
-        const updateRes = await fetch('https://api.github.com/repos/factory-ben/feed/contents/docs/data/archived.json', {
-          method: 'PUT',
-          headers: {
-            'Authorization': `token ${token}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            message: 'Sync archived items',
-            content: content,
-            sha: sha
-          })
-        });
+    // Subscribe to real-time post state changes
+    function subscribeToPostStates() {
+      if (!state.user) return;
+      
+      supabase
+        .channel('post_states_changes')
+        .on('postgres_changes', {
+          event: '*',
+          schema: 'public',
+          table: 'post_states',
+          filter: `user_id=eq.${state.user.id}`
+        }, (payload) => {
+          console.log('[Supabase] Real-time update:', payload);
+          
+          if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
+            const { post_id, is_archived, is_bookmarked } = payload.new;
+            if (is_archived) {
+              state.archivedIds.add(post_id);
+            } else {
+              state.archivedIds.delete(post_id);
+            }
+            if (is_bookmarked) {
+              state.bookmarkedIds.add(post_id);
+            } else {
+              state.bookmarkedIds.delete(post_id);
+            }
+            render();
+          } else if (payload.eventType === 'DELETE') {
+            const { post_id } = payload.old;
+            state.archivedIds.delete(post_id);
+            state.bookmarkedIds.delete(post_id);
+            render();
+          }
+        })
+        .subscribe();
+    }
 
-        if (updateRes.ok) {
-          showToast('Archived items synced to server');
-          return true;
-        } else {
-          const err = await updateRes.json();
-          console.error('[Sync] Failed:', err);
-          showToast('Sync failed - check console', 'error');
+    // Update post state in Supabase
+    async function updatePostState(postId, updates) {
+      if (!state.user) return false;
+      
+      try {
+        const { error } = await supabase
+          .from('post_states')
+          .upsert({
+            user_id: state.user.id,
+            post_id: postId,
+            ...updates,
+            ...(updates.is_archived !== undefined && updates.is_archived ? { archived_at: new Date().toISOString() } : {}),
+            ...(updates.is_bookmarked !== undefined && updates.is_bookmarked ? { bookmarked_at: new Date().toISOString() } : {})
+          }, {
+            onConflict: 'user_id,post_id'
+          });
+        
+        if (error) {
+          console.error('[Supabase] Error updating post state:', error);
           return false;
         }
+        return true;
       } catch (e) {
-        console.error('[Sync] Error:', e);
-        showToast('Sync failed - check console', 'error');
+        console.error('[Supabase] Exception updating post state:', e);
         return false;
       }
     }
 
     async function startApp() {
-      elements.accessOverlay.classList.remove('open');
-      await loadServerArchived();
+      // Prevent double initialization from onAuthStateChange firing after getSession
+      if (state.supabaseReady) return;
+      
+      elements.logoutBtn.style.display = 'flex';
+      
+      await loadPostStates();
+      subscribeToPostStates();
       await fetchFeed();
       setInterval(fetchFeed, 60000);
     }
 
     // --- Auth ---
-    async function hashToken(token) {
-      const encoder = new TextEncoder();
-      const data = encoder.encode(token);
-      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-      return Array.from(new Uint8Array(hashBuffer))
-        .map(b => b.toString(16).padStart(2, '0')).join('');
+    async function signOut() {
+      await supabase.auth.signOut();
+      window.location.href = './login.html';
     }
 
-    async function checkAccess() {
-      const token = localStorage.getItem(STORAGE_KEYS.TOKEN);
-      if (!token) return false;
-      return (await hashToken(token)) === ACCESS_TOKEN_HASH;
-    }
-
-    elements.tokenSubmit.addEventListener('click', async () => {
-      const token = elements.tokenInput.value.trim();
-      if ((await hashToken(token)) === ACCESS_TOKEN_HASH) {
-        localStorage.setItem(STORAGE_KEYS.TOKEN, token);
-        startApp();
-      } else {
-        elements.tokenError.style.display = 'block';
-      }
-    });
-
-    elements.tokenInput.addEventListener('keypress', e => {
-      if (e.key === 'Enter') elements.tokenSubmit.click();
-    });
+    elements.logoutBtn.addEventListener('click', signOut);
 
     // --- Data ---
     async function fetchFeed() {
@@ -1886,32 +1906,62 @@
         render();
     }
     
-    function archiveSelected() {
+    async function archiveSelected() {
         const count = state.selectedIds.size;
         if (count === 0) return;
         
-        state.selectedIds.forEach(id => {
-            state.archivedIds.add(id);
-        });
-        state.selectedIds.clear();
-        localStorage.setItem(STORAGE_KEYS.ARCHIVED, JSON.stringify([...state.archivedIds]));
+        const idsToArchive = [...state.selectedIds];
         
-        showToast(`Archived ${count} items`);
+        // Optimistic update
+        idsToArchive.forEach(id => state.archivedIds.add(id));
+        state.selectedIds.clear();
         render();
+        
+        // Sync each to Supabase
+        const results = await Promise.all(
+          idsToArchive.map(id => updatePostState(id, { is_archived: true }))
+        );
+        
+        const successCount = results.filter(r => r).length;
+        if (successCount === count) {
+          showToast(`Archived ${count} items`);
+        } else {
+          // Revert failed items
+          idsToArchive.forEach((id, i) => {
+            if (!results[i]) state.archivedIds.delete(id);
+          });
+          render();
+showToast(`Archived ${successCount}/${count} items`, 'warning');
+        }
     }
 
-    function toggleArchive(id) {
-      if (state.archivedIds.has(id)) {
+    async function toggleArchive(id) {
+      const wasArchived = state.archivedIds.has(id);
+      
+      // Optimistic update
+      if (wasArchived) {
         state.archivedIds.delete(id);
-        showToast('Post unarchived');
       } else {
         state.archivedIds.add(id);
-        showToast('Post archived');
         if (state.focusedId === id) moveFocus(1);
       }
-      
-      localStorage.setItem(STORAGE_KEYS.ARCHIVED, JSON.stringify([...state.archivedIds]));
       render();
+      
+      // Sync to Supabase
+      const success = await updatePostState(id, { is_archived: !wasArchived });
+      
+      if (success) {
+        showToast(wasArchived ? 'Post unarchived' : 'Post archived');
+      } else {
+        // Revert on failure
+        if (wasArchived) {
+          state.archivedIds.add(id);
+        } else {
+          state.archivedIds.delete(id);
+        }
+        render();
+        showToast('Failed to update - try again', 'error');
+      }
     }
 
     function focusCard(id) {
@@ -2190,7 +2240,9 @@
             render();
         });
 
-        document.getElementById('syncBtn').addEventListener('click', syncArchivedToServer);
+        document.getElementById('syncBtn').addEventListener('click', () => {
+            showToast('Sync is automatic with Supabase!');
+        });
 
         document.getElementById('settingsBtn').addEventListener('click', () => {
             // Show config with helpful defaults if empty
@@ -2285,7 +2337,7 @@
                     fetchFeed();
                     break;
                 case 's':
-                    syncArchivedToServer();
+                    showToast('Sync is automatic with Supabase!');
                     break;
                 case 'arrowdown':
                     e.preventDefault();

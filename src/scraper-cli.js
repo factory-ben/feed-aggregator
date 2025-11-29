@@ -15,6 +15,7 @@ const {
   saveSeen,
   filterNewItems 
 } = require('./storage');
+const { upsertPosts, isConnected } = require('./lib/supabase');
 
 /**
  * CLI scraper that runs once and outputs to public/data/feed.json
@@ -118,6 +119,21 @@ async function main() {
     await fs.writeFile(docsSeenPath, JSON.stringify(trimmedSeen, null, 2));
     
     console.log('[CLI] Wrote feed to:', docsFeedPath);
+
+    // Sync to Supabase if configured
+    const supabaseConnected = await isConnected();
+    if (supabaseConnected) {
+      console.log('[CLI] Syncing posts to Supabase...');
+      const result = await upsertPosts(feed);
+      if (result.success) {
+        console.log(`[CLI] Supabase: synced ${result.count} posts`);
+      } else {
+        console.error('[CLI] Supabase sync failed:', result.error);
+      }
+    } else {
+      console.log('[CLI] Supabase not configured, skipping sync');
+    }
+
     console.log('[CLI] Scrape complete!');
     
     process.exit(0);

@@ -35,6 +35,8 @@ jobs:
           GITHUB_REPO: ${{ secrets.GH_REPO }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           TEAM_TWITTER_USERNAMES: ${{ secrets.TEAM_TWITTER_USERNAMES }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: node src/scraper-cli.js
 
       - name: Commit and push feed data

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Factory Feed</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card-bg: #ffffff;
+      --border: #eaeaea;
+      --text: #000000;
+      --text-secondary: #666666;
+      --accent: #000000;
+      --accent-fg: #ffffff;
+      --error: #ef4444;
+      --success: #10b981;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card-bg: #0a0a0a;
+        --border: #333333;
+        --text: #ffffff;
+        --text-secondary: #a1a1a1;
+        --accent: #ffffff;
+        --accent-fg: #000000;
+      }
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-container {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      justify-content: center;
+    }
+
+    .logo svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      text-align: center;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 16px;
+      transition: border-color 0.15s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: var(--text);
+    }
+
+    input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: var(--accent);
+      color: var(--accent-fg);
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .error {
+      color: var(--error);
+      font-size: 14px;
+      margin-top: 12px;
+      text-align: center;
+      display: none;
+    }
+
+    .success {
+      color: var(--success);
+      font-size: 14px;
+      margin-top: 12px;
+      text-align: center;
+      display: none;
+    }
+
+    .success-card {
+      text-align: center;
+      padding: 40px 32px;
+    }
+
+    .success-card svg {
+      width: 48px;
+      height: 48px;
+      color: var(--success);
+      margin-bottom: 16px;
+    }
+
+    .success-card h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .success-card p {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 24px 0;
+      color: var(--text-secondary);
+      font-size: 12px;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .divider span {
+      padding: 0 12px;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 16px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card" id="loginCard">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+        </svg>
+        <span class="logo-text">Factory Feed</span>
+      </div>
+      
+      <h1>Sign in</h1>
+      <p class="subtitle">Enter your credentials to continue</p>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required autocomplete="email" />
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required autocomplete="current-password" />
+        </div>
+        
+        <button type="submit" class="btn" id="submitBtn">Sign In</button>
+        
+        <div class="error" id="error"></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const SUPABASE_URL = 'https://dfdvcbtncyjomprozodv.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmZHZjYnRuY3lqb21wcm96b2R2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ0MzMzMDQsImV4cCI6MjA4MDAwOTMwNH0.MFnP-3oX8ElThnrKZvla60ddw4HFnkwlN67D3gUQCAo';
+    
+    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    const loginForm = document.getElementById('loginForm');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const submitBtn = document.getElementById('submitBtn');
+    const errorEl = document.getElementById('error');
+
+    // Check if already logged in
+    async function checkAuth() {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) {
+        window.location.href = './index.html';
+      }
+    }
+    checkAuth();
+
+    // Handle auth state change
+    supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'SIGNED_IN' && session) {
+        window.location.href = './index.html';
+      }
+    });
+
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const email = emailInput.value.trim();
+      const password = passwordInput.value;
+      
+      if (!email || !password) return;
+
+      errorEl.style.display = 'none';
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Signing in...';
+
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password
+      });
+
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Sign In';
+
+      if (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+      }
+      // Success will trigger onAuthStateChange redirect
+    });
+  </script>
+</body>
+</html>
