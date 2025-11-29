@@ -19990,6 +19990,19 @@
     "category": "question"
   },
   {
+    "id": "github_discussion_99",
+    "source": "github",
+    "author": "Evan-Kim2028",
+    "content": "[Discussion] Droid source code\n\nIs droid closed source? I am not able to find any code. I would like to be able to see how the droid tools are implemented if the code is available to see",
+    "url": "https://github.com/Factory-AI/factory/discussions/99",
+    "timestamp": "2025-10-02T17:51:27Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Questions",
+      "number": 99
+    }
+  },
+  {
     "id": "github_discussion_95",
     "source": "github",
     "author": "factory-ben",
@@ -20002,6 +20015,19 @@
       "number": 95
     },
     "category": "mention"
+  },
+  {
+    "id": "github_discussion_95",
+    "source": "github",
+    "author": "factory-ben",
+    "content": "[Discussion] CLI v0.16.0 Release Notes\n\n- Sonnet 4.5 model is now available\r\n- Clear chat input using double ESC or Ctrl-C\r\n- User-configured allow and deny list of commands to execute\r\n- Option to disable droid commit co-authoring\r\n- Auth using FACTORY_API_KEY\r\n- Fixed UI bugs due to resizing",
+    "url": "https://github.com/Factory-AI/factory/discussions/95",
+    "timestamp": "2025-10-01T20:05:01Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Factory Official",
+      "number": 95
+    }
   },
   {
     "id": "github_discussion_92",
