@@ -20056,7 +20056,8 @@
       "type": "discussion",
       "category": "Feature requests",
       "number": 92
-    }
+    },
+    "category": "question"
   },
   {
     "id": "github_discussion_82",
@@ -20083,7 +20084,8 @@
       "type": "discussion",
       "category": "Questions",
       "number": 82
-    }
+    },
+    "category": "question"
   },
   {
     "id": "github_discussion_72",
