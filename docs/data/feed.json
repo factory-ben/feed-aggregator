@@ -15018,7 +15018,8 @@
       "score": 1,
       "num_comments": 0,
       "subreddit": "FactoryAi"
-    }
+    },
+    "category": "question"
   },
   {
     "id": "twitter_1992327879359910048",
@@ -19971,7 +19972,8 @@
       "type": "discussion",
       "category": "Factory Official",
       "number": 108
-    }
+    },
+    "category": "mention"
   },
   {
     "id": "github_discussion_99",
