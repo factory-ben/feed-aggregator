@@ -1614,6 +1614,9 @@
     }
 
     async function startApp() {
+      // Prevent double initialization from onAuthStateChange firing after getSession
+      if (state.supabaseReady) return;
+      
       elements.logoutBtn.style.display = 'flex';
       
       await loadPostStates();
@@ -1923,6 +1926,11 @@
         if (successCount === count) {
           showToast(`Archived ${count} items`);
         } else {
+          // Revert failed items
+          idsToArchive.forEach((id, i) => {
+            if (!results[i]) state.archivedIds.delete(id);
+          });
+          render();
           showToast(`Archived ${successCount}/${count} items`, successCount < count ? 'warning' : 'info');
         }
     }
