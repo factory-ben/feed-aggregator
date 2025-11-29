@@ -1,9 +1,9 @@
 # Classification Summary
 
-**Date:** 2025-11-29 09:23 UTC
+**Date:** 2025-11-29 10:20 UTC
 
-**Items classified:** 2
+**Items classified:** 1
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| mention  | 2     | 100.0%     |
+| question | 1 | 100% |
