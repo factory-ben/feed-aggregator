@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_1995111792737923480",
+    "source": "twitter",
+    "author": "jcurtis",
+    "content": "To be totally honest, I haven’t spent nearly enough time studying and testing these. I tend to let them generate, then rage-shove updates in there that I don’t want the LLM to forget.\nI spend all my time on the construction of the subagents themselves. I have a few nice sections… warp-grep tooling, Neon MCP, chrome-devtools… but notice all I mention is more context around MCPs.\n\nSomething in my gut says these CLAUDE/AGENT.md files aren’t the right place for this stuff, but I haven’t yet tested or made something better.\n\nI am very sure rage-based curation is 100% not the answer. 😅",
+    "url": "https://x.com/jcurtis/status/1995111792737923480",
+    "timestamp": "2025-11-30T12:44:53.000Z",
+    "metadata": {
+      "conversation_id": "1995111792737923480",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_1995100222851043720",
     "source": "twitter",
     "author": "dedene",
